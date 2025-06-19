@@ -1,0 +1,1263 @@
+Processing repository: https://github.com/code-dot-org/code-dot-org
+	Cloning repository https://github.com/code-dot-org/code-dot-org
+		Error cloning repository https://github.com/code-dot-org/code-dot-org: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1 -- https://github.com/code-dot-org/code-dot-org temp_repo
+  stderr: 'Cloning into 'temp_repo'...
+POST git-upload-pack (185 bytes)
+POST git-upload-pack (254 bytes)
+error: invalid path 'dashboard/config/levels/custom/applab/CS Principles: Functions.level'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+'
+		Successfully cloned repository https://github.com/code-dot-org/code-dot-org
+		No CloudFormation files found in repository https://github.com/code-dot-org/code-dot-org.
+Processing repository: https://github.com/zalando-incubator/kubernetes-on-aws
+	Cloning repository https://github.com/zalando-incubator/kubernetes-on-aws
+		Cloned repository https://github.com/zalando-incubator/kubernetes-on-aws
+		Successfully cloned repository https://github.com/zalando-incubator/kubernetes-on-aws
+		Found 6 CloudFormation files in repository https://github.com/zalando-incubator/kubernetes-on-aws.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/NHSDigital/eps-prescription-status-update-api
+	Cloning repository https://github.com/NHSDigital/eps-prescription-status-update-api
+		Cloned repository https://github.com/NHSDigital/eps-prescription-status-update-api
+		Successfully cloned repository https://github.com/NHSDigital/eps-prescription-status-update-api
+		Found 14 CloudFormation files in repository https://github.com/NHSDigital/eps-prescription-status-update-api.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.PrescriptionStatusUpdatesTable - temp_repo\SAMtemplates\tables\main.yaml:[136, 202]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PrescriptionNotificationStatesTable - temp_repo\SAMtemplates\tables\main.yaml:[422, 467]
+Processing repository: https://github.com/ASFHyP3/hyp3
+	Cloning repository https://github.com/ASFHyP3/hyp3
+		Cloned repository https://github.com/ASFHyP3/hyp3
+		Successfully cloned repository https://github.com/ASFHyP3/hyp3
+		Found 2 CloudFormation files in repository https://github.com/ASFHyP3/hyp3.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/aws-samples/serverless-patterns
+	Cloning repository https://github.com/aws-samples/serverless-patterns
+		Cloned repository https://github.com/aws-samples/serverless-patterns
+		Successfully cloned repository https://github.com/aws-samples/serverless-patterns
+		Found 506 CloudFormation files in repository https://github.com/aws-samples/serverless-patterns.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.PetTable - temp_repo\apigw-cache-invalidation-eventbridge\template.yaml:[15, 26]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Users - temp_repo\apigw-lambda-dynamodb-go-sam\template.yml:[25, 36]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventTable - temp_repo\apigw-sqs-lambda-ddb\template.yaml:[124, 136]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SessionsTable - temp_repo\apigw-websocket-api-connection-dynamodb\template.yaml:[209, 222]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ConnectionMappingTable - temp_repo\apigw-websocket-api-lambda-authorizer\template.yaml:[181, 191]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DDBTable - temp_repo\appsync-dynamodb-singletable-js-resolver\template.yaml:[9, 35]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb-opensearch-serverless-zeroetl-sam\template.yaml:[99, 113]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DDBTable - temp_repo\dynamodb-streams-appsync-subscription\template.yaml:[9, 24]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\dynamodb-streams-lambda-eventbridge-sam-node\template.yml:[8, 19]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\dynamodb-streams-lambda-eventbridge-sam-rust\template.yml:[8, 19]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2InstanceLinux - temp_repo\eventbridge-schedule-to-ssm-sam\template.yaml:[62, 70]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2InstanceWindows - temp_repo\eventbridge-schedule-to-ssm-sam\template.yaml:[71, 79]
+				- CKV_AWS_807: AWS::RDS::DBInstance.AuroraInstance - temp_repo\lambda-aurora-serverlessv2-postgresql\template.yaml:[76, 85]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\lambda-dynamodb\template.yaml:[30, 39]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\lambda-dynamodb-rust\template.yml:[42, 51]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DemoDynamoDBTable - temp_repo\lambda-esm-ddb-filters-sam\template.yaml:[21, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.LogExtensionsBucket - temp_repo\lambda-extension-telemetryapi-s3\template.yaml:[42, 49]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DDBTable - temp_repo\lambda-streaming-ttfb-write-sam-with-dynamodb\template.yaml:[44, 53]
+				- CKV_AWS_807: AWS::EC2::Instance.KafkaClientEC2InstanceProvisioned - temp_repo\msk-lambda-iam-java-sam\MSKAndKafkaClientEC2.yaml:[272, 543]
+				- CKV_AWS_807: AWS::EC2::Instance.KafkaClientEC2InstanceProvisioned - temp_repo\msk-lambda-iam-node-sam\MSKAndKafkaClientEC2.yaml:[272, 560]
+				- CKV_AWS_807: AWS::EC2::Instance.KafkaClientEC2InstanceProvisioned - temp_repo\msk-lambda-iam-python-sam\MSKAndKafkaClientEC2.yaml:[272, 545]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PersonTable - temp_repo\qldb-kinesis-lambda-dynamodb\template.yaml:[60, 71]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\rekognition-image-moderation-tagging\template.yaml:[15, 29]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\s3-event-sfn-lambda-ddb-sns\template.yaml:[95, 104]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDdbTable - temp_repo\sfn-dynamodb\template.yaml:[11, 21]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDdbTable - temp_repo\sfn-dynamodb\.aws-composer\20221206T025957326\template.yaml:[15, 25]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\sfn-lambda-dynamodb\template.yml:[10, 19]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\textract-lambda-sam-python\template.yaml:[14, 28]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\apigw-direct-s3-lambda-dotnet\template.yaml:[7, 10]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\apigw-dynamodb-kinesis-lambda\template.yaml:[37, 66]
+				- CKV_AWS_806: AWS::DynamoDB::Table.RemindersTable - temp_repo\apigw-dynamodb-lambda-scheduler-ses-auto-deletion-sam\template.yaml:[15, 28]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventTable - temp_repo\apigw-kinesis-lambda-ddb\template.yaml:[178, 193]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\apigw-lambda-dynamodb-kinesis-lambda\template.yaml:[31, 47]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\apigw-lambda-dynamodb-stream-lambda\template.yaml:[26, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.TranscribeNotesBucket - temp_repo\apigw-lambda-healthscribe-sam\template.yaml:[9, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\apigw-lambda-s3-sam-java\template.yaml:[23, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.TranslatorBucket - temp_repo\apigw-lambda-sfn-transcribe-translate-polly-sam\template.yaml:[97, 98]
+				- CKV_AWS_805: AWS::S3::Bucket.AudioFileBucket - temp_repo\apigw-lambda-translate-polly-s3\template.yaml:[12, 15]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\apigw-rest-api-dynamodb\template.yml:[13, 40]
+				- CKV_AWS_806: AWS::DynamoDB::Table.WebSocketConnectionsTableName - temp_repo\apigw-websocket-api-bedrock-streaming\template.yaml:[203, 218]
+				- CKV_AWS_805: AWS::S3::Bucket.BedrockBoto3Bucket - temp_repo\apigw-websocket-api-bedrock-streaming\template.yaml:[235, 241]
+				- CKV_AWS_806: AWS::DynamoDB::Table.WebSocketConnectionsTableName - temp_repo\apigw-websocket-api-lambda\template.yml:[197, 212]
+				- CKV_AWS_805: AWS::S3::Bucket.AppSyncS3Bucket - temp_repo\appsync-lambda-kendra\template.yaml:[105, 108]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\awstransfer-lambda-sam\template.yaml:[17, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.MyLocalS3Bucket - temp_repo\awstransfer-s3-sam\template-sftp-connector.yaml:[26, 29]
+				- CKV_AWS_805: AWS::S3::Bucket.MySFTPServerS3Bucket - temp_repo\awstransfer-s3-sam\template-sftp-server.yaml:[17, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.NewS3Bucket - temp_repo\cfn-custom-resource-s3-create\template.yml:[25, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\cloudfront-apigw-rest-api-lambda-dynamodb-sam\template.yaml:[122, 130]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront-s3-oac-sam\template.yaml:[66, 78]
+				- CKV_AWS_805: AWS::S3::Bucket.S3bucket - temp_repo\cloudtrail-lambda-slack-sam\template.yml:[19, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.CodeCommitBackupBucket - temp_repo\codecommit-s3\template.yaml:[8, 14]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoStream - temp_repo\dynamodb-eventbridge\template.yaml:[6, 19]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoStream - temp_repo\dynamodb-eventbridge-java\template.yaml:[6, 19]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\dynamodb-kinesis\template.yaml:[11, 24]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoDBtable - temp_repo\dynamodb-lambda\template.yaml:[21, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\dynamodb-opensearch-serverless-zeroetl-sam\template.yaml:[19, 31]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\dynamodb-streams-lambda-event-filters\template.yaml:[66, 79]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2-s3-express-one-zone-sam\template.yaml:[152, 168]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBSampleTable - temp_repo\eventbridge-pipes-ddb-stream-lambda-sfn-enrich\template.yaml:[7, 25]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBWCTable - temp_repo\eventbridge-pipes-ddbstream-sfn\template.yaml:[13, 27]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBUsersTable - temp_repo\eventbridge-pipes-ddbstream-to-eventbridge\template.yaml:[8, 23]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBUsersTable - temp_repo\eventbridge-pipes-ddbstream-to-eventbridge-suffix-matching\template.yaml:[8, 23]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OrdersTable - temp_repo\eventbridge-pipes-ddbstream-with-filters-to-eventbridge\template.yaml:[8, 23]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBWCTable - temp_repo\eventbridge-pipes-dynamodbstream-sns\template.yaml:[18, 32]
+				- CKV_AWS_807: AWS::EC2::Instance.KafkaClientEC2Instance - temp_repo\eventbridge-pipes-msk-iam-auth-to-lambda\producer.yaml:[35, 71]
+				- CKV_AWS_805: AWS::S3::Bucket.SSMAssocLogs - temp_repo\eventbridge-schedule-to-ssm-sam\template.yaml:[19, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\firehose-transformation-sam\template.yaml:[24, 27]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\firehose-transformation-sam-go\template.yml:[27, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\firehose-transformation-sam-java\template.yaml:[24, 27]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\firehose-transformation-sam-python\template.yaml:[30, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.ScanningS3Bucket - temp_repo\guardduty-malware-s3\template.yaml:[23, 31]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\inspector-eventbridge-multi-destinations\template.yaml:[31, 46]
+				- CKV_AWS_806: AWS::DynamoDB::Table.IoTExampleTableOne - temp_repo\iot-dynamodb\template.yaml:[10, 26]
+				- CKV_AWS_806: AWS::DynamoDB::Table.IoTExampleTableTwo - temp_repo\iot-dynamodb\template.yaml:[29, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\iot-s3\template.yaml:[10, 15]
+				- CKV_AWS_805: AWS::S3::Bucket.MyKDFS3Bucket - temp_repo\kds-kdf-opensearch\template.yaml:[98, 99]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\kinesis-data-stream-firehose-apigw-sam\template.yaml:[113, 114]
+				- CKV_AWS_805: AWS::S3::Bucket.DeliveryBucket - temp_repo\kinesis-data-stream-firehose-s3-sam-java\template.yml:[14, 15]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Outputtable - temp_repo\lambda-bedrock-dynamodb-sam\template.yaml:[25, 37]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OrdersDDBTable - temp_repo\lambda-dynamodb-ddbstream-lambda-sam-java\template.yml:[39, 53]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SourceDDBTable - temp_repo\lambda-dynamodb-kinesis-data-streams-sam-java\template.yml:[28, 42]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SourceDDBTable - temp_repo\lambda-firehose-s3-sam-java\template.yml:[35, 47]
+				- CKV_AWS_805: AWS::S3::Bucket.DeliveryBucket - temp_repo\lambda-firehose-s3-sam-java\template.yml:[50, 53]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\lambda-rekognition-rust\template.yml:[21, 26]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\lambda-s3\template.yaml:[9, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.PayloadBucket - temp_repo\lambda-s3-async-lambda\template.yaml:[41, 44]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\lambda-s3-rust\template.yml:[22, 23]
+				- CKV_AWS_805: AWS::S3::Bucket.UploadsBucket - temp_repo\lambda-s3-sfn\template.yaml:[57, 60]
+				- CKV_AWS_805: AWS::S3::Bucket.AudioBucket - temp_repo\lambda-transcribe-sam-js\template.yaml:[6, 33]
+				- CKV_AWS_807: AWS::EC2::Instance.KafkaClientEC2Instance - temp_repo\pipes-msk-to-salesforce-apidestination\producer-stack.yaml:[20, 52]
+				- CKV_AWS_805: AWS::S3::Bucket.ImageFileBucket - temp_repo\rekognition-image-moderation-tagging\template.yaml:[11, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.InputBucket - temp_repo\rekognition-s3-detectlabels-python\template.yaml:[7, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.OutputBucket - temp_repo\rekognition-s3-detectlabels-python\template.yaml:[16, 19]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\route53-alb-s3\template.yaml:[134, 146]
+				- CKV_AWS_805: AWS::S3::Bucket.EDI214InputBucket - temp_repo\s3-b2bi-eventbridge-sqs\template.yaml:[52, 58]
+				- CKV_AWS_805: AWS::S3::Bucket.EDI214OutputBucket - temp_repo\s3-b2bi-eventbridge-sqs\template.yaml:[86, 89]
+				- CKV_AWS_805: AWS::S3::Bucket.EDI214InputBucket - temp_repo\s3-b2bi-s3\template-part1.yaml:[52, 58]
+				- CKV_AWS_805: AWS::S3::Bucket.EDI214OutputBucket - temp_repo\s3-b2bi-s3\template-part1.yaml:[86, 89]
+				- CKV_AWS_805: AWS::S3::Bucket.IngestionBucket - temp_repo\s3-event-sfn-lambda-ddb-sns\template.yaml:[9, 15]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketForImages - temp_repo\s3-eventbridge\template.yaml:[14, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketForCloudTrailLogs - temp_repo\s3-eventbridge\template.yaml:[55, 58]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-eventbridge-direct\template.yaml:[7, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-eventbridge-direct-java\template.yaml:[7, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-eventbridge-rust-sam\template.yml:[21, 26]
+				- CKV_AWS_805: AWS::S3::Bucket.IngestionBucket - temp_repo\s3-eventbridge-sfn\template.yaml:[7, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\s3-eventbridge-sns-sam\template.yaml:[4, 10]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\s3-eventbridge-wildcard-sam\template.yaml:[3, 9]
+				- CKV_AWS_805: AWS::S3::Bucket.ContentBucket - temp_repo\s3-lambda-bedrock\template.yaml:[10, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-lambda-bedrock-aoss\template.yaml:[167, 172]
+				- CKV_AWS_805: AWS::S3::Bucket.DocumentBucket - temp_repo\s3-lambda-bedrock-js-sam\template.yaml:[11, 14]
+				- CKV_AWS_805: AWS::S3::Bucket.SampleBucket - temp_repo\s3-lambda-container-sam\template.yaml:[12, 15]
+				- CKV_AWS_805: AWS::S3::Bucket.VideoInput - temp_repo\s3-lambda-mediaconvert\template.yaml:[44, 45]
+				- CKV_AWS_805: AWS::S3::Bucket.VideoOutput - temp_repo\s3-lambda-mediaconvert\template.yaml:[47, 48]
+				- CKV_AWS_805: AWS::S3::Bucket.InputBucket - temp_repo\s3-lambda-polly-sam\template.yaml:[36, 39]
+				- CKV_AWS_805: AWS::S3::Bucket.OutputBucket - temp_repo\s3-lambda-polly-sam\template.yaml:[40, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-lambda-resizing-dotnet\template.yaml:[25, 28]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\s3-lambda-resizing-dotnet\template.yaml:[30, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-lambda-resizing-java\template.yaml:[16, 19]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\s3-lambda-resizing-java\template.yaml:[21, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-lambda-resizing-node\template.yaml:[13, 16]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\s3-lambda-resizing-node\template.yaml:[17, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-lambda-resizing-python\template.yaml:[17, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\s3-lambda-resizing-python\template.yaml:[21, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.sourceconfigbckt - temp_repo\s3-lambda-s3-sam-java\template.yml:[38, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.destinationconfigbckt - temp_repo\s3-lambda-s3-sam-java\template.yml:[43, 46]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\s3-lambda-ses-sam\template.yaml:[16, 19]
+				- CKV_AWS_805: AWS::S3::Bucket.InputBucket - temp_repo\s3-lambda-transcribe-sam\template.yaml:[38, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.OutputBucket - temp_repo\s3-lambda-transcribe-sam\template.yaml:[42, 45]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\s3-object-lambda\template.yaml:[6, 19]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\s3-object-lambda-textract\template.yaml:[10, 23]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketSource - temp_repo\s3-s3-replication-sam\template.yaml:[57, 69]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketReplica - temp_repo\s3-s3-replication-sam\template.yaml:[71, 76]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-sns\template.yaml:[11, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.S3FileBucket - temp_repo\s3-sns-sqs-lambda-sam-java\template.yml:[22, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-sqs\template.yaml:[11, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-sqs-eventbridge-pipe-sfn-s3\template.yaml:[13, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\s3-sqs-eventbridge-pipe-sfn-s3\template.yaml:[25, 28]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceBucket - temp_repo\s3-sqs-lambda\template.yaml:[15, 29]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\s3-sqs-lambda\template.yaml:[31, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.S3FileBucket - temp_repo\s3-sqs-lambda-sam-java\template.yml:[26, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\sam-dynamodb-glue-transform\src\template.yml:[37, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.EmailBucket - temp_repo\ses-s3-lambda-sam\template.yaml:[17, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudWatchLogArchiveBucket - temp_repo\sfn-log-export\template.yaml:[19, 31]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\sfn-s3\template.yaml:[7, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.MyKFS3Bucket - temp_repo\sns-firehose-opensearch\template.yml:[139, 140]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\sns-kinesis-data-firehose-sam\template.yaml:[13, 16]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OrdersTable - temp_repo\sqs-lambda-dynamodb-sam-java\template.yml:[32, 44]
+				- CKV_AWS_805: AWS::S3::Bucket.AthenaQueryS3Bucket - temp_repo\step-functions-athena-glue-sam\template.yml:[112, 116]
+				- CKV_AWS_805: AWS::S3::Bucket.CrawlerS3Bucket - temp_repo\step-functions-athena-glue-sam\template.yml:[157, 161]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\stepfunctions-fargate-lambda\template.yaml:[11, 16]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\systems-manager-automation-to-lambda\template.yaml:[35, 62]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDSDatabase - temp_repo\systems-manager-automation-to-stepfunctions\template.yaml:[73, 82]
+				- CKV_AWS_805: AWS::S3::Bucket.ImageFileBucket - temp_repo\textract-lambda-sam-python\template.yaml:[10, 11]
+Processing repository: https://github.com/aws-cloudformation/cfn-lint
+	Cloning repository https://github.com/aws-cloudformation/cfn-lint
+		Cloned repository https://github.com/aws-cloudformation/cfn-lint
+		Successfully cloned repository https://github.com/aws-cloudformation/cfn-lint
+		Found 178 CloudFormation files in repository https://github.com/aws-cloudformation/cfn-lint.
+		Error running checks on: unhashable type: 'dict'
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\test\fixtures\templates\bad\functions_ref.yaml:[29, 47]
+				- CKV_AWS_807: AWS::EC2::Instance.AnotherInstance - temp_repo\test\fixtures\templates\bad\functions_ref.yaml:[48, 69]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\test\fixtures\templates\bad\generic.yaml:[40, 59]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEc2BlockDevice - temp_repo\test\fixtures\templates\bad\generic.yaml:[216, 224]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance - temp_repo\test\fixtures\templates\bad\previous_generation_instances.yaml:[4, 8]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance - temp_repo\test\fixtures\templates\bad\previous_generation_instances.yaml:[9, 12]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\test\fixtures\templates\bad\properties_ebs.yaml:[6, 28]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MyDB - temp_repo\test\fixtures\templates\bad\properties_password.yaml:[16, 24]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MyNewDB - temp_repo\test\fixtures\templates\bad\properties_password.yaml:[25, 33]
+				- CKV_AWS_807: AWS::RDS::DBInstance.myThirdDb - temp_repo\test\fixtures\templates\bad\properties_password.yaml:[34, 42]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\test\fixtures\templates\bad\refs.yaml:[4, 22]
+				- CKV_AWS_807: AWS::EC2::Instance.AnotherInstance - temp_repo\test\fixtures\templates\bad\refs.yaml:[23, 44]
+				- CKV_AWS_807: AWS::RDS::DBInstance.PolicyList - temp_repo\test\fixtures\templates\bad\resources_deletionpolicy.yaml:[10, 16]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MadeUpPolicy - temp_repo\test\fixtures\templates\bad\resources_deletionpolicy.yaml:[17, 23]
+				- CKV_AWS_807: AWS::RDS::DBInstance.InvalidMapping - temp_repo\test\fixtures\templates\bad\resources_deletionpolicy.yaml:[37, 48]
+				- CKV_AWS_807: AWS::RDS::DBInstance.PolicyList - temp_repo\test\fixtures\templates\bad\resources_updatereplacepolicy.yaml:[10, 16]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MadeUpPolicy - temp_repo\test\fixtures\templates\bad\resources_updatereplacepolicy.yaml:[17, 23]
+				- CKV_AWS_807: AWS::RDS::DBInstance.InvalidMapping - temp_repo\test\fixtures\templates\bad\resources_updatereplacepolicy.yaml:[37, 47]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance2 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[16, 21]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance3 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[23, 28]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance4 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[30, 34]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance5 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[36, 40]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance7 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[42, 47]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance8 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[49, 54]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance9 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[56, 61]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\test\fixtures\templates\good\generic.yaml:[72, 89]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance1 - temp_repo\test\fixtures\templates\good\generic.yaml:[92, 116]
+				- CKV_AWS_807: AWS::RDS::DBInstance.PolicyList - temp_repo\test\fixtures\templates\good\resources_deletionpolicy.yaml:[26, 37]
+				- CKV_AWS_807: AWS::RDS::DBInstance.PolicyList - temp_repo\test\fixtures\templates\good\resources_updatereplacepolicy.yaml:[26, 37]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MyDB - temp_repo\test\fixtures\templates\good\resources\properties\password.yaml:[15, 23]
+				- CKV_AWS_807: AWS::RDS::DBInstance.myNewDb - temp_repo\test\fixtures\templates\good\resources\properties\password.yaml:[24, 32]
+				- CKV_AWS_807: AWS::RDS::DBInstance.myThirdDb - temp_repo\test\fixtures\templates\good\resources\properties\password.yaml:[33, 41]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance2 - temp_repo\test\fixtures\templates\good\resources\rds\instance_sizes.yaml:[16, 20]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance3 - temp_repo\test\fixtures\templates\good\resources\rds\instance_sizes.yaml:[22, 27]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance4 - temp_repo\test\fixtures\templates\good\resources\rds\instance_sizes.yaml:[29, 34]
+				- CKV_AWS_807: AWS::RDS::DBInstance.PolicyList - temp_repo\test\fixtures\templates\good\transform\language_extension.yaml:[44, 55]
+				- CKV_AWS_805: AWS::S3::Bucket.rWebContentBucket - temp_repo\test\fixtures\templates\quickstart\nist_application.yaml:[1177, 1195]
+				- CKV_AWS_805: AWS::S3::Bucket.rArchiveLogsBucket - temp_repo\test\fixtures\templates\quickstart\nist_logging.yaml:[41, 59]
+			Failed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.myTable - temp_repo\test\fixtures\templates\bad\formatters.yaml:[6, 18]
+				- CKV_AWS_805: AWS::S3::Bucket.S3BadBucket - temp_repo\test\fixtures\templates\bad\hard_coded_arn_properties.yaml:[3, 10]
+				- CKV_AWS_807: AWS::EC2::Instance.myInstance - temp_repo\test\fixtures\templates\bad\resources_circular_dependency.yaml:[49, 61]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucket - temp_repo\test\fixtures\templates\bad\resources_circular_dependency.yaml:[62, 71]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucket - temp_repo\test\fixtures\templates\bad\transform_serverless_template.yaml:[63, 65]
+				- CKV_AWS_806: AWS::DynamoDB::Table.myFunctionRole - temp_repo\test\fixtures\templates\bad\transform_serverless_template.yaml:[66, 76]
+				- CKV_AWS_806: AWS::DynamoDB::Table.myTable - temp_repo\test\fixtures\templates\bad\core\config_configure_e3012.yaml:[12, 26]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketPass - temp_repo\test\fixtures\templates\bad\core\directives.yaml:[5, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketFail - temp_repo\test\fixtures\templates\bad\core\directives.yaml:[14, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketFirstAndLastPass - temp_repo\test\fixtures\templates\bad\core\directives.yaml:[18, 30]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketFirstAndLastFail - temp_repo\test\fixtures\templates\bad\core\directives.yaml:[31, 37]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketPass - temp_repo\test\fixtures\templates\bad\core\mandatory_checks.yaml:[5, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketFail - temp_repo\test\fixtures\templates\bad\core\mandatory_checks.yaml:[14, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketFirstAndLastPass - temp_repo\test\fixtures\templates\bad\core\mandatory_checks.yaml:[18, 25]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucketFirstAndLastFail - temp_repo\test\fixtures\templates\bad\core\mandatory_checks.yaml:[26, 32]
+				- CKV_AWS_805: AWS::S3::Bucket.myS3Bucket - temp_repo\test\fixtures\templates\bad\override\complete.yaml:[6, 10]
+				- CKV_AWS_805: AWS::S3::Bucket.myS3Bucket - temp_repo\test\fixtures\templates\bad\override\exclude.yaml:[14, 15]
+				- CKV_AWS_805: AWS::S3::Bucket.myS3Bucket - temp_repo\test\fixtures\templates\bad\override\include.yaml:[11, 12]
+				- CKV_AWS_805: AWS::S3::Bucket.myS3Bucket - temp_repo\test\fixtures\templates\bad\override\required.yaml:[6, 10]
+				- CKV_AWS_806: AWS::DynamoDB::Table.dynamoDBTable - temp_repo\test\fixtures\templates\bad\resources\dynamodb\undefined_attribute_definition.yaml:[4, 17]
+				- CKV_AWS_806: AWS::DynamoDB::Table.dynamoDBTable - temp_repo\test\fixtures\templates\bad\resources\dynamodb\unused_attribute_definition_1.yaml:[4, 21]
+				- CKV_AWS_806: AWS::DynamoDB::Table.dynamoDBTable - temp_repo\test\fixtures\templates\bad\resources\dynamodb\unused_attribute_definition_2.yaml:[4, 35]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance1 - temp_repo\test\fixtures\templates\bad\resources\rds\instance_sizes.yaml:[10, 14]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket1 - temp_repo\test\fixtures\templates\bad\resources\s3\access-control-obsolete.yaml:[3, 6]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket2 - temp_repo\test\fixtures\templates\bad\resources\s3\access-control-obsolete.yaml:[8, 11]
+				- CKV_AWS_805: AWS::S3::Bucket.myBucket - temp_repo\test\fixtures\templates\good\transform_serverless_function.yaml:[71, 73]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\test\fixtures\templates\good\conditions\and.yaml:[11, 16]
+				- CKV_AWS_806: AWS::DynamoDB::Table.myTable - temp_repo\test\fixtures\templates\good\core\config_default_e3012.yaml:[6, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.OtherResource - temp_repo\test\fixtures\templates\good\modules\minimal.yaml:[8, 10]
+				- CKV_AWS_805: AWS::S3::Bucket.myS3Bucket - temp_repo\test\fixtures\templates\good\override\complete.yaml:[6, 9]
+				- CKV_AWS_805: AWS::S3::Bucket.myS3Bucket - temp_repo\test\fixtures\templates\good\override\required.yaml:[6, 9]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket1 - temp_repo\test\fixtures\templates\good\resources\primary_identifiers.yaml:[74, 80]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket2 - temp_repo\test\fixtures\templates\good\resources\primary_identifiers.yaml:[81, 82]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DDBTable1 - temp_repo\test\fixtures\templates\good\resources\dynamodb\attributes.yaml:[6, 33]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DDBTable2 - temp_repo\test\fixtures\templates\good\resources\dynamodb\attributes.yaml:[34, 67]
+				- CKV_AWS_805: AWS::S3::Bucket.S3BadBucket - temp_repo\test\fixtures\templates\good\resources\properties\hard_coded_arn_properties_cdk.yaml:[6, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.S3BadBucket - temp_repo\test\fixtures\templates\good\resources\properties\hard_coded_arn_properties_sam.yaml:[8, 15]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance1 - temp_repo\test\fixtures\templates\good\resources\rds\instance_sizes.yaml:[10, 14]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance5 - temp_repo\test\fixtures\templates\good\resources\rds\instance_sizes.yaml:[36, 40]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance6 - temp_repo\test\fixtures\templates\good\resources\rds\instance_sizes.yaml:[42, 46]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket1 - temp_repo\test\fixtures\templates\good\resources\s3\access-control-obsolete.yaml:[3, 5]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket2 - temp_repo\test\fixtures\templates\good\resources\s3\access-control-obsolete.yaml:[6, 9]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Table1 - temp_repo\test\fixtures\templates\integration\aws-dynamodb-table.yaml:[7, 24]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Table2 - temp_repo\test\fixtures\templates\integration\aws-dynamodb-table.yaml:[26, 44]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance - temp_repo\test\fixtures\templates\integration\aws-ec2-instance.yaml:[8, 20]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance1 - temp_repo\test\fixtures\templates\integration\formats.yaml:[25, 44]
+				- CKV_AWS_805: AWS::S3::Bucket.rS3ELBAccessLogs - temp_repo\test\fixtures\templates\quickstart\nist_application.yaml:[1060, 1064]
+				- CKV_AWS_805: AWS::S3::Bucket.rCloudTrailBucket - temp_repo\test\fixtures\templates\quickstart\nist_logging.yaml:[119, 129]
+				- CKV_AWS_807: AWS::EC2::Instance.rMgmtBastionInstance - temp_repo\test\fixtures\templates\quickstart\nist_vpc_management.yaml:[478, 544]
+				- CKV_AWS_807: AWS::EC2::Instance.AnsibleConfigServer - temp_repo\test\fixtures\templates\quickstart\openshift.yaml:[279, 745]
+Processing repository: https://github.com/koekalenteri/koekalenteri
+	Cloning repository https://github.com/koekalenteri/koekalenteri
+		Cloned repository https://github.com/koekalenteri/koekalenteri
+		Successfully cloned repository https://github.com/koekalenteri/koekalenteri
+		Found 1 CloudFormation files in repository https://github.com/koekalenteri/koekalenteri.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventTable - temp_repo\template.yaml:[152, 197]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventStatsTable - temp_repo\template.yaml:[199, 220]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventRegistrationTable - temp_repo\template.yaml:[222, 243]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TransactionTable - temp_repo\template.yaml:[245, 271]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserTable - temp_repo\template.yaml:[274, 300]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserLinkTable - temp_repo\template.yaml:[302, 319]
+				- CKV_AWS_806: AWS::DynamoDB::Table.JudgeTable - temp_repo\template.yaml:[321, 338]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OfficialTable - temp_repo\template.yaml:[340, 357]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OrganizerTable - temp_repo\template.yaml:[359, 376]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DogTable - temp_repo\template.yaml:[378, 395]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventTypeTable - temp_repo\template.yaml:[397, 414]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EmailTemplatesTable - temp_repo\template.yaml:[416, 433]
+				- CKV_AWS_806: AWS::DynamoDB::Table.AuditTable - temp_repo\template.yaml:[435, 456]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.S3BucketLogs - temp_repo\template.yaml:[459, 466]
+				- CKV_AWS_805: AWS::S3::Bucket.EventAttachmentBucket - temp_repo\template.yaml:[468, 500]
+Processing repository: https://github.com/guardian/mobile-purchases
+	Cloning repository https://github.com/guardian/mobile-purchases
+		Cloned repository https://github.com/guardian/mobile-purchases
+		Successfully cloned repository https://github.com/guardian/mobile-purchases
+		Found 4 CloudFormation files in repository https://github.com/guardian/mobile-purchases.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserSubscriptionEventsTableV2 - temp_repo\dynamo.cloudformation.yaml:[19, 62]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SubscriptionTable - temp_repo\dynamo.cloudformation.yaml:[64, 107]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SubscriptionParallelTestTable - temp_repo\dynamo.cloudformation.yaml:[109, 151]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserSubscriptionTable - temp_repo\dynamo.cloudformation.yaml:[153, 191]
+			Failed checks:
+Processing repository: https://github.com/govuk-one-login/onboarding-self-service-experience
+	Cloning repository https://github.com/govuk-one-login/onboarding-self-service-experience
+		Cloned repository https://github.com/govuk-one-login/onboarding-self-service-experience
+		Successfully cloned repository https://github.com/govuk-one-login/onboarding-self-service-experience
+		Found 4 CloudFormation files in repository https://github.com/govuk-one-login/onboarding-self-service-experience.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.DataTable - temp_repo\backend\dynamodb\dynamodb.template.yml:[19, 53]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SessionsTable - temp_repo\backend\dynamodb\dynamodb.template.yml:[55, 75]
+				- CKV_AWS_806: AWS::DynamoDB::Table.CodeRequestBlockTable - temp_repo\backend\dynamodb\dynamodb.template.yml:[109, 128]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.AccessLogsBucket - temp_repo\infrastructure\frontend\frontend.template.yml:[547, 559]
+Processing repository: https://github.com/govuk-one-login/di-account-management-backend
+	Cloning repository https://github.com/govuk-one-login/di-account-management-backend
+		Cloned repository https://github.com/govuk-one-login/di-account-management-backend
+		Successfully cloned repository https://github.com/govuk-one-login/di-account-management-backend
+		Found 2 CloudFormation files in repository https://github.com/govuk-one-login/di-account-management-backend.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.DummyEventStore - temp_repo\template.yaml:[366, 401]
+				- CKV_AWS_806: AWS::DynamoDB::Table.RawEventsStore - temp_repo\template.yaml:[407, 445]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserServicesStore - temp_repo\template.yaml:[451, 480]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserActivityLogsStore - temp_repo\template.yaml:[486, 528]
+			Failed checks:
+Processing repository: https://github.com/pagopa/pn-infra
+	Cloning repository https://github.com/pagopa/pn-infra
+		Cloned repository https://github.com/pagopa/pn-infra
+		Successfully cloned repository https://github.com/pagopa/pn-infra
+		Found 93 CloudFormation files in repository https://github.com/pagopa/pn-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.LogsBucket - temp_repo\runtime-infra\pn-infra-storage.yaml:[120, 185]
+				- CKV_AWS_807: AWS::RDS::DBInstance.PnAuroraDbInstance - temp_repo\runtime-infra\fragments\aurora-serverless-v2-pg.yaml:[174, 190]
+				- CKV_AWS_805: AWS::S3::Bucket.LogsBucket - temp_repo\runtime-infra-confinfo\infra-storage.yaml:[118, 183]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.CelonisHistoryBucket - temp_repo\runtime-infra\celonis_exports.yaml:[32, 48]
+				- CKV_AWS_805: AWS::S3::Bucket.CelonisCurrentDataBucket - temp_repo\runtime-infra\celonis_exports.yaml:[50, 68]
+				- CKV_AWS_805: AWS::S3::Bucket.AwsS3BatchOperationBucket - temp_repo\runtime-infra\pn-backup_confinfo_dynamotable.yaml:[32, 37]
+				- CKV_AWS_805: AWS::S3::Bucket.AwsS3BatchOperationBucket - temp_repo\runtime-infra\pn-backup_core_dynamotable.yaml:[31, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.AthenaResultsBucket - temp_repo\runtime-infra\pn-cdc-analytics.yaml:[93, 107]
+				- CKV_AWS_805: AWS::S3::Bucket.CognitoLogsS3 - temp_repo\runtime-infra\pn-cognito.yaml:[28, 49]
+				- CKV_AWS_805: AWS::S3::Bucket.DataMonitoringBucket - temp_repo\runtime-infra\pn-data-monitoring.yaml:[113, 118]
+				- CKV_AWS_805: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket - temp_repo\runtime-infra\pn-infra-storage.yaml:[265, 277]
+				- CKV_AWS_805: AWS::S3::Bucket.AthenaResultsBucket - temp_repo\runtime-infra\pn-log-analytics.yaml:[592, 606]
+				- CKV_AWS_805: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket - temp_repo\runtime-infra-confinfo\infra-storage.yaml:[305, 317]
+Processing repository: https://github.com/Percona-Lab/jenkins-pipelines
+	Cloning repository https://github.com/Percona-Lab/jenkins-pipelines
+		Cloned repository https://github.com/Percona-Lab/jenkins-pipelines
+		Successfully cloned repository https://github.com/Percona-Lab/jenkins-pipelines
+		Found 21 CloudFormation files in repository https://github.com/Percona-Lab/jenkins-pipelines.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.BackupBucket - temp_repo\IaC\BackupBucket.yml:[58, 67]
+				- CKV_AWS_805: AWS::S3::Bucket.DocsBucket - temp_repo\IaC\DocsBucket.yml:[58, 70]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MySQL57 - temp_repo\IaC\PmmRdsStack.yml:[273, 318]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MySQL56 - temp_repo\IaC\PmmRdsStack.yml:[332, 377]
+				- CKV_AWS_807: AWS::RDS::DBInstance.Aurora1 - temp_repo\IaC\PmmRdsStack.yml:[417, 462]
+Processing repository: https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+	Cloning repository https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+		Cloned repository https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+		Successfully cloned repository https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+		Found 12 CloudFormation files in repository https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.RecordingsBucket - temp_repo\lma-main.yaml:[1208, 1238]
+				- CKV_AWS_806: AWS::DynamoDB::Table.LLMPromptTemplateTable - temp_repo\lma-llm-template-setup-stack\deployment\llm-template-setup.yaml:[22, 35]
+				- CKV_AWS_806: AWS::DynamoDB::Table.CredentialsTable - temp_repo\lma-meetingassist-setup-stack\template.yaml:[782, 798]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lma-websocket-transcriber-stack\deployment\lma-websocket-transcriber.yaml:[691, 716]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.BedrockBoto3Bucket - temp_repo\lma-ai-stack\ml-stacks\bedrock-preview-boto3-stack.yaml:[7, 18]
+Processing repository: https://github.com/buildkite/elastic-ci-stack-for-aws
+	Cloning repository https://github.com/buildkite/elastic-ci-stack-for-aws
+		Cloned repository https://github.com/buildkite/elastic-ci-stack-for-aws
+		Successfully cloned repository https://github.com/buildkite/elastic-ci-stack-for-aws
+		Found 3 CloudFormation files in repository https://github.com/buildkite/elastic-ci-stack-for-aws.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ManagedSecretsLoggingBucket - temp_repo\templates\aws-stack.yml:[1210, 1234]
+				- CKV_AWS_805: AWS::S3::Bucket.ManagedSecretsBucket - temp_repo\templates\aws-stack.yml:[1273, 1301]
+Processing repository: https://github.com/PRX/Infrastructure
+	Cloning repository https://github.com/PRX/Infrastructure
+		Cloned repository https://github.com/PRX/Infrastructure
+		Successfully cloned repository https://github.com/PRX/Infrastructure
+		Found 138 CloudFormation files in repository https://github.com/PRX/Infrastructure.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\db\dynamodb-table.yml:[181, 209]
+				- CKV_AWS_807: AWS::RDS::DBInstance.MysqlInstance - temp_repo\db\mysql-instance.yml:[138, 174]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DbInstance - temp_repo\db\shared-apps-aurora-mysql\database-cluster.yml:[149, 175]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DbInstance - temp_repo\db\shared-apps-aurora-pg\database-cluster.yml:[132, 158]
+				- CKV_AWS_805: AWS::S3::Bucket.PipelineArtifactStore - temp_repo\devops\oxbow-cd-pipeline.yml:[301, 323]
+				- CKV_AWS_805: AWS::S3::Bucket.AcceptanceTestsBucket - temp_repo\devops\porter-cd-pipeline.yml:[403, 422]
+				- CKV_AWS_805: AWS::S3::Bucket.PipelineArtifactStore - temp_repo\devops\porter-cd-pipeline.yml:[553, 575]
+				- CKV_AWS_805: AWS::S3::Bucket.PgdumpBucket - temp_repo\etc\pgdump-to-s3\template.yml:[28, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.ArtifactStore - temp_repo\spire\cd\template.yml:[406, 428]
+				- CKV_AWS_805: AWS::S3::Bucket.TemplateCopyBucket - temp_repo\spire\cd\template.yml:[429, 452]
+				- CKV_AWS_805: AWS::S3::Bucket.AccessLogsBucket - temp_repo\spire\templates\shared-alb.yml:[139, 160]
+				- CKV_AWS_805: AWS::S3::Bucket.DtCdnArrangerWorkspaceBucket - temp_repo\spire\templates\apps\dovetail-cdn-arranger.yml:[41, 90]
+				- CKV_AWS_805: AWS::S3::Bucket.AccessLogsBucket - temp_repo\spire\templates\apps\dovetail-router.yml:[204, 229]
+				- CKV_AWS_806: AWS::DynamoDB::Table.FeedScalerDynamodbTable - temp_repo\spire\templates\apps\dovetail-router.yml:[1106, 1126]
+				- CKV_AWS_805: AWS::S3::Bucket.SpotsUploadsBucket - temp_repo\spire\templates\apps\dovetail-spots.yml:[320, 361]
+				- CKV_AWS_805: AWS::S3::Bucket.FeederUploadsBucket - temp_repo\spire\templates\apps\feeder.yml:[1096, 1138]
+				- CKV_AWS_805: AWS::S3::Bucket.IdUploadsBucket - temp_repo\spire\templates\apps\id.yml:[436, 475]
+				- CKV_AWS_805: AWS::S3::Bucket.AdFilesBucket - temp_repo\storage\multi-region-replication\ad-files.yml:[85, 126]
+				- CKV_AWS_805: AWS::S3::Bucket.FeedsBucket - temp_repo\storage\multi-region-replication\feeds.yml:[101, 146]
+				- CKV_AWS_805: AWS::S3::Bucket.TransferBucket - temp_repo\storage\multi-region-replication\ftp-transfer.yml:[94, 135]
+				- CKV_AWS_805: AWS::S3::Bucket.MediajointBucket - temp_repo\storage\multi-region-replication\mediajoint.yml:[96, 147]
+				- CKV_AWS_805: AWS::S3::Bucket.NetworksBucket - temp_repo\storage\multi-region-replication\networks.yml:[94, 145]
+				- CKV_AWS_805: AWS::S3::Bucket.PrxMediaBucket - temp_repo\storage\multi-region-replication\prx-media.yml:[84, 114]
+				- CKV_AWS_805: AWS::S3::Bucket.RadiotopiaMediaBucket - temp_repo\storage\multi-region-replication\radiotopia-media.yml:[84, 114]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudTrailS3Bucket - temp_repo\trails\organization-trail\template.yml:[31, 51]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ReportBucket - temp_repo\cur\cost-and-usage-report\template.yml:[49, 65]
+				- CKV_AWS_806: AWS::DynamoDB::Table.AnalyticsDynamoDbTable - temp_repo\spire\templates\apps\dovetail-analytics.yml:[312, 338]
+				- CKV_AWS_805: AWS::S3::Bucket.InfrastructureSnapshotsBucket - temp_repo\storage\storage.yml:[13, 32]
+				- CKV_AWS_805: AWS::S3::Bucket.InfrastructureApplicationCodeBucket - temp_repo\storage\storage.yml:[33, 54]
+Processing repository: https://github.com/qld-gov-au/ckan-qld-infrastructure
+	Cloning repository https://github.com/qld-gov-au/ckan-qld-infrastructure
+		Cloned repository https://github.com/qld-gov-au/ckan-qld-infrastructure
+		Successfully cloned repository https://github.com/qld-gov-au/ckan-qld-infrastructure
+		Found 10 CloudFormation files in repository https://github.com/qld-gov-au/ckan-qld-infrastructure.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.S3AttachmentsBucket - temp_repo\templates\s3_buckets.cfn.yml:[23, 60]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.LoggingBucket - temp_repo\templates\cloudfront-logging-bucket.cfn.yml:[14, 27]
+Processing repository: https://github.com/awslabs/cid-framework
+	Cloning repository https://github.com/awslabs/cid-framework
+		Cloned repository https://github.com/awslabs/cid-framework
+		Successfully cloned repository https://github.com/awslabs/cid-framework
+		Found 32 CloudFormation files in repository https://github.com/awslabs/cid-framework.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\data-collection\deploy\deploy-data-collection.yaml:[335, 373]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationS3 - temp_repo\data-exports\deploy\cur-aggregation.yaml:[96, 146]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceS3 - temp_repo\data-exports\deploy\cur-aggregation.yaml:[242, 304]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationS3 - temp_repo\data-exports\deploy\data-exports-aggregation.yaml:[231, 280]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceS3 - temp_repo\data-exports\deploy\data-exports-aggregation.yaml:[341, 489]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationBucket - temp_repo\security-hub\deploy\module-securityhub.yaml:[112, 162]
+			Failed checks:
+Processing repository: https://github.com/zaro0508/organizations-infra
+	Cloning repository https://github.com/zaro0508/organizations-infra
+		Cloned repository https://github.com/zaro0508/organizations-infra
+		Successfully cloned repository https://github.com/zaro0508/organizations-infra
+		Found 62 CloudFormation files in repository https://github.com/zaro0508/organizations-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\org-formation\725-vpc-flow-logs\bucket.yaml:[47, 67]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\org-formation\730-cloudwatch-to-S3\CloudWatch2S3-bucket.yaml:[18, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.ALBAccessLogsBucket - temp_repo\sceptre\scipool\templates\alb-notebook-access-logsbucket.yaml:[13, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.ExternalBucket - temp_repo\sceptre\synapsedev\templates\client-integration-test-resources.yaml:[37, 56]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigAuditBucket - temp_repo\org-formation\080-aws-config-inventory\config.yaml:[14, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudformationSnippetsBucket - temp_repo\sceptre\admincentral\templates\cfn-snippets-bucket.yaml:[13, 27]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3CloudtrailBucket - temp_repo\sceptre\bridge\templates\bridge.yaml:[95, 108]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3ConfigBucket - temp_repo\sceptre\bridge\templates\bridge.yaml:[111, 118]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3LambdaArtifactsBucket - temp_repo\sceptre\bridge\templates\essentials.yaml:[5, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.ImageBuilderLogsBucket - temp_repo\sceptre\imagecentral\templates\ec2-image-builder.yaml:[35, 50]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\admodeladexplorer-redirector.yaml:[17, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\s3webredirect.yaml:[24, 46]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\shiny_redirector.yaml:[25, 39]
+Processing repository: https://github.com/Sage-Bionetworks-IT/organizations-infra
+	Cloning repository https://github.com/Sage-Bionetworks-IT/organizations-infra
+		Cloned repository https://github.com/Sage-Bionetworks-IT/organizations-infra
+		Successfully cloned repository https://github.com/Sage-Bionetworks-IT/organizations-infra
+		Found 62 CloudFormation files in repository https://github.com/Sage-Bionetworks-IT/organizations-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\org-formation\725-vpc-flow-logs\bucket.yaml:[47, 67]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\org-formation\730-cloudwatch-to-S3\CloudWatch2S3-bucket.yaml:[18, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.ALBAccessLogsBucket - temp_repo\sceptre\scipool\templates\alb-notebook-access-logsbucket.yaml:[13, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.ExternalBucket - temp_repo\sceptre\synapsedev\templates\client-integration-test-resources.yaml:[37, 56]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigAuditBucket - temp_repo\org-formation\080-aws-config-inventory\config.yaml:[14, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudformationSnippetsBucket - temp_repo\sceptre\admincentral\templates\cfn-snippets-bucket.yaml:[13, 27]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3CloudtrailBucket - temp_repo\sceptre\bridge\templates\bridge.yaml:[95, 108]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3ConfigBucket - temp_repo\sceptre\bridge\templates\bridge.yaml:[111, 118]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3LambdaArtifactsBucket - temp_repo\sceptre\bridge\templates\essentials.yaml:[5, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.ImageBuilderLogsBucket - temp_repo\sceptre\imagecentral\templates\ec2-image-builder.yaml:[35, 50]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\admodeladexplorer-redirector.yaml:[17, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\s3webredirect.yaml:[24, 46]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\shiny_redirector.yaml:[25, 39]
+Processing repository: https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+	Cloning repository https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+		Cloned repository https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+		Successfully cloned repository https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+		Found 23 CloudFormation files in repository https://github.com/aws-samples/amazon-transcribe-live-call-analytics.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.RecordingsBucket - temp_repo\lca-main.yaml:[1391, 1417]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventSourcingTable - temp_repo\lca-ai-stack\deployment\lca-ai-stack.yaml:[460, 485]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lca-chimevc-stack\cloudformation-templates\chime-vc-call-analytics.yaml:[687, 712]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lca-chimevc-stack\cloudformation-templates\chime-vc-call-transcriber.yaml:[182, 207]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lca-connect-kvs-stack\template.yaml:[360, 385]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lca-genesys-audiohook-stack\deployment\genesys-audiohook.yaml:[624, 649]
+				- CKV_AWS_806: AWS::DynamoDB::Table.LLMPromptTemplateTable - temp_repo\lca-llm-template-setup-stack\deployment\llm-template-setup.yaml:[8, 21]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lca-talkdesk-voicestream-stack\deployment\lca-talkdesk-ws.yaml:[629, 654]
+				- CKV_AWS_806: AWS::DynamoDB::Table.TranscriberCallEventTable - temp_repo\lca-websocket-stack\out\template-packaged-lca-solution-staging-752cf6e7c5a9-us-west-2-artifacts_0.8.76_lca-websocket-stack-0.8.76.yaml:[535, 561]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.WebAppBucket - temp_repo\lca-ai-stack\deployment\lca-ai-stack.yaml:[1946, 1963]
+				- CKV_AWS_805: AWS::S3::Bucket.BedrockBoto3Bucket - temp_repo\lca-ai-stack\ml-stacks\bedrock-preview-boto3-stack.yaml:[7, 13]
+Processing repository: https://github.com/Saneri/event-signup
+	Cloning repository https://github.com/Saneri/event-signup
+		Cloned repository https://github.com/Saneri/event-signup
+		Successfully cloned repository https://github.com/Saneri/event-signup
+		Found 4 CloudFormation files in repository https://github.com/Saneri/event-signup.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\frontend\deploy\template.yaml:[3, 12]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\infrastructure\dynamodb\template.yaml:[2, 31]
+Processing repository: https://github.com/aws/aws-parallelcluster-ui
+	Cloning repository https://github.com/aws/aws-parallelcluster-ui
+		Cloned repository https://github.com/aws/aws-parallelcluster-ui
+		Successfully cloned repository https://github.com/aws/aws-parallelcluster-ui
+		Found 7 CloudFormation files in repository https://github.com/aws/aws-parallelcluster-ui.
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.DcvInstance - temp_repo\infrastructure\private-deployment\private-deployment.yaml:[143, 177]
+				- CKV_AWS_807: AWS::RDS::DBInstance.SlurmDbInstance - temp_repo\infrastructure\slurm-accounting\accounting-cluster-template.yaml:[280, 302]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.InfrastructureBucket - temp_repo\infrastructure\github-env-setup.yml:[21, 29]
+Processing repository: https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+	Cloning repository https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+		Cloned repository https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+		Successfully cloned repository https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+		Found 17 CloudFormation files in repository https://github.com/Sage-Bionetworks-Workflows/nextflow-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.PublicBucket - temp_repo\templates\public-bucket.yaml:[66, 79]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\templates\nextflow-tower-config-bucket.yaml:[22, 35]
+Processing repository: https://github.com/pagopa/pn-ec
+	Cloning repository https://github.com/pagopa/pn-ec
+		Cloned repository https://github.com/pagopa/pn-ec
+		Successfully cloned repository https://github.com/pagopa/pn-ec
+		Found 1 CloudFormation files in repository https://github.com/pagopa/pn-ec.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.PnEcTableAnagrafica - temp_repo\scripts\aws\cfn\storage.yml:[75, 94]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PnEcTableRichieste - temp_repo\scripts\aws\cfn\storage.yml:[96, 115]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PnEcTableRichiesteMetadati - temp_repo\scripts\aws\cfn\storage.yml:[117, 136]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PnEcTableRichiesteConversione - temp_repo\scripts\aws\cfn\storage.yml:[138, 160]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PnEcTableConversionePdf - temp_repo\scripts\aws\cfn\storage.yml:[162, 180]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PnEcTableScartiConsolidatore - temp_repo\scripts\aws\cfn\storage.yml:[182, 205]
+				- CKV_AWS_805: AWS::S3::Bucket.PnEcSqsMessagesStagingBucket - temp_repo\scripts\aws\cfn\storage.yml:[209, 236]
+			Failed checks:
+Processing repository: https://github.com/aws/serverless-application-model
+	Cloning repository https://github.com/aws/serverless-application-model
+		Cloned repository https://github.com/aws/serverless-application-model
+		Successfully cloned repository https://github.com/aws/serverless-application-model
+		Found 925 CloudFormation files in repository https://github.com/aws/serverless-application-model.
+		Error running checks on: unhashable type: 'dict'
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\integration\resources\templates\combination\connector_function_to_table_read.yaml:[43, 52]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\integration\resources\templates\combination\connector_function_to_table_write.yaml:[29, 38]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\integration\resources\templates\combination\connector_sfn_to_table_read.yaml:[22, 31]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\integration\resources\templates\combination\connector_sfn_to_table_write.yaml:[22, 31]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Table - temp_repo\integration\resources\templates\combination\connector_table_to_function_read.yaml:[77, 88]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\integration\resources\templates\combination\function_with_alias_and_event_sources.yaml:[99, 113]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoDB - temp_repo\integration\resources\templates\combination\function_with_all_event_types.yaml:[139, 153]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoDB - temp_repo\integration\resources\templates\combination\function_with_all_event_types_condition_false.yaml:[120, 132]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\integration\resources\templates\combination\function_with_dynamodb.yaml:[24, 34]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\tests\translator\input\connector_function_to_table.yaml:[48, 57]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\tests\translator\input\connector_table_to_function.yaml:[30, 41]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Table - temp_repo\tests\translator\input\connector_table_to_function_read.yaml:[60, 71]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\tests\translator\input\embedded_connectors_function_to.yaml:[115, 124]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\tests\translator\input\embedded_connectors_table_to_function.yaml:[37, 61]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoDB - temp_repo\tests\translator\input\function_with_events_and_propagate_tags.yaml:[147, 158]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\tests\translator\input\function_with_metrics_config.yaml:[46, 55]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyDynamoDB - temp_repo\tests\translator\input\function_with_propagate_tags_and_no_tags.yaml:[94, 105]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.TriggerBucket - temp_repo\integration\resources\templates\combination\connector_bucket_to_function_write.yaml:[73, 84]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\integration\resources\templates\combination\connector_function_to_bucket_read.yaml:[37, 38]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\integration\resources\templates\combination\connector_function_to_bucket_read_multiple.yaml:[42, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket2 - temp_repo\integration\resources\templates\combination\connector_function_to_bucket_read_multiple.yaml:[45, 46]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\integration\resources\templates\combination\connector_function_to_bucket_write.yaml:[39, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\integration\resources\templates\combination\connector_sfn_to_bucket_read.yaml:[2, 3]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\integration\resources\templates\combination\connector_sfn_to_bucket_write.yaml:[2, 3]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\integration\resources\templates\combination\function_with_alias_and_event_sources.yaml:[77, 80]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\integration\resources\templates\combination\function_with_all_event_types.yaml:[115, 118]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\integration\resources\templates\combination\function_with_all_event_types_condition_false.yaml:[102, 103]
+				- CKV_AWS_805: AWS::S3::Bucket.PreCreatedS3Bucket - temp_repo\integration\resources\templates\combination\function_with_msk_trigger_and_s3_onfailure_events_destinations.yaml:[76, 78]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\integration\resources\templates\combination\function_with_s3.yaml:[17, 18]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\integration\resources\templates\combination\function_with_s3_intrinsics.yaml:[35, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.PreCreatedS3Bucket - temp_repo\integration\setup\companion-stack.yaml:[40, 42]
+				- CKV_AWS_806: AWS::DynamoDB::Table.NotesTable - temp_repo\tests\translator\input\connector_appsync_to_table.yaml:[2, 15]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\tests\translator\input\connector_bucket_to_function.yaml:[13, 22]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SomeTable - temp_repo\tests\translator\input\connector_dependson_replace.yaml:[8, 9]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\tests\translator\input\connector_esm_dependson.yaml:[13, 14]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\connector_function_to_multiple_s3.yaml:[13, 14]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket2 - temp_repo\tests\translator\input\connector_function_to_multiple_s3.yaml:[16, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\connector_function_to_s3.yaml:[13, 14]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyOtherTable - temp_repo\tests\translator\input\depends_on.yaml:[31, 48]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\embedded_connectors_function_to.yaml:[104, 105]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\embedded_connector_function_to_multi_dest.yaml:[22, 23]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket1 - temp_repo\tests\translator\input\error_depends_on_invalid_types.yaml:[2, 6]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket2 - temp_repo\tests\translator\input\error_depends_on_invalid_types.yaml:[8, 10]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket3 - temp_repo\tests\translator\input\error_depends_on_invalid_types.yaml:[12, 14]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\tests\translator\input\error_event_filtering.yaml:[33, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\error_function_invalid_s3_event.yaml:[22, 23]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket - temp_repo\tests\translator\input\error_function_with_invalid_event_bridge_rule.yaml:[4, 7]
+				- CKV_AWS_805: AWS::S3::Bucket.RandomBucket - temp_repo\tests\translator\input\error_s3_lambda_configuration_invalid_type.yaml:[18, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.AnotherBucket - temp_repo\tests\translator\input\error_s3_lambda_configuration_invalid_type.yaml:[42, 50]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\error_schema_validation_wrong_property.yaml:[13, 14]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\error_schema_validation_wrong_type.yaml:[12, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\function_event_conditions.yaml:[116, 117]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\function_with_alias_and_event_sources.yaml:[96, 97]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\function_with_events_and_propagate_tags.yaml:[134, 135]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket - temp_repo\tests\translator\input\function_with_event_bridge_rule_state.yaml:[4, 7]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\tests\translator\input\function_with_event_filtering.yaml:[81, 82]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\tests\translator\input\function_with_event_source_mapping.yaml:[88, 101]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\function_with_propagate_tags_and_no_tags.yaml:[81, 82]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\function_with_resource_refs.yaml:[23, 27]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MyTable - temp_repo\tests\translator\input\intrinsic_functions.yaml:[116, 130]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\no_implicit_api_with_serverless_rest_api_resource.yaml:[59, 60]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3.yaml:[16, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_create_remove.yaml:[18, 25]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_existing_lambda_notification_configuration.yaml:[16, 23]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_existing_other_notification_configuration.yaml:[16, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_filter.yaml:[21, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_intrinsics.yaml:[39, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_multiple_events_same_bucket.yaml:[27, 28]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_multiple_functions.yaml:[30, 37]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_with_condition.yaml:[22, 23]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\s3_with_dependsOn.yaml:[19, 21]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\translator\input\schema_validation_5.yaml:[3, 11]
+				- CKV_AWS_805: AWS::S3::Bucket.Images - temp_repo\tests\translator\input\translate_convert_metadata.yaml:[18, 19]
+Processing repository: https://github.com/caseconsulting/expense-app-api
+	Cloning repository https://github.com/caseconsulting/expense-app-api
+		Cloned repository https://github.com/caseconsulting/expense-app-api
+		Successfully cloned repository https://github.com/caseconsulting/expense-app-api
+		Found 2 CloudFormation files in repository https://github.com/caseconsulting/expense-app-api.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.deployments - temp_repo\support.yaml:[19, 47]
+			Failed checks:
+Processing repository: https://github.com/brucehoff/organizations-infra
+	Cloning repository https://github.com/brucehoff/organizations-infra
+		Cloned repository https://github.com/brucehoff/organizations-infra
+		Successfully cloned repository https://github.com/brucehoff/organizations-infra
+		Found 61 CloudFormation files in repository https://github.com/brucehoff/organizations-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\org-formation\725-vpc-flow-logs\bucket.yaml:[47, 67]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\org-formation\730-cloudwatch-to-S3\CloudWatch2S3-bucket.yaml:[18, 38]
+				- CKV_AWS_805: AWS::S3::Bucket.ALBAccessLogsBucket - temp_repo\sceptre\scipool\templates\alb-notebook-access-logsbucket.yaml:[13, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.ExternalBucket - temp_repo\sceptre\synapsedev\templates\client-integration-test-resources.yaml:[37, 56]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigAuditBucket - temp_repo\org-formation\080-aws-config-inventory\config.yaml:[14, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudformationSnippetsBucket - temp_repo\sceptre\admincentral\templates\cfn-snippets-bucket.yaml:[13, 27]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3CloudtrailBucket - temp_repo\sceptre\bridge\templates\bridge.yaml:[95, 103]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3ConfigBucket - temp_repo\sceptre\bridge\templates\bridge.yaml:[106, 107]
+				- CKV_AWS_805: AWS::S3::Bucket.AWSS3LambdaArtifactsBucket - temp_repo\sceptre\bridge\templates\essentials.yaml:[5, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.ImageBuilderLogsBucket - temp_repo\sceptre\imagecentral\templates\ec2-image-builder.yaml:[35, 50]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\admodeladexplorer-redirector.yaml:[17, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\s3webredirect.yaml:[24, 46]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\sceptre\sageit\templates\shiny_redirector.yaml:[25, 39]
+Processing repository: https://github.com/daiyyr/the-alchemist
+	Cloning repository https://github.com/daiyyr/the-alchemist
+		Cloned repository https://github.com/daiyyr/the-alchemist
+		Successfully cloned repository https://github.com/daiyyr/the-alchemist
+		Found 4 CloudFormation files in repository https://github.com/daiyyr/the-alchemist.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.SharedBucket - temp_repo\cloudformation\prerequisite-ap-southeast-2.yaml:[9, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.MyStaticWebsiteBucket - temp_repo\cloudformation\static-page-stack.yaml:[11, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.MyStaticWebsiteBucketWww - temp_repo\cloudformation\static-page-stack.yaml:[24, 35]
+Processing repository: https://github.com/SedaiEngineering/sedai-onboarding
+	Cloning repository https://github.com/SedaiEngineering/sedai-onboarding
+		Cloned repository https://github.com/SedaiEngineering/sedai-onboarding
+		Successfully cloned repository https://github.com/SedaiEngineering/sedai-onboarding
+		Found 21 CloudFormation files in repository https://github.com/SedaiEngineering/sedai-onboarding.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.CURS3Bucket - temp_repo\aws\cloudformation\.backup\sedai-integration-billing-account-s3-and-api.yaml:[4, 30]
+				- CKV_AWS_805: AWS::S3::Bucket.CURS3Bucket - temp_repo\aws\cloudformation\.backup\sedai-integration-billing-account-s3.yaml:[4, 30]
+				- CKV_AWS_805: AWS::S3::Bucket.CURS3Bucket - temp_repo\aws\cloudformation\billing-data-exporter\sedai-billing-data-exporter-cur2-withoutrole.yaml:[4, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.CURS3Bucket - temp_repo\aws\cloudformation\billing-data-exporter\sedai-billing-data-exporter-cur2.yaml:[4, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.CURS3Bucket - temp_repo\aws\cloudformation\billing-data-exporter\sedai-billing-data-exporter-focus-withoutrole.yaml:[4, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.CURS3Bucket - temp_repo\aws\cloudformation\billing-data-exporter\sedai-billing-data-exporter-focus.yaml:[4, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.SedaiIntegrationCURS3Bucket - temp_repo\aws\cloudformation\nested\sedai-integration-nested-billingresource.yml:[31, 57]
+			Failed checks:
+Processing repository: https://github.com/APTrust/preservation-services
+	Cloning repository https://github.com/APTrust/preservation-services
+		Cloned repository https://github.com/APTrust/preservation-services
+		Successfully cloned repository https://github.com/APTrust/preservation-services
+		Found 1 CloudFormation files in repository https://github.com/APTrust/preservation-services.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/govuk-one-login/txma-infra
+	Cloning repository https://github.com/govuk-one-login/txma-infra
+		Cloned repository https://github.com/govuk-one-login/txma-infra
+		Successfully cloned repository https://github.com/govuk-one-login/txma-infra
+		Found 9 CloudFormation files in repository https://github.com/govuk-one-login/txma-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.AuditBatchJobManifestBucket - temp_repo\infrastructure\audit\template.yaml:[214, 236]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EventReplayFileMappingTable - temp_repo\infrastructure\audit\template.yaml:[238, 271]
+				- CKV_AWS_805: AWS::S3::Bucket.S3LogsBucket - temp_repo\infrastructure\core\template.yaml:[502, 553]
+				- CKV_AWS_805: AWS::S3::Bucket.BatchJobManifestBucket - temp_repo\infrastructure\data-analysis\template.yaml:[31, 53]
+				- CKV_AWS_805: AWS::S3::Bucket.AthenaQueryOutputBucket - temp_repo\infrastructure\data-analysis\template.yaml:[122, 147]
+				- CKV_AWS_806: AWS::DynamoDB::Table.QueryRequestTable - temp_repo\infrastructure\data-analysis\template.yaml:[214, 248]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserJourneyIdCacheTable - temp_repo\infrastructure\event-processing\template.yaml:[45, 70]
+				- CKV_AWS_805: AWS::S3::Bucket.QueryResultsBucket - temp_repo\infrastructure\query-results\template.yaml:[28, 50]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SecureFraudSiteDataTable - temp_repo\infrastructure\query-results\template.yaml:[52, 86]
+				- CKV_AWS_806: AWS::DynamoDB::Table.RelyingPartyConfigTable - temp_repo\infrastructure\rp-events\template.yaml:[33, 55]
+				- CKV_AWS_806: AWS::DynamoDB::Table.RelyingPartyPairwiseMappingTable - temp_repo\infrastructure\rp-events\template.yaml:[57, 100]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserConfigTable - temp_repo\infrastructure\shared-signals\template.yaml:[51, 84]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ValidEmailRecipientsBucket - temp_repo\infrastructure\data-analysis\template.yaml:[59, 76]
+				- CKV_AWS_805: AWS::S3::Bucket.IntegrationTestDataBucket - temp_repo\infrastructure\dev-tools\template.yaml:[528, 545]
+Processing repository: https://github.com/primeharbor/pht-prowler-searchcluster
+	Cloning repository https://github.com/primeharbor/pht-prowler-searchcluster
+		Cloned repository https://github.com/primeharbor/pht-prowler-searchcluster
+		Successfully cloned repository https://github.com/primeharbor/pht-prowler-searchcluster
+		Found 7 CloudFormation files in repository https://github.com/primeharbor/pht-prowler-searchcluster.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.ProwlerFindingsTrackingTable - temp_repo\cloudformation\Prowler-Template.yaml:[756, 792]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ProwlerBucket - temp_repo\cloudformation\Prowler-Template.yaml:[149, 201]
+				- CKV_AWS_805: AWS::S3::Bucket.ProwlerBucket - temp_repo\cloudformation\ProwlerBucket-ImportTemplate.yaml:[29, 46]
+Processing repository: https://github.com/guardian/status-app
+	Cloning repository https://github.com/guardian/status-app
+		Cloned repository https://github.com/guardian/status-app
+		Successfully cloned repository https://github.com/guardian/status-app
+		No CloudFormation files found in repository https://github.com/guardian/status-app.
+Processing repository: https://github.com/aexeagmbh/cfn-lint-rules
+	Cloning repository https://github.com/aexeagmbh/cfn-lint-rules
+		Cloned repository https://github.com/aexeagmbh/cfn-lint-rules
+		Successfully cloned repository https://github.com/aexeagmbh/cfn-lint-rules
+		Found 90 CloudFormation files in repository https://github.com/aexeagmbh/cfn-lint-rules.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket - temp_repo\tests\bad\E9401_metadata_ax_changeset_auto_approve.yaml:[14, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket - temp_repo\tests\bad\W9301_s3_bucket_without_public_access_block_configuration.yaml:[3, 16]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket1 - temp_repo\tests\bad\W9301_s3_bucket_with_bad_public_access_block_configuration.yaml:[3, 21]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket2 - temp_repo\tests\bad\W9301_s3_bucket_with_bad_public_access_block_configuration.yaml:[22, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket - temp_repo\tests\bad\W9302_s3_bucket_without_bucket_encryption.yaml:[3, 17]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket - temp_repo\tests\good\metadata_ax_changeset_auto_approve.yaml:[15, 37]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket1 - temp_repo\tests\good\s3_bucket.yaml:[3, 21]
+				- CKV_AWS_805: AWS::S3::Bucket.TestBucket2 - temp_repo\tests\good\s3_bucket.yaml:[22, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\serverless_rules\templates\es1007.fail.yaml:[74, 75]
+				- CKV_AWS_805: AWS::S3::Bucket.MyBucket - temp_repo\tests\serverless_rules\templates\es1007.pass.yaml:[78, 79]
+Processing repository: https://github.com/pagopa/pn-mandate
+	Cloning repository https://github.com/pagopa/pn-mandate
+		Cloned repository https://github.com/pagopa/pn-mandate
+		Successfully cloned repository https://github.com/pagopa/pn-mandate
+		Found 2 CloudFormation files in repository https://github.com/pagopa/pn-mandate.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.MandatesDynamoTable - temp_repo\scripts\aws\cfn\storage.yml:[41, 82]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MandatesDynamoTableHistory - temp_repo\scripts\aws\cfn\storage.yml:[84, 109]
+			Failed checks:
+Processing repository: https://github.com/BastLeblanc/retail-demo-store
+	Cloning repository https://github.com/BastLeblanc/retail-demo-store
+		Cloned repository https://github.com/BastLeblanc/retail-demo-store
+		Successfully cloned repository https://github.com/BastLeblanc/retail-demo-store
+		Found 39 CloudFormation files in repository https://github.com/BastLeblanc/retail-demo-store.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.WebSocketConnectionTable - temp_repo\aws\cloudformation-templates\location.yaml:[512, 521]
+				- CKV_AWS_806: AWS::DynamoDB::Table.RoomGenerationTable - temp_repo\aws\cloudformation-templates\room-generator.yaml:[139, 164]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ProductsTable - temp_repo\aws\cloudformation-templates\base\tables.yaml:[9, 35]
+				- CKV_AWS_806: AWS::DynamoDB::Table.CategoriesTable - temp_repo\aws\cloudformation-templates\base\tables.yaml:[37, 56]
+				- CKV_AWS_806: AWS::DynamoDB::Table.CartsTable - temp_repo\aws\cloudformation-templates\base\tables.yaml:[58, 79]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OrdersTable - temp_repo\aws\cloudformation-templates\base\tables.yaml:[81, 99]
+				- CKV_AWS_806: AWS::DynamoDB::Table.PersonalisedProductsTable - temp_repo\aws\cloudformation-templates\base\tables.yaml:[101, 110]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ExperimentStrategyTable - temp_repo\aws\cloudformation-templates\base\tables.yaml:[112, 142]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.ImageBucket - temp_repo\aws\cloudformation-templates\room-generator.yaml:[77, 99]
+				- CKV_AWS_805: AWS::S3::Bucket.InferenceBucket - temp_repo\aws\cloudformation-templates\room-generator.yaml:[116, 124]
+				- CKV_AWS_805: AWS::S3::Bucket.ModelArtifactsBucket - temp_repo\aws\cloudformation-templates\room-generator.yaml:[756, 764]
+				- CKV_AWS_805: AWS::S3::Bucket.ArtifactBucket - temp_repo\aws\cloudformation-templates\room-generator.yaml:[772, 784]
+				- CKV_AWS_805: AWS::S3::Bucket.ProductImageBucket - temp_repo\aws\cloudformation-templates\room-generator.yaml:[1127, 1135]
+				- CKV_AWS_805: AWS::S3::Bucket.ArtifactBucket - temp_repo\aws\cloudformation-templates\swagger-ui-pipeline.yaml:[194, 206]
+				- CKV_AWS_805: AWS::S3::Bucket.ArtifactBucket - temp_repo\aws\cloudformation-templates\web-ui-pipeline.yaml:[256, 268]
+				- CKV_AWS_805: AWS::S3::Bucket.LoggingBucket - temp_repo\aws\cloudformation-templates\base\buckets.yaml:[14, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.StackBucket - temp_repo\aws\cloudformation-templates\base\buckets.yaml:[48, 61]
+				- CKV_AWS_805: AWS::S3::Bucket.WebUIBucket - temp_repo\aws\cloudformation-templates\base\cloudfront.yaml:[50, 62]
+				- CKV_AWS_805: AWS::S3::Bucket.SwaggerUIBucket - temp_repo\aws\cloudformation-templates\base\cloudfront.yaml:[163, 175]
+				- CKV_AWS_805: AWS::S3::Bucket.ArtifactBucket - temp_repo\aws\cloudformation-templates\services\service\pipeline.yaml:[277, 290]
+Processing repository: https://github.com/ahamlinman/randomizer
+	Cloning repository https://github.com/ahamlinman/randomizer
+		Cloned repository https://github.com/ahamlinman/randomizer
+		Successfully cloned repository https://github.com/ahamlinman/randomizer
+		Found 1 CloudFormation files in repository https://github.com/ahamlinman/randomizer.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.GroupsTable - temp_repo\CloudFormation.yaml:[43, 56]
+			Failed checks:
+Processing repository: https://github.com/widdix/mastodon-on-aws
+	Cloning repository https://github.com/widdix/mastodon-on-aws
+		Cloned repository https://github.com/widdix/mastodon-on-aws
+		Successfully cloned repository https://github.com/widdix/mastodon-on-aws
+		Found 1 CloudFormation files in repository https://github.com/widdix/mastodon-on-aws.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/RLOpenCatalyst/rgdeploy
+	Cloning repository https://github.com/RLOpenCatalyst/rgdeploy
+		Cloned repository https://github.com/RLOpenCatalyst/rgdeploy
+		Successfully cloned repository https://github.com/RLOpenCatalyst/rgdeploy
+		Found 35 CloudFormation files in repository https://github.com/RLOpenCatalyst/rgdeploy.
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.RGEC2Instance - temp_repo\rg_main_stack.yml:[157, 215]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\cromwell-advanced.yaml:[597, 929]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-dcv.yml:[99, 405]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-EIP.yml:[82, 113]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-linux-docker-mysql.yml:[96, 157]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-linux-docker.yml:[82, 124]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-secure-desktop.yml:[146, 476]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-ubuntu.yml:[84, 117]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\ec2-winsecure-desktop.yml:[150, 213]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\igv.yml:[117, 332]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\nextflow-advanced.yaml:[542, 682]
+				- CKV_AWS_807: AWS::EC2::Instance.RstudioEC2Instance - temp_repo\cft-templates\Rstudio.yml:[97, 195]
+				- CKV_AWS_807: AWS::SageMaker::NotebookInstance.SageMakerNotebookInstance - temp_repo\cft-templates\sagemaker-template-with-url.yml:[66, 77]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cft-templates\windows-ec2.yaml:[38, 58]
+				- CKV_AWS_806: AWS::DynamoDB::Table.EgressStoreDb - temp_repo\SRE\Egress\Setup-templates\egressresources.yml:[186, 205]
+				- CKV_AWS_807: AWS::EC2::Instance.NATInstance - temp_repo\SRE\Network-CFTS\vpc-squid.yml:[296, 389]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\rg_deploy_bucket.yml:[10, 13]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\cft-templates\cromwell-advanced.yaml:[246, 258]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\cft-templates\nextflow-advanced.yaml:[265, 282]
+				- CKV_AWS_805: AWS::S3::Bucket.SampleBucket - temp_repo\cft-templates\s3.yaml:[24, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.TREAccessLogsBucket - temp_repo\SRE\Egress\Setup-templates\egressdatalake.yml:[136, 154]
+				- CKV_AWS_805: AWS::S3::Bucket.TRETargetBucket - temp_repo\SRE\Egress\Setup-templates\egressdatalake.yml:[220, 238]
+				- CKV_AWS_805: AWS::S3::Bucket.TRESourceBucket - temp_repo\SRE\Egress\Setup-templates\egressdatalake.yml:[240, 258]
+				- CKV_AWS_805: AWS::S3::Bucket.TREAnalystResultsBucket - temp_repo\SRE\Egress\Setup-templates\egressdatalake.yml:[260, 278]
+				- CKV_AWS_805: AWS::S3::Bucket.TRELakeAdminResultsBucket - temp_repo\SRE\Egress\Setup-templates\egressdatalake.yml:[280, 298]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance - temp_repo\SRE\Egress\Setup-templates\egressdeployinstance.yml:[139, 232]
+				- CKV_AWS_805: AWS::S3::Bucket.EgressStoreBucket - temp_repo\SRE\Egress\Setup-templates\egressresources.yml:[63, 92]
+				- CKV_AWS_805: AWS::S3::Bucket.EgressNotificationBucket - temp_repo\SRE\Egress\Setup-templates\egressresources.yml:[121, 150]
+Processing repository: https://github.com/m-chandler/factorio-spot-pricing
+	Cloning repository https://github.com/m-chandler/factorio-spot-pricing
+		Cloned repository https://github.com/m-chandler/factorio-spot-pricing
+		Successfully cloned repository https://github.com/m-chandler/factorio-spot-pricing
+		Found 1 CloudFormation files in repository https://github.com/m-chandler/factorio-spot-pricing.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/awslabs/aws-well-architected-labs
+	Cloning repository https://github.com/awslabs/aws-well-architected-labs
+		Cloned repository https://github.com/awslabs/aws-well-architected-labs
+		Successfully cloned repository https://github.com/awslabs/aws-well-architected-labs
+		Found 96 CloudFormation files in repository https://github.com/awslabs/aws-well-architected-labs.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.Table - temp_repo\static\Common\Code\Serverless-Todo\src\api\template.yaml:[63, 79]
+				- CKV_AWS_805: AWS::S3::Bucket.DestinationS3 - temp_repo\static\Cost\200_Cloud_Intelligence\templates\cur-aggregation\cur-aggregation.yaml:[79, 111]
+				- CKV_AWS_805: AWS::S3::Bucket.SourceS3 - temp_repo\static\Cost\200_Cloud_Intelligence\templates\cur-aggregation\cur-aggregation.yaml:[200, 244]
+				- CKV_AWS_807: AWS::RDS::DBInstance.Database - temp_repo\static\Cost\200_Cost_Category\Code\Project1cfm.yml:[392, 415]
+				- CKV_AWS_807: AWS::RDS::DBInstance.Project2Database - temp_repo\static\Cost\200_Cost_Category\Code\Project2cfm.yml:[391, 414]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2InstanceSchedulerAdmin - temp_repo\static\Cost\200_EC2_Scheduling_at_Scale\Code\sample_environment_template.yml:[111, 143]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance1 - temp_repo\static\Cost\200_EC2_Scheduling_at_Scale\Code\sample_environment_template.yml:[145, 161]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance2 - temp_repo\static\Cost\200_EC2_Scheduling_at_Scale\Code\sample_environment_template.yml:[163, 179]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance3 - temp_repo\static\Cost\200_EC2_Scheduling_at_Scale\Code\sample_environment_template.yml:[181, 197]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance4 - temp_repo\static\Cost\200_EC2_Scheduling_at_Scale\Code\sample_environment_template.yml:[199, 215]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance5 - temp_repo\static\Cost\200_EC2_Scheduling_at_Scale\Code\sample_environment_template.yml:[217, 233]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDS - temp_repo\static\Operations\200_Automating_operations_with_playbooks_and_runbooks\Code\templates\base_app.yml:[290, 301]
+				- CKV_AWS_807: AWS::EC2::Instance.KVMTestInstance - temp_repo\static\Performance\100_Clock_Source_Performance\Code\time_test.yaml:[170, 257]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Performance\100_Monitoring_Linux_EC2_CloudWatch\Code\LinuxMachineDeploy.yaml:[68, 291]
+				- CKV_AWS_807: AWS::EC2::Instance.TestServerHost - temp_repo\static\Performance\100_Monitoring_Windows_EC2_CloudWatch\Code\WindowsMachineDeploy.yaml:[85, 556]
+				- CKV_AWS_807: AWS::EC2::Instance.SampleProducer - temp_repo\static\Reliability\200_Backup_Restore_Failback_Analytics\Code\cfn\workload.yaml:[1104, 1145]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\static\Reliability\200_Deploy_and_Update_CloudFormation\Code\CloudFormation\simple_stack_plus_s3_ec2.yaml:[122, 132]
+				- CKV_AWS_807: AWS::EC2::Instance.MyEC2Instance - temp_repo\static\Reliability\200_Deploy_and_Update_CloudFormation\Code\CloudFormation\simple_stack_plus_s3_ec2_server.yaml:[122, 144]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance - temp_repo\static\Reliability\Disaster_Recovery\Code\BackupAndRestore.yaml:[270, 288]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Reliability\Disaster_Recovery\Code\BackupAndRestore.yaml:[321, 637]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance - temp_repo\static\Reliability\Disaster_Recovery\Code\BackupAndRestoreDB.yaml:[83, 100]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Reliability\Disaster_Recovery\Code\BackupAndRestoreDB.yaml:[101, 180]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDSDBInstance - temp_repo\static\Reliability\Disaster_Recovery\Code\HotStandby.yaml:[302, 311]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Reliability\Disaster_Recovery\Code\HotStandby.yaml:[344, 730]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\static\Reliability\Disaster_Recovery\Code\HotStandby.yaml:[731, 745]
+				- CKV_AWS_807: AWS::EC2::Instance.BuildEC2Instance - temp_repo\static\Reliability\Disaster_Recovery\Code\HotStandby.yaml:[1342, 1444]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDSDBInstance - temp_repo\static\Reliability\Disaster_Recovery\Code\PilotLightDR.yaml:[251, 260]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Reliability\Disaster_Recovery\Code\PilotLightDR.yaml:[291, 586]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDSDBInstance - temp_repo\static\Reliability\Disaster_Recovery\Code\WarmStandbyDR.yaml:[256, 265]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Reliability\Disaster_Recovery\Code\WarmStandbyDR.yaml:[625, 717]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudTrailDestinationBucket - temp_repo\static\Security\200_Automated_Deployment_of_Detective_Controls\Code\cloudtrail-config-guardduty-securityhub.yaml:[255, 284]
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigBucket - temp_repo\static\Security\200_Automated_Deployment_of_Detective_Controls\Code\cloudtrail-config-guardduty-securityhub.yaml:[481, 511]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudTrailDestinationBucket - temp_repo\static\Security\200_Automated_Deployment_of_Detective_Controls\Code\cloudtrail-config-guardduty.yaml:[244, 273]
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigBucket - temp_repo\static\Security\200_Automated_Deployment_of_Detective_Controls\Code\cloudtrail-config-guardduty.yaml:[470, 500]
+				- CKV_AWS_807: AWS::RDS::DBInstance.WADBInstance - temp_repo\static\Security\300_Multilayered_API_Security_with_Cognito_and_WAF\Code\templates\section1\section1-base.yaml:[513, 532]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MapEngineTable - temp_repo\static\watool\200_Integration_with_AWS_Compute_Optimizer_and_AWS_Trusted_Advisor\Code\integration\template.yaml:[118, 128]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\static\Cost\300_Optimization_Data_Collection\Code\Optimization_Data_Collector.yaml:[280, 307]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\static\Cost\300_Organization_Data_CUR_Connection\Code\main.yaml:[20, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\static\Cost\300_Organization_Data_CUR_Connection\Code\main_man.yaml:[17, 30]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance - temp_repo\static\Operations\100_Dependency_Monitoring\Code\dependency_monitoring.yaml:[85, 120]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\static\Operations\100_Dependency_Monitoring\Code\dependency_monitoring.yaml:[150, 159]
+				- CKV_AWS_805: AWS::S3::Bucket.ResultsBucket - temp_repo\static\Operations\200_Automating_operations_with_playbooks_and_runbooks\Code\templates\base_app.yml:[414, 421]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Operations\200_Build_AWS_Health_Aware_Operation_Change_Process\Code\cfn_health_aware_ssm_stack.yaml:[10, 19]
+				- CKV_AWS_807: AWS::EC2::Instance.XenTestInstance - temp_repo\static\Performance\100_Clock_Source_Performance\Code\time_test.yaml:[80, 167]
+				- CKV_AWS_805: AWS::S3::Bucket.InventoryBucket - temp_repo\static\Reliability\200_Backup_Restore_Failback_Analytics\Code\cfn\dr-data.yaml:[81, 90]
+				- CKV_AWS_805: AWS::S3::Bucket.BackupBucket - temp_repo\static\Reliability\200_Backup_Restore_Failback_Analytics\Code\cfn\dr-data.yaml:[110, 156]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ProcessedTable - temp_repo\static\Reliability\200_Backup_Restore_Failback_Analytics\Code\cfn\workload.yaml:[656, 673]
+				- CKV_AWS_805: AWS::S3::Bucket.S3BucketWithEncryption - temp_repo\static\Reliability\200_Bidirectional_Replication_for_S3\Code\CloudFormation\s3_bucket.yaml:[38, 53]
+				- CKV_AWS_805: AWS::S3::Bucket.LoggingBucket - temp_repo\static\Reliability\200_Bidirectional_Replication_for_S3\Code\CloudFormation\s3_bucket.yaml:[131, 135]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\static\Reliability\200_Deploy_and_Update_CloudFormation\Code\CloudFormation\simple_stack_plus_s3.yaml:[113, 119]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\static\Reliability\200_Deploy_and_Update_CloudFormation\Code\CloudFormation\simple_stack_plus_s3_ec2.yaml:[114, 120]
+				- CKV_AWS_805: AWS::S3::Bucket.MyS3Bucket - temp_repo\static\Reliability\200_Deploy_and_Update_CloudFormation\Code\CloudFormation\simple_stack_plus_s3_ec2_server.yaml:[114, 120]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance - temp_repo\static\Reliability\200_Testing_Backup_and_Restore_of_Data\Code\backup-lab.yaml:[92, 117]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance1 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[107, 141]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance2 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[142, 176]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance3 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[177, 211]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance4 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[212, 246]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance5 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[247, 281]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance6 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[282, 316]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance7 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[317, 351]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance8 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[352, 386]
+				- CKV_AWS_805: AWS::S3::Bucket.CanaryBucket - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\regular.yaml:[522, 523]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance1 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[107, 141]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance2 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[142, 176]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance3 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[177, 211]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance4 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[212, 246]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance5 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[247, 281]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance6 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[282, 316]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance7 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[317, 351]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance8 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[352, 386]
+				- CKV_AWS_805: AWS::S3::Bucket.CanaryBucket - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\sharding.yaml:[597, 598]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance1 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[107, 141]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance2 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[142, 176]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance3 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[177, 211]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance4 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[212, 246]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance5 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[247, 281]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance6 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[282, 316]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance7 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[317, 351]
+				- CKV_AWS_807: AWS::EC2::Instance.Instance8 - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[352, 386]
+				- CKV_AWS_805: AWS::S3::Bucket.CanaryBucket - temp_repo\static\Reliability\300_Fault_Isolation_with_Shuffle_Sharding\Code\shuffle-sharding.yaml:[729, 730]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBServiceMockTable - temp_repo\static\Reliability\Common\Code\CloudFormation\staticwebapp-active-passive.yaml:[133, 155]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBServiceMockTable - temp_repo\static\Reliability\Common\Code\CloudFormation\staticwebapp.yaml:[118, 140]
+				- CKV_AWS_805: AWS::S3::Bucket.UIBucket - temp_repo\static\Reliability\Disaster_Recovery\Code\BackupAndRestore.yaml:[289, 301]
+				- CKV_AWS_805: AWS::S3::Bucket.AssetBucket - temp_repo\static\Reliability\Disaster_Recovery\Code\HotStandby.yaml:[312, 313]
+				- CKV_AWS_805: AWS::S3::Bucket.UIBucket - temp_repo\static\Reliability\Disaster_Recovery\Code\HotStandby.yaml:[314, 324]
+				- CKV_AWS_805: AWS::S3::Bucket.UIBucket - temp_repo\static\Reliability\Disaster_Recovery\Code\PilotLightDR.yaml:[261, 271]
+				- CKV_AWS_805: AWS::S3::Bucket.UIBucket - temp_repo\static\Reliability\Disaster_Recovery\Code\WarmStandbyDR.yaml:[266, 276]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\static\Security\200_Remote_Configuration_Installation_and_Viewing_CloudWatch_Logs\code\security-lab-stack.yaml:[38, 128]
+				- CKV_AWS_805: AWS::S3::Bucket.S3LogBucket - temp_repo\static\Security\200_Remote_Configuration_Installation_and_Viewing_CloudWatch_Logs\code\security-lab-stack.yaml:[171, 186]
+				- CKV_AWS_807: AWS::RDS::DBInstance.Pattern1RDS - temp_repo\static\Security\300_Autonomous_Monitoring_Of_Cryptographic_Activity_With_KMS\Code\templates\section2\pattern1-app.yml:[277, 287]
+				- CKV_AWS_805: AWS::S3::Bucket.Pattern1CloudTrailS3Bucket - temp_repo\static\Security\300_Autonomous_Monitoring_Of_Cryptographic_Activity_With_KMS\Code\templates\section3\pattern1-logging.yml:[22, 25]
+				- CKV_AWS_805: AWS::S3::Bucket.Pattern3LoggingBucket - temp_repo\static\Security\300_Autonomous_Patching_With_EC2_Image_Builder_and_Systems_Manager\Code\templates\section3\pattern3-pipeline.yml:[78, 79]
+				- CKV_AWS_805: AWS::S3::Bucket.VpcLogBucket - temp_repo\static\Security\300_VPC_Flow_Logs_Analysis_Dashboard\code\vpc-flow-logs-custom.yaml:[27, 42]
+				- CKV_AWS_806: AWS::DynamoDB::Table.AppTable - temp_repo\static\wapartners\100_Automating_Serverless_Best_Practices_with_Dashbird\Code\oncall-health-sample-app\amplify_api_template.yml:[10, 24]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDBTable - temp_repo\static\watool\200_Manage_Workload_Risks_with_OpsCenter\Code\risk_management.yaml:[71, 87]
+Processing repository: https://github.com/rapticore/aws-onboarding
+	Cloning repository https://github.com/rapticore/aws-onboarding
+		Cloned repository https://github.com/rapticore/aws-onboarding
+		Successfully cloned repository https://github.com/rapticore/aws-onboarding
+		Found 7 CloudFormation files in repository https://github.com/rapticore/aws-onboarding.
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\freemium\FreemiumEC2InstanceStack.yml:[85, 96]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\freemium\FreemiumEC2InstanceWithNewVPCStack.yaml:[132, 143]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\standard\StandardEC2InstanceOnly.yml:[113, 124]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\standard\StandardEC2InstanceOnlyWithNewVPCStack.yaml:[164, 175]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\standard\StandardStack.yaml:[163, 174]
+			Failed checks:
+Processing repository: https://github.com/kennyk65/aws-teaching-demos
+	Cloning repository https://github.com/kennyk65/aws-teaching-demos
+		Cloned repository https://github.com/kennyk65/aws-teaching-demos
+		Successfully cloned repository https://github.com/kennyk65/aws-teaching-demos
+		Found 131 CloudFormation files in repository https://github.com/kennyk65/aws-teaching-demos.
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.PublicInstance - temp_repo\cloud-formation-demos\arch7-lab2.template.yml:[158, 183]
+				- CKV_AWS_807: AWS::EC2::Instance.PrivateInstance - temp_repo\cloud-formation-demos\arch7-lab2.template.yml:[211, 224]
+				- CKV_AWS_807: AWS::RDS::DBInstance.labdbinstance - temp_repo\cloud-formation-demos\arch7-lab3.template.yml:[58, 74]
+				- CKV_AWS_807: AWS::EC2::Instance.AppInstance - temp_repo\cloud-formation-demos\arch7-lab3.template.yml:[119, 172]
+				- CKV_AWS_807: AWS::RDS::DBInstance.labdbinstance - temp_repo\cloud-formation-demos\arch7-lab7.template.yml:[395, 411]
+				- CKV_AWS_807: AWS::RDS::DBInstance.labdbinstance - temp_repo\cloud-formation-demos\AWS-Tess-Lab2.yml:[66, 81]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cloud-formation-demos\cloudwatch-agent-linux.yaml:[14, 70]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\cloud-formation-demos\cloudwatch-agent-windows.yaml:[20, 144]
+				- CKV_AWS_807: AWS::EC2::Instance.VSCodeInstance - temp_repo\cloud-formation-demos\vs-code-server.template.yml:[32, 97]
+				- CKV_AWS_807: AWS::EC2::Instance.ShibbolethIdP - temp_repo\saml-federation\saml-federation-shibboleth.yml:[49, 102]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.MainS3Bucket - temp_repo\cloud-formation-demos\adv-dev-lab4.template.yml:[85, 92]
+				- CKV_AWS_807: AWS::EC2::Instance.NATInstance - temp_repo\cloud-formation-demos\adv-dev-lab5-start.template.yml:[241, 277]
+				- CKV_AWS_807: AWS::EC2::Instance.DevInstanceLinux - temp_repo\cloud-formation-demos\adv-dev-lab5-start.template.yml:[319, 357]
+				- CKV_AWS_807: AWS::EC2::Instance.DevInstanceWindows - temp_repo\cloud-formation-demos\adv-dev-lab5-start.template.yml:[398, 494]
+				- CKV_AWS_805: AWS::S3::Bucket.TheS3Bucket - temp_repo\cloud-formation-demos\arch-lab1-demo.template.yml:[31, 34]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Dynamo - temp_repo\cloud-formation-demos\arch-lab1-demo.template.yml:[36, 52]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\arch-lab1-demo.template.yml:[147, 193]
+				- CKV_AWS_805: AWS::S3::Bucket.S3WebBucket - temp_repo\cloud-formation-demos\arch6-lab1.template.yml:[13, 21]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\arch6-lab2.template.yml:[70, 97]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDSDatabase - temp_repo\cloud-formation-demos\arch6-lab2.template.yml:[110, 126]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\arch6-lab3.template.yml:[108, 134]
+				- CKV_AWS_807: AWS::RDS::DBInstance.RDSDatabase - temp_repo\cloud-formation-demos\arch6-lab4-base.template.yml:[192, 207]
+				- CKV_AWS_807: AWS::EC2::Instance.InstanceC - temp_repo\cloud-formation-demos\arch7-lab1.template.yml:[41, 60]
+				- CKV_AWS_805: AWS::S3::Bucket.LabBucket - temp_repo\cloud-formation-demos\arch7-lab5.template.yaml:[76, 117]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\arch7-lab6.template.yml:[15, 20]
+				- CKV_AWS_807: AWS::EC2::Instance.WebInstance - temp_repo\cloud-formation-demos\aws-tess-5-labs.template.yml:[208, 246]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\cloud-formation-demos\aws-tess-5-labs.template.yml:[248, 252]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDbTable - temp_repo\cloud-formation-demos\aws-tess-5-labs.template.yml:[271, 284]
+				- CKV_AWS_807: AWS::EC2::Instance.WebInstance - temp_repo\cloud-formation-demos\AWS-Tess-Lab1.yml:[137, 162]
+				- CKV_AWS_807: AWS::EC2::Instance.NATInstance - temp_repo\cloud-formation-demos\base-network-192-168.template.yml:[247, 282]
+				- CKV_AWS_807: AWS::EC2::Instance.NATInstance - temp_repo\cloud-formation-demos\base-network.template.yml:[247, 282]
+				- CKV_AWS_807: AWS::EC2::Instance.BastionServer - temp_repo\cloud-formation-demos\cloudformation-demo.template.yml:[199, 217]
+				- CKV_AWS_807: AWS::EC2::Instance.NATInstance - temp_repo\cloud-formation-demos\cloudformation-demo.template.yml:[220, 249]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\cloud-formation-demos\cloudfront-demo-api-s3.template.yml:[19, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\cloudfront-demo.template.yml:[17, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteS3Bucket - temp_repo\cloud-formation-demos\cloudwatch-demo-serverless.template.yml:[120, 127]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-approve-deploy-eb.template.yml:[192, 195]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-demo-1.template.yml:[110, 113]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-demo-2.template.yml:[111, 114]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-demo-deploy-cf.template.yml:[173, 176]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-demo-deploy-eb.template.yml:[187, 190]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-deploy-eb-docker.template.yml:[199, 202]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-deploy-ecs.template.yml:[220, 223]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\codepipeline-short-demo.template.yml:[133, 136]
+				- CKV_AWS_805: AWS::S3::Bucket.TheS3Bucket - temp_repo\cloud-formation-demos\csv-lambda-dynamo-demo.template.yml:[27, 35]
+				- CKV_AWS_806: AWS::DynamoDB::Table.Dynamo - temp_repo\cloud-formation-demos\csv-lambda-dynamo-demo.template.yml:[38, 50]
+				- CKV_AWS_805: AWS::S3::Bucket.S3InputBucket - temp_repo\cloud-formation-demos\dev-lab6-lambda-demo.template.yml:[23, 30]
+				- CKV_AWS_805: AWS::S3::Bucket.S3OutputBucket - temp_repo\cloud-formation-demos\dev-lab6-lambda-demo.template.yml:[32, 35]
+				- CKV_AWS_805: AWS::S3::Bucket.S3InputBucket - temp_repo\cloud-formation-demos\dev3-lab4-lambda-demo.template.yml:[18, 25]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDbTable - temp_repo\cloud-formation-demos\dev3-lab6.template.yml:[63, 79]
+				- CKV_AWS_805: AWS::S3::Bucket.S3WebBucket - temp_repo\cloud-formation-demos\dev3-lab6.template.yml:[81, 89]
+				- CKV_AWS_805: AWS::S3::Bucket.S3MP3Bucket - temp_repo\cloud-formation-demos\dev3-lab6.template.yml:[91, 105]
+				- CKV_AWS_805: AWS::S3::Bucket.AppBucket - temp_repo\cloud-formation-demos\dev4-lab4.template.yml:[14, 17]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDbTable - temp_repo\cloud-formation-demos\dev4-lab4.template.yml:[19, 35]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoDbTable - temp_repo\cloud-formation-demos\dev4-lab5.template.yml:[289, 305]
+				- CKV_AWS_805: AWS::S3::Bucket.pollyNotesWeb - temp_repo\cloud-formation-demos\dev4-lab6.template.yml:[263, 270]
+				- CKV_AWS_805: AWS::S3::Bucket.pollyNotesAPI - temp_repo\cloud-formation-demos\dev4-lab6.template.yml:[284, 294]
+				- CKV_AWS_806: AWS::DynamoDB::Table.NounsVerbsAdjectivesTable - temp_repo\cloud-formation-demos\devops-lab6-part1.template.yml:[180, 192]
+				- CKV_AWS_805: AWS::S3::Bucket.S3 - temp_repo\cloud-formation-demos\devops-lab6-part1.template.yml:[196, 199]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\ec2-run-as-service-initd.template.yml:[50, 80]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\ec2-run-as-service-systemd-ubuntu.template.yml:[83, 170]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\ec2-run-as-service-systemd.template.yml:[50, 142]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\ec2-run-docker.template.yml:[50, 72]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\ec2-run-simple.template.yml:[43, 68]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\minimal-ec2-deploy-map.template.yml:[38, 87]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\minimal-ec2-deploy-parameter.template.yml:[56, 81]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\minimal-ec2-deploy-resolve.template.yml:[56, 81]
+				- CKV_AWS_807: AWS::EC2::Instance.ProviderInstance - temp_repo\cloud-formation-demos\network-connections-demo.template.yml:[128, 147]
+				- CKV_AWS_807: AWS::EC2::Instance.ConsumerInstance - temp_repo\cloud-formation-demos\network-connections-demo.template.yml:[219, 230]
+				- CKV_AWS_807: AWS::EC2::Instance.Ec2InstanceSquid1 - temp_repo\cloud-formation-demos\privatelink-demo-squib.template.yml:[120, 138]
+				- CKV_AWS_807: AWS::EC2::Instance.Ec2InstanceSquid2 - temp_repo\cloud-formation-demos\privatelink-demo-squib.template.yml:[140, 158]
+				- CKV_AWS_807: AWS::EC2::Instance.Ec2ServiceConsumerHost - temp_repo\cloud-formation-demos\privatelink-demo-squib.template.yml:[268, 292]
+				- CKV_AWS_807: AWS::EC2::Instance.MongoDBServer - temp_repo\cloud-formation-demos\quick-public-mongo.template.yml:[152, 168]
+				- CKV_AWS_807: AWS::EC2::Instance.JenkinsServer - temp_repo\cloud-formation-demos\quick-public-mongo.template.yml:[172, 188]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteS3Bucket - temp_repo\cloud-formation-demos\slot-machine-website-api-gateway.template.yml:[24, 31]
+				- CKV_AWS_805: AWS::S3::Bucket.MainS3Bucket - temp_repo\cloud-formation-demos\slot-machine-website.template.yml:[17, 24]
+				- CKV_AWS_805: AWS::S3::Bucket.MainS3Bucket - temp_repo\cloud-formation-demos\static-website.yml:[27, 32]
+				- CKV_AWS_805: AWS::S3::Bucket.UploadBucket - temp_repo\cloud-formation-demos\stepfunction-recognition.template.yml:[20, 26]
+				- CKV_AWS_807: AWS::EC2::Instance.WebServer - temp_repo\cloud-formation-demos\vpc-endpoints-demo.yaml:[51, 61]
+				- CKV_AWS_807: AWS::EC2::Instance.Jumpbox - temp_repo\cloud-formation-demos\vpc-endpoints-demo.yaml:[191, 203]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserTable - temp_repo\cloud-formation-demos\xray-ecs-java-scorekeep.template.yaml:[54, 60]
+				- CKV_AWS_806: AWS::DynamoDB::Table.SessionTable - temp_repo\cloud-formation-demos\xray-ecs-java-scorekeep.template.yaml:[62, 68]
+				- CKV_AWS_806: AWS::DynamoDB::Table.GameTable - temp_repo\cloud-formation-demos\xray-ecs-java-scorekeep.template.yaml:[70, 89]
+				- CKV_AWS_806: AWS::DynamoDB::Table.MoveTable - temp_repo\cloud-formation-demos\xray-ecs-java-scorekeep.template.yaml:[91, 110]
+				- CKV_AWS_806: AWS::DynamoDB::Table.StateTable - temp_repo\cloud-formation-demos\xray-ecs-java-scorekeep.template.yaml:[112, 131]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteS3Bucket - temp_repo\live-feedback\live-feedback.template.yml:[112, 117]
+				- CKV_AWS_805: AWS::S3::Bucket.WebsiteBucket - temp_repo\wildrydes\storage.template.yml:[43, 48]
+Processing repository: https://github.com/christoferson/aws-cloudformation
+	Cloning repository https://github.com/christoferson/aws-cloudformation
+		Cloned repository https://github.com/christoferson/aws-cloudformation
+		Successfully cloned repository https://github.com/christoferson/aws-cloudformation
+		Found 350 CloudFormation files in repository https://github.com/christoferson/aws-cloudformation.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.Items - temp_repo\app-composer\app-composer-demo.yaml:[56, 65]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudTrailBucket - temp_repo\cloudtrail\cloudtrail-basic.yaml:[6, 28]
+				- CKV_AWS_807: AWS::EC2::Instance.ServerInstance - temp_repo\ec2\ec2-helper-cfn-hup.yaml:[35, 94]
+				- CKV_AWS_807: AWS::EC2::Instance.ServerInstance - temp_repo\ec2\ec2-helper-cfn-init.yaml:[85, 124]
+				- CKV_AWS_807: AWS::EC2::Instance.ServerInstance - temp_repo\ec2\ec2-helper-cfn-signal.yaml:[35, 105]
+				- CKV_AWS_807: AWS::EC2::Instance.ServerInstanceMaster - temp_repo\ec2\ec2-wait-condition.yaml:[35, 65]
+				- CKV_AWS_807: AWS::EC2::Instance.ServerInstance - temp_repo\ec2\ec2-wait-condition.yaml:[79, 114]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DatabaseInstance1 - temp_repo\rds-aurora\rds-aurora-serverless-v2-basic.yaml:[154, 171]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DatabaseInstance2 - temp_repo\rds-aurora\rds-aurora-serverless-v2-basic.yaml:[173, 190]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-accesspoint-vpc.yaml:[37, 79]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-accesspoint.yaml:[30, 79]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-bucket-lifecycle.yaml:[27, 93]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-bucket-versioned.yaml:[25, 74]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-bucket.yaml:[27, 68]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-kms-bucket-key.yaml:[33, 95]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketServerLog - temp_repo\s3\s3-server-access-log.yaml:[45, 60]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-vpc-endpoint-gateway.yaml:[61, 103]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-x-bucket-with-condition.yaml:[47, 86]
+				- CKV_AWS_805: AWS::S3::Bucket.WAFLogBucket - temp_repo\waf\waf-rules-ai-chat.yaml:[119, 144]
+			Failed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.WebSocketConnectionsTable - temp_repo\api-gateway\api-gateway-websocket-lambda.yaml:[42, 56]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudformation\cfn-demo-constructs.yaml:[88, 90]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront\cloudfront-s3-bucket-origin.yaml:[6, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront\cloudfront-s3-oac-origin.yaml:[18, 39]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront\cloudfront-s3-oai-origin.yaml:[11, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront\cloudfront-s3-signed-cookie.yaml:[82, 103]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront\cloudfront-s3-website-origin.yaml:[11, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudfront\cloudfront-s3.yaml:[11, 20]
+				- CKV_AWS_805: AWS::S3::Bucket.CodeBuildOutputBucket - temp_repo\codebuild\code-codebuild-codecommit-ecr.yaml:[46, 69]
+				- CKV_AWS_805: AWS::S3::Bucket.CodeBuildOutputBucket - temp_repo\codepipeline\code-codebuild-codecommit-ecr.yaml:[46, 69]
+				- CKV_AWS_805: AWS::S3::Bucket.CodeBuildOutputBucket - temp_repo\codepipeline\code-codebuild-codecommit-evt.yaml:[23, 44]
+				- CKV_AWS_805: AWS::S3::Bucket.CodeBuildOutputBucket - temp_repo\codepipeline\code-codebuild-codecommit.yaml:[23, 44]
+				- CKV_AWS_805: AWS::S3::Bucket.CodeBuildSourceBucket - temp_repo\codepipeline\code-codebuild-s3.yaml:[6, 27]
+				- CKV_AWS_805: AWS::S3::Bucket.CodePipelineBucket - temp_repo\codepipeline\code-codepipeline-ecs.yaml:[60, 85]
+				- CKV_AWS_805: AWS::S3::Bucket.CodePipelineBucket - temp_repo\codepipeline\code-codepipeline-github-ecs.yaml:[39, 62]
+				- CKV_AWS_805: AWS::S3::Bucket.CodePipelineBucket - temp_repo\codepipeline\code-codepipeline.yaml:[28, 51]
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigBucket - temp_repo\config\config-basic.yaml:[6, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.ConfigBucket - temp_repo\config\setup\config-setup.yaml:[6, 28]
+				- CKV_AWS_805: AWS::S3::Bucket.DataSyncSourceBucket - temp_repo\datasync\datasync-s3-to-s3.yaml:[8, 32]
+				- CKV_AWS_805: AWS::S3::Bucket.DataSyncDestinationBucket - temp_repo\datasync\datasync-s3-to-s3.yaml:[127, 151]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-autoscale.yaml:[6, 61]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-basic.yaml:[6, 26]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-index-global.yaml:[6, 70]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-index-local.yaml:[6, 61]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-pitr.yaml:[6, 29]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-stream-s3-partitioned.yaml:[23, 80]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-stream-s3.yaml:[31, 88]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-stream.yaml:[6, 63]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb-ttl.yaml:[13, 71]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\dynamodb\dynamodb.yaml:[40, 82]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2\ec2-basic-options.yaml:[139, 163]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2\ec2-basic.yaml:[108, 164]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2\ec2-cfn-signal.yaml:[90, 163]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2\ec2-cloudwatch.yaml:[114, 149]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2\ec2-private-ssm.yaml:[172, 200]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\ec2\ec2-user-data.yaml:[113, 136]
+				- CKV_AWS_805: AWS::S3::Bucket.RawDataBucket - temp_repo\glue\glue-s3-basic.yaml:[13, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.AthenaQueryResultBucket - temp_repo\glue\glue-s3-basic.yaml:[75, 96]
+				- CKV_AWS_805: AWS::S3::Bucket.DataSourceBucket - temp_repo\glue\glue-s3-job-xml.yaml:[23, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.DataDestinationBucket - temp_repo\glue\glue-s3-job-xml.yaml:[45, 65]
+				- CKV_AWS_805: AWS::S3::Bucket.WorkBucket - temp_repo\glue\glue-s3-job-xml.yaml:[67, 87]
+				- CKV_AWS_805: AWS::S3::Bucket.DataSourceBucket - temp_repo\glue\glue-s3-xml.yaml:[13, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.DataDestinationBucket - temp_repo\glue\glue-s3-xml.yaml:[104, 124]
+				- CKV_AWS_805: AWS::S3::Bucket.GlueJobScript - temp_repo\glue-etl\glue-etl-job.yaml:[82, 87]
+				- CKV_AWS_805: AWS::S3::Bucket.KendraDataSourceBucket - temp_repo\kendra\kendra-basic.yaml:[98, 123]
+				- CKV_AWS_805: AWS::S3::Bucket.KendraDataSourceBucket - temp_repo\kendra\kendra-s3-multi.yaml:[131, 156]
+				- CKV_AWS_805: AWS::S3::Bucket.KendraDataSourceBucket2 - temp_repo\kendra\kendra-s3-multi.yaml:[158, 183]
+				- CKV_AWS_805: AWS::S3::Bucket.SampleBucket - temp_repo\lambda\lambda-custom-resource.yaml:[11, 15]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTable - temp_repo\lambda\lambda-trigger-dynamodb.yaml:[6, 63]
+				- CKV_AWS_807: AWS::EC2::Instance.InstanceServer - temp_repo\nlb\nlb-private-alb-ec2-client.yaml:[135, 155]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DatabaseInstance - temp_repo\rds\rds-mysql-with-secrets.yaml:[110, 132]
+				- CKV_AWS_807: AWS::RDS::DBInstance.DBInstance - temp_repo\rds\rds-mysql.yaml:[83, 117]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-basic.yaml:[25, 34]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketEncryptS3 - temp_repo\s3\s3-bucket-encryption.yaml:[12, 38]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketEncryptKms - temp_repo\s3\s3-bucket-encryption.yaml:[54, 81]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketBackupDestination - temp_repo\s3\s3-bucket-replication.yaml:[6, 14]
+				- CKV_AWS_805: AWS::S3::Bucket.BucketBackupSource - temp_repo\s3\s3-bucket-replication.yaml:[16, 33]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-handler-eventbridge.yaml:[30, 47]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-handler-lambda.yaml:[30, 55]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-handler-sns.yaml:[30, 59]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-handler-sqs.yaml:[30, 48]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-server-access-log.yaml:[26, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-website-redirect-http.yaml:[38, 55]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-website.yaml:[27, 73]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\s3-with-bucket-policy.yaml:[31, 40]
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\s3\organization\s3-bucket.yaml:[7, 37]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\s3\s3-object-lambda\s3-object-lambda.yaml:[7, 22]
+				- CKV_AWS_806: AWS::DynamoDB::Table.DynamoTableSesNotification - temp_repo\ses\ses-lambda-dynamo\ses-lambda-dynamo.yaml:[18, 38]
+				- CKV_AWS_805: AWS::S3::Bucket.SftpBucket - temp_repo\transfer\transfer-sftp-workflow.yaml:[13, 36]
+				- CKV_AWS_805: AWS::S3::Bucket.SftpBucket - temp_repo\transfer\transfer-sftp.yaml:[23, 48]
+				- CKV_AWS_807: AWS::EC2::Instance.TestInstance - temp_repo\vpc-private-link\vpc-private-link-client.yaml:[167, 206]
+Processing repository: https://github.com/cfn-modules/docs
+	Cloning repository https://github.com/cfn-modules/docs
+		Cloned repository https://github.com/cfn-modules/docs
+		Successfully cloned repository https://github.com/cfn-modules/docs
+		Found 17 CloudFormation files in repository https://github.com/cfn-modules/docs.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/benkulcsar/newswatch
+	Cloning repository https://github.com/benkulcsar/newswatch
+		Cloned repository https://github.com/benkulcsar/newswatch
+		Successfully cloned repository https://github.com/benkulcsar/newswatch
+		Found 1 CloudFormation files in repository https://github.com/benkulcsar/newswatch.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.NewswatchS3Bucket - temp_repo\template.yaml:[66, 79]
+Processing repository: https://github.com/guardian/identity-processes
+	Cloning repository https://github.com/guardian/identity-processes
+		Cloned repository https://github.com/guardian/identity-processes
+		Successfully cloned repository https://github.com/guardian/identity-processes
+		Found 4 CloudFormation files in repository https://github.com/guardian/identity-processes.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.FormstackSubmissionIds - temp_repo\formstack-baton-requests\cloud-formation.yaml:[160, 180]
+				- CKV_AWS_806: AWS::DynamoDB::Table.FormstackSubmissionsLastUpdated - temp_repo\formstack-baton-requests\cloud-formation.yaml:[182, 198]
+Processing repository: https://github.com/primeharbor/aws-account-automation
+	Cloning repository https://github.com/primeharbor/aws-account-automation
+		Cloned repository https://github.com/primeharbor/aws-account-automation
+		Successfully cloned repository https://github.com/primeharbor/aws-account-automation
+		Found 30 CloudFormation files in repository https://github.com/primeharbor/aws-account-automation.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.Bucket - temp_repo\cloudformation\AWSConfigBucket-Template.yaml:[35, 62]
+				- CKV_AWS_805: AWS::S3::Bucket.EventsS3Bucket - temp_repo\cloudformation\CloudTrailConfigBucket-Template.yaml:[27, 65]
+				- CKV_AWS_805: AWS::S3::Bucket.CloudtrailEventsS3Bucket - temp_repo\cloudformation\OrgCloudTrailBucket-Template.yaml:[29, 67]
+				- CKV_AWS_805: AWS::S3::Bucket.VPCFlowLogsS3Bucket - temp_repo\cloudformation\VPCFlowLogBucket-Template.yaml:[22, 61]
+			Failed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.BillingS3Bucket - temp_repo\cloudformation\BillingBucket-Template.yaml:[21, 29]
+				- CKV_AWS_805: AWS::S3::Bucket.LoggingS3Bucket - temp_repo\cloudformation\CloudTrail-Template.yaml:[33, 41]
+				- CKV_AWS_805: AWS::S3::Bucket.SecureBucket - temp_repo\cloudformation\GuardDutyFindingsBucket-Template.yaml:[13, 28]
+				- CKV_AWS_805: AWS::S3::Bucket.SecureBucket - temp_repo\cloudformation\MacieFindingsBucket-Template.yaml:[13, 28]
+				- CKV_AWS_805: AWS::S3::Bucket.MessageS3Bucket - temp_repo\cloudformation\SESRuleToSlack-Template.yaml:[74, 87]
+Processing repository: https://github.com/Sage-Bionetworks/service-catalog-library
+	Cloning repository https://github.com/Sage-Bionetworks/service-catalog-library
+		Cloned repository https://github.com/Sage-Bionetworks/service-catalog-library
+		Successfully cloned repository https://github.com/Sage-Bionetworks/service-catalog-library
+		Found 6 CloudFormation files in repository https://github.com/Sage-Bionetworks/service-catalog-library.
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.LinuxInstance - temp_repo\templates\ec2\sc-ec2-linux-docker-notebook.yaml:[252, 444]
+				- CKV_AWS_807: AWS::EC2::Instance.EC2Instance - temp_repo\templates\ec2\sc-ec2-linux-docker.yaml:[121, 223]
+				- CKV_AWS_807: AWS::EC2::Instance.WindowsInstance - temp_repo\templates\ec2\sc-ec2-windows-jumpcloud.yaml:[72, 203]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\templates\s3\sc-s3-encrypted-ra.yaml:[34, 55]
+				- CKV_AWS_805: AWS::S3::Bucket.S3Bucket - temp_repo\templates\s3\sc-s3-synapse-ra.yaml:[44, 75]
+			Failed checks:
+Processing repository: https://github.com/guardian/archivehunter
+	Cloning repository https://github.com/guardian/archivehunter
+		Cloned repository https://github.com/guardian/archivehunter
+		Successfully cloned repository https://github.com/guardian/archivehunter
+		Found 3 CloudFormation files in repository https://github.com/guardian/archivehunter.
+			Passed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.LightboxTable - temp_repo\cloudformation\appstack.yaml:[252, 294]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ProxyLocationTable - temp_repo\cloudformation\appstack.yaml:[433, 462]
+			Failed checks:
+				- CKV_AWS_806: AWS::DynamoDB::Table.ScanTargetsTable - temp_repo\cloudformation\appstack.yaml:[212, 230]
+				- CKV_AWS_806: AWS::DynamoDB::Table.UserProfileTable - temp_repo\cloudformation\appstack.yaml:[232, 250]
+				- CKV_AWS_806: AWS::DynamoDB::Table.LightboxBulkEntryTable - temp_repo\cloudformation\appstack.yaml:[296, 323]
+				- CKV_AWS_806: AWS::DynamoDB::Table.JobHistoryTable - temp_repo\cloudformation\appstack.yaml:[325, 387]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ServerTokensTable - temp_repo\cloudformation\appstack.yaml:[389, 407]
+				- CKV_AWS_806: AWS::DynamoDB::Table.OAuthTokensTable - temp_repo\cloudformation\appstack.yaml:[409, 431]
+				- CKV_AWS_806: AWS::DynamoDB::Table.ProxyFrameworkTable - temp_repo\cloudformation\appstack.yaml:[464, 482]
+				- CKV_AWS_806: AWS::DynamoDB::Table.AutodowningInstancesTable - temp_repo\cloudformation\appstack.yaml:[653, 671]
+Processing repository: https://github.com/cyberark/pas-on-cloud
+	Cloning repository https://github.com/cyberark/pas-on-cloud
+		Cloned repository https://github.com/cyberark/pas-on-cloud
+		Successfully cloned repository https://github.com/cyberark/pas-on-cloud
+		Found 4 CloudFormation files in repository https://github.com/cyberark/pas-on-cloud.
+			Passed checks:
+				- CKV_AWS_807: AWS::EC2::Instance.VaultDRMachine - temp_repo\aws\DRVault-Single-Deployment.yaml:[354, 402]
+				- CKV_AWS_807: AWS::EC2::Instance.VaultMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[648, 701]
+				- CKV_AWS_807: AWS::EC2::Instance.VaultDRMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[702, 752]
+				- CKV_AWS_807: AWS::EC2::Instance.PVWAMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[753, 789]
+				- CKV_AWS_807: AWS::EC2::Instance.CPMMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[790, 827]
+				- CKV_AWS_807: AWS::EC2::Instance.PSMMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[828, 864]
+				- CKV_AWS_807: AWS::EC2::Instance.PSMPMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[865, 905]
+				- CKV_AWS_807: AWS::EC2::Instance.PTAMachine - temp_repo\aws\Full-PAS-Deployment.yaml:[906, 938]
+				- CKV_AWS_807: AWS::EC2::Instance.PVWAMachine - temp_repo\aws\PAS-Component-Single-Deployment.yaml:[251, 289]
+				- CKV_AWS_807: AWS::EC2::Instance.CPMMachine - temp_repo\aws\PAS-Component-Single-Deployment.yaml:[290, 329]
+				- CKV_AWS_807: AWS::EC2::Instance.PSMMachine - temp_repo\aws\PAS-Component-Single-Deployment.yaml:[330, 368]
+				- CKV_AWS_807: AWS::EC2::Instance.PSMPMachine - temp_repo\aws\PAS-Component-Single-Deployment.yaml:[369, 411]
+				- CKV_AWS_807: AWS::EC2::Instance.PTAMachine - temp_repo\aws\PAS-Component-Single-Deployment.yaml:[412, 446]
+				- CKV_AWS_807: AWS::EC2::Instance.VaultMachine - temp_repo\aws\Vault-Single-Deployment.yaml:[412, 465]
+			Failed checks:
+Processing repository: https://github.com/sjakthol/aws-account-infra
+	Cloning repository https://github.com/sjakthol/aws-account-infra
+		Cloned repository https://github.com/sjakthol/aws-account-infra
+		Successfully cloned repository https://github.com/sjakthol/aws-account-infra
+		Found 16 CloudFormation files in repository https://github.com/sjakthol/aws-account-infra.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.StagingBucket - temp_repo\templates\CDKToolkit.yaml:[170, 208]
+				- CKV_AWS_805: AWS::S3::Bucket.BuildResourcesBucket - temp_repo\templates\infra-buckets.yaml:[5, 22]
+				- CKV_AWS_805: AWS::S3::Bucket.LogBucket - temp_repo\templates\infra-buckets.yaml:[24, 43]
+				- CKV_AWS_805: AWS::S3::Bucket.TrailBucket - temp_repo\templates\infra-trail.yaml:[24, 33]
+			Failed checks:
+Processing repository: https://github.com/conijnio/aws-security-posture
+	Cloning repository https://github.com/conijnio/aws-security-posture
+		Cloned repository https://github.com/conijnio/aws-security-posture
+		Successfully cloned repository https://github.com/conijnio/aws-security-posture
+		Found 2 CloudFormation files in repository https://github.com/conijnio/aws-security-posture.
+			Passed checks:
+				- CKV_AWS_805: AWS::S3::Bucket.FindingsBucket - temp_repo\template.yaml:[76, 105]
+			Failed checks:
+Results saved to results/cf_12m/results_cf_full.yml
+Finished processing repositories.

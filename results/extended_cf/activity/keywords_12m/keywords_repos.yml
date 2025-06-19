@@ -1,0 +1,108 @@
+- commits: 9039
+  issues: 0
+  keywords:
+  - bill
+  - lifecycle
+  - pay
+  - expens
+  - efficient
+  - cost
+  - cheap
+  pulls: 3875
+  repo: https://github.com/BerriAI/litellm
+- commits: 14515
+  issues: 0
+  keywords:
+  - bill
+  - lifecycle
+  - pay
+  - cost
+  - r/w
+  pulls: 0
+  repo: https://github.com/chriscoffee/terraform-provider-aws
+- commits: 21763
+  issues: 0
+  keywords:
+  - bill
+  - lifecycle
+  - pay
+  - cost
+  - r/w
+  pulls: 0
+  repo: https://github.com/CloudGeometry/terraform-provider-aws
+- commits: 8870
+  issues: 1
+  keywords:
+  - bill
+  - lifecycle
+  - pay
+  - expens
+  - efficient
+  - cost
+  - cheap
+  pulls: 1
+  repo: https://github.com/erickwill/litellm
+- commits: 26440
+  issues: 0
+  keywords:
+  - bill
+  - lifecycle
+  - pay
+  - efficient
+  - cost
+  - r/w
+  pulls: 0
+  repo: https://github.com/fidelity-contributions/hashicorp-terraform-provider-aws
+- commits: 650
+  issues: 0
+  keywords:
+  - bill
+  - pay
+  - expens
+  - efficient
+  - cost
+  - r/w
+  pulls: 984
+  repo: https://github.com/highlight/highlight
+- commits: 2603
+  issues: 0
+  keywords:
+  - cost
+  - efficient
+  - lifecycle
+  - pay
+  pulls: 13
+  repo: https://github.com/jeschkies/loki
+- commits: 133
+  issues: 0
+  keywords:
+  - r/w
+  pulls: 0
+  repo: https://github.com/open-policy-agent/conftest
+- commits: 318
+  issues: 0
+  keywords:
+  - pay
+  pulls: 18
+  repo: https://github.com/stellar/stellar-disbursement-platform-backend
+- commits: 1162
+  issues: 0
+  keywords:
+  - bill
+  - efficient
+  - cost
+  - pay
+  pulls: 935
+  repo: https://github.com/wundergraph/cosmo
+- commits: 1705
+  issues: 0
+  keywords:
+  - pay
+  pulls: 1181
+  repo: https://github.com/aws-samples/talk-dev-to-me-twitch
+- commits: 133
+  issues: 0
+  keywords:
+  - r/w
+  pulls: 0
+  repo: https://github.com/Mu-L/conftest

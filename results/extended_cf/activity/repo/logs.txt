@@ -1,0 +1,82 @@
+
+Checking 16 repositories for activity in the last 12 months...
+Remaining requests: 4946
+	Checking repository: https://github.com/BerriAI/litellm
+		Commits found: 9039
+		Issues found: 0
+		Pull requests found: 3875
+Remaining requests: 4885
+	Checking repository: https://github.com/chriscoffee/terraform-provider-aws
+		Commits found: 14515
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4878
+	Checking repository: https://github.com/CloudGeometry/terraform-provider-aws
+		Commits found: 21763
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4871
+	Checking repository: https://github.com/erickwill/litellm
+		Commits found: 8870
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 4864
+	Checking repository: https://github.com/fidelity-contributions/hashicorp-terraform-provider-aws
+		Commits found: 26440
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4857
+	Checking repository: https://github.com/highlight/highlight
+		Commits found: 650
+		Issues found: 0
+		Pull requests found: 984
+Remaining requests: 4813
+	Checking repository: https://github.com/jeschkies/loki
+		Commits found: 2603
+		Issues found: 0
+		Pull requests found: 13
+Remaining requests: 4805
+	Checking repository: https://github.com/open-policy-agent/conftest
+		Commits found: 133
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4798
+	Checking repository: https://github.com/stellar/stellar-disbursement-platform-backend
+		Commits found: 318
+		Issues found: 0
+		Pull requests found: 18
+Remaining requests: 4791
+	Checking repository: https://github.com/wundergraph/cosmo
+		Commits found: 1162
+		Issues found: 0
+		Pull requests found: 935
+Remaining requests: 4768
+	Checking repository: https://github.com/aws-samples/talk-dev-to-me-twitch
+		Commits found: 1705
+		Issues found: 0
+		Pull requests found: 1181
+Remaining requests: 4709
+	Checking repository: https://github.com/differentialhq/differential
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 5
+Remaining requests: 4700
+	Checking repository: https://github.com/sawyerh/highlights
+		Commits found: 28
+		Issues found: 0
+		Pull requests found: 24
+Remaining requests: 4693
+	Checking repository: https://github.com/Mu-L/conftest
+		Commits found: 133
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4686
+	Checking repository: https://github.com/govuk-one-login/ipv-cri-cic-api
+		Commits found: 39
+		Issues found: 0
+		Pull requests found: 158
+Remaining requests: 4673
+	Checking repository: https://github.com/govuk-one-login/onboarding-product-page
+		Commits found: 202
+		Issues found: 0
+		Pull requests found: 303

@@ -1,0 +1,257 @@
+Connected to GitHub as allianeamt
+Searching for keywords in repositories from the last 12 months...
+Remaining requests: 4584
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-environments
+		Found keyword 'pay' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/5a92d877be1e45eed0c405ad042b3e2cafcfbba5
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/bafa8a2017577c5de75381662d44fd082f54bae5
+		Found keyword 'bill' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/3f93a4188d3742a228e78e9b758c5d1c20627582
+		Found keyword 'efficient' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/eb2ffcd9874d0e28e4aabb8e54c0cb8b56b2f532
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/9b8bdec2b5e076798a115ffbb6a13e43f9d8863b
+Remaining requests: 4410
+	Processing repo: https://github.com/ministryofjustice/modernisation-platform
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/e38177ed9b9f6eda642be3647db10db7d52f396c
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/73e588b3f92e67d6ce3a47c75ab056dbf399efb0
+		Found keyword 'bill' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/da0351af1960553a20c0fbfc8b326b13886a15ea
+Remaining requests: 4352
+	Processing repo: https://github.com/alphagov/govuk-infrastructure
+		Found keyword 'cheap' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/4d549ce3550500c7254f14e58ddd257754195c99
+		Found keyword 'pay' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/9cfebd0287e16e86acb2653463f0f83eec9df0c9
+		Found keyword 'cost' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/93b431db22b75f896ac2a8c5f1f971aedea9457b
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/3a92b1085e80a89559b9de151125f9893d1982fe
+		Found keyword 'bill' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/008eaaa56f404d46adf21fdd1bf95dcfb27e507f
+Remaining requests: 4335
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-infrastructure
+		Found keyword 'pay' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/9f41f00d9c7345ff65204e40d335ede8b088d811
+Remaining requests: 4323
+	Processing repo: https://github.com/geraldwuhoo/homelab-iac
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/geraldwuhoo/homelab-iac/commits/2cf8ba322b4e825e067d6049def86bc1d1284dbc
+Remaining requests: 4310
+	Processing repo: https://github.com/Quansight/qhub
+		No keywords found in repo: Quansight/qhub
+Remaining requests: 4300
+	Processing repo: https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+		Found keyword 'bill' in commit: https://api.github.com/repos/GoogleCloudPlatform/cloud-foundation-fabric/commits/ffeb75100ccdb965e522b8488d521153ba5b5597
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/GoogleCloudPlatform/cloud-foundation-fabric/commits/7c858f4753700e26bc70a46a345a242ce40f51dc
+Remaining requests: 4291
+	Processing repo: https://github.com/rust-lang/simpleinfra
+		Found keyword 'expens' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/40dfffea7955b9a428d1c640212a36b417ed890e
+		Found keyword 'bill' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/90b1e8a4ed367fab82c782a1bf6a4c4542b76e5c
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/38d367ffe96a647e582c3829c9c8d5b48e291be5
+Remaining requests: 4284
+	Processing repo: https://github.com/jenkins-infra/aws
+		No keywords found in repo: jenkins-infra/aws
+Remaining requests: 4282
+	Processing repo: https://github.com/Accurate0/infrastructure
+		Found keyword 'cost' in commit: https://api.github.com/repos/Accurate0/infrastructure/commits/0690706423d564966582408322c8cf405903081f
+		Found keyword 'expens' in commit: https://api.github.com/repos/Accurate0/infrastructure/commits/1947af34372807d81a745960bb2fcafeff502306
+Remaining requests: 4277
+	Processing repo: https://github.com/public-transport/infrastructure
+		No keywords found in repo: public-transport/infrastructure
+Remaining requests: 4271
+	Processing repo: https://github.com/dfds/infrastructure-modules
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/f5ef65250bd03832b15cabf5df86838f5186f64b
+Remaining requests: 4266
+	Processing repo: https://github.com/nationalarchives/tdr-terraform-environments
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nationalarchives/tdr-terraform-environments/commits/dd05240d5bd90783d391d9d7ccae12607d325af4
+		Found keyword 'pay' in commit: https://api.github.com/repos/nationalarchives/tdr-terraform-environments/commits/ac2882a6c4bfccac13d5e521fb2b3868603949a0
+Remaining requests: 4261
+	Processing repo: https://github.com/cds-snc/terraform-modules
+		Found keyword 'cost' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/5dd892a44dbae2ce93023e5c64b5c4cb72b9f247
+		Found keyword 'bill' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/30ba1bd2a634587b3194b4718e964332ec2dc549
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/364c2fa7c6a5a9381070f5a4003c5f92af846dd9
+		Found keyword 'pay' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/50c0f631d2c8558e6eec44138ffc2e963a1dfa9a
+Remaining requests: 4258
+	Processing repo: https://github.com/poseidon/typhoon
+		Found keyword 'cost' in commit: https://api.github.com/repos/poseidon/typhoon/commits/111b1206babbb66a38e7d6756cbace3d66fa498b
+		Found keyword 'r/w' in commit: https://api.github.com/repos/poseidon/typhoon/commits/1104b4bf2852e3a307f87221e2dc9583e95edfe3
+		Found keyword 'bill' in commit: https://api.github.com/repos/poseidon/typhoon/commits/a4fab610663f5187916a311b520b2fddfa1e37f4
+Remaining requests: 4255
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+		No keywords found in repo: ministryofjustice/cloud-platform-terraform-monitoring
+Remaining requests: 4252
+	Processing repo: https://github.com/opszero/terraform-aws-kubespot
+		No keywords found in repo: opszero/terraform-aws-kubespot
+Remaining requests: 4249
+	Processing repo: https://github.com/cds-snc/cloud-based-sensor
+		No keywords found in repo: cds-snc/cloud-based-sensor
+Remaining requests: 4247
+	Processing repo: https://github.com/cisagov/cool-assessment-terraform
+		No keywords found in repo: cisagov/cool-assessment-terraform
+Remaining requests: 4244
+	Processing repo: https://github.com/binbashar/le-tf-infra-aws
+		Found keyword 'cost' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/f938b9088d47ea4831d8b6a4924ed3b8576a05c7
+		Found keyword 'pay' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/20c2b8b24edf40d4dfe4ecb019d28cdaaa10ca6b
+		Found keyword 'bill' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/acd8c4652850e8ff6ad97ee93e7d200a4c4e5ae4
+Remaining requests: 4241
+	Processing repo: https://github.com/alphagov/govwifi-terraform
+		Found keyword 'cost' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/ecb40c5f7484a148a57631c119a59c01f3b1d8cd
+		Found keyword 'pay' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/ecb40c5f7484a148a57631c119a59c01f3b1d8cd
+Remaining requests: 4237
+	Processing repo: https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+		Found keyword 'cost' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/2a6e13c18a9ff7dc7dac24f238dcd477c21e4e92
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/2a6e13c18a9ff7dc7dac24f238dcd477c21e4e92
+		Found keyword 'pay' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/95decee57da791a6f01038b1cb83bedd3510c42f
+		Found keyword 'bill' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/ea699740cdd219c4ac0a815ae26207002b9c6f75
+Remaining requests: 4235
+	Processing repo: https://github.com/Harmelodic/automation-infrastructure
+		No keywords found in repo: Harmelodic/automation-infrastructure
+Remaining requests: 4233
+	Processing repo: https://github.com/openaustralia/infrastructure
+		No keywords found in repo: openaustralia/infrastructure
+Remaining requests: 4230
+	Processing repo: https://github.com/gravicore/terraform-gravicore-modules
+		No keywords found in repo: gravicore/terraform-gravicore-modules
+Remaining requests: 4227
+	Processing repo: https://github.com/cisagov/cyhy_amis
+		No keywords found in repo: cisagov/cyhy_amis
+Remaining requests: 4224
+	Processing repo: https://github.com/cisagov/freeipa-server-tf-module
+		No keywords found in repo: cisagov/freeipa-server-tf-module
+Remaining requests: 4221
+	Processing repo: https://github.com/terraform-google-modules/terraform-example-foundation
+		No keywords found in repo: terraform-google-modules/terraform-example-foundation
+Remaining requests: 4219
+	Processing repo: https://github.com/thoughtbot/flightdeck
+		No keywords found in repo: thoughtbot/flightdeck
+Remaining requests: 4217
+	Processing repo: https://github.com/Echo-Stream/terraform-aws-control
+		Found keyword 'bill' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/42588402715589586c99104e0bf82e84b0dbf3d2
+		Found keyword 'cost' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/8775c043ab37457eb2808f17555467c6dcb92108
+		Found keyword 'pay' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/0c0d29341c00377fd0ee920a67911d5c561a5724
+Remaining requests: 4215
+	Processing repo: https://github.com/aws-observability/aws-otel-test-framework
+		No keywords found in repo: aws-observability/aws-otel-test-framework
+Remaining requests: 4212
+	Processing repo: https://github.com/wellcomecollection/platform-infrastructure
+		No keywords found in repo: wellcomecollection/platform-infrastructure
+Remaining requests: 4210
+	Processing repo: https://github.com/ministryofjustice/hmpps-delius-core-terraform
+		No keywords found in repo: ministryofjustice/hmpps-delius-core-terraform
+Remaining requests: 4208
+	Processing repo: https://github.com/matihost/monorepo
+		No keywords found in repo: matihost/monorepo
+Remaining requests: 4206
+	Processing repo: https://github.com/joshuaspence/infrastructure
+		No keywords found in repo: joshuaspence/infrastructure
+Remaining requests: 4204
+	Processing repo: https://github.com/cisagov/cool-sharedservices-nessus
+		No keywords found in repo: cisagov/cool-sharedservices-nessus
+Remaining requests: 4202
+	Processing repo: https://github.com/relaycorp/cloud-gateway
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/relaycorp/cloud-gateway/commits/bc1ca16effcefb4bdcc6ed80d480fac38b50aade
+Remaining requests: 4200
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+		No keywords found in repo: ministryofjustice/cloud-platform-terraform-rds-instance
+Remaining requests: 4198
+	Processing repo: https://github.com/cookpad/terraform-aws-eks
+		No keywords found in repo: cookpad/terraform-aws-eks
+Remaining requests: 4196
+	Processing repo: https://github.com/cloudposse/terraform-aws-alb
+		No keywords found in repo: cloudposse/terraform-aws-alb
+Remaining requests: 4194
+	Processing repo: https://github.com/ExpediaGroup/apiary-data-lake
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ExpediaGroup/apiary-data-lake/commits/1e988f00d2092f67039eabd2fe0d58a6eb47dd97
+Remaining requests: 4192
+	Processing repo: https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+		No keywords found in repo: hashicorp/terraform-azurerm-terraform-enterprise
+Remaining requests: 4190
+	Processing repo: https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+		No keywords found in repo: schubergphilis/terraform-aws-mcaf-vpc
+Remaining requests: 4188
+	Processing repo: https://github.com/nhsconnect/prm-mhs-infra
+		No keywords found in repo: nhsconnect/prm-mhs-infra
+Remaining requests: 4186
+	Processing repo: https://github.com/ToruMakabe/aks-anti-dry-iac
+		No keywords found in repo: ToruMakabe/aks-anti-dry-iac
+Remaining requests: 4184
+	Processing repo: https://github.com/jenkins-x/terraform-aws-eks-jx
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/jenkins-x/terraform-aws-eks-jx/commits/8836925dff353f33aba1ebccec67463c6768fa22
+		Found keyword 'cost' in commit: https://api.github.com/repos/jenkins-x/terraform-aws-eks-jx/commits/dbb7e3556eeed9760d30cbfda72e93e971f8b03a
+Remaining requests: 4182
+	Processing repo: https://github.com/wellcomecollection/goobi-infrastructure
+		Found keyword 'r/w' in commit: https://api.github.com/repos/wellcomecollection/goobi-infrastructure/commits/11b99c1c77fac4f0d7c882862187bc2068691d61
+Remaining requests: 4180
+	Processing repo: https://github.com/AndreasSko/infrastructure
+		No keywords found in repo: AndreasSko/infrastructure
+Remaining requests: 4178
+	Processing repo: https://github.com/akerl/aws-account
+		No keywords found in repo: akerl/aws-account
+Remaining requests: 4176
+	Processing repo: https://github.com/alphagov/govuk-aws
+		Found keyword 'cost' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/26aeed5193d8e0869a6f0a1c4dbe2e375db0ff05
+Remaining requests: 4174
+	Processing repo: https://github.com/wellcomecollection/buildkite-infrastructure
+		No keywords found in repo: wellcomecollection/buildkite-infrastructure
+Remaining requests: 4172
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+		No keywords found in repo: ministryofjustice/cloud-platform-terraform-elasticache-cluster
+Remaining requests: 4170
+	Processing repo: https://github.com/byu-oit/terraform-aws-rds
+		No keywords found in repo: byu-oit/terraform-aws-rds
+Remaining requests: 4168
+	Processing repo: https://github.com/ndebuhr/cloud-native-workstation
+		No keywords found in repo: ndebuhr/cloud-native-workstation
+Remaining requests: 4166
+	Processing repo: https://github.com/jg210/aws-experiments
+		No keywords found in repo: jg210/aws-experiments
+Remaining requests: 4164
+	Processing repo: https://github.com/CodeForPoznan/Infrastructure
+		No keywords found in repo: CodeForPoznan/Infrastructure
+Remaining requests: 4162
+	Processing repo: https://github.com/VJftw/infrastructure
+		No keywords found in repo: VJftw/infrastructure
+Remaining requests: 4160
+	Processing repo: https://github.com/lacework/terraform-gcp-audit-log
+		No keywords found in repo: lacework/terraform-gcp-audit-log
+Remaining requests: 4158
+	Processing repo: https://github.com/companieshouse/ceu-terraform
+		No keywords found in repo: companieshouse/ceu-terraform
+Remaining requests: 4156
+	Processing repo: https://github.com/ausmartway/gcp-playground
+		No keywords found in repo: ausmartway/gcp-playground
+Remaining requests: 4154
+	Processing repo: https://github.com/gedejong/infra
+		No keywords found in repo: gedejong/infra
+Remaining requests: 4152
+	Processing repo: https://github.com/aeternity/terraform-aws-devnet
+		No keywords found in repo: aeternity/terraform-aws-devnet
+Remaining requests: 4150
+	Processing repo: https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+		No keywords found in repo: JamesWoolfenden/terraform-aws-lex-lambda
+Remaining requests: 4148
+	Processing repo: https://github.com/jkstenzel95/jks.gameservers
+		No keywords found in repo: jkstenzel95/jks.gameservers
+Remaining requests: 4146
+	Processing repo: https://github.com/pelias/terraform-elasticsearch
+		No keywords found in repo: pelias/terraform-elasticsearch
+Remaining requests: 4144
+	Processing repo: https://github.com/nmaupu/auto-gcp
+		No keywords found in repo: nmaupu/auto-gcp
+Remaining requests: 4142
+	Processing repo: https://github.com/willfarrell/terraform-logs-module
+		No keywords found in repo: willfarrell/terraform-logs-module
+Remaining requests: 4140
+	Processing repo: https://github.com/rajesh-nitc/gcp-foundation
+		No keywords found in repo: rajesh-nitc/gcp-foundation
+Remaining requests: 4137
+	Processing repo: https://github.com/cob16/aws_static_website
+		No keywords found in repo: cob16/aws_static_website
+Remaining requests: 4135
+	Processing repo: https://github.com/appbricks/cloud-inceptor
+		No keywords found in repo: appbricks/cloud-inceptor
+Remaining requests: 4133
+	Processing repo: https://github.com/codequest-eu/terraform-modules
+		No keywords found in repo: codequest-eu/terraform-modules
+Remaining requests: 4131
+	Processing repo: https://github.com/coremaker/terraform-google-nucleus
+		No keywords found in repo: coremaker/terraform-google-nucleus
+Remaining requests: 4129
+	Processing repo: https://github.com/IncredibleHolg/infra-aws-code
+		No keywords found in repo: IncredibleHolg/infra-aws-code
+Remaining requests: 4127
+	Processing repo: https://github.com/kitchen/personal-terraform
+		No keywords found in repo: kitchen/personal-terraform
+Remaining requests: 4125
+	Processing repo: https://github.com/giuseppeborgese/terraform-locking-s3-state
+		No keywords found in repo: giuseppeborgese/terraform-locking-s3-state
+Found 21 repos with keywords and 54 without keywords.

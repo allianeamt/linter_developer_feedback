@@ -1,0 +1,300 @@
+[]
+check_fail_counts:
+  CKV2_AWS_61: 140
+  CKV_AWS_801: 12
+  CKV_AWS_802: 2
+  CKV_AWS_803: 3
+  CKV_AWS_804: 5
+check_pass_counts:
+  CKV2_AWS_61: 79
+  CKV_AWS_801: 21
+  CKV_AWS_802: 31
+  CKV_AWS_803: 30
+  CKV_AWS_804: 75
+only_failed: 5
+only_passed: 10
+tool: baseline_tf
+total_with_checks: 74
+total_without_checks: 1
+check_counts:
+  CKV2_AWS_61:
+    aware:
+      failed: 69
+      passed: 69
+    unaware:
+      failed: 71
+      passed: 10
+  CKV_AWS_801:
+    aware:
+      failed: 5
+      passed: 14
+    unaware:
+      failed: 7
+      passed: 7
+  CKV_AWS_802:
+    aware:
+      failed: 1
+      passed: 18
+    unaware:
+      failed: 1
+      passed: 13
+  CKV_AWS_803:
+    aware:
+      failed: 3
+      passed: 16
+    unaware:
+      failed: 0
+      passed: 14
+  CKV_AWS_804:
+    aware:
+      failed: 2
+      passed: 15
+    unaware:
+      failed: 3
+      passed: 60
+tool: baseline_tf (12m)
+check_counts:
+  CKV2_AWS_61:
+    aware:
+      failed: 140
+      passed: 79
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_801:
+    aware:
+      failed: 12
+      passed: 21
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_802:
+    aware:
+      failed: 2
+      passed: 31
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_803:
+    aware:
+      failed: 3
+      passed: 30
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_804:
+    aware:
+      failed: 5
+      passed: 75
+    unaware:
+      failed: 0
+      passed: 0
+tool: baseline_tf (10000c)
+check_fail_counts:
+  CKV_AWS_805: 376
+  CKV_AWS_806: 91
+  CKV_AWS_807: 89
+check_pass_counts:
+  CKV_AWS_805: 89
+  CKV_AWS_806: 107
+  CKV_AWS_807: 129
+only_failed: 8
+only_passed: 13
+tool: baseline_cf
+total_with_checks: 51
+total_without_checks: 2
+check_counts:
+  CKV_AWS_805:
+    aware:
+      failed: 202
+      passed: 44
+    unaware:
+      failed: 174
+      passed: 45
+  CKV_AWS_806:
+    aware:
+      failed: 47
+      passed: 58
+    unaware:
+      failed: 44
+      passed: 49
+  CKV_AWS_807:
+    aware:
+      failed: 43
+      passed: 70
+    unaware:
+      failed: 46
+      passed: 59
+tool: baseline_cf (12m)
+check_counts:
+  CKV_AWS_805:
+    aware:
+      failed: 376
+      passed: 89
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_806:
+    aware:
+      failed: 91
+      passed: 107
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_807:
+    aware:
+      failed: 89
+      passed: 129
+    unaware:
+      failed: 0
+      passed: 0
+tool: baseline_cf (10000c)
+check_fail_counts:
+  CKV2_AWS_61: 501
+  CKV_AWS_801: 61
+  CKV_AWS_802: 38
+  CKV_AWS_803: 20
+  CKV_AWS_804: 1104
+check_pass_counts:
+  CKV2_AWS_61: 148
+  CKV_AWS_801: 51
+  CKV_AWS_802: 74
+  CKV_AWS_803: 92
+  CKV_AWS_804: 425
+only_failed: 14
+only_passed: 15
+tool: extended_tf
+total_with_checks: 85
+total_without_checks: 4
+check_counts:
+  CKV2_AWS_61:
+    aware:
+      failed: 288
+      passed: 111
+    unaware:
+      failed: 213
+      passed: 37
+  CKV_AWS_801:
+    aware:
+      failed: 44
+      passed: 25
+    unaware:
+      failed: 17
+      passed: 26
+  CKV_AWS_802:
+    aware:
+      failed: 29
+      passed: 40
+    unaware:
+      failed: 9
+      passed: 34
+  CKV_AWS_803:
+    aware:
+      failed: 18
+      passed: 51
+    unaware:
+      failed: 2
+      passed: 41
+  CKV_AWS_804:
+    aware:
+      failed: 1053
+      passed: 311
+    unaware:
+      failed: 51
+      passed: 114
+tool: extended_tf (12m)
+check_counts:
+  CKV2_AWS_61:
+    aware:
+      failed: 378
+      passed: 140
+    unaware:
+      failed: 123
+      passed: 8
+  CKV_AWS_801:
+    aware:
+      failed: 52
+      passed: 50
+    unaware:
+      failed: 9
+      passed: 1
+  CKV_AWS_802:
+    aware:
+      failed: 33
+      passed: 69
+    unaware:
+      failed: 5
+      passed: 5
+  CKV_AWS_803:
+    aware:
+      failed: 19
+      passed: 83
+    unaware:
+      failed: 1
+      passed: 9
+  CKV_AWS_804:
+    aware:
+      failed: 1096
+      passed: 387
+    unaware:
+      failed: 8
+      passed: 38
+tool: extended_tf (10000c)
+check_fail_counts:
+  CKV_AWS_805: 4
+  CKV_AWS_807: 2
+check_pass_counts:
+  CKV_AWS_805: 2
+  CKV_AWS_806: 3
+  CKV_AWS_807: 2
+only_failed: 2
+only_passed: 2
+tool: extended_cf
+total_with_checks: 16
+total_without_checks: 0
+check_counts:
+  CKV_AWS_805:
+    aware:
+      failed: 0
+      passed: 1
+    unaware:
+      failed: 4
+      passed: 1
+  CKV_AWS_806:
+    aware:
+      failed: 0
+      passed: 1
+    unaware:
+      failed: 0
+      passed: 2
+  CKV_AWS_807:
+    aware:
+      failed: 2
+      passed: 2
+    unaware:
+      failed: 0
+      passed: 0
+tool: extended_cf (12m)
+check_counts:
+  CKV_AWS_805:
+    aware:
+      failed: 4
+      passed: 2
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_806:
+    aware:
+      failed: 0
+      passed: 3
+    unaware:
+      failed: 0
+      passed: 0
+  CKV_AWS_807:
+    aware:
+      failed: 2
+      passed: 2
+    unaware:
+      failed: 0
+      passed: 0
+tool: extended_cf (10000c)

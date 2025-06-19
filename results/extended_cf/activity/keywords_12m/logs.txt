@@ -1,0 +1,86 @@
+Searching for keywords in the last 12 months
+Remaining requests: 4929
+	Processing repo: https://github.com/BerriAI/litellm
+		Found keyword 'pay' in commit: https://api.github.com/repos/BerriAI/litellm/commits/0d09c8ec96d1e2b55a2cbdea8fa95cf109db6ef1
+		Found keyword 'cost' in commit: https://api.github.com/repos/BerriAI/litellm/commits/6630b39c79ff5a495e543761d351b35798efdf25
+		Found keyword 'bill' in commit: https://api.github.com/repos/BerriAI/litellm/commits/5848056c495af113c8bb7aeb967d9efef6548eb8
+		Found keyword 'cheap' in commit: https://api.github.com/repos/BerriAI/litellm/commits/1822c45c0ec3d0ac200e273618cd2b95fa3c5962
+		Found keyword 'expens' in commit: https://api.github.com/repos/BerriAI/litellm/commits/63556b90611573c5c5d4658589b42ae5e909d664
+		Found keyword 'efficient' in commit: https://api.github.com/repos/BerriAI/litellm/commits/c76d2c6ade1f18f3870ff425294de9b1752f1979
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/BerriAI/litellm/commits/9eb59e3645129e5f2dc8ffcf0e8298b1da5d58ea
+Remaining requests: 4837
+	Processing repo: https://github.com/chriscoffee/terraform-provider-aws
+		Found keyword 'bill' in commit: https://api.github.com/repos/chriscoffee/terraform-provider-aws/commits/2227c95ee7aa01315268dc8637e49b90e8d24efc
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/chriscoffee/terraform-provider-aws/commits/2227c95ee7aa01315268dc8637e49b90e8d24efc
+		Found keyword 'pay' in commit: https://api.github.com/repos/chriscoffee/terraform-provider-aws/commits/2227c95ee7aa01315268dc8637e49b90e8d24efc
+		Found keyword 'cost' in commit: https://api.github.com/repos/chriscoffee/terraform-provider-aws/commits/2227c95ee7aa01315268dc8637e49b90e8d24efc
+		Found keyword 'r/w' in commit: https://api.github.com/repos/chriscoffee/terraform-provider-aws/commits/2227c95ee7aa01315268dc8637e49b90e8d24efc
+Remaining requests: 4735
+	Processing repo: https://github.com/CloudGeometry/terraform-provider-aws
+		Found keyword 'bill' in commit: https://api.github.com/repos/CloudGeometry/terraform-provider-aws/commits/c57b10e8c0518a10f0d3bf8563a85c8dfba732d4
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/CloudGeometry/terraform-provider-aws/commits/c57b10e8c0518a10f0d3bf8563a85c8dfba732d4
+		Found keyword 'pay' in commit: https://api.github.com/repos/CloudGeometry/terraform-provider-aws/commits/c57b10e8c0518a10f0d3bf8563a85c8dfba732d4
+		Found keyword 'cost' in commit: https://api.github.com/repos/CloudGeometry/terraform-provider-aws/commits/c57b10e8c0518a10f0d3bf8563a85c8dfba732d4
+		Found keyword 'r/w' in commit: https://api.github.com/repos/CloudGeometry/terraform-provider-aws/commits/c57b10e8c0518a10f0d3bf8563a85c8dfba732d4
+Remaining requests: 4633
+	Processing repo: https://github.com/erickwill/litellm
+		Found keyword 'cost' in commit: https://api.github.com/repos/erickwill/litellm/commits/52ef96261fb131ea67b799771348cc79520dfdaa
+		Found keyword 'pay' in commit: https://api.github.com/repos/erickwill/litellm/commits/4d2edc4e7a9fba579550474c9afb95b51e7b3096
+		Found keyword 'cheap' in commit: https://api.github.com/repos/erickwill/litellm/commits/1822c45c0ec3d0ac200e273618cd2b95fa3c5962
+		Found keyword 'expens' in commit: https://api.github.com/repos/erickwill/litellm/commits/63556b90611573c5c5d4658589b42ae5e909d664
+		Found keyword 'efficient' in commit: https://api.github.com/repos/erickwill/litellm/commits/c76d2c6ade1f18f3870ff425294de9b1752f1979
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/erickwill/litellm/commits/9eb59e3645129e5f2dc8ffcf0e8298b1da5d58ea
+		Found keyword 'bill' in commit: https://api.github.com/repos/erickwill/litellm/commits/f9e6507cd1524a7c287abfe75f82594ed1723244
+Remaining requests: 4543
+	Processing repo: https://github.com/fidelity-contributions/hashicorp-terraform-provider-aws
+		Found keyword 'bill' in commit: https://api.github.com/repos/fidelity-contributions/hashicorp-terraform-provider-aws/commits/b9fee8cb8fbe3992d3b2490e71f0e3abbb3a06c0
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/fidelity-contributions/hashicorp-terraform-provider-aws/commits/b9fee8cb8fbe3992d3b2490e71f0e3abbb3a06c0
+		Found keyword 'pay' in commit: https://api.github.com/repos/fidelity-contributions/hashicorp-terraform-provider-aws/commits/b9fee8cb8fbe3992d3b2490e71f0e3abbb3a06c0
+		Found keyword 'cost' in commit: https://api.github.com/repos/fidelity-contributions/hashicorp-terraform-provider-aws/commits/b9fee8cb8fbe3992d3b2490e71f0e3abbb3a06c0
+		Found keyword 'r/w' in commit: https://api.github.com/repos/fidelity-contributions/hashicorp-terraform-provider-aws/commits/b9fee8cb8fbe3992d3b2490e71f0e3abbb3a06c0
+		Found keyword 'efficient' in commit: https://api.github.com/repos/fidelity-contributions/hashicorp-terraform-provider-aws/commits/015b5365707fc4de50c46f520981a0622a1a3254
+Remaining requests: 4441
+	Processing repo: https://github.com/highlight/highlight
+		Found keyword 'pay' in commit: https://api.github.com/repos/highlight/highlight/commits/339dd2bf70377543724eb714fafa8ae38031ce45
+		Found keyword 'bill' in commit: https://api.github.com/repos/highlight/highlight/commits/3c2deeda5f531e4b54789202a9313525ec238888
+		Found keyword 'expens' in commit: https://api.github.com/repos/highlight/highlight/commits/76d01cdd69887f8683c27d7cb1fd04019e4ae999
+		Found keyword 'cost' in commit: https://api.github.com/repos/highlight/highlight/commits/d90b0c8d90e5dbb9a7662f1f8ae6f01f46395171
+		Found keyword 'efficient' in commit: https://api.github.com/repos/highlight/highlight/commits/f43d3b4c108141cccd4dfa58d87501764746a8a1
+		Found keyword 'r/w' in commit: https://api.github.com/repos/highlight/highlight/commits/656156bbb538a0ca9c9aaffd42c85dfcf7338b19
+Remaining requests: 4433
+	Processing repo: https://github.com/jeschkies/loki
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/jeschkies/loki/commits/31cff22876532fc674505cd40d4bccaf5f831746
+		Found keyword 'pay' in commit: https://api.github.com/repos/jeschkies/loki/commits/b80f18636ffb4d85d0f08b19de479c1513f3d4ea
+		Found keyword 'cost' in commit: https://api.github.com/repos/jeschkies/loki/commits/009600cb517e60fafa3365795267e63d954fa212
+		Found keyword 'efficient' in commit: https://api.github.com/repos/jeschkies/loki/commits/cf54d502fcf76d8366db5af001cb18930669270c
+Remaining requests: 4405
+	Processing repo: https://github.com/open-policy-agent/conftest
+		Found keyword 'r/w' in commit: https://api.github.com/repos/open-policy-agent/conftest/commits/abad25585b78d45ab896ce836c3477a9c00c77d7
+Remaining requests: 4402
+	Processing repo: https://github.com/stellar/stellar-disbursement-platform-backend
+		Found keyword 'pay' in commit: https://api.github.com/repos/stellar/stellar-disbursement-platform-backend/commits/c250b1659170e103b76a98b4d91455b595576476
+Remaining requests: 4397
+	Processing repo: https://github.com/wundergraph/cosmo
+		Found keyword 'pay' in commit: https://api.github.com/repos/wundergraph/cosmo/commits/7dd44cbfb581410266c0a9c24299aceb8b0dc186
+		Found keyword 'cost' in commit: https://api.github.com/repos/wundergraph/cosmo/commits/94c9623b3b10449de2075dff149640809cafb52a
+		Found keyword 'efficient' in commit: https://api.github.com/repos/wundergraph/cosmo/commits/5f4db6a54d1d744af9dc193951a7adb7260fa4a1
+		Found keyword 'bill' in commit: https://api.github.com/repos/wundergraph/cosmo/commits/ba64b9b97b6ffa5ce91be0568960087ac2a460c9
+Remaining requests: 4384
+	Processing repo: https://github.com/aws-samples/talk-dev-to-me-twitch
+		Found keyword 'pay' in commit: https://api.github.com/repos/aws-samples/talk-dev-to-me-twitch/commits/17751cd19bafafbceece267f31a7282c180745cc
+Remaining requests: 4365
+	Processing repo: https://github.com/differentialhq/differential
+		No keywords found in repo: differentialhq/differential
+Remaining requests: 4363
+	Processing repo: https://github.com/sawyerh/highlights
+		No keywords found in repo: sawyerh/highlights
+Remaining requests: 4361
+	Processing repo: https://github.com/Mu-L/conftest
+		Found keyword 'r/w' in commit: https://api.github.com/repos/Mu-L/conftest/commits/abad25585b78d45ab896ce836c3477a9c00c77d7
+Remaining requests: 4358
+	Processing repo: https://github.com/govuk-one-login/ipv-cri-cic-api
+		No keywords found in repo: govuk-one-login/ipv-cri-cic-api
+Remaining requests: 4356
+	Processing repo: https://github.com/govuk-one-login/onboarding-product-page
+		No keywords found in repo: govuk-one-login/onboarding-product-page
+Found 12 repos with keywords and 4 without keywords.

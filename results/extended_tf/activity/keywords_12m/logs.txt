@@ -1,0 +1,338 @@
+Connected to GitHub as allianeamt
+Searching for keywords in repositories from the last 12 months...
+Remaining requests: 4218
+	Processing repo: https://github.com/ministryofjustice/modernisation-platform-environments
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform-environments/commits/78c9c1512a41a17774f1e6079d30529ec7a5a94c
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform-environments/commits/2f1963187589a9068f1cfae6a6c20ddc79239cf9
+		Found keyword 'pay' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform-environments/commits/e97531c276d6617816b245ed68f1b16972b9eed5
+Remaining requests: 4114
+	Processing repo: https://github.com/fleetdm/fleet
+		Found keyword 'pay' in commit: https://api.github.com/repos/fleetdm/fleet/commits/f4e032b6cdf6b5d00cb9e03000e55ee8ab89475c
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/fleetdm/fleet/commits/b8acdfacdf00a0f6d2dc796caedf9912481db417
+		Found keyword 'expens' in commit: https://api.github.com/repos/fleetdm/fleet/commits/444e13813f69c8343658e51e597f6cb0916b2077
+		Found keyword 'r/w' in commit: https://api.github.com/repos/fleetdm/fleet/commits/ac6885a865bda48232de7c75945b58746bb1a4c9
+		Found keyword 'efficient' in commit: https://api.github.com/repos/fleetdm/fleet/commits/1cd37ef966d983fc76c167be65389bbfce7fe1e3
+		Found keyword 'cost' in commit: https://api.github.com/repos/fleetdm/fleet/commits/8c338a1d775b51c1a1afe8dc8bf6fb5cca44ef06
+		Found keyword 'bill' in commit: https://api.github.com/repos/fleetdm/fleet/commits/c53332259f236d698da79b66d6466dc7cf0b0dc5
+Remaining requests: 4066
+	Processing repo: https://github.com/alphagov/di-authentication-api
+		Found keyword 'pay' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/66d0370ed7402208d7842b695dc241855fe45973
+		Found keyword 'bill' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/79bfffa44225be8679d24a5491b73da8aaebef9b
+		Found keyword 'efficient' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/23b4c2fd6c6211ed6ac8d07b86ad2cf8f18bd799
+		Found keyword 'cheap' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/e595690491469f3b6c2862cdb4ac1a155be4f880
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/c66499bf79cdcc51cb406679e2d46133b7d28614
+		Found keyword 'cost' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/0781d11f27c72707d6d9ef9bab74e44d3d59a5c1
+		Found keyword 'r/w' in commit: https://api.github.com/repos/govuk-one-login/authentication-api/commits/279c21d6dad7b6199fbbd8dba7ed2c0b8e57c3d3
+Remaining requests: 4015
+	Processing repo: https://github.com/wellcomecollection/wellcomecollection.org
+		Found keyword 'pay' in commit: https://api.github.com/repos/wellcomecollection/wellcomecollection.org/commits/f8e1ad7e8b3c43bdf85d4a1782e55c5e5d9a944b
+Remaining requests: 3986
+	Processing repo: https://github.com/gravitational/teleport
+		Found keyword 'pay' in commit: https://api.github.com/repos/gravitational/teleport/commits/60892cfc84a634d047a825bed209581a1c55d364
+		Found keyword 'expens' in commit: https://api.github.com/repos/gravitational/teleport/commits/1f6cd4538762c191af313a3952190120900809d0
+		Found keyword 'cost' in commit: https://api.github.com/repos/gravitational/teleport/commits/1f6cd4538762c191af313a3952190120900809d0
+		Found keyword 'efficient' in commit: https://api.github.com/repos/gravitational/teleport/commits/63e269a7569e38befb8965fde8212587c52d3144
+		Found keyword 'bill' in commit: https://api.github.com/repos/gravitational/teleport/commits/4592f344d5ffb3da8fdfe0873e1a6f364752f581
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/gravitational/teleport/commits/87135fc5e61d34f6990a796d6a78a7ad26a36a8f
+		Found keyword 'old generation' in commit: https://api.github.com/repos/gravitational/teleport/commits/769c43543277753d56ec95ecc277ab57171cb0b9
+Remaining requests: 3941
+	Processing repo: https://github.com/JesusFilm/core
+		Found keyword 'pay' in commit: https://api.github.com/repos/JesusFilm/core/commits/aab42e57144ecd427dfca34f5923652137a335d6
+Remaining requests: 4988
+	Processing repo: https://github.com/aptos-labs/aptos-core
+		Found keyword 'pay' in commit: https://api.github.com/repos/aptos-labs/aptos-core/commits/595f2ee8c106bbfda51f579ad81bf6b7c9de1602
+		Found keyword 'cost' in commit: https://api.github.com/repos/aptos-labs/aptos-core/commits/623156dfd42a4cc538664863de75c2296ed6a3c1
+		Found keyword 'efficient' in commit: https://api.github.com/repos/aptos-labs/aptos-core/commits/623156dfd42a4cc538664863de75c2296ed6a3c1
+Remaining requests: 4969
+	Processing repo: https://github.com/kubernetes/k8s.io
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/kubernetes/k8s.io/commits/9ff02a251137dead97d764c93650194537cb691c
+		Found keyword 'cost' in commit: https://api.github.com/repos/kubernetes/k8s.io/commits/1e9c07c7465f346fb6c16830573a44b4048c37e2
+		Found keyword 'pay' in commit: https://api.github.com/repos/kubernetes/k8s.io/commits/470a75034eb13e7702ffc8d24dd1044a141f333a
+		Found keyword 'r/w' in commit: https://api.github.com/repos/kubernetes/k8s.io/commits/ef58809ee23f7fe3617c201e2164c990e1e0f76e
+Remaining requests: 4943
+	Processing repo: https://github.com/alphagov/govuk-infrastructure
+		Found keyword 'cheap' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/4d549ce3550500c7254f14e58ddd257754195c99
+		Found keyword 'pay' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/9cfebd0287e16e86acb2653463f0f83eec9df0c9
+		Found keyword 'cost' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/93b431db22b75f896ac2a8c5f1f971aedea9457b
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/3a92b1085e80a89559b9de151125f9893d1982fe
+		Found keyword 'bill' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/008eaaa56f404d46adf21fdd1bf95dcfb27e507f
+Remaining requests: 4926
+	Processing repo: https://github.com/pytorch/test-infra
+		Found keyword 'expens' in commit: https://api.github.com/repos/pytorch/test-infra/commits/9e6445de05bfcf1ec31eca56bc0b6772385db253
+		Found keyword 'cost' in commit: https://api.github.com/repos/pytorch/test-infra/commits/9e6445de05bfcf1ec31eca56bc0b6772385db253
+		Found keyword 'bill' in commit: https://api.github.com/repos/pytorch/test-infra/commits/16ca37afb97cc44ce4594994541a7fc83f6aa387
+		Found keyword 'r/w' in commit: https://api.github.com/repos/pytorch/test-infra/commits/e0b305ced95b6ef24f08a8d62037b40d14060ffd
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/pytorch/test-infra/commits/80240820addcaab4107c7f149756383e0ccd93b4
+		Found keyword 'efficient' in commit: https://api.github.com/repos/pytorch/test-infra/commits/c62e321bf796bd7c41b12afff970ef4df0968d46
+		Found keyword 'pay' in commit: https://api.github.com/repos/pytorch/test-infra/commits/136177d82dee9d7df041f5836c63929b7de46e61
+Remaining requests: 4915
+	Processing repo: https://github.com/openshift/installer
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/openshift/installer/commits/62d3463220e96cf46c6d91879fd7e541a0226865
+		Found keyword 'cost' in commit: https://api.github.com/repos/openshift/installer/commits/45557dbcf70f5d0741dee20ff507a125fd60973d
+		Found keyword 'pay' in commit: https://api.github.com/repos/openshift/installer/commits/ca075d2d2bf376a5f418ef3e26bfbd35bd96b09e
+Remaining requests: 4897
+	Processing repo: https://github.com/returntocorp/semgrep
+		Found keyword 'efficient' in commit: https://api.github.com/repos/semgrep/semgrep/commits/92893c3a6aa97e5d59da774ed0518df0d17e5814
+		Found keyword 'cost' in commit: https://api.github.com/repos/semgrep/semgrep/commits/b8822e425ef39d7bec5c10e74bf3807f55cadb11
+		Found keyword 'expens' in commit: https://api.github.com/repos/semgrep/semgrep/commits/ce705742e94d7693004df2cb2d3b323185413084
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/semgrep/semgrep/commits/491383503545f5764adeddda6873646ba49cf863
+		Found keyword 'pay' in commit: https://api.github.com/repos/semgrep/semgrep/commits/85ae00b19ffcc6a8d7b0df99195076d619b337af
+Remaining requests: 4880
+	Processing repo: https://github.com/gitpod-io/gitpod
+		Found keyword 'pay' in commit: https://api.github.com/repos/gitpod-io/gitpod/commits/5c8700e427d9a6290e05c106a16dd64cd3676e65
+		Found keyword 'expens' in commit: https://api.github.com/repos/gitpod-io/gitpod/commits/2cd06706f6276242ea51ff2c6402ecc746fe3aef
+		Found keyword 'bill' in commit: https://api.github.com/repos/gitpod-io/gitpod/commits/9934171e77ef62591156679d3abe43e635261509
+		Found keyword 'efficient' in commit: https://api.github.com/repos/gitpod-io/gitpod/commits/994b6ec5d42975ad8b230ef98387151591728050
+Remaining requests: 4872
+	Processing repo: https://github.com/ministryofjustice/opg-lpa
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/opg-lpa/commits/8e10c2e4d637569f13eb1f9c3760e151ee947028
+Remaining requests: 4862
+	Processing repo: https://github.com/cds-snc/notification-terraform
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cds-snc/notification-terraform/commits/e5a79d9ed3248dd9bf6da2596f008122a241b853
+		Found keyword 'bill' in commit: https://api.github.com/repos/cds-snc/notification-terraform/commits/87a17b7438ed572eaacc735ca482fed306cecbe6
+Remaining requests: 4855
+	Processing repo: https://github.com/ministryofjustice/opg-digideps
+		Found keyword 'efficient' in commit: https://api.github.com/repos/ministryofjustice/opg-digideps/commits/828b01db11f6bada036430960fb289aadc15be3f
+Remaining requests: 4847
+	Processing repo: https://github.com/somleng/somleng-switch
+		Found keyword 'pay' in commit: https://api.github.com/repos/somleng/somleng-switch/commits/da3b4dfed7ad16fea2b18e0df02dedff6dde15a8
+		Found keyword 'r/w' in commit: https://api.github.com/repos/somleng/somleng-switch/commits/fc7e897a26af2d814f88b010fae200d636cb54fe
+Remaining requests: 4835
+	Processing repo: https://github.com/cloud-gov/cg-provision
+		Found keyword 'bill' in commit: https://api.github.com/repos/cloud-gov/terraform-provision/commits/a3ce5e16f79cf047658d3ce622d4b3d42e76a07e
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cloud-gov/terraform-provision/commits/468056e145de94d5046ae48ae98b3e0d52ac7476
+Remaining requests: 4825
+	Processing repo: https://github.com/somleng/somleng
+		Found keyword 'r/w' in commit: https://api.github.com/repos/somleng/somleng/commits/47b00eb7be741cc5a6dd9edc3bc90d8347500505
+		Found keyword 'pay' in commit: https://api.github.com/repos/somleng/somleng/commits/b8ebe3381339d5cbea2575d5ed079493769be823
+Remaining requests: 4814
+	Processing repo: https://github.com/compiler-explorer/infra
+		No keywords found in repo: compiler-explorer/infra
+Remaining requests: 4806
+	Processing repo: https://github.com/compiler-explorer/infra
+		No keywords found in repo: compiler-explorer/infra
+Remaining requests: 4798
+	Processing repo: https://github.com/nulib/meadow
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nulib/meadow/commits/7900d273ed80585d972beb7409cdc49ac0cbba4c
+Remaining requests: 4788
+	Processing repo: https://github.com/uktrade/data-workspace
+	Error processing repo uktrade/data-workspace: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 4787
+	Processing repo: https://github.com/Checkmarx/kics
+		Found keyword 'pay' in commit: https://api.github.com/repos/Checkmarx/kics/commits/ef44a59e26c6a7766ba6f485d0b47986cf5d6f9e
+Remaining requests: 4779
+	Processing repo: https://github.com/rust-lang/simpleinfra
+		Found keyword 'expens' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/40dfffea7955b9a428d1c640212a36b417ed890e
+		Found keyword 'bill' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/90b1e8a4ed367fab82c782a1bf6a4c4542b76e5c
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/38d367ffe96a647e582c3829c9c8d5b48e291be5
+Remaining requests: 4772
+	Processing repo: https://github.com/lingrino/infra-personal
+		No keywords found in repo: lingrino/infra-personal
+Remaining requests: 4768
+	Processing repo: https://github.com/kubefirst/gitops-template
+		No keywords found in repo: kubefirst/gitops-template
+Remaining requests: 4761
+	Processing repo: https://github.com/cds-snc/forms-terraform
+		Found keyword 'cost' in commit: https://api.github.com/repos/cds-snc/forms-terraform/commits/cbd6facc5e6de5b6c79c75bd460370cc6433b921
+Remaining requests: 4756
+	Processing repo: https://github.com/aneoconsulting/ArmoniK.Infra
+		Found keyword 'pay' in commit: https://api.github.com/repos/aneoconsulting/ArmoniK.Infra/commits/664fe00b5a787fa6dc3e7780ed9529d74dab96ad
+Remaining requests: 4751
+	Processing repo: https://github.com/CMSgov/beneficiary-fhir-data
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/CMSgov/beneficiary-fhir-data/commits/6b671421dd5f90104baa3354d4441db0376f60ef
+Remaining requests: 4745
+	Processing repo: https://github.com/SonarSource/sonar-iac
+		No keywords found in repo: SonarSource/sonar-iac
+Remaining requests: 4739
+	Processing repo: https://github.com/dfds/infrastructure-modules
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/f5ef65250bd03832b15cabf5df86838f5186f64b
+Remaining requests: 4734
+	Processing repo: https://github.com/turbot/steampipe-plugin-aws
+		Found keyword 'cost' in commit: https://api.github.com/repos/turbot/steampipe-plugin-aws/commits/b627026aefef582771dae003cd58f982a42c2012
+Remaining requests: 4731
+	Processing repo: https://github.com/antonputra/tutorials
+		Found keyword 'pay' in commit: https://api.github.com/repos/antonputra/tutorials/commits/38a9941291df9a0e674c8f9737d0272d382e268f
+		Found keyword 'efficient' in commit: https://api.github.com/repos/antonputra/tutorials/commits/38a9941291df9a0e674c8f9737d0272d382e268f
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/antonputra/tutorials/commits/ec10361a526e8e1a9671d77bc6e2e3fdac8ff7b1
+		Found keyword 'cost' in commit: https://api.github.com/repos/antonputra/tutorials/commits/b0e0595e47ff4c91dea70c280383a90eec82ef27
+Remaining requests: 4728
+	Processing repo: https://github.com/aneoconsulting/ArmoniK
+		Found keyword 'cheap' in commit: https://api.github.com/repos/aneoconsulting/ArmoniK/commits/5fec053940513c5575fc20a5d073c8890d8a5a42
+		Found keyword 'cost' in commit: https://api.github.com/repos/aneoconsulting/ArmoniK/commits/5fec053940513c5575fc20a5d073c8890d8a5a42
+		Found keyword 'pay' in commit: https://api.github.com/repos/aneoconsulting/ArmoniK/commits/505936062b6759e9e754f162b5a7878601705e8e
+Remaining requests: 4724
+	Processing repo: https://github.com/magenx/Magento-2-aws-cluster-terraform
+		No keywords found in repo: magenx/Magento-2-aws-cluster-terraform
+Remaining requests: 4720
+	Processing repo: https://github.com/cabinetoffice/gender-pay-gap
+		Found keyword 'efficient' in commit: https://api.github.com/repos/cabinetoffice/gender-pay-gap/commits/19fb553c7abb569d9105f9e50ec208cf5d9e6f43
+		Found keyword 'pay' in commit: https://api.github.com/repos/cabinetoffice/gender-pay-gap/commits/67815d5235e5eb77f1b4647355f8d693d958fa19
+Remaining requests: 4716
+	Processing repo: https://github.com/philips-labs/terraform-aws-github-runner
+		Found keyword 'cost' in commit: https://api.github.com/repos/philips-labs/terraform-aws-github-runner/commits/fbac69af8bd95bcd0796d787d7b75b5354a39478
+		Found keyword 'bill' in commit: https://api.github.com/repos/philips-labs/terraform-aws-github-runner/commits/fbac69af8bd95bcd0796d787d7b75b5354a39478
+		Found keyword 'pay' in commit: https://api.github.com/repos/philips-labs/terraform-aws-github-runner/commits/e3cd5b4c5c92ff1107f03f04d691ba8ed214da4d
+		Found keyword 'efficient' in commit: https://api.github.com/repos/philips-labs/terraform-aws-github-runner/commits/ef89b98ca3494d8dac0a38f7f39a73128e6444af
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/philips-labs/terraform-aws-github-runner/commits/ef89b98ca3494d8dac0a38f7f39a73128e6444af
+Remaining requests: 4712
+	Processing repo: https://github.com/nasa/cumulus
+		Found keyword 'pay' in commit: https://api.github.com/repos/nasa/cumulus/commits/ac10ca0c605b3f199078c9ec36a1b60754aff0d6
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nasa/cumulus/commits/bae3a87b387e8a6e39713924a99fea13ebd1efdb
+Remaining requests: 4708
+	Processing repo: https://github.com/aws-ia/terraform-aws-eks-blueprints
+		No keywords found in repo: aws-ia/terraform-aws-eks-blueprints
+Remaining requests: 4705
+	Processing repo: https://github.com/umccr/infrastructure
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/umccr/infrastructure/commits/0c58752305107f56b9bd58e0ad5acb3fab39135c
+Remaining requests: 4701
+	Processing repo: https://github.com/Worklytics/psoxy
+		Found keyword 'pay' in commit: https://api.github.com/repos/Worklytics/psoxy/commits/674b3b7486aaa4d323aee3c5bb0cc4f82c044fa5
+Remaining requests: 4698
+	Processing repo: https://github.com/JamesWoolfenden/pike
+		No keywords found in repo: JamesWoolfenden/pike
+Remaining requests: 4695
+	Processing repo: https://github.com/mattermost/mattermost-cloud-monitoring
+		Found keyword 'cost' in commit: https://api.github.com/repos/mattermost/mattermost-cloud-monitoring/commits/a761dc5c496d67aafd5fa99ab401f04d4a4d4eb5
+Remaining requests: 4692
+	Processing repo: https://github.com/alphagov/govwifi-terraform
+		Found keyword 'cost' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/ecb40c5f7484a148a57631c119a59c01f3b1d8cd
+		Found keyword 'pay' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/ecb40c5f7484a148a57631c119a59c01f3b1d8cd
+Remaining requests: 4688
+	Processing repo: https://github.com/infracost/infracost
+		Found keyword 'cost' in commit: https://api.github.com/repos/infracost/infracost/commits/2da647229f2397d740787cf7e928932e86904a43
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/infracost/infracost/commits/c9d92fe2c47b23dc81ea159dae2a846edf128109
+Remaining requests: 4685
+	Processing repo: https://github.com/openfun/marsha
+		Found keyword 'cost' in commit: https://api.github.com/repos/openfun/marsha/commits/0ac4456253910a37f4d37deda6b9aa0fa7cfdadc
+Remaining requests: 4682
+	Processing repo: https://github.com/iriusrisk/startleft
+		No keywords found in repo: iriusrisk/startleft
+Remaining requests: 4679
+	Processing repo: https://github.com/ministryofjustice/opg-terraform-aws-account
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/opg-terraform-aws-account/commits/cc73bcdd127d9063c828b55bc89412d7793fac30
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/opg-terraform-aws-account/commits/61aa6192568fb344c460900851efbdb0d0cadffa
+		Found keyword 'bill' in commit: https://api.github.com/repos/ministryofjustice/opg-terraform-aws-account/commits/61aa6192568fb344c460900851efbdb0d0cadffa
+Remaining requests: 4676
+	Processing repo: https://github.com/byu-oit/hw-fargate-api
+		No keywords found in repo: byu-oit/hw-fargate-api
+Remaining requests: 4673
+	Processing repo: https://github.com/cisagov/dmarc-import-tf-module
+		No keywords found in repo: cisagov/dmarc-import-tf-module
+Remaining requests: 4670
+	Processing repo: https://github.com/bcgov/workbc-main
+		No keywords found in repo: bcgov/workbc-main
+Remaining requests: 4667
+	Processing repo: https://github.com/eana/bitwarden-tf-aws
+		No keywords found in repo: eana/bitwarden-tf-aws
+Remaining requests: 4665
+	Processing repo: https://github.com/asquarezone/TerraformZone
+		No keywords found in repo: asquarezone/TerraformZone
+Remaining requests: 4663
+	Processing repo: https://github.com/18F/identity-terraform
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/18F/identity-terraform/commits/c53ecfc22695e38704f29dd4b43d2aa1b6a4b43d
+Remaining requests: 4661
+	Processing repo: https://github.com/cloudposse/terraform-aws-cloudfront-s3-cdn
+		No keywords found in repo: cloudposse/terraform-aws-cloudfront-s3-cdn
+Remaining requests: 4659
+	Processing repo: https://github.com/masterpointio/terraform-aws-ssm-agent
+		No keywords found in repo: masterpointio/terraform-aws-ssm-agent
+Remaining requests: 4657
+	Processing repo: https://github.com/heldersepu/hs-scripts
+		No keywords found in repo: heldersepu/hs-scripts
+Remaining requests: 4655
+	Processing repo: https://github.com/SumoLogic/terraform-sumologic-sumo-logic-integrations
+		No keywords found in repo: SumoLogic/terraform-sumologic-sumo-logic-integrations
+Remaining requests: 4653
+	Processing repo: https://github.com/sighupio/fury-eks-installer
+		No keywords found in repo: sighupio/fury-eks-installer
+Remaining requests: 4650
+	Processing repo: https://github.com/aws-ia/terraform-aws-control_tower_account_factory
+		No keywords found in repo: aws-ia/terraform-aws-control_tower_account_factory
+Remaining requests: 4648
+	Processing repo: https://github.com/nlamirault/terraform-aws-observability
+		No keywords found in repo: nlamirault/terraform-aws-observability
+Remaining requests: 4646
+	Processing repo: https://github.com/e2eSolutionArchitect/terraform
+		No keywords found in repo: e2eSolutionArchitect/terraform
+Remaining requests: 4644
+	Processing repo: https://github.com/clojars/infrastructure
+		No keywords found in repo: clojars/infrastructure
+Remaining requests: 4642
+	Processing repo: https://github.com/moritzzimmer/terraform-aws-lambda
+		No keywords found in repo: moritzzimmer/terraform-aws-lambda
+Remaining requests: 4640
+	Processing repo: https://github.com/OceanSoftIO/Terraform
+		No keywords found in repo: OceanSoftIO/Terraform
+Remaining requests: 4637
+	Processing repo: https://github.com/girder/terraform-heroku-girder4
+		No keywords found in repo: girder/terraform-heroku-girder4
+Remaining requests: 4634
+	Processing repo: https://github.com/akerl/aws-account
+		No keywords found in repo: akerl/aws-account
+Remaining requests: 4632
+	Processing repo: https://github.com/projecthorus/sondehub-infra
+		No keywords found in repo: projecthorus/sondehub-infra
+Remaining requests: 4630
+	Processing repo: https://github.com/ine-labs/AWSGoat
+		No keywords found in repo: ine-labs/AWSGoat
+Remaining requests: 4628
+	Processing repo: https://github.com/alphagov/govuk-aws
+		Found keyword 'cost' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/26aeed5193d8e0869a6f0a1c4dbe2e375db0ff05
+Remaining requests: 4626
+	Processing repo: https://github.com/aws/aws-xray-sdk-python
+		No keywords found in repo: aws/aws-xray-sdk-python
+Remaining requests: 4624
+	Processing repo: https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2
+		No keywords found in repo: terraform-aws-modules/terraform-aws-apigateway-v2
+Remaining requests: 4622
+	Processing repo: https://github.com/aws-samples/amazon-guardduty-for-aws-organizations-with-terraform
+		No keywords found in repo: aws-samples/amazon-guardduty-for-aws-organizations-with-terraform
+Remaining requests: 4620
+	Processing repo: https://github.com/spkane/todo-for-terraform
+		No keywords found in repo: spkane/todo-for-terraform
+Remaining requests: 4618
+	Processing repo: https://github.com/confluentinc/demo-scene
+		Found keyword 'pay' in commit: https://api.github.com/repos/confluentinc/demo-scene/commits/a1f95e72666ca78b510e4a6941130d1f06e75609
+Remaining requests: 4616
+	Processing repo: https://github.com/88lexd/lexd-solutions
+		No keywords found in repo: 88lexd/lexd-solutions
+Remaining requests: 4614
+	Processing repo: https://github.com/web-mev/mev-backend
+		No keywords found in repo: web-mev/mev-backend
+Remaining requests: 4612
+	Processing repo: https://github.com/rohits-dev/dev-lab-aws
+		No keywords found in repo: rohits-dev/dev-lab-aws
+Remaining requests: 4610
+	Processing repo: https://github.com/privacysandbox/fledge-key-value-service
+		No keywords found in repo: privacysandbox/fledge-key-value-service
+Remaining requests: 4607
+	Processing repo: https://github.com/LeoneGarage/terraform
+		No keywords found in repo: LeoneGarage/terraform
+Remaining requests: 4605
+	Processing repo: https://github.com/C2Devel/terraform-examples
+		No keywords found in repo: C2Devel/terraform-examples
+Remaining requests: 4603
+	Processing repo: https://github.com/zoitech/terraform-aws-s3-with-iam-access
+		No keywords found in repo: zoitech/terraform-aws-s3-with-iam-access
+Remaining requests: 4601
+	Processing repo: https://github.com/rackspace-infrastructure-automation/aws-terraform-s3
+		No keywords found in repo: rackspace-infrastructure-automation/aws-terraform-s3
+Remaining requests: 4599
+	Processing repo: https://github.com/zenml-io/mlops-stacks
+		No keywords found in repo: zenml-io/mlops-stacks
+Remaining requests: 4596
+	Processing repo: https://github.com/assareh/tfc-agent
+		No keywords found in repo: assareh/tfc-agent
+Remaining requests: 4594
+	Processing repo: https://github.com/lpm0073/cookiecutter-openedx-devops
+		No keywords found in repo: lpm0073/cookiecutter-openedx-devops
+Remaining requests: 4591
+	Processing repo: https://github.com/VeeamHub/veeam-terraform
+		No keywords found in repo: VeeamHub/veeam-terraform
+Remaining requests: 4589
+	Processing repo: https://github.com/mingfang/terraform-kubernetes
+		No keywords found in repo: mingfang/terraform-kubernetes
+Remaining requests: 4587
+	Processing repo: https://github.com/paulmarsicloud/terraform-aws-openvpn-ephemeral
+		No keywords found in repo: paulmarsicloud/terraform-aws-openvpn-ephemeral
+Found 42 repos with keywords and 47 without keywords.

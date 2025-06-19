@@ -1,0 +1,1021 @@
+Connected to GitHub as allianeamt
+Checking 205 repositories for activity in the last 12 months...
+Remaining requests: 1229
+	Checking repository: https://github.com/hayemaxi/aws-toolkit-vscode
+		Commits found: 3479
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 1222
+	Checking repository: https://github.com/DEFRA/rod-licensing
+		Commits found: 288
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1215
+	Checking repository: https://github.com/zaro0508/organizations-infra
+		Commits found: 244
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1208
+	Checking repository: https://github.com/govuk-one-login/onboarding-self-service-experience
+		Commits found: 415
+		Issues found: 0
+		Pull requests found: 324
+Remaining requests: 1191
+	Checking repository: https://github.com/aldeka/jolly-roger
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1181
+	Checking repository: https://github.com/nao1215/rainbow
+		Commits found: 119
+		Issues found: 0
+		Pull requests found: 134
+Remaining requests: 1172
+	Checking repository: https://github.com/bencehornak/copilot-cli
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1165
+	Checking repository: https://github.com/awslabs/aws-well-architected-labs
+		Commits found: 16
+		Issues found: 0
+		Pull requests found: 13
+Remaining requests: 1158
+	Checking repository: https://github.com/YubicoLabs/WebAuthnKit
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 2
+Remaining requests: 1151
+	Checking repository: https://github.com/aws-samples/serverless-patterns
+		Commits found: 1216
+		Issues found: 0
+		Pull requests found: 329
+Remaining requests: 1128
+	Checking repository: https://github.com/stelligent/cfn_nag
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1121
+	Checking repository: https://github.com/widdix/aws-cf-templates
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1114
+	Checking repository: https://github.com/FINRAOS/herd-mdl
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1107
+	Checking repository: https://github.com/shinesolutions/aem-aws-stack-builder
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1100
+	Checking repository: https://github.com/buildkite/elastic-ci-stack-for-aws
+		Commits found: 297
+		Issues found: 0
+		Pull requests found: 177
+Remaining requests: 1091
+	Checking repository: https://github.com/kennyk65/aws-teaching-demos
+		Commits found: 27
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1084
+	Checking repository: https://github.com/ceno/Quake3Quest-servers
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1077
+	Checking repository: https://github.com/burke1791/march-madness-calcutta-api
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1070
+	Checking repository: https://github.com/GerritCodeReview/aws-gerrit
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1063
+	Checking repository: https://github.com/guardian/mobile-n10n
+		Commits found: 449
+		Issues found: 0
+		Pull requests found: 246
+Remaining requests: 1049
+	Checking repository: https://github.com/mludvig/aws-crypto-miner
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 1042
+	Checking repository: https://github.com/chef-boneyard/aws_native_chef_server
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1035
+	Checking repository: https://github.com/sebsto/tictactoe-cdk
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1028
+	Checking repository: https://github.com/natmasslove/aws_howto
+		Commits found: 11
+		Issues found: 0
+		Pull requests found: 16
+Remaining requests: 1021
+	Checking repository: https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+		Commits found: 145
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1013
+	Checking repository: https://github.com/nathanpeck/ecs-patterns-vitepress
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1006
+	Checking repository: https://github.com/code402/datasette-lambda
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 999
+	Checking repository: https://github.com/rik2803/aws-account-config
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 992
+	Checking repository: https://github.com/aws/aws-parallelcluster-ui
+		Commits found: 61
+		Issues found: 0
+		Pull requests found: 86
+Remaining requests: 982
+	Checking repository: https://github.com/tomwetjens/boardgamefiesta
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 975
+	Checking repository: https://github.com/guardian/mobile-purchases
+		Commits found: 539
+		Issues found: 0
+		Pull requests found: 339
+Remaining requests: 959
+	Checking repository: https://github.com/casual-simulation/casualos
+		Commits found: 1307
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 952
+	Checking repository: https://github.com/tomwwright/littleorange
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 945
+	Checking repository: https://github.com/Sage-Bionetworks/aws-infra
+		Commits found: 30
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 938
+	Checking repository: https://github.com/unity-sds/unity-ads-deployment
+		Commits found: 86
+		Issues found: 0
+		Pull requests found: 8
+Remaining requests: 931
+	Checking repository: https://github.com/pagopa/pn-infra
+		Commits found: 585
+		Issues found: 0
+		Pull requests found: 32
+Remaining requests: 924
+	Checking repository: https://github.com/aws-samples/amazon-dynamodb-labs
+		Commits found: 13
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 917
+	Checking repository: https://github.com/primeharbor/pht-prowler-searchcluster
+		Commits found: 59
+		Issues found: 0
+		Pull requests found: 14
+Remaining requests: 910
+	Checking repository: https://github.com/biometrixtech/infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 903
+	Checking repository: https://github.com/turnerlabs/antiope
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 896
+	Checking repository: https://github.com/developmentseed/sat-api-pg
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 889
+	Checking repository: https://github.com/guardian/archivehunter
+		Commits found: 4
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 882
+	Checking repository: https://github.com/aws-samples/accelerated-data-lake
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 875
+	Checking repository: https://github.com/danielgblanco/diaspora-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 868
+	Checking repository: https://github.com/aws-samples/route-53-application-recovery-controller
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 861
+	Checking repository: https://github.com/UBC-CIC/EC2Ensemble
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 854
+	Checking repository: https://github.com/openrelayxyz/ethercattle-deployment
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 5000
+	Checking repository: https://github.com/skepticoin/skepticoin
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4992
+	Checking repository: https://github.com/gbourniq/django-on-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4983
+	Checking repository: https://github.com/sjakthol/aws-account-infra
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4976
+	Checking repository: https://github.com/m-chandler/factorio-spot-pricing
+		Commits found: 32
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4969
+	Checking repository: https://github.com/MrMarvin/open-wow-drealmd
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4962
+	Checking repository: https://github.com/guardian/status-app
+		Commits found: 56
+		Issues found: 0
+		Pull requests found: 13
+Remaining requests: 4955
+	Checking repository: https://github.com/aws-samples/serverless-observability-workshop
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4948
+	Checking repository: https://github.com/OlivierBP/pacloud
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4941
+	Checking repository: https://github.com/ktkiiski/broilerkit
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4934
+	Checking repository: https://github.com/guardian/multimedia-plasma-dashboard
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4927
+	Checking repository: https://github.com/enekofb/beyond-gdp
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4920
+	Checking repository: https://github.com/NHSDigital/eps-prescription-status-update-api
+		Commits found: 1085
+		Issues found: 0
+		Pull requests found: 1403
+Remaining requests: 4896
+	Checking repository: https://github.com/rsibanez89/venko
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4889
+	Checking repository: https://github.com/cumulous/backend
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4882
+	Checking repository: https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+		Commits found: 546
+		Issues found: 0
+		Pull requests found: 12
+Remaining requests: 4875
+	Checking repository: https://github.com/mattBrzezinski/AWSClusterManagersDemo.jl
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4868
+	Checking repository: https://github.com/nhsx/covid-chest-imaging-database
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4861
+	Checking repository: https://github.com/LeanerCloud/AutoSpotting
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4854
+	Checking repository: https://github.com/aodn/aws-wps
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4847
+	Checking repository: https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+		Commits found: 202
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4840
+	Checking repository: https://github.com/amazon-connect/amazon-connect-snippets
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4833
+	Checking repository: https://github.com/nasa-petal/PeTaL-db
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4826
+	Checking repository: https://github.com/dismantl/CaseHarvester
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4819
+	Checking repository: https://github.com/adrian83/aws-samples
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4812
+	Checking repository: https://github.com/philipmw/homeontheroute-api
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4805
+	Checking repository: https://github.com/p-jackson/aws-app
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4798
+	Checking repository: https://github.com/voyagertherapeutics/aws-genomics-workflows
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4791
+	Checking repository: https://github.com/Saumya25mis/renzen-bot
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4784
+	Checking repository: https://github.com/h1f1x/aws-cfn-examples
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4777
+	Checking repository: https://github.com/stackery/dotnet-framework-webapi
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4770
+	Checking repository: https://github.com/S8Vega/academic-friends-api
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4763
+	Checking repository: https://github.com/qld-gov-au/ckan-qld-infrastructure
+		Commits found: 381
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4756
+	Checking repository: https://github.com/cyberark/conjur-ecs-deploy
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 4749
+	Error checking repo https://github.com/tradle/mycloud: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 4748
+	Checking repository: https://github.com/Saneri/event-signup
+		Commits found: 104
+		Issues found: 0
+		Pull requests found: 80
+Remaining requests: 4740
+	Checking repository: https://github.com/timmy-cde/aws-bootcamp-cruddur-2023
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4733
+	Checking repository: https://github.com/Jessinra/TriveryID-Skadi
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4726
+	Checking repository: https://github.com/leifgehrmann/setzen
+		Commits found: 13
+		Issues found: 0
+		Pull requests found: 2
+Remaining requests: 4719
+	Checking repository: https://github.com/aws-samples/aws-serverless-ecommerce-platform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 2
+Remaining requests: 4712
+	Checking repository: https://github.com/ASFHyP3/asf-stac
+		Commits found: 273
+		Issues found: 0
+		Pull requests found: 10
+Remaining requests: 4705
+	Checking repository: https://github.com/ashley-evans/how-many-buzzwords
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4698
+	Checking repository: https://github.com/aws-samples/amazon-sagemaker-secure-mlops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4691
+	Checking repository: https://github.com/andymac4182/fargate-bastion
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4684
+	Checking repository: https://github.com/APTrust/preservation-services
+		Commits found: 82
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4677
+	Checking repository: https://github.com/biometrixtech/PreProcessing
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4670
+	Checking repository: https://github.com/SedaiEngineering/sedai-onboarding
+		Commits found: 77
+		Issues found: 0
+		Pull requests found: 17
+Remaining requests: 4663
+	Checking repository: https://github.com/aws-samples/amazon-sagemaker-safe-deployment-pipeline
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4656
+	Checking repository: https://github.com/guardian/mobile-save-for-later
+		Commits found: 115
+		Issues found: 0
+		Pull requests found: 46
+Remaining requests: 4649
+	Checking repository: https://github.com/Financial-Times/com.ft.editorial.cms.ecs
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4642
+	Checking repository: https://github.com/torproject/metrics-cloud
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4635
+	Checking repository: https://github.com/arturlr/minecraft-server-dashboard
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 4628
+	Checking repository: https://github.com/UTSA-ICS/galahad
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4621
+	Checking repository: https://github.com/RLOpenCatalyst/rgdeploy
+		Commits found: 34
+		Issues found: 0
+		Pull requests found: 5
+Remaining requests: 4614
+	Checking repository: https://github.com/jolexa/s3-staticsite-multiregion
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4607
+	Checking repository: https://github.com/awslabs/cid-framework
+		Commits found: 185
+		Issues found: 0
+		Pull requests found: 188
+Remaining requests: 4594
+	Checking repository: https://github.com/wolfeidau/aws-billing-store
+		Commits found: 5
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4587
+	Checking repository: https://github.com/govuk-one-login/txma-infra
+		Commits found: 39
+		Issues found: 0
+		Pull requests found: 43
+Remaining requests: 4576
+	Checking repository: https://github.com/jamesoff/cloud
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4569
+	Checking repository: https://github.com/cyberark/pas-on-cloud
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4562
+	Checking repository: https://github.com/alope107/collage-sam
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4555
+	Checking repository: https://github.com/Sage-Bionetworks/service-catalog-library
+		Commits found: 10
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4548
+	Checking repository: https://github.com/aws-samples/aws-rosettafold
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4541
+	Checking repository: https://github.com/superwerker/superwerker
+		Commits found: 48
+		Issues found: 0
+		Pull requests found: 251
+Remaining requests: 4529
+	Checking repository: https://github.com/BoraxTheClean/aws-account-setup
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4522
+	Checking repository: https://github.com/HicResearch/TREEHOOSE
+		Commits found: 2
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 4515
+	Checking repository: https://github.com/kerryconvery/game-stream-search-public
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4508
+	Checking repository: https://github.com/deathandmayhem/jolly-roger
+		Commits found: 288
+		Issues found: 0
+		Pull requests found: 235
+Remaining requests: 4482
+	Checking repository: https://github.com/kriation/cloudformation
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4475
+	Checking repository: https://github.com/DiscoverAI/sars-cov-2-drug-design
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4468
+	Checking repository: https://github.com/rapticore/aws-onboarding
+		Commits found: 19
+		Issues found: 0
+		Pull requests found: 9
+Remaining requests: 4461
+	Checking repository: https://github.com/Formula-Thoughts/flatshare-extension
+		Commits found: 274
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4454
+	Checking repository: https://github.com/wolfeidau/wolfeidau_site
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4447
+	Checking repository: https://github.com/CloudEric/dnsvpn-cloudformation
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4440
+	Checking repository: https://github.com/aws-samples/serverless-rss-filtered-feed-gen
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4433
+	Checking repository: https://github.com/primeharbor/aws-account-automation
+		Commits found: 11
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4426
+	Checking repository: https://github.com/widdix/mastodon-on-aws
+		Commits found: 39
+		Issues found: 0
+		Pull requests found: 4
+Remaining requests: 4419
+	Checking repository: https://github.com/atlassian/aws-infrastructure
+		Commits found: 41
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4412
+	Checking repository: https://github.com/guardian/multimedia-launchdetector-v3
+		Commits found: 7
+		Issues found: 0
+		Pull requests found: 2
+Remaining requests: 4405
+	Checking repository: https://github.com/guardian/members-data-api
+		Commits found: 177
+		Issues found: 0
+		Pull requests found: 52
+Remaining requests: 4392
+	Checking repository: https://github.com/goldfinchbio/emr-hail
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4385
+	Checking repository: https://github.com/cagov/api.alpha.ca.gov
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4378
+	Checking repository: https://github.com/btkrausen/aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4371
+	Checking repository: https://github.com/em-shea/vocab
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4364
+	Checking repository: https://github.com/cfn-modules/docs
+		Commits found: 25
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4357
+	Checking repository: https://github.com/unity-sds/unity-on-demand-cloudformation
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4350
+	Checking repository: https://github.com/cunningham-lab/neurocaas
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4343
+	Checking repository: https://github.com/smallriver0316/aws-cost-reporter
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4336
+	Checking repository: https://github.com/openrelayxyz/log-flume
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4329
+	Checking repository: https://github.com/viralemergence/pharos-api
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4322
+	Checking repository: https://github.com/karthickcse05/aws-cost-explorer
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4315
+	Checking repository: https://github.com/xhiroga/til
+		Commits found: 573
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 4303
+	Checking repository: https://github.com/guardian/identity-processes
+		Commits found: 6
+		Issues found: 0
+		Pull requests found: 10
+Remaining requests: 4295
+	Checking repository: https://github.com/biometrixtech/Users
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4288
+	Checking repository: https://github.com/kalleeh/aws-msb
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4281
+	Checking repository: https://github.com/pagopa/pn-radd-fsu
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4274
+	Checking repository: https://github.com/pagopa/pn-ec
+		Commits found: 134
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 4265
+	Checking repository: https://github.com/devcjohn/cj.cafe
+		Commits found: 9
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4258
+	Checking repository: https://github.com/sjakthol/cfn-execute-change-set
+		Commits found: 82
+		Issues found: 0
+		Pull requests found: 82
+Remaining requests: 4249
+	Checking repository: https://github.com/conijnio/aws-security-posture
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4242
+	Checking repository: https://github.com/andrestoll/aws-lambda-power-tuning
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4235
+	Checking repository: https://github.com/caseconsulting/expense-app-api
+		Commits found: 113
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4228
+	Checking repository: https://github.com/aws-solutions-library-samples/guidance-for-game-production-environment-on-aws
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4221
+	Checking repository: https://github.com/release-engineering/exodus-lambda
+		Commits found: 144
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4214
+	Checking repository: https://github.com/govuk-one-login/di-account-management-backend
+		Commits found: 214
+		Issues found: 0
+		Pull requests found: 406
+Remaining requests: 4201
+	Checking repository: https://github.com/ShahradR/s3-logging
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4194
+	Checking repository: https://github.com/AtlasOfLivingAustralia/ala-tokens-portal
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4187
+	Checking repository: https://github.com/lambci/lambci
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4180
+	Checking repository: https://github.com/aws-samples/aws-serverless-workshop-innovator-island
+		Commits found: 12
+		Issues found: 0
+		Pull requests found: 5
+Remaining requests: 4173
+	Checking repository: https://github.com/aexeagmbh/cfn-lint-rules
+		Commits found: 44
+		Issues found: 0
+		Pull requests found: 21
+Remaining requests: 4165
+	Checking repository: https://github.com/Nonagon-Media/acg
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4158
+	Checking repository: https://github.com/zaro0508/sandbox-infra
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4151
+	Checking repository: https://github.com/prabhatsharma/aws-inspector-assessment
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4144
+	Checking repository: https://github.com/craigmayhew/aws-transcribe-on-s3-upload
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4137
+	Checking repository: https://github.com/rotiroti/alessandrina
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 4
+Remaining requests: 4130
+	Checking repository: https://github.com/cmiles74/cloudformation-tutorial
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4123
+	Checking repository: https://github.com/fesaab/saab-tools-finance
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4116
+	Checking repository: https://github.com/kushalshrestha/aws-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4109
+	Checking repository: https://github.com/brwyatt/smartthings_logging
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4102
+	Checking repository: https://github.com/vladikk/elastic-event-store
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4095
+	Checking repository: https://github.com/Igor-Ivaniuk/codepipeline-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4088
+	Checking repository: https://github.com/gnelabs/EpithyRoboTrader
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4081
+	Checking repository: https://github.com/efio-dk/JobPostFilter
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4074
+	Checking repository: https://github.com/neerajtiwar/aws-cost-exporter
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4067
+	Checking repository: https://github.com/george-richardson/terraform-aws-personal-org
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4060
+	Checking repository: https://github.com/benkulcsar/newswatch
+		Commits found: 12
+		Issues found: 0
+		Pull requests found: 12
+Remaining requests: 4053
+	Checking repository: https://github.com/abaird986/aws-modern-application-workshop
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4046
+	Checking repository: https://github.com/adilosa/awswhatsnew
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4039
+	Checking repository: https://github.com/pagopa/pn-mandate
+		Commits found: 58
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4032
+	Checking repository: https://github.com/adamjreed/dogchecker
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4025
+	Checking repository: https://github.com/troyready/onica-create-2019-serverless
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4018
+	Checking repository: https://github.com/Sage-Bionetworks-IT/lambda-finops-cost-rules
+		Commits found: 19
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4011
+	Checking repository: https://github.com/aws-samples/aws-serverless-notifier-plugins
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4004
+	Checking repository: https://github.com/Aleksandr-Filichkin/aws-lambda-runtimes-performance
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3997
+	Checking repository: https://github.com/jchrisfarris/cft-deploy
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3990
+	Checking repository: https://github.com/BastLeblanc/retail-demo-store
+		Commits found: 55
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3983
+	Checking repository: https://github.com/littermap/littermap-aws-backend
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3976
+	Checking repository: https://github.com/Nxtra/aws-billing-alarms
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3969
+	Checking repository: https://github.com/steffanturanjanin/receipt-manager
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3962
+	Checking repository: https://github.com/lumigo-io/SAR-async-lambda-metrics
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3955
+	Checking repository: https://github.com/ahamlinman/randomizer
+		Commits found: 49
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3948
+	Checking repository: https://github.com/PRX/Infrastructure
+		Commits found: 349
+		Issues found: 0
+		Pull requests found: 42
+Remaining requests: 3940
+	Checking repository: https://github.com/Checkmarx/kics
+		Commits found: 709
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3933
+	Checking repository: https://github.com/zalando-incubator/kubernetes-on-aws
+		Commits found: 2823
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3926
+	Checking repository: https://github.com/aws/serverless-application-model
+		Commits found: 108
+		Issues found: 0
+		Pull requests found: 13
+Remaining requests: 3919
+	Checking repository: https://github.com/christoferson/aws-cloudformation
+		Commits found: 26
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3912
+	Checking repository: https://github.com/ASFHyP3/hyp3
+		Commits found: 1722
+		Issues found: 0
+		Pull requests found: 213
+Remaining requests: 3903
+	Error checking repo https://github.com/felixrichardt/cloud-carbon-footprint: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 3902
+	Checking repository: https://github.com/AlisProject/serverless-application
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3895
+	Checking repository: https://github.com/Sage-Bionetworks-IT/organizations-infra
+		Commits found: 244
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3888
+	Checking repository: https://github.com/aws-cloudformation/cfn-lint
+		Commits found: 554
+		Issues found: 0
+		Pull requests found: 572
+Remaining requests: 3869
+	Checking repository: https://github.com/Percona-Lab/jenkins-pipelines
+		Commits found: 574
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3862
+	Checking repository: https://github.com/code-dot-org/code-dot-org
+		Commits found: 14435
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3855
+	Checking repository: https://github.com/daiyyr/the-alchemist
+		Commits found: 100
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3848
+	Checking repository: https://github.com/Sage-Bionetworks-IT/lambda-finops-email-totals
+		Commits found: 22
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3841
+	Checking repository: https://github.com/gsx95/georgguessr
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3834
+	Checking repository: https://github.com/ruzickap/k8s-tf-eks-gitops
+		Commits found: 4
+		Issues found: 0
+		Pull requests found: 3
+Remaining requests: 3822
+	Checking repository: https://github.com/koekalenteri/koekalenteri
+		Commits found: 508
+		Issues found: 0
+		Pull requests found: 398
+Remaining requests: 3808
+	Checking repository: https://github.com/brucehoff/organizations-infra
+		Commits found: 110
+		Issues found: 0
+		Pull requests found: 0

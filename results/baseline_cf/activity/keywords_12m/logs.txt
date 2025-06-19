@@ -1,0 +1,190 @@
+
+Connected to GitHub as allianeamt
+Searching for keywords in repositories from the last 12 months...
+Remaining requests: 4111
+	Processing repo: https://github.com/code-dot-org/code-dot-org
+		Found keyword 'cost' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/3c6381999e5bf3e59d0ec7d439ea0f3223458756
+		Found keyword 'pay' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/2a5c5c11857d43aba7f40360413d401b367e885c
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/5a14b3987b8de041c3773fcb2ab7acb05b80470d
+		Found keyword 'cheap' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/03858a2eeabef27c51024535e5c7b4f5df9a4544
+		Found keyword 'r/w' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/844b1a26ce58433c7c91ff65b16c62b09379cc29
+		Found keyword 'bill' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/f60dda73ad074e6b81c7730edee978243a55fef2
+		Found keyword 'efficient' in commit: https://api.github.com/repos/code-dot-org/code-dot-org/commits/17f84c45d1dc504b610271e5aa5be5c034992738
+Remaining requests: 4988
+	Processing repo: https://github.com/zalando-incubator/kubernetes-on-aws
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/zalando-incubator/kubernetes-on-aws/commits/8d36cec4a3a03909e6f8e13e8b79fe7c46297d60
+		Found keyword 'cost' in commit: https://api.github.com/repos/zalando-incubator/kubernetes-on-aws/commits/f9755f05f1f2a1654e4af0093ce9e6d18433782d
+		Found keyword 'r/w' in commit: https://api.github.com/repos/zalando-incubator/kubernetes-on-aws/commits/be4ea4cd38edb209b55c18fad4a127f8ae219a6e
+Remaining requests: 4959
+	Processing repo: https://github.com/NHSDigital/eps-prescription-status-update-api
+		Found keyword 'cost' in commit: https://api.github.com/repos/NHSDigital/eps-prescription-status-update-api/commits/970d2c70a7f7102866fde8def6d414e5a3d79cc8
+		Found keyword 'bill' in commit: https://api.github.com/repos/NHSDigital/eps-prescription-status-update-api/commits/970d2c70a7f7102866fde8def6d414e5a3d79cc8
+		Found keyword 'pay' in commit: https://api.github.com/repos/NHSDigital/eps-prescription-status-update-api/commits/20c681452bf73532813d2b80971e99cb9b440145
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/NHSDigital/eps-prescription-status-update-api/commits/b2b5ab5dc5cd876e1b761df646596040ab5b42c4
+		Found keyword 'efficient' in commit: https://api.github.com/repos/NHSDigital/eps-prescription-status-update-api/commits/5c65a90b4672822f7a171e9c2072edd183ce67b9
+Remaining requests: 4947
+	Processing repo: https://github.com/ASFHyP3/hyp3
+		Found keyword 'cost' in commit: https://api.github.com/repos/ASFHyP3/hyp3/commits/961bb6ab877f37388ea37cd3ba0e3150896e1565
+		Found keyword 'pay' in commit: https://api.github.com/repos/ASFHyP3/hyp3/commits/c9b0ea68a3b8827b692d47742c21c2afb4963643
+Remaining requests: 4928
+	Processing repo: https://github.com/aws-samples/serverless-patterns
+		Found keyword 'cheap' in commit: https://api.github.com/repos/aws-samples/serverless-patterns/commits/78d7e5a04d17bd1025c5d30e33e71e4294b6150d
+Remaining requests: 4915
+	Processing repo: https://github.com/aws-cloudformation/cfn-lint
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/aws-cloudformation/cfn-lint/commits/42429be9e6c5a7db4a348e3f8aab4cc45da65045
+Remaining requests: 4908
+	Processing repo: https://github.com/koekalenteri/koekalenteri
+		Found keyword 'pay' in commit: https://api.github.com/repos/koekalenteri/koekalenteri/commits/4647b6a31c6491eb1a7b020c0f934df88017bec4
+Remaining requests: 4901
+	Processing repo: https://github.com/guardian/mobile-purchases
+		Found keyword 'pay' in commit: https://api.github.com/repos/guardian/mobile-purchases/commits/720b7ef5bafffe573bc5a6b9bb58c4869c850988
+		Found keyword 'bill' in commit: https://api.github.com/repos/guardian/mobile-purchases/commits/942529f44e88cac9006885bf6b4b539cd3f348ba
+Remaining requests: 4894
+	Processing repo: https://github.com/govuk-one-login/onboarding-self-service-experience
+		No keywords found in repo: govuk-one-login/onboarding-self-service-experience
+Remaining requests: 4889
+	Processing repo: https://github.com/govuk-one-login/di-account-management-backend
+		Found keyword 'cost' in commit: https://api.github.com/repos/govuk-one-login/di-account-management-backend/commits/221d433700f60ec2ef1b0d1cafc972ae883cef50
+		Found keyword 'bill' in commit: https://api.github.com/repos/govuk-one-login/di-account-management-backend/commits/221d433700f60ec2ef1b0d1cafc972ae883cef50
+		Found keyword 'pay' in commit: https://api.github.com/repos/govuk-one-login/di-account-management-backend/commits/9556cc5482a0faba2955ce45e537f7cf53778997
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/govuk-one-login/di-account-management-backend/commits/18146da92b7ec2e7b61a72574e9944c81fc2dacf
+		Found keyword 'efficient' in commit: https://api.github.com/repos/govuk-one-login/di-account-management-backend/commits/18146da92b7ec2e7b61a72574e9944c81fc2dacf
+Remaining requests: 4885
+	Processing repo: https://github.com/pagopa/pn-infra
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/pagopa/pn-infra/commits/2f4f3d1a858a1fa9bd1c170bd3f8728941b637e1
+		Found keyword 'cost' in commit: https://api.github.com/repos/pagopa/pn-infra/commits/a386c6c413175cb18b8a2735ef381255222d10e0
+Remaining requests: 4878
+	Processing repo: https://github.com/Percona-Lab/jenkins-pipelines
+		No keywords found in repo: Percona-Lab/jenkins-pipelines
+Remaining requests: 4871
+	Processing repo: https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+		No keywords found in repo: aws-samples/amazon-transcribe-live-meeting-assistant
+Remaining requests: 4865
+	Processing repo: https://github.com/buildkite/elastic-ci-stack-for-aws
+		Found keyword 'r/w' in commit: https://api.github.com/repos/buildkite/elastic-ci-stack-for-aws/commits/91d7c24e345f776d4ca190ec344e26618e0bf2c8
+		Found keyword 'cost' in commit: https://api.github.com/repos/buildkite/elastic-ci-stack-for-aws/commits/db0f4204a446c1e0280e6098e5d4090201d58a0e
+Remaining requests: 4860
+	Processing repo: https://github.com/PRX/Infrastructure
+		No keywords found in repo: PRX/Infrastructure
+Remaining requests: 4855
+	Processing repo: https://github.com/qld-gov-au/ckan-qld-infrastructure
+		No keywords found in repo: qld-gov-au/ckan-qld-infrastructure
+Remaining requests: 4850
+	Processing repo: https://github.com/awslabs/cid-framework
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/aws-solutions-library-samples/cloud-intelligence-dashboards-data-collection/commits/bdcd2f3bf3de4bda8a60b67305bef6525f77b15e
+		Found keyword 'cost' in commit: https://api.github.com/repos/aws-solutions-library-samples/cloud-intelligence-dashboards-data-collection/commits/e115263cce86161ed0a5e666b8de032e188c2dd6
+		Found keyword 'pay' in commit: https://api.github.com/repos/aws-solutions-library-samples/cloud-intelligence-dashboards-data-collection/commits/f00056901ebd862a6b9f56821c711e6c9a20a14c
+Remaining requests: 4846
+	Processing repo: https://github.com/zaro0508/organizations-infra
+		Found keyword 'cost' in commit: https://api.github.com/repos/zaro0508/organizations-infra/commits/dc5f6c97ac9ce980da12c1e199bb5b58ad1d0664
+		Found keyword 'bill' in commit: https://api.github.com/repos/zaro0508/organizations-infra/commits/96e340e93d8f9a755d72951d9fe92ca867cd21e2
+Remaining requests: 4842
+	Processing repo: https://github.com/Sage-Bionetworks-IT/organizations-infra
+		Found keyword 'cost' in commit: https://api.github.com/repos/Sage-Bionetworks-IT/organizations-infra/commits/dc5f6c97ac9ce980da12c1e199bb5b58ad1d0664
+		Found keyword 'bill' in commit: https://api.github.com/repos/Sage-Bionetworks-IT/organizations-infra/commits/96e340e93d8f9a755d72951d9fe92ca867cd21e2
+Remaining requests: 4838
+	Processing repo: https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+		No keywords found in repo: aws-samples/amazon-transcribe-live-call-analytics
+Remaining requests: 4834
+	Processing repo: https://github.com/Saneri/event-signup
+		Found keyword 'pay' in commit: https://api.github.com/repos/Saneri/event-signup/commits/f5728820762fb95dd52f2b33df69522c622b5090
+Remaining requests: 4832
+	Processing repo: https://github.com/aws/aws-parallelcluster-ui
+		No keywords found in repo: aws/aws-parallelcluster-ui
+Remaining requests: 4830
+	Processing repo: https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+		Found keyword 'cost' in commit: https://api.github.com/repos/Sage-Bionetworks-Workflows/nextflow-infra/commits/d991c079e99f347d9fc57bff9dfce48fd22eedf1
+Remaining requests: 4827
+	Processing repo: https://github.com/pagopa/pn-ec
+		Found keyword 'pay' in commit: https://api.github.com/repos/pagopa/pn-ec/commits/0d65e3c0c5f2cc40f969259e42c35de224bcefa9
+Remaining requests: 4824
+	Processing repo: https://github.com/aws/serverless-application-model
+		No keywords found in repo: aws/serverless-application-model
+Remaining requests: 4821
+	Processing repo: https://github.com/caseconsulting/expense-app-api
+		Found keyword 'bill' in commit: https://api.github.com/repos/caseconsulting/expense-app-api/commits/04bfa9d627391c12074e24e206d225cdfd66a2e0
+		Found keyword 'pay' in commit: https://api.github.com/repos/caseconsulting/expense-app-api/commits/f95340155e564d673d0dc36ef17642f28c85d8bf
+		Found keyword 'expens' in commit: https://api.github.com/repos/caseconsulting/expense-app-api/commits/7b69b09974016a53b74fcffe098a3f547f3ffc11
+Remaining requests: 4818
+	Processing repo: https://github.com/brucehoff/organizations-infra
+		Found keyword 'cost' in commit: https://api.github.com/repos/brucehoff/organizations-infra/commits/9b185a7a032379457e292c49afa805ccb9a71c54
+		Found keyword 'bill' in commit: https://api.github.com/repos/brucehoff/organizations-infra/commits/96e340e93d8f9a755d72951d9fe92ca867cd21e2
+Remaining requests: 4815
+	Processing repo: https://github.com/daiyyr/the-alchemist
+		No keywords found in repo: daiyyr/the-alchemist
+Remaining requests: 4813
+	Processing repo: https://github.com/SedaiEngineering/sedai-onboarding
+		Found keyword 'bill' in commit: https://api.github.com/repos/SedaiEngineering/sedai-onboarding/commits/8fdef6eb1aa8d9ca21a1d196e7d1f73b6231433f
+Remaining requests: 4811
+	Processing repo: https://github.com/APTrust/preservation-services
+		No keywords found in repo: APTrust/preservation-services
+Remaining requests: 4809
+	Processing repo: https://github.com/govuk-one-login/txma-infra
+		Found keyword 'pay' in commit: https://api.github.com/repos/govuk-one-login/txma-infra/commits/56e2745b3a1fe1770c07a4bfc7c7ae7b17f5e7ef
+Remaining requests: 4807
+	Processing repo: https://github.com/primeharbor/pht-prowler-searchcluster
+		No keywords found in repo: primeharbor/pht-prowler-searchcluster
+Remaining requests: 4805
+	Processing repo: https://github.com/guardian/status-app
+		No keywords found in repo: guardian/status-app
+Remaining requests: 4803
+	Processing repo: https://github.com/aexeagmbh/cfn-lint-rules
+		Found keyword 'cost' in commit: https://api.github.com/repos/aexeagmbh/cfn-lint-rules/commits/23a87c1a7c8b7a022899cd1ad41eca0dbdcdfd5b
+Remaining requests: 4801
+	Processing repo: https://github.com/pagopa/pn-mandate
+		No keywords found in repo: pagopa/pn-mandate
+Remaining requests: 4799
+	Processing repo: https://github.com/BastLeblanc/retail-demo-store
+		No keywords found in repo: BastLeblanc/retail-demo-store
+Remaining requests: 4797
+	Processing repo: https://github.com/ahamlinman/randomizer
+		No keywords found in repo: ahamlinman/randomizer
+Remaining requests: 4795
+	Processing repo: https://github.com/widdix/mastodon-on-aws
+		No keywords found in repo: widdix/mastodon-on-aws
+Remaining requests: 4793
+	Processing repo: https://github.com/RLOpenCatalyst/rgdeploy
+		No keywords found in repo: RLOpenCatalyst/rgdeploy
+Remaining requests: 4791
+	Processing repo: https://github.com/m-chandler/factorio-spot-pricing
+		No keywords found in repo: m-chandler/factorio-spot-pricing
+Remaining requests: 4789
+	Processing repo: https://github.com/awslabs/aws-well-architected-labs
+		Found keyword 'cost' in commit: https://api.github.com/repos/awslabs/aws-well-architected-labs/commits/e82e29c3fbd194db41589b974b45ee452f14e812
+Remaining requests: 4787
+	Processing repo: https://github.com/rapticore/aws-onboarding
+		No keywords found in repo: rapticore/aws-onboarding
+Remaining requests: 4785
+	Processing repo: https://github.com/kennyk65/aws-teaching-demos
+		No keywords found in repo: kennyk65/aws-teaching-demos
+Remaining requests: 4783
+	Processing repo: https://github.com/christoferson/aws-cloudformation
+		No keywords found in repo: christoferson/aws-cloudformation
+Remaining requests: 4781
+	Processing repo: https://github.com/cfn-modules/docs
+		No keywords found in repo: cfn-modules/docs
+Remaining requests: 4779
+	Processing repo: https://github.com/benkulcsar/newswatch
+		No keywords found in repo: benkulcsar/newswatch
+Remaining requests: 4777
+	Processing repo: https://github.com/guardian/identity-processes
+		No keywords found in repo: guardian/identity-processes
+Remaining requests: 4775
+	Processing repo: https://github.com/primeharbor/aws-account-automation
+		No keywords found in repo: primeharbor/aws-account-automation
+Remaining requests: 4773
+	Processing repo: https://github.com/Sage-Bionetworks/service-catalog-library
+		No keywords found in repo: Sage-Bionetworks/service-catalog-library
+Remaining requests: 4771
+	Processing repo: https://github.com/guardian/archivehunter
+		No keywords found in repo: guardian/archivehunter
+Remaining requests: 4769
+	Processing repo: https://github.com/cyberark/pas-on-cloud
+		No keywords found in repo: cyberark/pas-on-cloud
+Remaining requests: 4767
+	Processing repo: https://github.com/sjakthol/aws-account-infra
+		No keywords found in repo: sjakthol/aws-account-infra
+Remaining requests: 4765
+	Processing repo: https://github.com/conijnio/aws-security-posture
+		No keywords found in repo: conijnio/aws-security-posture
+Found 23 repos with keywords and 30 without keywords.

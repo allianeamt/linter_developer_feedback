@@ -1,0 +1,7 @@
+repo_url,check_id,resource,file_path,file_line_range,commits,issues,pulls,average_activity,cost_label
+https://github.com/BerriAI/litellm,CKV_AWS_807,AWS::EC2::Instance.LiteLLMServer,https://github.com/BerriAI/litellm/blob/main/enterprise/cloudformation_stack/litellm.yaml,2-7,9039,0,3875,0,aware
+https://github.com/erickwill/litellm,CKV_AWS_807,AWS::EC2::Instance.LiteLLMServer,https://github.com/erickwill/litellm/blob/main/enterprise/cloudformation_stack/litellm.yaml,2-7,8870,1,1,0,aware
+https://github.com/differentialhq/differential,CKV_AWS_805,AWS::S3::Bucket.AssetUploadBucket,https://github.com/differentialhq/differential/blob/main/infrastructure/cfn.yaml,16-19,3,0,5,0,unaware
+https://github.com/differentialhq/differential,CKV_AWS_805,AWS::S3::Bucket.CfnTemplateBucket,https://github.com/differentialhq/differential/blob/main/infrastructure/cfn.yaml,21-24,3,0,5,0,unaware
+https://github.com/govuk-one-login/ipv-cri-cic-api,CKV_AWS_805,AWS::S3::Bucket.JsonWebKeysBucket,https://github.com/govuk-one-login/ipv-cri-cic-api/blob/main/deploy/template.yaml,478-493,39,0,158,0,unaware
+https://github.com/govuk-one-login/onboarding-product-page,CKV_AWS_805,AWS::S3::Bucket.AccessLogsBucket,https://github.com/govuk-one-login/onboarding-product-page/blob/main/infrastructure/frontend/frontend.template.yml,474-486,202,0,303,0,unaware

@@ -1,0 +1,348 @@
+Connected to GitHub as allianeamt
+Searching for keywords in repositories from the last 10.000 commits...
+Remaining requests: 4994
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-environments
+		Found keyword 'pay' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/20ba34b8c0994b8d32fa2c4f4bad8fda8c790b9f
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/bafa8a2017577c5de75381662d44fd082f54bae5
+		Found keyword 'bill' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-environments/commits/3f93a4188d3742a228e78e9b758c5d1c20627582
+Remaining requests: 4892
+	Processing repo: https://github.com/ministryofjustice/modernisation-platform
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/e38177ed9b9f6eda642be3647db10db7d52f396c
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/73e588b3f92e67d6ce3a47c75ab056dbf399efb0
+		Found keyword 'bill' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/da0351af1960553a20c0fbfc8b326b13886a15ea
+		Found keyword 'pay' in commit: https://api.github.com/repos/ministryofjustice/modernisation-platform/commits/afe84bc77ef8b1d776611959948a0ea7c4b1fce5
+Remaining requests: 4790
+	Processing repo: https://github.com/alphagov/govuk-infrastructure
+		Found keyword 'cost' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/f149499c28f32b51163ee788d01aacb9dc5076bb
+		Found keyword 'cheap' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/4d549ce3550500c7254f14e58ddd257754195c99
+		Found keyword 'pay' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/9cfebd0287e16e86acb2653463f0f83eec9df0c9
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/3a92b1085e80a89559b9de151125f9893d1982fe
+		Found keyword 'bill' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/008eaaa56f404d46adf21fdd1bf95dcfb27e507f
+		Found keyword 'efficient' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/9601d058942f605049b10e582f3d02090bb81d8f
+		Found keyword 'expens' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/6017d0be84adac6b90b46f3d0bc2376a7e9b8e85
+		Found keyword 'r/w' in commit: https://api.github.com/repos/alphagov/govuk-infrastructure/commits/59030ffc7b4a83b134fa7ea86d99dfa48f7296ea
+Remaining requests: 4740
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-infrastructure
+		Found keyword 'pay' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/9f41f00d9c7345ff65204e40d335ede8b088d811
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/3d21b738604f1f93d4b77a203feae44e05b9c595
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/a72b2d8b8ef52f6934b01e7f8f02042cac15b5e5
+		Found keyword 'efficient' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/f20bdcb2d654e172ed7ba49511610ffaeb500056
+		Found keyword 'cheap' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/fdd3a7dcb787a6a24e34b93a6aa124c94e93cb0e
+		Found keyword 'r/w' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/3f65f26d9413a273027e7879c0c58214ae78ce16
+		Found keyword 'bill' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-infrastructure/commits/e6c480c0fcd6fcd1bcff70f30eb1424684667c48
+Remaining requests: 4672
+	Processing repo: https://github.com/geraldwuhoo/homelab-iac
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/geraldwuhoo/homelab-iac/commits/2cf8ba322b4e825e067d6049def86bc1d1284dbc
+		Found keyword 'bill' in commit: https://api.github.com/repos/geraldwuhoo/homelab-iac/commits/491d0e59162964998bce3bfa5647fcd53ae447f7
+		Found keyword 'cost' in commit: https://api.github.com/repos/geraldwuhoo/homelab-iac/commits/3228ee1c5bfdf89e57e898659b086364122d58c1
+Remaining requests: 4633
+	Processing repo: https://github.com/Quansight/qhub
+		Found keyword 'cost' in commit: https://api.github.com/repos/nebari-dev/nebari/commits/2a2f2ee779ac21b70339da6551c2f6b0b00f6efe
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nebari-dev/nebari/commits/1a0e9d219c1d241e60944aa13897563131f19ccf
+		Found keyword 'cheap' in commit: https://api.github.com/repos/nebari-dev/nebari/commits/265d6c5b8a1e01032402d4b2c94d12d5365e5e6e
+		Found keyword 'r/w' in commit: https://api.github.com/repos/nebari-dev/nebari/commits/effcd4362abc349f0aa0b46d1b9a3eade5590276
+Remaining requests: 4607
+	Processing repo: https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+		Found keyword 'bill' in commit: https://api.github.com/repos/GoogleCloudPlatform/cloud-foundation-fabric/commits/ffeb75100ccdb965e522b8488d521153ba5b5597
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/GoogleCloudPlatform/cloud-foundation-fabric/commits/7c858f4753700e26bc70a46a345a242ce40f51dc
+		Found keyword 'cost' in commit: https://api.github.com/repos/GoogleCloudPlatform/cloud-foundation-fabric/commits/30496068e29919dbbea685678b44fbbe54628267
+		Found keyword 'pay' in commit: https://api.github.com/repos/GoogleCloudPlatform/cloud-foundation-fabric/commits/477a1bb38836f798dc122e82755b252c18fe0731
+Remaining requests: 4544
+	Processing repo: https://github.com/rust-lang/simpleinfra
+		Found keyword 'expens' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/40dfffea7955b9a428d1c640212a36b417ed890e
+		Found keyword 'bill' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/90b1e8a4ed367fab82c782a1bf6a4c4542b76e5c
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/38d367ffe96a647e582c3829c9c8d5b48e291be5
+		Found keyword 'efficient' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/2499fe2a8077db8fdee0dc743390b99e75c3f301
+		Found keyword 'cheap' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/e464783f88a901d49bd64d8b42cabe2eea08c90c
+		Found keyword 'cost' in commit: https://api.github.com/repos/rust-lang/simpleinfra/commits/05370cc8f9852987e20cf5c659e5249dd1f2181c
+Remaining requests: 4521
+	Processing repo: https://github.com/jenkins-infra/aws
+		Found keyword 'cheap' in commit: https://api.github.com/repos/jenkins-infra/aws/commits/586fde061356513609fe4f2014a11ddcec849c35
+		Found keyword 'cost' in commit: https://api.github.com/repos/jenkins-infra/aws/commits/4a9e2c05092acca34f0608394638776c75496a99
+Remaining requests: 4513
+	Processing repo: https://github.com/Accurate0/infrastructure
+		Found keyword 'cost' in commit: https://api.github.com/repos/Accurate0/infrastructure/commits/0690706423d564966582408322c8cf405903081f
+		Found keyword 'expens' in commit: https://api.github.com/repos/Accurate0/infrastructure/commits/1947af34372807d81a745960bb2fcafeff502306
+		Found keyword 'pay' in commit: https://api.github.com/repos/Accurate0/infrastructure/commits/eef88fd3e61cf4b5e04682824e76df5348b60de5
+Remaining requests: 4499
+	Processing repo: https://github.com/public-transport/infrastructure
+		Found keyword 'expens' in commit: https://api.github.com/repos/public-transport/infrastructure/commits/5d1ad563fb5f67c4b4d52875841857377834b5bc
+		Found keyword 'cost' in commit: https://api.github.com/repos/public-transport/infrastructure/commits/0a5968285a08bd6d07f79fa1f5a55756622fcfa9
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/public-transport/infrastructure/commits/4002ab25ba63620635f19671be1c37af9837b452
+		Found keyword 'bill' in commit: https://api.github.com/repos/public-transport/infrastructure/commits/64bfc57cef180a90c4dfe91801e7e1a4c66c3151
+Remaining requests: 4490
+	Processing repo: https://github.com/dfds/infrastructure-modules
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/aaa5ef2ac19e012faae38d081fb37094294a1c62
+		Found keyword 'cost' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/f9abd1ea4e1d27cfa23712233c0940816887d877
+		Found keyword 'expens' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/ba37fc3e2824170a9036a2cf476550b0a5ec7a7c
+		Found keyword 'bill' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/335a3f77faf3b515f57be0537fa5597b4d0c585b
+		Found keyword 'pay' in commit: https://api.github.com/repos/dfds/infrastructure-modules/commits/3dd7ceac35a448abda24ca346dfb61655d39c6d8
+Remaining requests: 4464
+	Processing repo: https://github.com/nationalarchives/tdr-terraform-environments
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nationalarchives/tdr-terraform-environments/commits/dd05240d5bd90783d391d9d7ccae12607d325af4
+		Found keyword 'pay' in commit: https://api.github.com/repos/nationalarchives/tdr-terraform-environments/commits/ac2882a6c4bfccac13d5e521fb2b3868603949a0
+		Found keyword 'cost' in commit: https://api.github.com/repos/nationalarchives/tdr-terraform-environments/commits/37df7103235c1d632835913afc2d598b4d54b69d
+		Found keyword 'bill' in commit: https://api.github.com/repos/nationalarchives/tdr-terraform-environments/commits/5445c07b7fbfc22ecdf31f28dbaea063965da4f6
+Remaining requests: 4445
+	Processing repo: https://github.com/cds-snc/terraform-modules
+		Found keyword 'cost' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/5dd892a44dbae2ce93023e5c64b5c4cb72b9f247
+		Found keyword 'bill' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/30ba1bd2a634587b3194b4718e964332ec2dc549
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/364c2fa7c6a5a9381070f5a4003c5f92af846dd9
+		Found keyword 'pay' in commit: https://api.github.com/repos/cds-snc/terraform-modules/commits/50c0f631d2c8558e6eec44138ffc2e963a1dfa9a
+Remaining requests: 4436
+	Processing repo: https://github.com/poseidon/typhoon
+		Found keyword 'cost' in commit: https://api.github.com/repos/poseidon/typhoon/commits/1eb492c4ba704f99d08abd827bf841c42c197ba5
+		Found keyword 'r/w' in commit: https://api.github.com/repos/poseidon/typhoon/commits/1104b4bf2852e3a307f87221e2dc9583e95edfe3
+		Found keyword 'bill' in commit: https://api.github.com/repos/poseidon/typhoon/commits/a4fab610663f5187916a311b520b2fddfa1e37f4
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/poseidon/typhoon/commits/b3c384fbc0dc52ce5b898fd22c1f4a947a407f50
+		Found keyword 'pay' in commit: https://api.github.com/repos/poseidon/typhoon/commits/b68f8bb2a9f0825af76a563051c32100386024db
+		Found keyword 'cheap' in commit: https://api.github.com/repos/poseidon/typhoon/commits/b68f8bb2a9f0825af76a563051c32100386024db
+Remaining requests: 4417
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-terraform-monitoring/commits/2cbef27af2787373d12332de1f600154de4ec7c8
+		Found keyword 'cheap' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-terraform-monitoring/commits/87401ba23af26d379d8132cc09fd7cd212773ba1
+Remaining requests: 4409
+	Processing repo: https://github.com/opszero/terraform-aws-kubespot
+		Found keyword 'cost' in commit: https://api.github.com/repos/opszero/terraform-aws-kubespot/commits/decc9706133af9978ada6cf58a1a63343468e8a0
+Remaining requests: 4397
+	Processing repo: https://github.com/cds-snc/cloud-based-sensor
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cds-snc/cloud-based-sensor/commits/d37d163da20008f282b6c01e32b87f92b3c906ac
+		Found keyword 'cost' in commit: https://api.github.com/repos/cds-snc/cloud-based-sensor/commits/d1c2d8dd4ff3d69ee5d1aacbc7607d8064e854ac
+		Found keyword 'bill' in commit: https://api.github.com/repos/cds-snc/cloud-based-sensor/commits/d1c2d8dd4ff3d69ee5d1aacbc7607d8064e854ac
+		Found keyword 'pay' in commit: https://api.github.com/repos/cds-snc/cloud-based-sensor/commits/2609946080fea2269bc5932ed18c80928e72ce82
+Remaining requests: 4392
+	Processing repo: https://github.com/cisagov/cool-assessment-terraform
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cisagov/cool-assessment-terraform/commits/e5b52c07800d3d6b3fa99e105a703d0d9c72c120
+		Found keyword 'cheap' in commit: https://api.github.com/repos/cisagov/cool-assessment-terraform/commits/3138943ab4d15cc256d322e1128862ef11383c73
+		Found keyword 'efficient' in commit: https://api.github.com/repos/cisagov/cool-assessment-terraform/commits/206d0cbbe3c5979a395edc655349274b20dc2a28
+Remaining requests: 4370
+	Processing repo: https://github.com/binbashar/le-tf-infra-aws
+		Found keyword 'cost' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/f938b9088d47ea4831d8b6a4924ed3b8576a05c7
+		Found keyword 'pay' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/20c2b8b24edf40d4dfe4ecb019d28cdaaa10ca6b
+		Found keyword 'bill' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/acd8c4652850e8ff6ad97ee93e7d200a4c4e5ae4
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/binbashar/le-tf-infra-aws/commits/82a30ff9875d920940223a1f8b567c0b3649aa11
+Remaining requests: 4345
+	Processing repo: https://github.com/alphagov/govwifi-terraform
+		Found keyword 'pay' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/ecb40c5f7484a148a57631c119a59c01f3b1d8cd
+		Found keyword 'cost' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/ecb40c5f7484a148a57631c119a59c01f3b1d8cd
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/GovWifi/govwifi-terraform/commits/e6536ddb47078d3333ec1c35188987b0f849330e
+Remaining requests: 4318
+	Processing repo: https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/2a6e13c18a9ff7dc7dac24f238dcd477c21e4e92
+		Found keyword 'cost' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/2a6e13c18a9ff7dc7dac24f238dcd477c21e4e92
+		Found keyword 'pay' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/95decee57da791a6f01038b1cb83bedd3510c42f
+		Found keyword 'bill' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/ea699740cdd219c4ac0a815ae26207002b9c6f75
+		Found keyword 'expens' in commit: https://api.github.com/repos/Hapag-Lloyd/terraform-aws-bastion-host-ssm/commits/ee377907a77cb23ae6427f494a8aa5af17f0adbf
+Remaining requests: 4313
+	Processing repo: https://github.com/Harmelodic/automation-infrastructure
+		Found keyword 'bill' in commit: https://api.github.com/repos/Harmelodic/automation-infrastructure/commits/36edb9e2186f9467d36a6233154c4ed15320148d
+		Found keyword 'cost' in commit: https://api.github.com/repos/Harmelodic/automation-infrastructure/commits/8b563a7d3c7d90ddd2359500d9781547347cc56a
+Remaining requests: 4307
+	Processing repo: https://github.com/openaustralia/infrastructure
+		Found keyword 'cost' in commit: https://api.github.com/repos/openaustralia/infrastructure/commits/63ee190c0ae1832bb72681e1e4b1b14a9367b4bb
+		Found keyword 'bill' in commit: https://api.github.com/repos/openaustralia/infrastructure/commits/c6ea8088a65423f67cdb5fc2cc845f2aa8401291
+Remaining requests: 4285
+	Processing repo: https://github.com/gravicore/terraform-gravicore-modules
+		Found keyword 'cost' in commit: https://api.github.com/repos/gravicore/terraform-gravicore-modules/commits/2a9045f5caca2824fbe4035020ffaf72d724d179
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/gravicore/terraform-gravicore-modules/commits/a888087b4dcb2b79ff0374942e29eadceb8da2f2
+		Found keyword 'bill' in commit: https://api.github.com/repos/gravicore/terraform-gravicore-modules/commits/f9f6d6922fdeb7657079564153e4f2742abad310
+Remaining requests: 4270
+	Processing repo: https://github.com/cisagov/cyhy_amis
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cisagov/cyhy_amis/commits/aa7f5ad88165b2737a75f985cdf6dcd306956ff6
+		Found keyword 'cheap' in commit: https://api.github.com/repos/cisagov/cyhy_amis/commits/e681bde1cd2774ee249ec853dda6f0ebddb87e6b
+Remaining requests: 4241
+	Processing repo: https://github.com/cisagov/freeipa-server-tf-module
+		Found keyword 'cheap' in commit: https://api.github.com/repos/cisagov/freeipa-server-tf-module/commits/99fd319a72d25441acf36fd2c167a875e9028935
+Remaining requests: 4228
+	Processing repo: https://github.com/terraform-google-modules/terraform-example-foundation
+		Found keyword 'bill' in commit: https://api.github.com/repos/terraform-google-modules/terraform-example-foundation/commits/a7194260ba5ab8d58a15bd9b79b6314ba8e3d381
+		Found keyword 'cost' in commit: https://api.github.com/repos/terraform-google-modules/terraform-example-foundation/commits/a1d636e550d133abffe2240f795d331e9d691c3c
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/terraform-google-modules/terraform-example-foundation/commits/07c4d3e36ba390696f8aea396977c0eb872d74b0
+Remaining requests: 4220
+	Processing repo: https://github.com/thoughtbot/flightdeck
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/thoughtbot/flightdeck/commits/4f782659c0cd197a350ac56c276a7cdf6aea6731
+		Found keyword 'cost' in commit: https://api.github.com/repos/thoughtbot/flightdeck/commits/4671cc040f6466a455b6d200de555943037f3dac
+		Found keyword 'expens' in commit: https://api.github.com/repos/thoughtbot/flightdeck/commits/4671cc040f6466a455b6d200de555943037f3dac
+Remaining requests: 4215
+	Processing repo: https://github.com/Echo-Stream/terraform-aws-control
+		Found keyword 'bill' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/42588402715589586c99104e0bf82e84b0dbf3d2
+		Found keyword 'cost' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/8775c043ab37457eb2808f17555467c6dcb92108
+		Found keyword 'pay' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/0c0d29341c00377fd0ee920a67911d5c561a5724
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/Echo-Stream/terraform-aws-control/commits/b346760e2553b9036ed6e8f0627672fdf732f4c6
+Remaining requests: 4198
+	Processing repo: https://github.com/aws-observability/aws-otel-test-framework
+		Found keyword 'r/w' in commit: https://api.github.com/repos/aws-observability/aws-otel-test-framework/commits/593781e33082da1793462b174c9dc3e155c51f13
+		Found keyword 'bill' in commit: https://api.github.com/repos/aws-observability/aws-otel-test-framework/commits/c928fe0a05d1e9b8f1ecb1a7dacffecc2800e038
+Remaining requests: 4183
+	Processing repo: https://github.com/wellcomecollection/platform-infrastructure
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/wellcomecollection/platform-infrastructure/commits/72809cdab1fc975eb2965ccce38b208585247d93
+		Found keyword 'bill' in commit: https://api.github.com/repos/wellcomecollection/platform-infrastructure/commits/1885e528861aa62abd6918e05f1dfab6a8122802
+		Found keyword 'cost' in commit: https://api.github.com/repos/wellcomecollection/platform-infrastructure/commits/bcfb8696558daa9ee44aa20a003980eecea61df1
+		Found keyword 'expens' in commit: https://api.github.com/repos/wellcomecollection/platform-infrastructure/commits/cc8cb3ab5e257109ea9f6c19f4d034b1ac7ca4ca
+Remaining requests: 4163
+	Processing repo: https://github.com/ministryofjustice/hmpps-delius-core-terraform
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/hmpps-delius-core-terraform/commits/6e25b2cfb1cb80fd45ab6627a04e52735bb2fb5e
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ministryofjustice/hmpps-delius-core-terraform/commits/51caa3d43f276132d3d305d7765edbeff3905602
+Remaining requests: 4147
+	Processing repo: https://github.com/matihost/monorepo
+		Found keyword 'cost' in commit: https://api.github.com/repos/matihost/monorepo/commits/09a0edfa52de1236d6de962f6f00049f99b2d85b
+		Found keyword 'bill' in commit: https://api.github.com/repos/matihost/monorepo/commits/6911587cf1b5b82c75f805f368d37d4a9c872eca
+Remaining requests: 4137
+	Processing repo: https://github.com/joshuaspence/infrastructure
+		Found keyword 'expens' in commit: https://api.github.com/repos/joshuaspence/infrastructure/commits/0cea1cf84859055ff5107fc8d8514475e7036bee
+		Found keyword 'cost' in commit: https://api.github.com/repos/joshuaspence/infrastructure/commits/b9b9465314e3b5ada78340d06b90703136cdf3dc
+Remaining requests: 4127
+	Processing repo: https://github.com/cisagov/cool-sharedservices-nessus
+		Found keyword 'cheap' in commit: https://api.github.com/repos/cisagov/cool-sharedservices-nessus/commits/5403a8978053a1299b0afe8d7fc59e914fc5e354
+Remaining requests: 4116
+	Processing repo: https://github.com/relaycorp/cloud-gateway
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/relaycorp/cloud-gateway/commits/bc1ca16effcefb4bdcc6ed80d480fac38b50aade
+		Found keyword 'bill' in commit: https://api.github.com/repos/relaycorp/cloud-gateway/commits/b19f07aaf37e8b885c0223ba5757bcfcbbc0e42b
+		Found keyword 'expens' in commit: https://api.github.com/repos/relaycorp/cloud-gateway/commits/759b1d641a430bf189354e9a4866e72fe56c22dc
+Remaining requests: 4105
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-terraform-rds-instance/commits/bd2cf2621f981fe3537528f33ba975a2b9e2e320
+Remaining requests: 4099
+	Processing repo: https://github.com/cookpad/terraform-aws-eks
+		Found keyword 'cost' in commit: https://api.github.com/repos/cookpad/terraform-aws-eks/commits/59c40286757e1fa5cb5391421c5380e5ad506387
+Remaining requests: 4092
+	Processing repo: https://github.com/cloudposse/terraform-aws-alb
+		Found keyword 'cost' in commit: https://api.github.com/repos/cloudposse/terraform-aws-alb/commits/c3c8dd8bebf14f91518253cadadc6d8a88b5ea09
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/cloudposse/terraform-aws-alb/commits/d028054d6a633f667de7f5e7bed23300e1c967a5
+Remaining requests: 4089
+	Processing repo: https://github.com/ExpediaGroup/apiary-data-lake
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/ExpediaGroup/apiary-data-lake/commits/1e988f00d2092f67039eabd2fe0d58a6eb47dd97
+		Found keyword 'cost' in commit: https://api.github.com/repos/ExpediaGroup/apiary-data-lake/commits/47e62f2fc73a96611606cd619c084d1ded9d844d
+Remaining requests: 4085
+	Processing repo: https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+		Found keyword 'cost' in commit: https://api.github.com/repos/hashicorp/terraform-azurerm-terraform-enterprise/commits/b2fe861f1949f5f9f5bad0b4ca4ee6b6cb65485f
+Remaining requests: 4078
+	Processing repo: https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+		Found keyword 'cost' in commit: https://api.github.com/repos/schubergphilis/terraform-aws-mcaf-vpc/commits/6ca41e5ad697201a1d225e5d15134e547ee6ced3
+Remaining requests: 4074
+	Processing repo: https://github.com/nhsconnect/prm-mhs-infra
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nhsconnect/prm-mhs-infra/commits/e160276ff75c940cc2ed471a979a01db106c7a70
+		Found keyword 'expens' in commit: https://api.github.com/repos/nhsconnect/prm-mhs-infra/commits/f6c64d1b6ed367803a833da293e84d61573a7fd8
+Remaining requests: 4069
+	Processing repo: https://github.com/ToruMakabe/aks-anti-dry-iac
+		Found keyword 'cost' in commit: https://api.github.com/repos/torumakabe/aks-anti-dry-iac/commits/ac936c50fa4557dc99e7de4f247f6e3a05231513
+Remaining requests: 4065
+	Processing repo: https://github.com/jenkins-x/terraform-aws-eks-jx
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/jenkins-x/terraform-aws-eks-jx/commits/8836925dff353f33aba1ebccec67463c6768fa22
+		Found keyword 'cost' in commit: https://api.github.com/repos/jenkins-x/terraform-aws-eks-jx/commits/dbb7e3556eeed9760d30cbfda72e93e971f8b03a
+		Found keyword 'pay' in commit: https://api.github.com/repos/jenkins-x/terraform-aws-eks-jx/commits/ffbfb2cf241fd141894e6b27b0af397eab5efe21
+		Found keyword 'bill' in commit: https://api.github.com/repos/jenkins-x/terraform-aws-eks-jx/commits/cce6b14692fccd30c027851607a9526151d4c3d2
+Remaining requests: 4061
+	Processing repo: https://github.com/wellcomecollection/goobi-infrastructure
+		Found keyword 'r/w' in commit: https://api.github.com/repos/wellcomecollection/goobi-infrastructure/commits/11b99c1c77fac4f0d7c882862187bc2068691d61
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/wellcomecollection/goobi-infrastructure/commits/66153f45efd1c6c65d6ee6740fdb8dfb4b3c8faf
+		Found keyword 'cost' in commit: https://api.github.com/repos/wellcomecollection/goobi-infrastructure/commits/271bf02f91bfe5e8fc7ea9f94bfe56fd49a8d8e0
+Remaining requests: 4054
+	Processing repo: https://github.com/AndreasSko/infrastructure
+		Found keyword 'cheap' in commit: https://api.github.com/repos/AndreasSko/infrastructure/commits/1cd710e7df01faa544fe9e6766c59add66d187b2
+		Found keyword 'pay' in commit: https://api.github.com/repos/AndreasSko/infrastructure/commits/e7c56ae03560224a4d40370ce812f05662cee20b
+Remaining requests: 4048
+	Processing repo: https://github.com/akerl/aws-account
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/akerl/aws-account/commits/3ddd765508f81d52dbbe44c62e84630abb2c6d95
+		Found keyword 'pay' in commit: https://api.github.com/repos/akerl/aws-account/commits/d9df58859fbffa2f33e64f7a0f2f7a22b7afa899
+		Found keyword 'bill' in commit: https://api.github.com/repos/akerl/aws-account/commits/1ae9e1ae701a6b43b6da91694a69a1f8b184e7c2
+Remaining requests: 4038
+	Processing repo: https://github.com/alphagov/govuk-aws
+		Found keyword 'cost' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/26aeed5193d8e0869a6f0a1c4dbe2e375db0ff05
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/f3c1346891bc28954cdc86d59d5264d36e9ef81e
+		Found keyword 'cheap' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/c1d29a6caabcd4f041d87d76a10f2deef06685ef
+		Found keyword 'r/w' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/f12ed07cdabd6b1b6f36f134a430c39fe6852c4f
+		Found keyword 'pay' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/cf1776223fd49be0d64fe0792597ca63075ff230
+		Found keyword 'efficient' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/2acb4ce6f0dc18f7715e7d160af50a7ff1dd047d
+		Found keyword 'expens' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/e5aba1be775a88cc7da6cd9e9c637f2272c7490e
+		Found keyword 'overprovisioned' in commit: https://api.github.com/repos/alphagov/govuk-aws/commits/3f4eda53429d8197a6c48f01cd4b6c8bf71b9c77
+Remaining requests: 3995
+	Processing repo: https://github.com/wellcomecollection/buildkite-infrastructure
+		Found keyword 'cheap' in commit: https://api.github.com/repos/wellcomecollection/buildkite-infrastructure/commits/50957e0478fd4c4d945ac593822436f6a7ec8111
+		Found keyword 'expens' in commit: https://api.github.com/repos/wellcomecollection/buildkite-infrastructure/commits/300ed87cba6912103723b03d62c9b0bf93df36ea
+Remaining requests: 3989
+	Processing repo: https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+		Found keyword 'cost' in commit: https://api.github.com/repos/ministryofjustice/cloud-platform-terraform-elasticache-cluster/commits/ddcc1a8abc1d29e8e32ed3c2e92ed9755dd17014
+Remaining requests: 3986
+	Processing repo: https://github.com/byu-oit/terraform-aws-rds
+		Found keyword 'cost' in commit: https://api.github.com/repos/byu-oit/terraform-aws-rds/commits/86a0795540edb426c3226775d73fcd4ce807d36a
+		Found keyword 'cheap' in commit: https://api.github.com/repos/byu-oit/terraform-aws-rds/commits/86a0795540edb426c3226775d73fcd4ce807d36a
+Remaining requests: 3983
+	Processing repo: https://github.com/ndebuhr/cloud-native-workstation
+		Found keyword 'cost' in commit: https://api.github.com/repos/ndebuhr/cloud-native-workstation/commits/301244e00d9f359f964242849462704f80e8db13
+Remaining requests: 3978
+	Processing repo: https://github.com/jg210/aws-experiments
+		Found keyword 'cheap' in commit: https://api.github.com/repos/jg210/aws-experiments/commits/28402139cfb8bfd0aacfed536918cb9c00de15e7
+		Found keyword 'cost' in commit: https://api.github.com/repos/jg210/aws-experiments/commits/2cf9af55cb01db599fcbf7bb5a226c47768f839a
+Remaining requests: 3974
+	Processing repo: https://github.com/CodeForPoznan/Infrastructure
+		Found keyword 'cheap' in commit: https://api.github.com/repos/CodeForPoznan/infrastructure/commits/2709680d633653ca9bd68a023981a75427daaa7a
+Remaining requests: 3971
+	Processing repo: https://github.com/VJftw/infrastructure
+		Found keyword 'cost' in commit: https://api.github.com/repos/VJftw/infrastructure/commits/5c28d23cfa0c3488d5546ffdc1783c745a1e9239
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/VJftw/infrastructure/commits/030adfa83272314a8a8b1345d2657417de7b1f16
+		Found keyword 'bill' in commit: https://api.github.com/repos/VJftw/infrastructure/commits/e65156795950ba01fc6567fa9d7f61fe41e2c3f9
+Remaining requests: 3968
+	Processing repo: https://github.com/lacework/terraform-gcp-audit-log
+		Found keyword 'cost' in commit: https://api.github.com/repos/lacework/terraform-gcp-audit-log/commits/324c8a499794f6a789d583c4c460af9475171215
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/lacework/terraform-gcp-audit-log/commits/8c526b251a71fb2f559be5bc10df288640a640f2
+Remaining requests: 3965
+	Processing repo: https://github.com/companieshouse/ceu-terraform
+		Found keyword 'cost' in commit: https://api.github.com/repos/companieshouse/ceu-terraform/commits/ee038e828651a4f2810e3d8306b28d9f79b2ea23
+Remaining requests: 3961
+	Processing repo: https://github.com/ausmartway/gcp-playground
+		Found keyword 'cost' in commit: https://api.github.com/repos/ausmartway/gcp-playground/commits/4676fee3828f732d296feb81be51f9602610f537
+Remaining requests: 3959
+	Processing repo: https://github.com/gedejong/infra
+		Found keyword 'expens' in commit: https://api.github.com/repos/gedejong/infra/commits/df7d6a56fb9c390574c45500fbae61dbba0044d8
+Remaining requests: 3957
+	Processing repo: https://github.com/aeternity/terraform-aws-devnet
+		Found keyword 'cost' in commit: https://api.github.com/repos/aeternity/terraform-aws-devnet/commits/6b3bc5a88895b6f6030f40a357ae316c3a979951
+		Found keyword 'cheap' in commit: https://api.github.com/repos/aeternity/terraform-aws-devnet/commits/f4113a8f7e52991dfb75f63688aeba77bac76b01
+Remaining requests: 3955
+	Processing repo: https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+		Found keyword 'cost' in commit: https://api.github.com/repos/JamesWoolfenden/terraform-aws-lex-lambda/commits/4bf53559e0ac3c61a3b1314f14f5bd09d413d368
+Remaining requests: 3952
+	Processing repo: https://github.com/jkstenzel95/jks.gameservers
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/jkstenzel95/jks.gameservers/commits/ae1329ea0abc2d07ea1565ae5b38fd05df8b9e11
+		Found keyword 'bill' in commit: https://api.github.com/repos/jkstenzel95/jks.gameservers/commits/0ea5b9eeaacd4b7601a5e9c084a488d592cfbee2
+Remaining requests: 3945
+	Processing repo: https://github.com/pelias/terraform-elasticsearch
+		Found keyword 'cheap' in commit: https://api.github.com/repos/pelias/terraform-elasticsearch/commits/8454c8ee25e821abde10b73a2fec691269e41822
+		Found keyword 'efficient' in commit: https://api.github.com/repos/pelias/terraform-elasticsearch/commits/fbdc8731ef8ee8ef4933f0f935ee10df51f6b6cc
+Remaining requests: 3942
+	Processing repo: https://github.com/nmaupu/auto-gcp
+		Found keyword 'bill' in commit: https://api.github.com/repos/nmaupu/auto-gcp/commits/ef1df1044df317c78987f7f8398b4e45f5a3ee0a
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/nmaupu/auto-gcp/commits/d8db2a31587cba90e8fbae8be3f22ed4ea5b2f81
+Remaining requests: 3940
+	Processing repo: https://github.com/willfarrell/terraform-logs-module
+		Found keyword 'lifecycle' in commit: https://api.github.com/repos/willfarrell/terraform-logs-module/commits/481677304faa9b930793a05df117cd3be758b274
+		Found keyword 'cost' in commit: https://api.github.com/repos/willfarrell/terraform-logs-module/commits/545b0bb763a4dbaab6b262c4b9642767e2434d07
+Remaining requests: 3938
+	Processing repo: https://github.com/rajesh-nitc/gcp-foundation
+		Found keyword 'cost' in commit: https://api.github.com/repos/rajesh-nitc/iac-gcp-foundation/commits/0db462f5528100ece08d85366fc777cd59fad473
+Remaining requests: 3929
+	Processing repo: https://github.com/cob16/aws_static_website
+		Found keyword 'bill' in commit: https://api.github.com/repos/cob16/aws_static_website/commits/48a8c41179142f07e0a5cf34aba82665e152eabd
+		Found keyword 'expens' in commit: https://api.github.com/repos/cob16/aws_static_website/commits/0d4fbd0a7b296a5c9377a835dff89d1499716082
+Remaining requests: 3927
+	Processing repo: https://github.com/appbricks/cloud-inceptor
+		Found keyword 'cost' in commit: https://api.github.com/repos/appbricks/cloud-inceptor/commits/782a0a3c30cf83bcaeacc942789ccc903576fe8a
+Remaining requests: 3920
+	Processing repo: https://github.com/codequest-eu/terraform-modules
+		Found keyword 'cost' in commit: https://api.github.com/repos/codequest-eu/terraform-modules/commits/ffe23d4c2cd78035bef0dfb261701e7ed8dd588d
+Remaining requests: 3915
+	Processing repo: https://github.com/coremaker/terraform-google-nucleus
+		Found keyword 'bill' in commit: https://api.github.com/repos/coremaker/terraform-google-nucleus/commits/6466edc2a52a1d4bf891b6a45f9f920de3c2e0b8
+Remaining requests: 3910
+	Processing repo: https://github.com/IncredibleHolg/infra-aws-code
+		Found keyword 'cost' in commit: https://api.github.com/repos/IncredibleHolg/infra-aws-code/commits/70904707a36ff8e5167e695de3529d8318911ba4
+Remaining requests: 3908
+	Processing repo: https://github.com/kitchen/personal-terraform
+		Found keyword 'expens' in commit: https://api.github.com/repos/kitchen/personal-terraform/commits/fe1f2665b198308a438ec3d46b24843089df1a2a
+		Found keyword 'pay' in commit: https://api.github.com/repos/kitchen/personal-terraform/commits/e3d337caa558830f8e337d24edaab577ee9d43a2
+		Found keyword 'cost' in commit: https://api.github.com/repos/kitchen/personal-terraform/commits/b0660183c95f4b938dbf33c5607381b8e4e2bd68
+Remaining requests: 3906
+	Processing repo: https://github.com/giuseppeborgese/terraform-locking-s3-state
+		Found keyword 'pay' in commit: https://api.github.com/repos/giuseppeborgese/terraform-locking-s3-state/commits/6b4e59e8b844417dc5c247bdef1b0adb8e2e7028
+Found 75 repos with keywords and 0 without keywords.

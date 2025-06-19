@@ -1,0 +1,177 @@
+Check statistics
+
+Check statistics for: baseline_tf
+	Total with checks: 74
+	Total without checks: 1
+	Only passed: 10
+	Only failed: 5
+	Check pass counts:
+		  CKV2_AWS_61: 79
+		  CKV_AWS_804: 75
+		  CKV_AWS_803: 30
+		  CKV_AWS_802: 31
+		  CKV_AWS_801: 21
+	Check fail counts:
+		  CKV2_AWS_61: 140
+		  CKV_AWS_802: 2
+		  CKV_AWS_801: 12
+		  CKV_AWS_803: 3
+		  CKV_AWS_804: 5
+
+Awareness statistics for: baseline_tf (12m)
+	Check ID: CKV2_AWS_61
+		Aware - Passed: 69, Failed: 69
+		Unaware - Passed: 10, Failed: 71
+	Check ID: CKV_AWS_804
+		Aware - Passed: 15, Failed: 2
+		Unaware - Passed: 60, Failed: 3
+	Check ID: CKV_AWS_803
+		Aware - Passed: 16, Failed: 3
+		Unaware - Passed: 14, Failed: 0
+	Check ID: CKV_AWS_802
+		Aware - Passed: 18, Failed: 1
+		Unaware - Passed: 13, Failed: 1
+	Check ID: CKV_AWS_801
+		Aware - Passed: 14, Failed: 5
+		Unaware - Passed: 7, Failed: 7
+
+Awareness statistics for: baseline_tf (10000c)
+	Check ID: CKV2_AWS_61
+		Aware - Passed: 79, Failed: 140
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_804
+		Aware - Passed: 75, Failed: 5
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_803
+		Aware - Passed: 30, Failed: 3
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_802
+		Aware - Passed: 31, Failed: 2
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_801
+		Aware - Passed: 21, Failed: 12
+		Unaware - Passed: 0, Failed: 0
+
+Check statistics for: baseline_cf
+	Total with checks: 51
+	Total without checks: 2
+	Only passed: 13
+	Only failed: 8
+	Check pass counts:
+		  CKV_AWS_806: 107
+		  CKV_AWS_807: 129
+		  CKV_AWS_805: 89
+	Check fail counts:
+		  CKV_AWS_806: 91
+		  CKV_AWS_805: 376
+		  CKV_AWS_807: 89
+
+Awareness statistics for: baseline_cf (12m)
+	Check ID: CKV_AWS_806
+		Aware - Passed: 58, Failed: 47
+		Unaware - Passed: 49, Failed: 44
+	Check ID: CKV_AWS_807
+		Aware - Passed: 70, Failed: 43
+		Unaware - Passed: 59, Failed: 46
+	Check ID: CKV_AWS_805
+		Aware - Passed: 44, Failed: 202
+		Unaware - Passed: 45, Failed: 174
+
+Awareness statistics for: baseline_cf (10000c)
+	Check ID: CKV_AWS_806
+		Aware - Passed: 107, Failed: 91
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_807
+		Aware - Passed: 129, Failed: 89
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_805
+		Aware - Passed: 89, Failed: 376
+		Unaware - Passed: 0, Failed: 0
+
+Check statistics for: extended_tf
+	Total with checks: 85
+	Total without checks: 4
+	Only passed: 15
+	Only failed: 14
+	Check pass counts:
+		  CKV2_AWS_61: 148
+		  CKV_AWS_804: 425
+		  CKV_AWS_802: 74
+		  CKV_AWS_803: 92
+		  CKV_AWS_801: 51
+	Check fail counts:
+		  CKV2_AWS_61: 501
+		  CKV_AWS_803: 20
+		  CKV_AWS_801: 61
+		  CKV_AWS_802: 38
+		  CKV_AWS_804: 1104
+
+Awareness statistics for: extended_tf (12m)
+	Check ID: CKV2_AWS_61
+		Aware - Passed: 111, Failed: 288
+		Unaware - Passed: 37, Failed: 213
+	Check ID: CKV_AWS_804
+		Aware - Passed: 311, Failed: 1053
+		Unaware - Passed: 114, Failed: 51
+	Check ID: CKV_AWS_802
+		Aware - Passed: 40, Failed: 29
+		Unaware - Passed: 34, Failed: 9
+	Check ID: CKV_AWS_803
+		Aware - Passed: 51, Failed: 18
+		Unaware - Passed: 41, Failed: 2
+	Check ID: CKV_AWS_801
+		Aware - Passed: 25, Failed: 44
+		Unaware - Passed: 26, Failed: 17
+
+Awareness statistics for: extended_tf (10000c)
+	Check ID: CKV2_AWS_61
+		Aware - Passed: 140, Failed: 378
+		Unaware - Passed: 8, Failed: 123
+	Check ID: CKV_AWS_804
+		Aware - Passed: 387, Failed: 1096
+		Unaware - Passed: 38, Failed: 8
+	Check ID: CKV_AWS_802
+		Aware - Passed: 69, Failed: 33
+		Unaware - Passed: 5, Failed: 5
+	Check ID: CKV_AWS_803
+		Aware - Passed: 83, Failed: 19
+		Unaware - Passed: 9, Failed: 1
+	Check ID: CKV_AWS_801
+		Aware - Passed: 50, Failed: 52
+		Unaware - Passed: 1, Failed: 9
+
+Check statistics for: extended_cf
+	Total with checks: 16
+	Total without checks: 0
+	Only passed: 2
+	Only failed: 2
+	Check pass counts:
+		  CKV_AWS_807: 2
+		  CKV_AWS_805: 2
+		  CKV_AWS_806: 3
+	Check fail counts:
+		  CKV_AWS_807: 2
+		  CKV_AWS_805: 4
+
+Awareness statistics for: extended_cf (12m)
+	Check ID: CKV_AWS_807
+		Aware - Passed: 2, Failed: 2
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_805
+		Aware - Passed: 1, Failed: 0
+		Unaware - Passed: 1, Failed: 4
+	Check ID: CKV_AWS_806
+		Aware - Passed: 1, Failed: 0
+		Unaware - Passed: 2, Failed: 0
+
+Awareness statistics for: extended_cf (10000c)
+	Check ID: CKV_AWS_807
+		Aware - Passed: 2, Failed: 2
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_805
+		Aware - Passed: 2, Failed: 4
+		Unaware - Passed: 0, Failed: 0
+	Check ID: CKV_AWS_806
+		Aware - Passed: 3, Failed: 0
+		Unaware - Passed: 0, Failed: 0
+

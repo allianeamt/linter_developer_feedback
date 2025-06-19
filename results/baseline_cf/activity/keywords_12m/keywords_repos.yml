@@ -1,0 +1,188 @@
+- average_activity: 4811.666666666667
+  commits: 14435
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - cheap
+  - bill
+  - lifecycle
+  - r/w
+  - efficient
+  pulls: 0
+  repo: https://github.com/code-dot-org/code-dot-org
+- average_activity: 941.0
+  commits: 2823
+  issues: 0
+  keywords:
+  - cost
+  - lifecycle
+  - r/w
+  pulls: 0
+  repo: https://github.com/zalando-incubator/kubernetes-on-aws
+- average_activity: 829.3333333333334
+  commits: 1085
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - bill
+  - lifecycle
+  - efficient
+  pulls: 1403
+  repo: https://github.com/NHSDigital/eps-prescription-status-update-api
+- average_activity: 645.0
+  commits: 1722
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  pulls: 213
+  repo: https://github.com/ASFHyP3/hyp3
+- average_activity: 515.0
+  commits: 1216
+  issues: 0
+  keywords:
+  - cheap
+  pulls: 329
+  repo: https://github.com/aws-samples/serverless-patterns
+- average_activity: 375.3333333333333
+  commits: 554
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 572
+  repo: https://github.com/aws-cloudformation/cfn-lint
+- average_activity: 302.0
+  commits: 508
+  issues: 0
+  keywords:
+  - pay
+  pulls: 398
+  repo: https://github.com/koekalenteri/koekalenteri
+- average_activity: 292.6666666666667
+  commits: 539
+  issues: 0
+  keywords:
+  - pay
+  - bill
+  pulls: 339
+  repo: https://github.com/guardian/mobile-purchases
+- average_activity: 206.66666666666666
+  commits: 214
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - bill
+  - lifecycle
+  - efficient
+  pulls: 406
+  repo: https://github.com/govuk-one-login/di-account-management-backend
+- average_activity: 205.66666666666666
+  commits: 585
+  issues: 0
+  keywords:
+  - cost
+  - lifecycle
+  pulls: 32
+  repo: https://github.com/pagopa/pn-infra
+- average_activity: 158.0
+  commits: 297
+  issues: 0
+  keywords:
+  - cost
+  - r/w
+  pulls: 177
+  repo: https://github.com/buildkite/elastic-ci-stack-for-aws
+- average_activity: 124.33333333333333
+  commits: 185
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - lifecycle
+  pulls: 188
+  repo: https://github.com/awslabs/cid-framework
+- average_activity: 81.33333333333333
+  commits: 244
+  issues: 0
+  keywords:
+  - cost
+  - bill
+  pulls: 0
+  repo: https://github.com/zaro0508/organizations-infra
+- average_activity: 81.33333333333333
+  commits: 244
+  issues: 0
+  keywords:
+  - cost
+  - bill
+  pulls: 0
+  repo: https://github.com/Sage-Bionetworks-IT/organizations-infra
+- average_activity: 61.333333333333336
+  commits: 104
+  issues: 0
+  keywords:
+  - pay
+  pulls: 80
+  repo: https://github.com/Saneri/event-signup
+- average_activity: 48.333333333333336
+  commits: 145
+  issues: 0
+  keywords:
+  - cost
+  pulls: 0
+  repo: https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+- average_activity: 45.0
+  commits: 134
+  issues: 0
+  keywords:
+  - pay
+  pulls: 1
+  repo: https://github.com/pagopa/pn-ec
+- average_activity: 37.666666666666664
+  commits: 113
+  issues: 0
+  keywords:
+  - pay
+  - expens
+  - bill
+  pulls: 0
+  repo: https://github.com/caseconsulting/expense-app-api
+- average_activity: 36.666666666666664
+  commits: 110
+  issues: 0
+  keywords:
+  - cost
+  - bill
+  pulls: 0
+  repo: https://github.com/brucehoff/organizations-infra
+- average_activity: 31.333333333333332
+  commits: 77
+  issues: 0
+  keywords:
+  - bill
+  pulls: 17
+  repo: https://github.com/SedaiEngineering/sedai-onboarding
+- average_activity: 27.333333333333332
+  commits: 39
+  issues: 0
+  keywords:
+  - pay
+  pulls: 43
+  repo: https://github.com/govuk-one-login/txma-infra
+- average_activity: 21.666666666666668
+  commits: 44
+  issues: 0
+  keywords:
+  - cost
+  pulls: 21
+  repo: https://github.com/aexeagmbh/cfn-lint-rules
+- average_activity: 9.666666666666666
+  commits: 16
+  issues: 0
+  keywords:
+  - cost
+  pulls: 13
+  repo: https://github.com/awslabs/aws-well-architected-labs

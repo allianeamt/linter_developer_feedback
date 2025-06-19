@@ -1,0 +1,164 @@
+- checks:
+    failed_checks:
+    - check_id: CKV_AWS_807
+      file_line_range: 2-7
+      file_path: https://github.com/BerriAI/litellm/blob/main/enterprise/cloudformation_stack/litellm.yaml
+      resource: AWS::EC2::Instance.LiteLLMServer
+    passed_checks:
+    - check_id: CKV_AWS_807
+      file_line_range: 36-44
+      file_path: https://github.com/BerriAI/litellm/blob/main/enterprise/cloudformation_stack/litellm.yaml
+      resource: AWS::RDS::DBInstance.LiteLLMDB
+  commits: 9039
+  issues: 0
+  pulls: 3875
+  repo: https://github.com/BerriAI/litellm
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 14515
+  issues: 0
+  pulls: 0
+  repo: https://github.com/chriscoffee/terraform-provider-aws
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 21763
+  issues: 0
+  pulls: 0
+  repo: https://github.com/CloudGeometry/terraform-provider-aws
+- checks:
+    failed_checks:
+    - check_id: CKV_AWS_807
+      file_line_range: 2-7
+      file_path: https://github.com/erickwill/litellm/blob/main/enterprise/cloudformation_stack/litellm.yaml
+      resource: AWS::EC2::Instance.LiteLLMServer
+    passed_checks:
+    - check_id: CKV_AWS_807
+      file_line_range: 36-44
+      file_path: https://github.com/erickwill/litellm/blob/main/enterprise/cloudformation_stack/litellm.yaml
+      resource: AWS::RDS::DBInstance.LiteLLMDB
+  commits: 8870
+  issues: 1
+  pulls: 1
+  repo: https://github.com/erickwill/litellm
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 26440
+  issues: 0
+  pulls: 0
+  repo: https://github.com/fidelity-contributions/hashicorp-terraform-provider-aws
+- checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_805
+      file_line_range: 36-45
+      file_path: https://github.com/highlight/highlight/blob/main/infra/cloudformation/metric-stream.yaml
+      resource: AWS::S3::Bucket.BackupBucket
+  commits: 650
+  issues: 0
+  pulls: 984
+  repo: https://github.com/highlight/highlight
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 2603
+  issues: 0
+  pulls: 13
+  repo: https://github.com/jeschkies/loki
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 133
+  issues: 0
+  pulls: 0
+  repo: https://github.com/open-policy-agent/conftest
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 318
+  issues: 0
+  pulls: 18
+  repo: https://github.com/stellar/stellar-disbursement-platform-backend
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 1162
+  issues: 0
+  pulls: 935
+  repo: https://github.com/wundergraph/cosmo
+- checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_806
+      file_line_range: 89-98
+      file_path: https://github.com/aws-samples/talk-dev-to-me-twitch/blob/main/hexagonal-architectures/template.yaml
+      resource: AWS::DynamoDB::Table.Table
+  commits: 1705
+  issues: 0
+  pulls: 1181
+  repo: https://github.com/aws-samples/talk-dev-to-me-twitch
+- checks:
+    failed_checks:
+    - check_id: CKV_AWS_805
+      file_line_range: 16-19
+      file_path: https://github.com/differentialhq/differential/blob/main/infrastructure/cfn.yaml
+      resource: AWS::S3::Bucket.AssetUploadBucket
+    - check_id: CKV_AWS_805
+      file_line_range: 21-24
+      file_path: https://github.com/differentialhq/differential/blob/main/infrastructure/cfn.yaml
+      resource: AWS::S3::Bucket.CfnTemplateBucket
+    passed_checks: []
+  commits: 3
+  issues: 0
+  pulls: 5
+  repo: https://github.com/differentialhq/differential
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 28
+  issues: 0
+  pulls: 24
+  repo: https://github.com/sawyerh/highlights
+- checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 133
+  issues: 0
+  pulls: 0
+  repo: https://github.com/Mu-L/conftest
+- checks:
+    failed_checks:
+    - check_id: CKV_AWS_805
+      file_line_range: 478-493
+      file_path: https://github.com/govuk-one-login/ipv-cri-cic-api/blob/main/deploy/template.yaml
+      resource: AWS::S3::Bucket.JsonWebKeysBucket
+    passed_checks:
+    - check_id: CKV_AWS_806
+      file_line_range: 61-98
+      file_path: https://github.com/govuk-one-login/ipv-cri-cic-api/blob/main/infra-l2-dynamo/template.yaml
+      resource: AWS::DynamoDB::Table.SessionTable
+    - check_id: CKV_AWS_806
+      file_line_range: 135-156
+      file_path: https://github.com/govuk-one-login/ipv-cri-cic-api/blob/main/infra-l2-dynamo/template.yaml
+      resource: AWS::DynamoDB::Table.PersonIdentityTable
+    - check_id: CKV_AWS_805
+      file_line_range: 163-183
+      file_path: https://github.com/govuk-one-login/ipv-cri-cic-api/blob/main/test-harness/template.yaml
+      resource: AWS::S3::Bucket.EventTestBucket
+  commits: 39
+  issues: 0
+  pulls: 158
+  repo: https://github.com/govuk-one-login/ipv-cri-cic-api
+- checks:
+    failed_checks:
+    - check_id: CKV_AWS_805
+      file_line_range: 474-486
+      file_path: https://github.com/govuk-one-login/onboarding-product-page/blob/main/infrastructure/frontend/frontend.template.yml
+      resource: AWS::S3::Bucket.AccessLogsBucket
+    passed_checks: []
+  commits: 202
+  issues: 0
+  pulls: 303
+  repo: https://github.com/govuk-one-login/onboarding-product-page

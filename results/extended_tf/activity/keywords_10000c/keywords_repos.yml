@@ -1,0 +1,643 @@
+- average_activity: 4943.666666666667
+  commits: 10263
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - lifecycle
+  pulls: 4568
+  repo: https://github.com/ministryofjustice/modernisation-platform-environments
+- average_activity: 3217.6666666666665
+  commits: 4653
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 5000
+  repo: https://github.com/fleetdm/fleet
+- average_activity: 2871.3333333333335
+  commits: 4886
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 3728
+  repo: https://github.com/alphagov/di-authentication-api
+- average_activity: 1951.6666666666667
+  commits: 2701
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  pulls: 3154
+  repo: https://github.com/wellcomecollection/wellcomecollection.org
+- average_activity: 1459.3333333333333
+  commits: 4378
+  issues: 0
+  keywords:
+  - cheap
+  - old generation
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 0
+  repo: https://github.com/gravitational/teleport
+- average_activity: 1422.0
+  commits: 1866
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  pulls: 2400
+  repo: https://github.com/JesusFilm/core
+- average_activity: 1411.0
+  commits: 1798
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  pulls: 2435
+  repo: https://github.com/aptos-labs/aptos-core
+- average_activity: 1224.6666666666667
+  commits: 2397
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - lifecycle
+  - cost
+  - bill
+  pulls: 1277
+  repo: https://github.com/kubernetes/k8s.io
+- average_activity: 742.3333333333334
+  commits: 1512
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 715
+  repo: https://github.com/alphagov/govuk-infrastructure
+- average_activity: 737.6666666666666
+  commits: 963
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 1250
+  repo: https://github.com/pytorch/test-infra
+- average_activity: 662.0
+  commits: 1626
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 360
+  repo: https://github.com/openshift/installer
+- average_activity: 495.3333333333333
+  commits: 1486
+  issues: 0
+  keywords:
+  - cheap
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  pulls: 0
+  repo: https://github.com/returntocorp/semgrep
+- average_activity: 455.0
+  commits: 615
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 750
+  repo: https://github.com/gitpod-io/gitpod
+- average_activity: 402.3333333333333
+  commits: 800
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 407
+  repo: https://github.com/ministryofjustice/opg-lpa
+- average_activity: 377.0
+  commits: 534
+  issues: 0
+  keywords:
+  - cost
+  - expens
+  - bill
+  - lifecycle
+  pulls: 597
+  repo: https://github.com/cds-snc/notification-terraform
+- average_activity: 365.6666666666667
+  commits: 601
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 496
+  repo: https://github.com/ministryofjustice/opg-digideps
+- average_activity: 342.3333333333333
+  commits: 1027
+  issues: 0
+  keywords:
+  - pay
+  - bill
+  - r/w
+  pulls: 0
+  repo: https://github.com/somleng/somleng-switch
+- average_activity: 331.3333333333333
+  commits: 706
+  issues: 0
+  keywords:
+  - lifecycle
+  - pay
+  - bill
+  pulls: 288
+  repo: https://github.com/cloud-gov/cg-provision
+- average_activity: 325.0
+  commits: 975
+  issues: 0
+  keywords:
+  - lifecycle
+  - pay
+  - bill
+  - r/w
+  pulls: 0
+  repo: https://github.com/somleng/somleng
+- average_activity: 321.3333333333333
+  commits: 657
+  issues: 0
+  keywords:
+  - r/w
+  - cost
+  - expens
+  - lifecycle
+  pulls: 307
+  repo: https://github.com/compiler-explorer/infra
+- average_activity: 321.3333333333333
+  commits: 657
+  issues: 0
+  keywords:
+  - r/w
+  - cost
+  - expens
+  - lifecycle
+  pulls: 307
+  repo: https://github.com/compiler-explorer/infra
+- average_activity: 311.0
+  commits: 899
+  issues: 0
+  keywords:
+  - r/w
+  - cost
+  - efficient
+  - lifecycle
+  pulls: 34
+  repo: https://github.com/nulib/meadow
+- average_activity: 223.66666666666666
+  commits: 671
+  issues: 0
+  keywords:
+  - pay
+  - bill
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/Checkmarx/kics
+- average_activity: 189.33333333333334
+  commits: 568
+  issues: 0
+  keywords:
+  - cheap
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 0
+  repo: https://github.com/rust-lang/simpleinfra
+- average_activity: 181.33333333333334
+  commits: 449
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 95
+  repo: https://github.com/kubefirst/gitops-template
+- average_activity: 172.33333333333334
+  commits: 340
+  issues: 0
+  keywords:
+  - lifecycle
+  - cost
+  - pay
+  - bill
+  pulls: 177
+  repo: https://github.com/cds-snc/forms-terraform
+- average_activity: 164.66666666666666
+  commits: 389
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - lifecycle
+  pulls: 105
+  repo: https://github.com/aneoconsulting/ArmoniK.Infra
+- average_activity: 152.66666666666666
+  commits: 458
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 0
+  repo: https://github.com/CMSgov/beneficiary-fhir-data
+- average_activity: 132.66666666666666
+  commits: 398
+  issues: 0
+  keywords:
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - bill
+  pulls: 0
+  repo: https://github.com/dfds/infrastructure-modules
+- average_activity: 129.0
+  commits: 162
+  issues: 0
+  keywords:
+  - cost
+  - bill
+  - lifecycle
+  pulls: 225
+  repo: https://github.com/turbot/steampipe-plugin-aws
+- average_activity: 120.0
+  commits: 171
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - efficient
+  - lifecycle
+  pulls: 189
+  repo: https://github.com/antonputra/tutorials
+- average_activity: 104.33333333333333
+  commits: 212
+  issues: 0
+  keywords:
+  - cheap
+  - cost
+  - pay
+  pulls: 101
+  repo: https://github.com/aneoconsulting/ArmoniK
+- average_activity: 97.66666666666667
+  commits: 252
+  issues: 0
+  keywords:
+  - pay
+  - efficient
+  - lifecycle
+  pulls: 41
+  repo: https://github.com/cabinetoffice/gender-pay-gap
+- average_activity: 88.66666666666667
+  commits: 260
+  issues: 0
+  keywords:
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 6
+  repo: https://github.com/philips-labs/terraform-aws-github-runner
+- average_activity: 85.0
+  commits: 255
+  issues: 0
+  keywords:
+  - pay
+  - bill
+  - efficient
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/nasa/cumulus
+- average_activity: 78.33333333333333
+  commits: 110
+  issues: 0
+  keywords:
+  - cost
+  pulls: 125
+  repo: https://github.com/aws-ia/terraform-aws-eks-blueprints
+- average_activity: 71.0
+  commits: 213
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/umccr/infrastructure
+- average_activity: 70.33333333333333
+  commits: 196
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - expens
+  - lifecycle
+  pulls: 15
+  repo: https://github.com/Worklytics/psoxy
+- average_activity: 65.66666666666667
+  commits: 197
+  issues: 0
+  keywords:
+  - cost
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/JamesWoolfenden/pike
+- average_activity: 63.0
+  commits: 171
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - bill
+  - lifecycle
+  pulls: 18
+  repo: https://github.com/mattermost/mattermost-cloud-monitoring
+- average_activity: 62.333333333333336
+  commits: 187
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/alphagov/govwifi-terraform
+- average_activity: 61.0
+  commits: 183
+  issues: 0
+  keywords:
+  - cheap
+  - expens
+  - lifecycle
+  - cost
+  - efficient
+  - bill
+  pulls: 0
+  repo: https://github.com/infracost/infracost
+- average_activity: 50.666666666666664
+  commits: 152
+  issues: 0
+  keywords:
+  - r/w
+  - pay
+  - lifecycle
+  - cost
+  - efficient
+  pulls: 0
+  repo: https://github.com/openfun/marsha
+- average_activity: 44.0
+  commits: 113
+  issues: 0
+  keywords:
+  - cost
+  - bill
+  - lifecycle
+  pulls: 19
+  repo: https://github.com/ministryofjustice/opg-terraform-aws-account
+- average_activity: 42.0
+  commits: 126
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/byu-oit/hw-fargate-api
+- average_activity: 39.333333333333336
+  commits: 118
+  issues: 0
+  keywords:
+  - r/w
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/bcgov/workbc-main
+- average_activity: 24.333333333333332
+  commits: 73
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/asquarezone/TerraformZone
+- average_activity: 21.666666666666668
+  commits: 59
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 6
+  repo: https://github.com/18F/identity-terraform
+- average_activity: 17.0
+  commits: 30
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 21
+  repo: https://github.com/masterpointio/terraform-aws-ssm-agent
+- average_activity: 15.666666666666666
+  commits: 47
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/heldersepu/hs-scripts
+- average_activity: 12.666666666666666
+  commits: 38
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/e2eSolutionArchitect/terraform
+- average_activity: 10.333333333333334
+  commits: 29
+  issues: 0
+  keywords:
+  - cheap
+  - cost
+  pulls: 2
+  repo: https://github.com/clojars/infrastructure
+- average_activity: 9.333333333333334
+  commits: 10
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 18
+  repo: https://github.com/moritzzimmer/terraform-aws-lambda
+- average_activity: 9.333333333333334
+  commits: 28
+  issues: 0
+  keywords:
+  - lifecycle
+  - r/w
+  pulls: 0
+  repo: https://github.com/girder/terraform-heroku-girder4
+- average_activity: 8.0
+  commits: 24
+  issues: 0
+  keywords:
+  - pay
+  - bill
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/akerl/aws-account
+- average_activity: 7.333333333333333
+  commits: 17
+  issues: 0
+  keywords:
+  - pay
+  - bill
+  pulls: 5
+  repo: https://github.com/projecthorus/sondehub-infra
+- average_activity: 7.0
+  commits: 21
+  issues: 0
+  keywords:
+  - cheap
+  - r/w
+  - pay
+  - expens
+  - lifecycle
+  - cost
+  - overprovisioned
+  - efficient
+  pulls: 0
+  repo: https://github.com/alphagov/govuk-aws
+- average_activity: 5.333333333333333
+  commits: 16
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2
+- average_activity: 4.333333333333333
+  commits: 13
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - bill
+  pulls: 0
+  repo: https://github.com/confluentinc/demo-scene
+- average_activity: 4.333333333333333
+  commits: 10
+  issues: 0
+  keywords:
+  - pay
+  - expens
+  - lifecycle
+  pulls: 3
+  repo: https://github.com/88lexd/lexd-solutions
+- average_activity: 3.3333333333333335
+  commits: 10
+  issues: 0
+  keywords:
+  - pay
+  pulls: 0
+  repo: https://github.com/web-mev/mev-backend
+- average_activity: 2.0
+  commits: 5
+  issues: 0
+  keywords:
+  - pay
+  - lifecycle
+  pulls: 1
+  repo: https://github.com/privacysandbox/fledge-key-value-service
+- average_activity: 1.6666666666666667
+  commits: 5
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/rackspace-infrastructure-automation/aws-terraform-s3
+- average_activity: 1.3333333333333333
+  commits: 3
+  issues: 0
+  keywords:
+  - cost
+  pulls: 1
+  repo: https://github.com/zenml-io/mlops-stacks
+- average_activity: 1.0
+  commits: 2
+  issues: 0
+  keywords:
+  - cost
+  - pay
+  - lifecycle
+  pulls: 1
+  repo: https://github.com/lpm0073/cookiecutter-openedx-devops
+- average_activity: 0.6666666666666666
+  commits: 2
+  issues: 0
+  keywords:
+  - lifecycle
+  pulls: 0
+  repo: https://github.com/mingfang/terraform-kubernetes

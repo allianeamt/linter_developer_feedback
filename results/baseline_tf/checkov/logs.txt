@@ -1,0 +1,937 @@
+Processing repository: https://github.com/ministryofjustice/cloud-platform-environments
+	Cloning repository https://github.com/ministryofjustice/cloud-platform-environments
+		Cloned repository https://github.com/ministryofjustice/cloud-platform-environments
+		Successfully cloned repository https://github.com/ministryofjustice/cloud-platform-environments
+		Found 9526 Terraform files in repository https://github.com/ministryofjustice/cloud-platform-environments.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/ministryofjustice/modernisation-platform
+	Cloning repository https://github.com/ministryofjustice/modernisation-platform
+		Cloned repository https://github.com/ministryofjustice/modernisation-platform
+		Successfully cloned repository https://github.com/ministryofjustice/modernisation-platform
+		Found 935 Terraform files in repository https://github.com/ministryofjustice/modernisation-platform.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.acm-pca - temp_repo\terraform\environments\core-network-services\acm-pca.tf:[14, 31]
+				- CKV_AWS_804: aws_instance.ad_fixngo - temp_repo\terraform\environments\core-shared-services\ad-fixngo.tf:[1011, 1064]
+			Failed checks:
+Processing repository: https://github.com/alphagov/govuk-infrastructure
+	Cloning repository https://github.com/alphagov/govuk-infrastructure
+		Cloned repository https://github.com/alphagov/govuk-infrastructure
+		Successfully cloned repository https://github.com/alphagov/govuk-infrastructure
+		Found 242 Terraform files in repository https://github.com/alphagov/govuk-infrastructure.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.csp_reports - temp_repo\terraform\deployments\csp-reporter\buckets.tf:[2, 8]
+				- CKV2_AWS_61: aws_s3_bucket.athena_query_results - temp_repo\terraform\deployments\govuk-publishing-infrastructure\athena_query_results_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.attachments - temp_repo\terraform\deployments\govuk-publishing-infrastructure\attachments_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.content_data_csvs - temp_repo\terraform\deployments\govuk-publishing-infrastructure\content_data_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.content_publisher_activestorage_replica - temp_repo\terraform\deployments\govuk-publishing-infrastructure\content_publisher_s3.tf:[32, 35]
+				- CKV2_AWS_61: aws_s3_bucket.backup_main - temp_repo\terraform\deployments\govuk-publishing-infrastructure\db_backup_s3.tf:[6, 10]
+				- CKV2_AWS_61: aws_s3_bucket.backup_replica - temp_repo\terraform\deployments\govuk-publishing-infrastructure\db_backup_s3.tf:[12, 17]
+				- CKV2_AWS_61: aws_s3_bucket.govuk_mirror - temp_repo\terraform\deployments\govuk-publishing-infrastructure\govuk_mirror_sync.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.govuk_mirror_replica - temp_repo\terraform\deployments\govuk-publishing-infrastructure\govuk_mirror_sync.tf:[55, 61]
+				- CKV2_AWS_61: aws_s3_bucket.search_relevancy_bucket - temp_repo\terraform\deployments\govuk-publishing-infrastructure\search_relevancy_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.search_sitemaps_bucket - temp_repo\terraform\deployments\govuk-publishing-infrastructure\search_sitemaps_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.aws_logging - temp_repo\terraform\deployments\logging\aws_logging.tf:[76, 78]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.origin_service_disabled - temp_repo\terraform\deployments\chat\cloudfront.tf:[79, 81]
+				- CKV2_AWS_61: aws_s3_bucket.tempo - temp_repo\terraform\deployments\cluster-services\tempo.tf:[6, 10]
+				- CKV2_AWS_61: aws_s3_bucket.datagovuk-organogram - temp_repo\terraform\deployments\datagovuk-infrastructure\organogram_bucket.tf:[21, 24]
+				- CKV2_AWS_61: aws_s3_bucket.datagovuk_static - temp_repo\terraform\deployments\datagovuk-infrastructure\static_data_bucket.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.app_assets - temp_repo\terraform\deployments\govuk-publishing-infrastructure\app_assets_s3.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.assets - temp_repo\terraform\deployments\govuk-publishing-infrastructure\asset_manager_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.content_publisher_activestorage - temp_repo\terraform\deployments\govuk-publishing-infrastructure\content_publisher_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.location_api_import_csvs - temp_repo\terraform\deployments\govuk-publishing-infrastructure\locations_api_s3.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.publisher_csvs - temp_repo\terraform\deployments\govuk-publishing-infrastructure\reports_s3.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.support_api_csvs - temp_repo\terraform\deployments\govuk-publishing-infrastructure\reports_s3.tf:[10, 18]
+				- CKV2_AWS_61: aws_s3_bucket.search_analytics - temp_repo\terraform\deployments\govuk-publishing-infrastructure\search_analytics_s3.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.whitehall_csvs - temp_repo\terraform\deployments\govuk-publishing-infrastructure\whitehall_csvs_s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.mobile_backend_remote_config - temp_repo\terraform\deployments\mobile-backend\config-bucket.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.opensearch_snapshot - temp_repo\terraform\deployments\opensearch\s3.tf:[2, 5]
+Processing repository: https://github.com/ministryofjustice/cloud-platform-infrastructure
+	Cloning repository https://github.com/ministryofjustice/cloud-platform-infrastructure
+		Cloned repository https://github.com/ministryofjustice/cloud-platform-infrastructure
+		Successfully cloned repository https://github.com/ministryofjustice/cloud-platform-infrastructure
+		Found 105 Terraform files in repository https://github.com/ministryofjustice/cloud-platform-infrastructure.
+		Error running checks on: 'charmap' codec can't decode byte 0x8f in position 7218: character maps to <undefined>
+			Passed checks:
+				- CKV_AWS_803: aws_dynamodb_table.cloud_platform_environments_terraform_lock - temp_repo\terraform\aws-accounts\cloud-platform-aws\account\main.tf:[249, 265]
+			Failed checks:
+				- CKV_AWS_802: aws_dynamodb_table.cloud_platform_environments_terraform_lock - temp_repo\terraform\aws-accounts\cloud-platform-aws\account\main.tf:[249, 265]
+				- CKV_AWS_801: aws_dynamodb_table.cloud_platform_environments_terraform_lock - temp_repo\terraform\aws-accounts\cloud-platform-aws\account\main.tf:[249, 265]
+Processing repository: https://github.com/geraldwuhoo/homelab-iac
+	Cloning repository https://github.com/geraldwuhoo/homelab-iac
+		Cloned repository https://github.com/geraldwuhoo/homelab-iac
+		Successfully cloned repository https://github.com/geraldwuhoo/homelab-iac
+		Found 15 Terraform files in repository https://github.com/geraldwuhoo/homelab-iac.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/Quansight/qhub
+	Cloning repository https://github.com/Quansight/qhub
+		Cloned repository https://github.com/Quansight/qhub
+		Successfully cloned repository https://github.com/Quansight/qhub
+		Found 185 Terraform files in repository https://github.com/Quansight/qhub.
+			Passed checks:
+				- CKV_AWS_802: aws_dynamodb_table.terraform-state-lock - temp_repo\src\_nebari\stages\terraform_state\template\aws\modules\terraform-state\main.tf:[45, 58]
+				- CKV_AWS_803: aws_dynamodb_table.terraform-state-lock - temp_repo\src\_nebari\stages\terraform_state\template\aws\modules\terraform-state\main.tf:[45, 58]
+			Failed checks:
+				- CKV_AWS_801: aws_dynamodb_table.terraform-state-lock - temp_repo\src\_nebari\stages\terraform_state\template\aws\modules\terraform-state\main.tf:[45, 58]
+				- CKV2_AWS_61: aws_s3_bucket.terraform-state - temp_repo\src\_nebari\stages\terraform_state\template\aws\modules\terraform-state\main.tf:[5, 21]
+Processing repository: https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+	Cloning repository https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+		Cloned repository https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+		Successfully cloned repository https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+		Found 1095 Terraform files in repository https://github.com/GoogleCloudPlatform/cloud-foundation-fabric.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/rust-lang/simpleinfra
+	Cloning repository https://github.com/rust-lang/simpleinfra
+		Cloned repository https://github.com/rust-lang/simpleinfra
+		Successfully cloned repository https://github.com/rust-lang/simpleinfra
+		Found 298 Terraform files in repository https://github.com/rust-lang/simpleinfra.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.bastion - temp_repo\terraform\bastion\instance.tf:[53, 81]
+				- CKV_AWS_804: aws_instance.crater - temp_repo\terraform\crater\instance.tf:[245, 273]
+				- CKV_AWS_804: aws_instance.instance - temp_repo\terraform\dev-desktops\aws-region\instances.tf:[20, 49]
+				- CKV2_AWS_61: aws_s3_bucket.backups - temp_repo\terraform\docs-rs\s3.tf:[60, 79]
+				- CKV2_AWS_61: aws_s3_bucket.artifacts - temp_repo\terraform\playground\artifacts.tf:[4, 6]
+				- CKV_AWS_804: aws_instance.playground2 - temp_repo\terraform\playground\instance.tf:[178, 207]
+				- CKV2_AWS_61: aws_s3_bucket.logs - temp_repo\terraform\releases\environments.tf:[6, 8]
+				- CKV2_AWS_61: aws_s3_bucket.static - temp_repo\terraform\releases\impl\storage.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.storage - temp_repo\terraform\rust-log-analyzer\app.tf:[41, 43]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\terraform\rustc-perf\s3.tf:[86, 111]
+				- CKV2_AWS_61: aws_s3_bucket.rust_inventories - temp_repo\terraform\shared\s3.tf:[3, 19]
+				- CKV2_AWS_61: aws_s3_bucket.rust_lang_ci_mirrors - temp_repo\terraform\shared\s3.tf:[68, 90]
+				- CKV_AWS_804: aws_instance.bastion - temp_repo\terragrunt\modules\bastion\instance.tf:[53, 79]
+				- CKV2_AWS_61: aws_s3_bucket.logs - temp_repo\terragrunt\modules\crates-io\s3-logs.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.static - temp_repo\terragrunt\modules\crates-io\s3-static.tf:[1, 51]
+				- CKV2_AWS_61: aws_s3_bucket.backups - temp_repo\terragrunt\modules\docs-rs\s3.tf:[46, 48]
+				- CKV2_AWS_61: aws_s3_bucket.artifacts - temp_repo\terragrunt\modules\rustc-ci\artifacts.tf:[47, 49]
+				- CKV2_AWS_61: aws_s3_bucket.caches - temp_repo\terragrunt\modules\rustc-ci\caches.tf:[2, 4]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.storage - temp_repo\terraform\docs-rs\s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.redirect - temp_repo\terraform\domain-redirects\impl\main.tf:[43, 45]
+				- CKV2_AWS_61: aws_s3_bucket.release_keys - temp_repo\terraform\releases\keys.tf:[13, 15]
+				- CKV2_AWS_61: aws_s3_bucket.rust_lang_crates_io_index - temp_repo\terraform\shared\s3.tf:[112, 115]
+				- CKV2_AWS_61: aws_s3_bucket.index - temp_repo\terragrunt\modules\crates-io\s3-index.tf:[1, 15]
+				- CKV2_AWS_61: aws_s3_bucket.fallback - temp_repo\terragrunt\modules\crates-io\s3-static.tf:[129, 137]
+				- CKV2_AWS_61: aws_s3_bucket.storage - temp_repo\terragrunt\modules\docs-rs\s3.tf:[7, 9]
+				- CKV2_AWS_61: aws_s3_bucket.inventory - temp_repo\terragrunt\modules\docs-rs\s3.tf:[91, 93]
+				- CKV2_AWS_61: aws_s3_bucket.storage - temp_repo\terragrunt\modules\gha-self-hosted-images\storage.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.inventories - temp_repo\terragrunt\modules\rustc-ci\artifacts.tf:[135, 137]
+				- CKV2_AWS_61: aws_s3_bucket.builds - temp_repo\terragrunt\modules\rustup\s3.tf:[3, 7]
+Processing repository: https://github.com/jenkins-infra/aws
+	Cloning repository https://github.com/jenkins-infra/aws
+		Cloned repository https://github.com/jenkins-infra/aws
+		Successfully cloned repository https://github.com/jenkins-infra/aws
+		Found 10 Terraform files in repository https://github.com/jenkins-infra/aws.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/Accurate0/infrastructure
+	Cloning repository https://github.com/Accurate0/infrastructure
+		Cloned repository https://github.com/Accurate0/infrastructure
+		Successfully cloned repository https://github.com/Accurate0/infrastructure
+		Found 71 Terraform files in repository https://github.com/Accurate0/infrastructure.
+			Passed checks:
+				- CKV_AWS_802: aws_dynamodb_table.maccas-api-deals - temp_repo\maccas\tables.tf:[1, 20]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-api-deals - temp_repo\maccas\tables.tf:[1, 20]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-api-deals - temp_repo\maccas\tables.tf:[1, 20]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-api-userconfig - temp_repo\maccas\tables.tf:[22, 36]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-api-userconfig - temp_repo\maccas\tables.tf:[22, 36]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-api-userconfig - temp_repo\maccas\tables.tf:[22, 36]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-api-tokens - temp_repo\maccas\tables.tf:[38, 52]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-api-tokens - temp_repo\maccas\tables.tf:[38, 52]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-api-tokens - temp_repo\maccas\tables.tf:[38, 52]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-api-accounts - temp_repo\maccas\tables.tf:[54, 73]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-api-accounts - temp_repo\maccas\tables.tf:[54, 73]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-api-accounts - temp_repo\maccas\tables.tf:[54, 73]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-api-offer-locked - temp_repo\maccas\tables.tf:[75, 94]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-api-offer-locked - temp_repo\maccas\tables.tf:[75, 94]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-api-offer-locked - temp_repo\maccas\tables.tf:[75, 94]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-points - temp_repo\maccas\tables.tf:[96, 110]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-points - temp_repo\maccas\tables.tf:[96, 110]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-points - temp_repo\maccas\tables.tf:[96, 110]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-refreshtracking - temp_repo\maccas\tables.tf:[112, 126]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-refreshtracking - temp_repo\maccas\tables.tf:[112, 126]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-refreshtracking - temp_repo\maccas\tables.tf:[112, 126]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-lastrefresh - temp_repo\maccas\tables.tf:[128, 142]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-lastrefresh - temp_repo\maccas\tables.tf:[128, 142]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-lastrefresh - temp_repo\maccas\tables.tf:[128, 142]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-audit - temp_repo\maccas\tables.tf:[144, 169]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-audit - temp_repo\maccas\tables.tf:[144, 169]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-useraccounts - temp_repo\maccas\tables.tf:[171, 185]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-useraccounts - temp_repo\maccas\tables.tf:[171, 185]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-useraccounts - temp_repo\maccas\tables.tf:[171, 185]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-users - temp_repo\maccas\tables.tf:[187, 201]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-users - temp_repo\maccas\tables.tf:[187, 201]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-users - temp_repo\maccas\tables.tf:[187, 201]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-user-tokens - temp_repo\maccas\tables.tf:[203, 222]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-user-tokens - temp_repo\maccas\tables.tf:[203, 222]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-user-tokens - temp_repo\maccas\tables.tf:[203, 222]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-registration-tokens - temp_repo\maccas\tables.tf:[224, 243]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-registration-tokens - temp_repo\maccas\tables.tf:[224, 243]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-registration-tokens - temp_repo\maccas\tables.tf:[224, 243]
+				- CKV_AWS_802: aws_dynamodb_table.maccas-deals-db - temp_repo\maccas\tables.tf:[245, 286]
+				- CKV_AWS_801: aws_dynamodb_table.maccas-deals-db - temp_repo\maccas\tables.tf:[245, 286]
+				- CKV_AWS_802: aws_dynamodb_table.replybot-interaction - temp_repo\replybot\tables.tf:[5, 34]
+				- CKV_AWS_802: aws_dynamodb_table.tf-state-lock - temp_repo\tf-state\state-table.tf:[1, 17]
+				- CKV_AWS_803: aws_dynamodb_table.tf-state-lock - temp_repo\tf-state\state-table.tf:[1, 17]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.assets-bucket - temp_repo\anurag-sh\assets.tf:[137, 139]
+				- CKV2_AWS_61: aws_s3_bucket.config - temp_repo\maccas\bucket.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.image-bucket - temp_repo\maccas\bucket.tf:[19, 21]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-audit - temp_repo\maccas\tables.tf:[144, 169]
+				- CKV_AWS_803: aws_dynamodb_table.maccas-deals-db - temp_repo\maccas\tables.tf:[245, 286]
+				- CKV_AWS_803: aws_dynamodb_table.replybot-interaction - temp_repo\replybot\tables.tf:[5, 34]
+				- CKV_AWS_801: aws_dynamodb_table.replybot-interaction - temp_repo\replybot\tables.tf:[5, 34]
+				- CKV2_AWS_61: aws_s3_bucket.tf-state - temp_repo\tf-state\state-bucket.tf:[1, 7]
+				- CKV_AWS_801: aws_dynamodb_table.tf-state-lock - temp_repo\tf-state\state-table.tf:[1, 17]
+Processing repository: https://github.com/public-transport/infrastructure
+	Cloning repository https://github.com/public-transport/infrastructure
+		Cloned repository https://github.com/public-transport/infrastructure
+		Successfully cloned repository https://github.com/public-transport/infrastructure
+		Found 8 Terraform files in repository https://github.com/public-transport/infrastructure.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/dfds/infrastructure-modules
+	Cloning repository https://github.com/dfds/infrastructure-modules
+		Cloned repository https://github.com/dfds/infrastructure-modules
+		Successfully cloned repository https://github.com/dfds/infrastructure-modules
+		Found 625 Terraform files in repository https://github.com/dfds/infrastructure-modules.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.instance - temp_repo\_sub\compute\ec2-instance\main.tf:[43, 62]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\_sub\storage\s3-bucket-lifecycle\main.tf:[2, 5]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\_sub\storage\s3-cloudtrail-bucket\main.tf:[38, 43]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\_sub\storage\s3-bucket\main.tf:[2, 13]
+				- CKV2_AWS_61: aws_s3_bucket.log_bucket[0] - temp_repo\_sub\storage\s3-cloudtrail-bucket\main.tf:[1, 6]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\_sub\storage\s3-config-bucket\main.tf:[1, 9]
+Processing repository: https://github.com/nationalarchives/tdr-terraform-environments
+	Cloning repository https://github.com/nationalarchives/tdr-terraform-environments
+		Cloned repository https://github.com/nationalarchives/tdr-terraform-environments
+		Successfully cloned repository https://github.com/nationalarchives/tdr-terraform-environments
+		Found 44 Terraform files in repository https://github.com/nationalarchives/tdr-terraform-environments.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cds-snc/terraform-modules
+	Cloning repository https://github.com/cds-snc/terraform-modules
+		Cloned repository https://github.com/cds-snc/terraform-modules
+		Successfully cloned repository https://github.com/cds-snc/terraform-modules
+		Found 266 Terraform files in repository https://github.com/cds-snc/terraform-modules.
+		Error running checks on: 'charmap' codec can't decode byte 0x9d in position 2193: character maps to <undefined>
+		Error running checks on: 'charmap' codec can't decode byte 0x8f in position 262: character maps to <undefined>
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.this - temp_repo\S3\main.tf:[8, 179]
+				- CKV2_AWS_61: aws_s3_bucket.this - temp_repo\S3_log_bucket\main.tf:[8, 53]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.this - temp_repo\simple_static_website\main.tf:[54, 64]
+Processing repository: https://github.com/poseidon/typhoon
+	Cloning repository https://github.com/poseidon/typhoon
+		Cloned repository https://github.com/poseidon/typhoon
+		Successfully cloned repository https://github.com/poseidon/typhoon
+		Found 156 Terraform files in repository https://github.com/poseidon/typhoon.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.controllers - temp_repo\aws\fedora-coreos\kubernetes\controllers.tf:[17, 56]
+				- CKV_AWS_804: aws_instance.controllers - temp_repo\aws\flatcar-linux\kubernetes\controllers.tf:[17, 56]
+			Failed checks:
+Processing repository: https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+	Cloning repository https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+		Cloned repository https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+		Successfully cloned repository https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+		Found 16 Terraform files in repository https://github.com/ministryofjustice/cloud-platform-terraform-monitoring.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/opszero/terraform-aws-kubespot
+	Cloning repository https://github.com/opszero/terraform-aws-kubespot
+		Cloned repository https://github.com/opszero/terraform-aws-kubespot
+		Successfully cloned repository https://github.com/opszero/terraform-aws-kubespot
+		Found 30 Terraform files in repository https://github.com/opszero/terraform-aws-kubespot.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cds-snc/cloud-based-sensor
+	Cloning repository https://github.com/cds-snc/cloud-based-sensor
+		Cloned repository https://github.com/cds-snc/cloud-based-sensor
+		Successfully cloned repository https://github.com/cds-snc/cloud-based-sensor
+		Found 19 Terraform files in repository https://github.com/cds-snc/cloud-based-sensor.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cisagov/cool-assessment-terraform
+	Cloning repository https://github.com/cisagov/cool-assessment-terraform
+		Cloned repository https://github.com/cisagov/cool-assessment-terraform
+		Successfully cloned repository https://github.com/cisagov/cool-assessment-terraform
+		Found 119 Terraform files in repository https://github.com/cisagov/cool-assessment-terraform.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.debiandesktop - temp_repo\debiandesktop_ec2.tf:[32, 81]
+				- CKV_AWS_804: aws_instance.egressassess - temp_repo\egressassess_ec2.tf:[32, 73]
+				- CKV_AWS_804: aws_instance.gophish - temp_repo\gophish_ec2.tf:[32, 84]
+				- CKV_AWS_804: aws_ebs_volume.gophish_docker - temp_repo\gophish_ec2.tf:[112, 123]
+				- CKV_AWS_804: aws_instance.guacamole - temp_repo\guacamole_ec2.tf:[32, 98]
+				- CKV_AWS_804: aws_instance.kali - temp_repo\kali_ec2.tf:[32, 83]
+				- CKV_AWS_804: aws_instance.nessus - temp_repo\nessus_ec2.tf:[37, 94]
+				- CKV_AWS_804: aws_instance.pentestportal - temp_repo\pentestportal_ec2.tf:[32, 80]
+				- CKV_AWS_804: aws_instance.samba - temp_repo\samba_ec2.tf:[32, 86]
+				- CKV_AWS_804: aws_instance.teamserver - temp_repo\teamserver_ec2.tf:[32, 94]
+				- CKV_AWS_804: aws_instance.terraformer - temp_repo\terraformer_ec2.tf:[32, 90]
+				- CKV_AWS_804: aws_instance.windows - temp_repo\windows_ec2.tf:[35, 96]
+				- CKV_AWS_804: aws_instance.teamserver - temp_repo\examples\use-terraformer-instance\teamserver_ec2.tf:[25, 63]
+			Failed checks:
+Processing repository: https://github.com/binbashar/le-tf-infra-aws
+	Cloning repository https://github.com/binbashar/le-tf-infra-aws
+		Cloned repository https://github.com/binbashar/le-tf-infra-aws
+		Successfully cloned repository https://github.com/binbashar/le-tf-infra-aws
+		Found 962 Terraform files in repository https://github.com/binbashar/le-tf-infra-aws.
+			Passed checks:
+				- CKV_AWS_804: aws_ebs_volume.this - temp_repo\apps-devstg\us-east-1\ec2-fleet-ansible --\ebs.tf:[9, 17]
+				- CKV2_AWS_61: aws_s3_bucket.gdrive_backup - temp_repo\shared\us-east-1\storage\backup-gdrive --\bucket_gdrive.tf:[7, 46]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.kops_state - temp_repo\apps-devstg\us-east-1\k8s-kops\1-prerequisites\s3.tf:[9, 19]
+				- CKV2_AWS_61: aws_s3_bucket.kops_irsa - temp_repo\apps-devstg\us-east-1\k8s-kops\1-prerequisites\s3.tf:[104, 114]
+				- CKV2_AWS_61: aws_s3_bucket.cloudtrail_s3_bucket-dr - temp_repo\security\us-east-2\security-audit\awscloudtrail_replication.tf:[7, 14]
+				- CKV2_AWS_61: aws_s3_bucket.config_s3_bucket-dr - temp_repo\security\us-east-2\security-compliance --\awsconfig_replication.tf:[7, 14]
+Processing repository: https://github.com/alphagov/govwifi-terraform
+	Cloning repository https://github.com/alphagov/govwifi-terraform
+		Cloned repository https://github.com/alphagov/govwifi-terraform
+		Successfully cloned repository https://github.com/alphagov/govwifi-terraform
+		Found 245 Terraform files in repository https://github.com/alphagov/govwifi-terraform.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.management - temp_repo\govwifi-backend\management.tf:[17, 154]
+				- CKV2_AWS_61: aws_s3_bucket.rds_mysql_backup_bucket - temp_repo\govwifi-backend\s3.tf:[4, 14]
+				- CKV2_AWS_61: aws_s3_bucket.emailbucket - temp_repo\govwifi-emails\s3sns.tf:[2, 11]
+				- CKV_AWS_804: aws_ebs_volume.grafana_ebs - temp_repo\govwifi-grafana\instances.tf:[72, 80]
+				- CKV_AWS_804: aws_ebs_volume.prometheus_ebs - temp_repo\govwifi-prometheus\instances.tf:[74, 82]
+				- CKV2_AWS_61: aws_s3_bucket.accesslogs_bucket - temp_repo\new-terraform-state\accesslogs_bucket.tf:[73, 80]
+				- CKV2_AWS_61: aws_s3_bucket.replication_accesslogs_bucket - temp_repo\new-terraform-state\replication_accesslogs_bucket.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.accesslogs_bucket - temp_repo\terraform-state\accesslogs.tf:[73, 82]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.iam_user_managment_logs - temp_repo\govwifi-account-policy\s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.access_logs - temp_repo\govwifi-admin\loadbalancer.tf:[29, 36]
+				- CKV2_AWS_61: aws_s3_bucket.admin_bucket - temp_repo\govwifi-admin\s3.tf:[1, 9]
+				- CKV2_AWS_61: aws_s3_bucket.product_page_data_bucket - temp_repo\govwifi-admin\s3.tf:[28, 36]
+				- CKV2_AWS_61: aws_s3_bucket.admin_mou_bucket - temp_repo\govwifi-admin\s3.tf:[61, 69]
+				- CKV2_AWS_61: aws_s3_bucket.replication_admin_bucket - temp_repo\govwifi-admin\s3.tf:[233, 239]
+				- CKV2_AWS_61: aws_s3_bucket.wordlist - temp_repo\govwifi-api\wordlist.tf:[1, 9]
+				- CKV2_AWS_61: aws_s3_bucket.canary_tests_bucket - temp_repo\govwifi-canary-tests\s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.metrics_bucket - temp_repo\govwifi-dashboard\s3.tf:[1, 7]
+				- CKV2_AWS_61: aws_s3_bucket.export_data_bucket - temp_repo\govwifi-dashboard\s3.tf:[26, 32]
+				- CKV2_AWS_61: aws_s3_bucket.codepipeline_bucket - temp_repo\govwifi-deploy\s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.codepipeline_bucket_ireland - temp_repo\govwifi-deploy\s3.tf:[90, 93]
+				- CKV2_AWS_61: aws_s3_bucket.emailloggingbucket - temp_repo\govwifi-emails\s3sns.tf:[22, 30]
+				- CKV2_AWS_61: aws_s3_bucket.admin_emailbucket - temp_repo\govwifi-emails\s3sns.tf:[110, 119]
+				- CKV2_AWS_61: aws_s3_bucket.frontend_cert_bucket - temp_repo\govwifi-frontend\certs.tf:[26, 33]
+				- CKV_AWS_804: aws_instance.grafana_instance - temp_repo\govwifi-grafana\instances.tf:[19, 63]
+				- CKV_AWS_804: aws_instance.prometheus_instance - temp_repo\govwifi-prometheus\instances.tf:[19, 68]
+				- CKV2_AWS_61: aws_s3_bucket.smoke_tests_bucket - temp_repo\govwifi-smoke-tests\s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.sync_certs_bucket - temp_repo\govwifi-sync-certs\s3.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.state_bucket - temp_repo\new-terraform-state\bucket.tf:[73, 80]
+				- CKV2_AWS_61: aws_s3_bucket.replication_state_bucket - temp_repo\new-terraform-state\replication_bucket.tf:[5, 14]
+				- CKV2_AWS_61: aws_s3_bucket.state_bucket - temp_repo\terraform-state\tfstate.tf:[87, 95]
+Processing repository: https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+	Cloning repository https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+		Cloned repository https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+		Successfully cloned repository https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+		Found 26 Terraform files in repository https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/Harmelodic/automation-infrastructure
+	Cloning repository https://github.com/Harmelodic/automation-infrastructure
+		Cloned repository https://github.com/Harmelodic/automation-infrastructure
+		Successfully cloned repository https://github.com/Harmelodic/automation-infrastructure
+		Found 9 Terraform files in repository https://github.com/Harmelodic/automation-infrastructure.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/openaustralia/infrastructure
+	Cloning repository https://github.com/openaustralia/infrastructure
+		Cloned repository https://github.com/openaustralia/infrastructure
+		Successfully cloned repository https://github.com/openaustralia/infrastructure
+		Found 72 Terraform files in repository https://github.com/openaustralia/infrastructure.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\electionleaflets\main.tf:[15, 27]
+				- CKV_AWS_804: aws_ebs_volume.data - temp_repo\terraform\electionleaflets\main.tf:[40, 51]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\metabase\main.tf:[10, 23]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\oaf\main.tf:[10, 21]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\openaustralia\main.tf:[10, 25]
+				- CKV_AWS_804: aws_ebs_volume.data - temp_repo\terraform\openaustralia\main.tf:[38, 49]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\opengovernment\main.tf:[10, 22]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\planningalerts\env\main.tf:[18, 36]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\plausible\main.tf:[10, 25]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\proxy\main.tf:[10, 24]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\righttoknow\main.tf:[10, 30]
+				- CKV_AWS_804: aws_ebs_volume.data - temp_repo\terraform\righttoknow\main.tf:[39, 47]
+				- CKV_AWS_804: aws_instance.main - temp_repo\terraform\theyvoteforyou\main.tf:[10, 31]
+				- CKV_AWS_804: aws_ebs_volume.data - temp_repo\terraform\theyvoteforyou\main.tf:[40, 48]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.terraform_state - temp_repo\terraform\backend.tf:[12, 14]
+				- CKV2_AWS_61: aws_s3_bucket.oaf-backups-orpington - temp_repo\terraform\backups-orpington.tf:[46, 48]
+				- CKV2_AWS_61: aws_s3_bucket.oaf-backups - temp_repo\terraform\backups.tf:[46, 49]
+				- CKV2_AWS_61: aws_s3_bucket.oaf-elasticsearch-snapshots - temp_repo\terraform\elasticsearch-snapshots.tf:[36, 38]
+				- CKV2_AWS_61: aws_s3_bucket.main - temp_repo\terraform\activestorage-s3\main.tf:[3, 5]
+				- CKV2_AWS_61: aws_s3_bucket.production - temp_repo\terraform\electionleaflets\main.tf:[110, 113]
+				- CKV2_AWS_61: aws_s3_bucket.staging - temp_repo\terraform\electionleaflets\main.tf:[160, 163]
+				- CKV2_AWS_61: aws_s3_bucket.sitemaps - temp_repo\terraform\planningalerts\sitemaps.tf:[1, 3]
+Processing repository: https://github.com/gravicore/terraform-gravicore-modules
+	Cloning repository https://github.com/gravicore/terraform-gravicore-modules
+		Cloned repository https://github.com/gravicore/terraform-gravicore-modules
+		Successfully cloned repository https://github.com/gravicore/terraform-gravicore-modules
+		Found 340 Terraform files in repository https://github.com/gravicore/terraform-gravicore-modules.
+			Passed checks:
+				- CKV_AWS_803: aws_dynamodb_table.remote-state-lock - temp_repo\aws\account\modules\terraform-backend\backend.tf:[32, 50]
+				- CKV2_AWS_61: aws_s3_bucket.default - temp_repo\aws\alb\access_logs.tf:[103, 167]
+				- CKV_AWS_804: aws_instance.cerberus_ec2 - temp_repo\aws\cerberus\cerberus.tf:[294, 328]
+				- CKV_AWS_804: aws_instance.default - temp_repo\aws\dfs\dfs.tf:[300, 394]
+				- CKV2_AWS_61: aws_s3_bucket.default - temp_repo\aws\s3\s3.tf:[95, 202]
+			Failed checks:
+				- CKV_AWS_802: aws_dynamodb_table.remote-state-lock - temp_repo\aws\account\modules\terraform-backend\backend.tf:[32, 50]
+				- CKV_AWS_801: aws_dynamodb_table.remote-state-lock - temp_repo\aws\account\modules\terraform-backend\backend.tf:[32, 50]
+				- CKV2_AWS_61: aws_s3_bucket.remote-state - temp_repo\aws\account\modules\terraform-backend\backend.tf:[2, 29]
+				- CKV2_AWS_61: aws_s3_bucket.default - temp_repo\aws\arctic-wolf\arctic_wolf.tf:[165, 240]
+				- CKV_AWS_804: aws_instance.controllers - temp_repo\aws\aviatrix\controller\controller.tf:[180, 207]
+				- CKV2_AWS_61: aws_s3_bucket.billing - temp_repo\aws\billing\billing.tf:[6, 24]
+				- CKV_AWS_804: aws_ebs_volume.cerberus_ebs - temp_repo\aws\cerberus\cerberus.tf:[272, 285]
+				- CKV2_AWS_61: aws_s3_bucket.default[0] - temp_repo\aws\cicd\cicd.tf:[116, 134]
+				- CKV2_AWS_61: aws_s3_bucket.default - temp_repo\aws\cloudtrail\cloudtrail.tf:[267, 271]
+				- CKV2_AWS_61: aws_s3_bucket.rds_backup_restore[0] - temp_repo\aws\rds\modules\db-option-group\db-option-group.tf:[86, 105]
+				- CKV2_AWS_61: aws_s3_bucket.origin[0] - temp_repo\aws\s3-cdn\s3-cdn.tf:[555, 592]
+Processing repository: https://github.com/cisagov/cyhy_amis
+	Cloning repository https://github.com/cisagov/cyhy_amis
+		Cloned repository https://github.com/cisagov/cyhy_amis
+		Successfully cloned repository https://github.com/cisagov/cyhy_amis
+		Found 91 Terraform files in repository https://github.com/cisagov/cyhy_amis.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.bod_bastion - temp_repo\terraform\bod_bastion_ec2.tf:[2, 46]
+				- CKV_AWS_804: aws_instance.bod_docker - temp_repo\terraform\bod_docker_ec2.tf:[25, 84]
+				- CKV_AWS_804: aws_ebs_volume.bod_report_data - temp_repo\terraform\bod_docker_ec2.tf:[96, 106]
+				- CKV_AWS_804: aws_ebs_volume.vdp_report_data - temp_repo\terraform\bod_docker_ec2.tf:[129, 139]
+				- CKV_AWS_804: aws_instance.cyhy_bastion - temp_repo\terraform\cyhy_bastion_ec2.tf:[2, 46]
+				- CKV_AWS_804: aws_instance.cyhy_dashboard - temp_repo\terraform\cyhy_dashboard_ec2.tf:[25, 73]
+				- CKV_AWS_804: aws_instance.cyhy_mongo - temp_repo\terraform\cyhy_mongo_ec2.tf:[23, 89]
+				- CKV_AWS_804: aws_ebs_volume.cyhy_mongo_data - temp_repo\terraform\cyhy_mongo_ec2.tf:[101, 113]
+				- CKV_AWS_804: aws_ebs_volume.cyhy_mongo_journal - temp_repo\terraform\cyhy_mongo_ec2.tf:[115, 127]
+				- CKV_AWS_804: aws_ebs_volume.cyhy_mongo_log - temp_repo\terraform\cyhy_mongo_ec2.tf:[129, 141]
+				- CKV_AWS_804: aws_instance.cyhy_nessus - temp_repo\terraform\cyhy_nessus_ec2.tf:[23, 79]
+				- CKV_AWS_804: aws_ebs_volume.nessus_cyhy_runner_data - temp_repo\terraform\cyhy_nessus_ec2.tf:[122, 135]
+				- CKV_AWS_804: aws_instance.cyhy_nmap - temp_repo\terraform\cyhy_nmap_ec2.tf:[23, 79]
+				- CKV_AWS_804: aws_ebs_volume.nmap_cyhy_runner_data - temp_repo\terraform\cyhy_nmap_ec2.tf:[143, 157]
+				- CKV_AWS_804: aws_instance.cyhy_reporter - temp_repo\terraform\cyhy_reporter_ec2.tf:[24, 80]
+				- CKV_AWS_804: aws_ebs_volume.cyhy_reporter_data - temp_repo\terraform\cyhy_reporter_ec2.tf:[92, 102]
+				- CKV_AWS_804: aws_instance.mgmt_bastion - temp_repo\terraform\mgmt_bastion_ec2.tf:[2, 47]
+				- CKV_AWS_804: aws_instance.mgmt_nessus - temp_repo\terraform\mgmt_nessus_ec2.tf:[1, 49]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.cyhy_archive - temp_repo\terraform\cyhy_archive_bucket.tf:[2, 4]
+				- CKV2_AWS_61: aws_s3_bucket.moe_bucket - temp_repo\terraform\moe_bucket.tf:[1, 9]
+Processing repository: https://github.com/cisagov/freeipa-server-tf-module
+	Cloning repository https://github.com/cisagov/freeipa-server-tf-module
+		Cloned repository https://github.com/cisagov/freeipa-server-tf-module
+		Successfully cloned repository https://github.com/cisagov/freeipa-server-tf-module
+		Found 15 Terraform files in repository https://github.com/cisagov/freeipa-server-tf-module.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.ipa - temp_repo\ec2.tf:[5, 35]
+			Failed checks:
+Processing repository: https://github.com/terraform-google-modules/terraform-example-foundation
+	Cloning repository https://github.com/terraform-google-modules/terraform-example-foundation
+		Cloned repository https://github.com/terraform-google-modules/terraform-example-foundation
+		Successfully cloned repository https://github.com/terraform-google-modules/terraform-example-foundation
+		Found 263 Terraform files in repository https://github.com/terraform-google-modules/terraform-example-foundation.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/thoughtbot/flightdeck
+	Cloning repository https://github.com/thoughtbot/flightdeck
+		Cloned repository https://github.com/thoughtbot/flightdeck
+		Successfully cloned repository https://github.com/thoughtbot/flightdeck
+		Found 244 Terraform files in repository https://github.com/thoughtbot/flightdeck.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/Echo-Stream/terraform-aws-control
+	Cloning repository https://github.com/Echo-Stream/terraform-aws-control
+		Cloned repository https://github.com/Echo-Stream/terraform-aws-control
+		Successfully cloned repository https://github.com/Echo-Stream/terraform-aws-control
+		Found 58 Terraform files in repository https://github.com/Echo-Stream/terraform-aws-control.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.athena_query_results - temp_repo\athena.tf:[5, 13]
+				- CKV2_AWS_61: aws_s3_bucket.cost_and_usage - temp_repo\cost-and-usage.tf:[66, 74]
+				- CKV2_AWS_61: aws_s3_bucket.lambda_environment - temp_repo\lambda-environment.tf:[1, 9]
+			Failed checks:
+Processing repository: https://github.com/aws-observability/aws-otel-test-framework
+	Cloning repository https://github.com/aws-observability/aws-otel-test-framework
+		Cloned repository https://github.com/aws-observability/aws-otel-test-framework
+		Successfully cloned repository https://github.com/aws-observability/aws-otel-test-framework
+		Found 82 Terraform files in repository https://github.com/aws-observability/aws-otel-test-framework.
+			Passed checks:
+				- CKV_AWS_802: aws_dynamodb_table.batch_successful_cache - temp_repo\terraform\batchCache\main.tf:[27, 49]
+				- CKV_AWS_803: aws_dynamodb_table.batch_successful_cache - temp_repo\terraform\batchCache\main.tf:[27, 49]
+				- CKV_AWS_801: aws_dynamodb_table.batch_successful_cache - temp_repo\terraform\batchCache\main.tf:[27, 49]
+				- CKV_AWS_804: aws_instance.sidecar - temp_repo\terraform\ec2\main.tf:[96, 121]
+				- CKV_AWS_804: aws_instance.aoc - temp_repo\terraform\ec2\main.tf:[124, 147]
+				- CKV_AWS_804: aws_instance.collector_efs_ec2 - temp_repo\terraform\ecs\efs.tf:[70, 94]
+				- CKV_AWS_802: aws_dynamodb_table.setup-remote-state-dynamodb-table - temp_repo\terraform\setup\backend.tf:[61, 72]
+				- CKV_AWS_803: aws_dynamodb_table.setup-remote-state-dynamodb-table - temp_repo\terraform\setup\backend.tf:[61, 72]
+				- CKV_AWS_801: aws_dynamodb_table.setup-remote-state-dynamodb-table - temp_repo\terraform\setup\backend.tf:[61, 72]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.setup-remote-state-s3-bucket - temp_repo\terraform\setup\backend.tf:[32, 34]
+				- CKV2_AWS_61: aws_s3_bucket.terrafrom-state - temp_repo\terraform\setup\setup.tf:[233, 235]
+Processing repository: https://github.com/wellcomecollection/platform-infrastructure
+	Cloning repository https://github.com/wellcomecollection/platform-infrastructure
+		Cloned repository https://github.com/wellcomecollection/platform-infrastructure
+		Successfully cloned repository https://github.com/wellcomecollection/platform-infrastructure
+		Found 172 Terraform files in repository https://github.com/wellcomecollection/platform-infrastructure.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.working_storage - temp_repo\assets\s3_workingstorage.tf:[1, 67]
+				- CKV2_AWS_61: aws_s3_bucket.cloudfront_logs - temp_repo\cloudfront\api.wellcomecollection.org\s3_logs.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.cloudfront_logs - temp_repo\cloudfront\iiif.wellcomecollection.org\terraform\s3.tf:[13, 17]
+				- CKV2_AWS_61: aws_s3_bucket.platform_infra - temp_repo\critical\s3_platform_infra.tf:[1, 7]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.public_api - temp_repo\cloudfront\api.wellcomecollection.org\s3_public_api.tf:[2, 4]
+				- CKV2_AWS_61: aws_s3_bucket.edge_lambdas - temp_repo\cloudfront\core\s3.tf:[1, 10]
+				- CKV2_AWS_61: aws_s3_bucket.redirect - temp_repo\cloudfront\modules\redirect\main.tf:[1, 7]
+				- CKV2_AWS_61: aws_s3_bucket.image-builder - temp_repo\images\terraform\image-builder.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.photography_backups - temp_repo\photography_backups\s3_backups_photography.tf:[1, 7]
+Processing repository: https://github.com/ministryofjustice/hmpps-delius-core-terraform
+	Cloning repository https://github.com/ministryofjustice/hmpps-delius-core-terraform
+		Cloned repository https://github.com/ministryofjustice/hmpps-delius-core-terraform
+		Successfully cloned repository https://github.com/ministryofjustice/hmpps-delius-core-terraform
+		Found 227 Terraform files in repository https://github.com/ministryofjustice/hmpps-delius-core-terraform.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.access_logs - temp_repo\access-logs\s3.tf:[5, 55]
+			Failed checks:
+Processing repository: https://github.com/matihost/monorepo
+	Cloning repository https://github.com/matihost/monorepo
+		Error cloning repository https://github.com/matihost/monorepo: Cmd('git') failed due to: exit code(128)
+  cmdline: git clone -v --depth=1 -- https://github.com/matihost/monorepo temp_repo
+  stderr: 'Cloning into 'temp_repo'...
+POST git-upload-pack (185 bytes)
+POST git-upload-pack (254 bytes)
+error: invalid path 'terraform/gcp/gke/stage/shared2-dev /terragrunt.hcl'
+fatal: unable to checkout working tree
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+'
+		Successfully cloned repository https://github.com/matihost/monorepo
+		No Terraform files found in repository https://github.com/matihost/monorepo.
+Processing repository: https://github.com/joshuaspence/infrastructure
+	Cloning repository https://github.com/joshuaspence/infrastructure
+		Cloned repository https://github.com/joshuaspence/infrastructure
+		Successfully cloned repository https://github.com/joshuaspence/infrastructure
+		Found 22 Terraform files in repository https://github.com/joshuaspence/infrastructure.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cisagov/cool-sharedservices-nessus
+	Cloning repository https://github.com/cisagov/cool-sharedservices-nessus
+		Cloned repository https://github.com/cisagov/cool-sharedservices-nessus
+		Successfully cloned repository https://github.com/cisagov/cool-sharedservices-nessus
+		Found 21 Terraform files in repository https://github.com/cisagov/cool-sharedservices-nessus.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.nessus - temp_repo\ec2.tf:[30, 62]
+			Failed checks:
+Processing repository: https://github.com/relaycorp/cloud-gateway
+	Cloning repository https://github.com/relaycorp/cloud-gateway
+		Cloned repository https://github.com/relaycorp/cloud-gateway
+		Successfully cloned repository https://github.com/relaycorp/cloud-gateway
+		Found 31 Terraform files in repository https://github.com/relaycorp/cloud-gateway.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+	Cloning repository https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+		Cloned repository https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+		Successfully cloned repository https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+		Found 13 Terraform files in repository https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cookpad/terraform-aws-eks
+	Cloning repository https://github.com/cookpad/terraform-aws-eks
+		Cloned repository https://github.com/cookpad/terraform-aws-eks
+		Successfully cloned repository https://github.com/cookpad/terraform-aws-eks
+		Found 34 Terraform files in repository https://github.com/cookpad/terraform-aws-eks.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cloudposse/terraform-aws-alb
+	Cloning repository https://github.com/cloudposse/terraform-aws-alb
+		Cloned repository https://github.com/cloudposse/terraform-aws-alb
+		Successfully cloned repository https://github.com/cloudposse/terraform-aws-alb
+		Found 11 Terraform files in repository https://github.com/cloudposse/terraform-aws-alb.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/ExpediaGroup/apiary-data-lake
+	Cloning repository https://github.com/ExpediaGroup/apiary-data-lake
+		Cloned repository https://github.com/ExpediaGroup/apiary-data-lake
+		Successfully cloned repository https://github.com/ExpediaGroup/apiary-data-lake
+		Found 35 Terraform files in repository https://github.com/ExpediaGroup/apiary-data-lake.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.apiary_inventory_bucket - temp_repo\s3-other.tf:[7, 11]
+				- CKV2_AWS_61: aws_s3_bucket.apiary_managed_logs_bucket - temp_repo\s3-other.tf:[120, 124]
+				- CKV2_AWS_61: aws_s3_bucket.apiary_access_logs_hive - temp_repo\s3-other.tf:[242, 246]
+				- CKV2_AWS_61: aws_s3_bucket.apiary_system - temp_repo\s3-other.tf:[320, 323]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.apiary_data_bucket - temp_repo\s3.tf:[38, 53]
+Processing repository: https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+	Cloning repository https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+		Cloned repository https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+		Successfully cloned repository https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+		Found 110 Terraform files in repository https://github.com/hashicorp/terraform-azurerm-terraform-enterprise.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+	Cloning repository https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+		Cloned repository https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+		Successfully cloned repository https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+		Found 20 Terraform files in repository https://github.com/schubergphilis/terraform-aws-mcaf-vpc.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/nhsconnect/prm-mhs-infra
+	Cloning repository https://github.com/nhsconnect/prm-mhs-infra
+		Cloned repository https://github.com/nhsconnect/prm-mhs-infra
+		Successfully cloned repository https://github.com/nhsconnect/prm-mhs-infra
+		Found 9 Terraform files in repository https://github.com/nhsconnect/prm-mhs-infra.
+			Passed checks:
+				- CKV_AWS_802: aws_dynamodb_table.mhs_state_table - temp_repo\terraform\dynamodb.tf:[2, 23]
+				- CKV_AWS_803: aws_dynamodb_table.mhs_state_table - temp_repo\terraform\dynamodb.tf:[2, 23]
+				- CKV_AWS_802: aws_dynamodb_table.mhs_sync_async_table - temp_repo\terraform\dynamodb.tf:[26, 47]
+				- CKV_AWS_803: aws_dynamodb_table.mhs_sync_async_table - temp_repo\terraform\dynamodb.tf:[26, 47]
+			Failed checks:
+				- CKV_AWS_801: aws_dynamodb_table.mhs_state_table - temp_repo\terraform\dynamodb.tf:[2, 23]
+				- CKV_AWS_801: aws_dynamodb_table.mhs_sync_async_table - temp_repo\terraform\dynamodb.tf:[26, 47]
+Processing repository: https://github.com/ToruMakabe/aks-anti-dry-iac
+	Cloning repository https://github.com/ToruMakabe/aks-anti-dry-iac
+		Cloned repository https://github.com/ToruMakabe/aks-anti-dry-iac
+		Successfully cloned repository https://github.com/ToruMakabe/aks-anti-dry-iac
+		Found 35 Terraform files in repository https://github.com/ToruMakabe/aks-anti-dry-iac.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/jenkins-x/terraform-aws-eks-jx
+	Cloning repository https://github.com/jenkins-x/terraform-aws-eks-jx
+		Cloned repository https://github.com/jenkins-x/terraform-aws-eks-jx
+		Successfully cloned repository https://github.com/jenkins-x/terraform-aws-eks-jx
+		Found 25 Terraform files in repository https://github.com/jenkins-x/terraform-aws-eks-jx.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.logs_jenkins_x - temp_repo\modules\cluster\storage.tf:[13, 18]
+				- CKV2_AWS_61: aws_s3_bucket.reports_jenkins_x - temp_repo\modules\cluster\storage.tf:[79, 84]
+				- CKV2_AWS_61: aws_s3_bucket.repository_jenkins_x - temp_repo\modules\cluster\storage.tf:[130, 135]
+			Failed checks:
+Processing repository: https://github.com/wellcomecollection/goobi-infrastructure
+	Cloning repository https://github.com/wellcomecollection/goobi-infrastructure
+		Cloned repository https://github.com/wellcomecollection/goobi-infrastructure
+		Successfully cloned repository https://github.com/wellcomecollection/goobi-infrastructure
+		Found 90 Terraform files in repository https://github.com/wellcomecollection/goobi-infrastructure.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.access_host - temp_repo\infrastructure\prod\ec2_host.tf:[1, 23]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-configuration - temp_repo\infrastructure\prod\s3.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-data - temp_repo\infrastructure\prod\s3.tf:[33, 40]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-infra - temp_repo\infrastructure\prod\s3.tf:[75, 82]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-export-bagit - temp_repo\infrastructure\prod\s3.tf:[106, 113]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-harvesting-results - temp_repo\infrastructure\prod\s3.tf:[133, 140]
+				- CKV_AWS_802: aws_dynamodb_table.terraform-locktable - temp_repo\infrastructure\prod\terraform.tf:[17, 31]
+				- CKV_AWS_803: aws_dynamodb_table.terraform-locktable - temp_repo\infrastructure\prod\terraform.tf:[17, 31]
+				- CKV_AWS_804: aws_instance.access_host - temp_repo\infrastructure\staging\ec2_host.tf:[1, 23]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-export-bagit-stage - temp_repo\infrastructure\staging\s3.tf:[79, 95]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-stage-configuration - temp_repo\infrastructure\staging\s3.tf:[1, 8]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-stage-data - temp_repo\infrastructure\staging\s3.tf:[33, 40]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-stage-harvesting-results - temp_repo\infrastructure\staging\s3.tf:[102, 109]
+				- CKV_AWS_802: aws_dynamodb_table.terraform-stage-locktable - temp_repo\infrastructure\staging\terraform.tf:[17, 31]
+				- CKV_AWS_803: aws_dynamodb_table.terraform-stage-locktable - temp_repo\infrastructure\staging\terraform.tf:[17, 31]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.workflow-upload - temp_repo\infrastructure\prod\s3.tf:[164, 170]
+				- CKV_AWS_801: aws_dynamodb_table.terraform-locktable - temp_repo\infrastructure\prod\terraform.tf:[17, 31]
+				- CKV2_AWS_61: aws_s3_bucket.workflow-stage-upload - temp_repo\infrastructure\staging\s3.tf:[134, 140]
+				- CKV_AWS_801: aws_dynamodb_table.terraform-stage-locktable - temp_repo\infrastructure\staging\terraform.tf:[17, 31]
+Processing repository: https://github.com/AndreasSko/infrastructure
+	Cloning repository https://github.com/AndreasSko/infrastructure
+		Cloned repository https://github.com/AndreasSko/infrastructure
+		Successfully cloned repository https://github.com/AndreasSko/infrastructure
+		Found 8 Terraform files in repository https://github.com/AndreasSko/infrastructure.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/akerl/aws-account
+	Cloning repository https://github.com/akerl/aws-account
+		Cloned repository https://github.com/akerl/aws-account
+		Successfully cloned repository https://github.com/akerl/aws-account
+		Found 23 Terraform files in repository https://github.com/akerl/aws-account.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.backups - temp_repo\backup.tf:[20, 22]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.main-trail - temp_repo\logging.tf:[9, 11]
+				- CKV2_AWS_61: aws_s3_bucket.logging - temp_repo\logging.tf:[73, 75]
+				- CKV2_AWS_61: aws_s3_bucket.wedding_redirect_bucket - temp_repo\wedding.tf:[20, 22]
+Processing repository: https://github.com/alphagov/govuk-aws
+	Cloning repository https://github.com/alphagov/govuk-aws
+		Cloned repository https://github.com/alphagov/govuk-aws
+		Successfully cloned repository https://github.com/alphagov/govuk-aws
+		Found 97 Terraform files in repository https://github.com/alphagov/govuk-aws.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\terraform\projects\app-govuk-attachments\main.tf:[66, 89]
+				- CKV2_AWS_61: aws_s3_bucket.sitemaps_bucket - temp_repo\terraform\projects\app-search\main.tf:[40, 58]
+				- CKV2_AWS_61: aws_s3_bucket.search_relevancy_bucket - temp_repo\terraform\projects\app-search\main.tf:[114, 142]
+				- CKV2_AWS_61: aws_s3_bucket.athena_query_results - temp_repo\terraform\projects\infra-athena-query-results\main.tf:[45, 53]
+				- CKV2_AWS_61: aws_s3_bucket.content_data_csvs - temp_repo\terraform\projects\infra-content-data-admin\main.tf:[35, 57]
+				- CKV2_AWS_61: aws_s3_bucket.activestorage_replica - temp_repo\terraform\projects\infra-content-publisher\main.tf:[92, 119]
+				- CKV2_AWS_61: aws_s3_bucket.csp_reports - temp_repo\terraform\projects\infra-csp-reporter\buckets.tf:[2, 10]
+				- CKV2_AWS_61: aws_s3_bucket.main - temp_repo\terraform\projects\infra-database-backups-bucket\main.tf:[32, 36]
+				- CKV2_AWS_61: aws_s3_bucket.replica - temp_repo\terraform\projects\infra-database-backups-bucket\main.tf:[38, 43]
+				- CKV2_AWS_61: aws_s3_bucket.fastly_logs - temp_repo\terraform\projects\infra-fastly-logs\main.tf:[39, 59]
+				- CKV2_AWS_61: aws_s3_bucket.fastly_logs_monitoring - temp_repo\terraform\projects\infra-fastly-logs\main.tf:[701, 721]
+				- CKV2_AWS_61: aws_s3_bucket.transition_fastly_logs - temp_repo\terraform\projects\infra-fastly-logs\main.tf:[750, 770]
+				- CKV2_AWS_61: aws_s3_bucket.aws-logging - temp_repo\terraform\projects\infra-monitoring\main.tf:[107, 156]
+				- CKV2_AWS_61: aws_s3_bucket.aws-secondary-logging - temp_repo\terraform\projects\infra-monitoring\secondary.tf:[32, 52]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.manual_snapshots - temp_repo\terraform\projects\app-elasticsearch6\main.tf:[179, 182]
+				- CKV2_AWS_61: aws_s3_bucket.bucket_without_lifecycle[0] - temp_repo\terraform\projects\app-govuk-attachments\main.tf:[91, 105]
+				- CKV2_AWS_61: aws_s3_bucket.s3_bucket - temp_repo\terraform\projects\app-related-links\main.tf:[59, 70]
+				- CKV2_AWS_61: aws_s3_bucket.whitehall_csvs - temp_repo\terraform\projects\app-whitehall-backend\main.tf:[16, 28]
+				- CKV2_AWS_61: aws_s3_bucket.assets_backup - temp_repo\terraform\projects\infra-assets\backup.tf:[1, 5]
+				- CKV2_AWS_61: aws_s3_bucket.assets - temp_repo\terraform\projects\infra-assets\main.tf:[33, 38]
+				- CKV2_AWS_61: aws_s3_bucket.activestorage - temp_repo\terraform\projects\infra-content-publisher\main.tf:[59, 90]
+				- CKV2_AWS_61: aws_s3_bucket.datagovuk-organogram - temp_repo\terraform\projects\infra-datagovuk-organogram-bucket\main.tf:[40, 43]
+				- CKV2_AWS_61: aws_s3_bucket.specialist_publisher_csvs - temp_repo\terraform\projects\infra-specialist-publisher\main.tf:[35, 47]
+Processing repository: https://github.com/wellcomecollection/buildkite-infrastructure
+	Cloning repository https://github.com/wellcomecollection/buildkite-infrastructure
+		Cloned repository https://github.com/wellcomecollection/buildkite-infrastructure
+		Successfully cloned repository https://github.com/wellcomecollection/buildkite-infrastructure
+		Found 19 Terraform files in repository https://github.com/wellcomecollection/buildkite-infrastructure.
+			Passed checks:
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.buildkite_secrets - temp_repo\terraform\s3.tf:[5, 7]
+				- CKV2_AWS_61: aws_s3_bucket.buildkite_secrets_logging - temp_repo\terraform\s3.tf:[20, 22]
+				- CKV2_AWS_61: aws_s3_bucket.buildkite_config - temp_repo\terraform\s3.tf:[52, 54]
+Processing repository: https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+	Cloning repository https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+		Cloned repository https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+		Successfully cloned repository https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+		Found 8 Terraform files in repository https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/byu-oit/terraform-aws-rds
+	Cloning repository https://github.com/byu-oit/terraform-aws-rds
+		Cloned repository https://github.com/byu-oit/terraform-aws-rds
+		Successfully cloned repository https://github.com/byu-oit/terraform-aws-rds
+		Found 7 Terraform files in repository https://github.com/byu-oit/terraform-aws-rds.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/ndebuhr/cloud-native-workstation
+	Cloning repository https://github.com/ndebuhr/cloud-native-workstation
+		Cloned repository https://github.com/ndebuhr/cloud-native-workstation
+		Successfully cloned repository https://github.com/ndebuhr/cloud-native-workstation
+		Found 12 Terraform files in repository https://github.com/ndebuhr/cloud-native-workstation.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/jg210/aws-experiments
+	Cloning repository https://github.com/jg210/aws-experiments
+		Cloned repository https://github.com/jg210/aws-experiments
+		Successfully cloned repository https://github.com/jg210/aws-experiments
+		Found 6 Terraform files in repository https://github.com/jg210/aws-experiments.
+			Passed checks:
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.aws-experiments - temp_repo\terraform\artifacts.tf:[1, 6]
+				- CKV2_AWS_61: aws_s3_bucket.aws-experiments-terraform-state - temp_repo\terraform\main.tf:[27, 32]
+Processing repository: https://github.com/CodeForPoznan/Infrastructure
+	Cloning repository https://github.com/CodeForPoznan/Infrastructure
+		Cloned repository https://github.com/CodeForPoznan/Infrastructure
+		Successfully cloned repository https://github.com/CodeForPoznan/Infrastructure
+		Found 25 Terraform files in repository https://github.com/CodeForPoznan/Infrastructure.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.bastion - temp_repo\bastion.tf:[38, 60]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.codeforpoznan_public - temp_repo\codeforpoznan_pl.tf:[120, 128]
+				- CKV2_AWS_61: aws_s3_bucket.codeforpoznan_lambdas - temp_repo\codeforpoznan_pl.tf:[171, 179]
+				- CKV2_AWS_61: aws_s3_bucket.codeforpoznan_tfstate - temp_repo\codeforpoznan_pl.tf:[187, 195]
+Processing repository: https://github.com/VJftw/infrastructure
+	Cloning repository https://github.com/VJftw/infrastructure
+		Cloned repository https://github.com/VJftw/infrastructure
+		Successfully cloned repository https://github.com/VJftw/infrastructure
+		Found 78 Terraform files in repository https://github.com/VJftw/infrastructure.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.audit_csp - temp_repo\deployment\accounts\aws\audit\csp\bucket.tf:[5, 11]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.this - temp_repo\modules\email\aws\forwarding_bucket.tf:[1, 3]
+				- CKV2_AWS_61: aws_s3_bucket.this - temp_repo\modules\mta-sts\aws\policy_s3.tf:[6, 10]
+Processing repository: https://github.com/lacework/terraform-gcp-audit-log
+	Cloning repository https://github.com/lacework/terraform-gcp-audit-log
+		Cloned repository https://github.com/lacework/terraform-gcp-audit-log
+		Successfully cloned repository https://github.com/lacework/terraform-gcp-audit-log
+		Found 26 Terraform files in repository https://github.com/lacework/terraform-gcp-audit-log.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/companieshouse/ceu-terraform
+	Cloning repository https://github.com/companieshouse/ceu-terraform
+		Cloned repository https://github.com/companieshouse/ceu-terraform
+		Successfully cloned repository https://github.com/companieshouse/ceu-terraform
+		Found 27 Terraform files in repository https://github.com/companieshouse/ceu-terraform.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/ausmartway/gcp-playground
+	Cloning repository https://github.com/ausmartway/gcp-playground
+		Cloned repository https://github.com/ausmartway/gcp-playground
+		Successfully cloned repository https://github.com/ausmartway/gcp-playground
+		Found 5 Terraform files in repository https://github.com/ausmartway/gcp-playground.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/gedejong/infra
+	Cloning repository https://github.com/gedejong/infra
+		Cloned repository https://github.com/gedejong/infra
+		Successfully cloned repository https://github.com/gedejong/infra
+		Found 7 Terraform files in repository https://github.com/gedejong/infra.
+			Passed checks:
+			Failed checks:
+				- CKV_AWS_804: aws_ebs_volume.influxdb_volume - temp_repo\main.tf:[138, 144]
+				- CKV2_AWS_61: aws_s3_bucket.edejong-influxdb-backup - temp_repo\main.tf:[212, 228]
+				- CKV2_AWS_61: aws_s3_bucket.selenium_chromium_test - temp_repo\main.tf:[230, 237]
+				- CKV2_AWS_61: aws_s3_bucket.edj_openrtb_test - temp_repo\main.tf:[239, 246]
+Processing repository: https://github.com/aeternity/terraform-aws-devnet
+	Cloning repository https://github.com/aeternity/terraform-aws-devnet
+		Cloned repository https://github.com/aeternity/terraform-aws-devnet
+		Successfully cloned repository https://github.com/aeternity/terraform-aws-devnet
+		Found 4 Terraform files in repository https://github.com/aeternity/terraform-aws-devnet.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+	Cloning repository https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+		Cloned repository https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+		Successfully cloned repository https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+		Found 27 Terraform files in repository https://github.com/JamesWoolfenden/terraform-aws-lex-lambda.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/jkstenzel95/jks.gameservers
+	Cloning repository https://github.com/jkstenzel95/jks.gameservers
+		Cloned repository https://github.com/jkstenzel95/jks.gameservers
+		Successfully cloned repository https://github.com/jkstenzel95/jks.gameservers
+		Found 128 Terraform files in repository https://github.com/jkstenzel95/jks.gameservers.
+			Passed checks:
+				- CKV_AWS_802: aws_dynamodb_table.game_key_value_store - temp_repo\infra\bootstrap\kv-store\main.tf:[1, 20]
+				- CKV_AWS_803: aws_dynamodb_table.game_key_value_store - temp_repo\infra\bootstrap\kv-store\main.tf:[1, 20]
+				- CKV_AWS_801: aws_dynamodb_table.game_key_value_store - temp_repo\infra\bootstrap\kv-store\main.tf:[1, 20]
+				- CKV_AWS_802: aws_dynamodb_table.game_key_value_store - temp_repo\infra\service\game-servers\modules\game-kv-store\main.tf:[1, 20]
+				- CKV_AWS_803: aws_dynamodb_table.game_key_value_store - temp_repo\infra\service\game-servers\modules\game-kv-store\main.tf:[1, 20]
+				- CKV_AWS_801: aws_dynamodb_table.game_key_value_store - temp_repo\infra\service\game-servers\modules\game-kv-store\main.tf:[1, 20]
+				- CKV_AWS_804: aws_ebs_volume.volume - temp_repo\infra\service\game-servers\modules\volume\main.tf:[3, 12]
+				- CKV_AWS_802: aws_dynamodb_table.terraform_locks - temp_repo\infra\terraform-backend\env\main.tf:[18, 26]
+				- CKV_AWS_803: aws_dynamodb_table.terraform_locks - temp_repo\infra\terraform-backend\env\main.tf:[18, 26]
+				- CKV_AWS_801: aws_dynamodb_table.terraform_locks - temp_repo\infra\terraform-backend\env\main.tf:[18, 26]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.artifact_bucket - temp_repo\infra\bootstrap\cicd\artifact_bucket\main.tf:[1, 16]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\infra\bootstrap\storage\s3-bucket\main.tf:[1, 9]
+				- CKV2_AWS_61: aws_s3_bucket.packages_bucket - temp_repo\infra\service\game-servers\main.tf:[11, 21]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\infra\service\game-servers\modules\s3-bucket\main.tf:[5, 16]
+				- CKV2_AWS_61: aws_s3_bucket.terraform_state - temp_repo\infra\terraform-backend\env\main.tf:[1, 16]
+Processing repository: https://github.com/pelias/terraform-elasticsearch
+	Cloning repository https://github.com/pelias/terraform-elasticsearch
+		Cloned repository https://github.com/pelias/terraform-elasticsearch
+		Successfully cloned repository https://github.com/pelias/terraform-elasticsearch
+		Found 10 Terraform files in repository https://github.com/pelias/terraform-elasticsearch.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/nmaupu/auto-gcp
+	Cloning repository https://github.com/nmaupu/auto-gcp
+		Cloned repository https://github.com/nmaupu/auto-gcp
+		Successfully cloned repository https://github.com/nmaupu/auto-gcp
+		Found 59 Terraform files in repository https://github.com/nmaupu/auto-gcp.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/willfarrell/terraform-logs-module
+	Cloning repository https://github.com/willfarrell/terraform-logs-module
+		Cloned repository https://github.com/willfarrell/terraform-logs-module
+		Successfully cloned repository https://github.com/willfarrell/terraform-logs-module
+		Found 6 Terraform files in repository https://github.com/willfarrell/terraform-logs-module.
+			Passed checks:
+				- CKV2_AWS_61: aws_s3_bucket.default - temp_repo\main.tf:[1, 18]
+			Failed checks:
+Processing repository: https://github.com/rajesh-nitc/gcp-foundation
+	Cloning repository https://github.com/rajesh-nitc/gcp-foundation
+		Cloned repository https://github.com/rajesh-nitc/gcp-foundation
+		Successfully cloned repository https://github.com/rajesh-nitc/gcp-foundation
+		Found 205 Terraform files in repository https://github.com/rajesh-nitc/gcp-foundation.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/cob16/aws_static_website
+	Cloning repository https://github.com/cob16/aws_static_website
+		Cloned repository https://github.com/cob16/aws_static_website
+		Successfully cloned repository https://github.com/cob16/aws_static_website
+		Found 21 Terraform files in repository https://github.com/cob16/aws_static_website.
+			Passed checks:
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.website - temp_repo\modules\static_website\s3.tf:[11, 13]
+Processing repository: https://github.com/appbricks/cloud-inceptor
+	Cloning repository https://github.com/appbricks/cloud-inceptor
+		Cloned repository https://github.com/appbricks/cloud-inceptor
+		Successfully cloned repository https://github.com/appbricks/cloud-inceptor
+		Found 63 Terraform files in repository https://github.com/appbricks/cloud-inceptor.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.bastion - temp_repo\modules\bootstrap\aws\bastion.tf:[5, 33]
+				- CKV_AWS_804: aws_ebs_volume.bastion-data - temp_repo\modules\bootstrap\aws\bastion.tf:[40, 44]
+				- CKV_AWS_804: aws_instance.jumpbox[0] - temp_repo\modules\bootstrap\aws\jumpbox.tf:[23, 103]
+				- CKV_AWS_804: aws_ebs_volume.jumpbox-data[0] - temp_repo\modules\bootstrap\aws\jumpbox.tf:[134, 144]
+			Failed checks:
+Processing repository: https://github.com/codequest-eu/terraform-modules
+	Cloning repository https://github.com/codequest-eu/terraform-modules
+		Cloned repository https://github.com/codequest-eu/terraform-modules
+		Successfully cloned repository https://github.com/codequest-eu/terraform-modules
+		Found 313 Terraform files in repository https://github.com/codequest-eu/terraform-modules.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.nat - temp_repo\ecs\network\main.tf:[174, 200]
+				- CKV_AWS_802: aws_dynamodb_table.state_lock - temp_repo\meta\main.tf:[84, 98]
+				- CKV_AWS_803: aws_dynamodb_table.state_lock - temp_repo\meta\main.tf:[84, 98]
+				- CKV_AWS_802: aws_dynamodb_table.meta_lock - temp_repo\meta\main.tf:[100, 114]
+				- CKV_AWS_803: aws_dynamodb_table.meta_lock - temp_repo\meta\main.tf:[100, 114]
+				- CKV_AWS_802: aws_dynamodb_table.state_lock - temp_repo\terraform\backend\s3\main.tf:[22, 35]
+				- CKV_AWS_803: aws_dynamodb_table.state_lock - temp_repo\terraform\backend\s3\main.tf:[22, 35]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\cloudfront\examples\basic\main.tf:[7, 9]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\cloudfront\examples\basic_auth\main.tf:[7, 9]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\cloudfront\examples\basic_auth_function\main.tf:[7, 9]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\cloudfront\examples\response_headers\main.tf:[7, 9]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\cloudfront\examples\single_page_app\main.tf:[7, 9]
+				- CKV2_AWS_61: aws_s3_bucket.bucket - temp_repo\cloudfront\examples\static_website\main.tf:[7, 14]
+				- CKV2_AWS_61: aws_s3_bucket.user_uploads - temp_repo\ecs\task\role\examples\runtime\main.tf:[5, 7]
+				- CKV_AWS_801: aws_dynamodb_table.state_lock - temp_repo\meta\main.tf:[84, 98]
+				- CKV_AWS_801: aws_dynamodb_table.meta_lock - temp_repo\meta\main.tf:[100, 114]
+				- CKV2_AWS_61: aws_s3_bucket.state - temp_repo\meta\main.tf:[63, 82]
+				- CKV2_AWS_61: aws_s3_bucket.redirect - temp_repo\redirect\main.tf:[1, 28]
+				- CKV2_AWS_61: aws_s3_bucket.assets - temp_repo\spa\main.tf:[18, 50]
+				- CKV_AWS_801: aws_dynamodb_table.state_lock - temp_repo\terraform\backend\s3\main.tf:[22, 35]
+				- CKV2_AWS_61: aws_s3_bucket.state - temp_repo\terraform\backend\s3\main.tf:[1, 20]
+Processing repository: https://github.com/coremaker/terraform-google-nucleus
+	Cloning repository https://github.com/coremaker/terraform-google-nucleus
+		Cloned repository https://github.com/coremaker/terraform-google-nucleus
+		Successfully cloned repository https://github.com/coremaker/terraform-google-nucleus
+		Found 14 Terraform files in repository https://github.com/coremaker/terraform-google-nucleus.
+			Passed checks:
+			Failed checks:
+Processing repository: https://github.com/IncredibleHolg/infra-aws-code
+	Cloning repository https://github.com/IncredibleHolg/infra-aws-code
+		Cloned repository https://github.com/IncredibleHolg/infra-aws-code
+		Successfully cloned repository https://github.com/IncredibleHolg/infra-aws-code
+		Found 21 Terraform files in repository https://github.com/IncredibleHolg/infra-aws-code.
+			Passed checks:
+				- CKV_AWS_804: aws_instance.overviewerworker - temp_repo\infra-basic\disabled\ec2.tf:[4, 18]
+				- CKV_AWS_802: aws_dynamodb_table.terraform_locks - temp_repo\s3\dynamodb.tf:[1, 14]
+				- CKV_AWS_803: aws_dynamodb_table.terraform_locks - temp_repo\s3\dynamodb.tf:[1, 14]
+				- CKV_AWS_801: aws_dynamodb_table.terraform_locks - temp_repo\s3\dynamodb.tf:[1, 14]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.s3_rendertest - temp_repo\infra-basic\s3-rendertest.tf:[3, 11]
+				- CKV2_AWS_61: aws_s3_bucket.s3_stdifstorage - temp_repo\infra-basic\s3-stdifstorage.tf:[3, 11]
+				- CKV2_AWS_61: aws_s3_bucket.s3_server_backups - temp_repo\infra-basic\s3.tf:[9, 17]
+				- CKV2_AWS_61: aws_s3_bucket.s3_bucket_logs - temp_repo\infra-basic\s3.tf:[23, 31]
+				- CKV2_AWS_61: aws_s3_bucket.s3_vanilla18 - temp_repo\infra-basic\s3.tf:[43, 51]
+				- CKV2_AWS_61: aws_s3_bucket.s3_mc_resources - temp_repo\infra-basic\s3.tf:[66, 74]
+				- CKV2_AWS_61: aws_s3_bucket.s3_haulaway - temp_repo\infra-basic\s3.tf:[95, 103]
+				- CKV2_AWS_61: aws_s3_bucket.state-sync - temp_repo\s3\s3.tf:[1, 22]
+Processing repository: https://github.com/kitchen/personal-terraform
+	Cloning repository https://github.com/kitchen/personal-terraform
+		Cloned repository https://github.com/kitchen/personal-terraform
+		Successfully cloned repository https://github.com/kitchen/personal-terraform
+		Found 8 Terraform files in repository https://github.com/kitchen/personal-terraform.
+			Passed checks:
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.kitchen-io - temp_repo\aws\kitchen.io.tf:[79, 81]
+				- CKV2_AWS_61: aws_s3_bucket.www-kitchen-io - temp_repo\aws\kitchen.io.tf:[93, 95]
+				- CKV2_AWS_61: aws_s3_bucket.blog-kitchen-io - temp_repo\aws\kitchen.io.tf:[107, 109]
+				- CKV2_AWS_61: aws_s3_bucket.www-blog-kitchen-io - temp_repo\aws\kitchen.io.tf:[132, 134]
+Processing repository: https://github.com/giuseppeborgese/terraform-locking-s3-state
+	Cloning repository https://github.com/giuseppeborgese/terraform-locking-s3-state
+		Cloned repository https://github.com/giuseppeborgese/terraform-locking-s3-state
+		Successfully cloned repository https://github.com/giuseppeborgese/terraform-locking-s3-state
+		Found 2 Terraform files in repository https://github.com/giuseppeborgese/terraform-locking-s3-state.
+			Passed checks:
+				- CKV_AWS_802: aws_dynamodb_table.dynamodb-terraform-state-lock - temp_repo\remote.tf:[36, 53]
+				- CKV_AWS_803: aws_dynamodb_table.dynamodb-terraform-state-lock - temp_repo\remote.tf:[36, 53]
+				- CKV_AWS_801: aws_dynamodb_table.dynamodb-terraform-state-lock - temp_repo\remote.tf:[36, 53]
+			Failed checks:
+				- CKV2_AWS_61: aws_s3_bucket.terraform-state-storage-s3 - temp_repo\remote.tf:[17, 27]
+Results saved to results/tf_12m/results_tf_full.yml
+Finished processing repositories.

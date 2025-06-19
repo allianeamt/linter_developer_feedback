@@ -1,0 +1,57 @@
+Connected to GitHub as allianeamt
+Remaining requests: 3834
+	Checking repository: https://github.com/YubicoLabs/WebAuthnKit
+		No CloudFormation files changed in the last 12 months for YubicoLabs/WebAuthnKit
+Remaining requests: 3831
+	Checking repository: https://github.com/GerritCodeReview/aws-gerrit
+		No CloudFormation files changed in the last 12 months for GerritCodeReview/aws-gerrit
+Remaining requests: 3827
+	Checking repository: https://github.com/mludvig/aws-crypto-miner
+		No CloudFormation files changed in the last 12 months for mludvig/aws-crypto-miner
+Remaining requests: 3825
+	Checking repository: https://github.com/aws-samples/route-53-application-recovery-controller
+		No CloudFormation files changed in the last 12 months for aws-samples/route-53-application-recovery-controller
+Remaining requests: 3823
+	Checking repository: https://github.com/sjakthol/aws-account-infra
+		Starts with header
+		Maybe CloudFormation file: https://github.com/sjakthol/aws-account-infra/raw/a3ef8cdcd82d1ad35ef01429bfe9e64cb5d82570/templates%2Fadhoc-instance.yaml
+Remaining requests: 3820
+	Checking repository: https://github.com/LeanerCloud/AutoSpotting
+		No CloudFormation files changed in the last 12 months for LeanerCloud/AutoSpotting
+Remaining requests: 3818
+	Checking repository: https://github.com/cyberark/conjur-ecs-deploy
+		No CloudFormation files changed in the last 12 months for cyberark/conjur-ecs-deploy
+Remaining requests: 3816
+	Checking repository: https://github.com/aws-samples/aws-serverless-ecommerce-platform
+		No CloudFormation files changed in the last 12 months for aws-samples/aws-serverless-ecommerce-platform
+Remaining requests: 3814
+	Checking repository: https://github.com/aws-samples/amazon-sagemaker-safe-deployment-pipeline
+		No CloudFormation files changed in the last 12 months for aws-samples/amazon-sagemaker-safe-deployment-pipeline
+Remaining requests: 3812
+	Checking repository: https://github.com/HicResearch/TREEHOOSE
+		No CloudFormation files changed in the last 12 months for HicResearch/TREEHOOSE
+Remaining requests: 3808
+	Checking repository: https://github.com/primeharbor/aws-account-automation
+		Contains AWS resources
+		Maybe CloudFormation file: https://github.com/primeharbor/aws-account-automation/raw/817524cc291b4b8c760dbcefcfe7e67333a5fdcd/cloudformation%2FGuardDuty-Canary-Template.yaml
+Remaining requests: 3804
+	Checking repository: https://github.com/guardian/multimedia-launchdetector-v3
+		No CloudFormation files changed in the last 12 months for guardian/multimedia-launchdetector-v3
+Remaining requests: 3802
+	Checking repository: https://github.com/aws-solutions-library-samples/guidance-for-game-production-environment-on-aws
+		No CloudFormation files changed in the last 12 months for aws-solutions-library-samples/guidance-for-game-production-environment-on-aws
+Remaining requests: 3799
+	Checking repository: https://github.com/aexeagmbh/cfn-lint-rules
+		Found CF resource
+		CloudFormation file changed: https://github.com/aexeagmbh/cfn-lint-rules/raw/e23ecd82551c10f1b48e20d52df2e460e9e0a47e/tests%2Fserverless_rules%2Ftemplates%2Fws5000-false.fail.yaml
+Remaining requests: 3795
+	Checking repository: https://github.com/ruzickap/k8s-tf-eks-gitops
+		No CloudFormation files changed in the last 12 months for ruzickap/k8s-tf-eks-gitops
+Remaining requests: 3790
+	Checking repository: https://github.com/brucehoff/organizations-infra
+		Found CF resource
+		CloudFormation file changed: https://github.com/brucehoff/organizations-infra/raw/79573c58944ae99db1806d11602335e5eae24ccf/org-formation%2F650-identity-providers%2Fmicrosoft-defender-cloud-roles.yaml
+
+Active repositories with CloudFormation files changed in the last 12 months: 2
+
+Maybe repositories with CloudFormation files: 2

@@ -1,0 +1,1956 @@
+Connected to GitHub as allianeamt
+Checking 395 repositories for activity in the last 12 months...
+Remaining requests: 4864
+	Checking repository: https://github.com/gravitational/teleport
+		Commits found: 4378
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4857
+	Checking repository: https://github.com/gitpod-io/gitpod
+		Commits found: 615
+		Issues found: 0
+		Pull requests found: 750
+Remaining requests: 4740
+	Checking repository: https://github.com/infracost/infracost
+		Commits found: 183
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4733
+	Checking repository: https://github.com/returntocorp/semgrep
+		Commits found: 1486
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4722
+	Checking repository: https://github.com/aptos-labs/aptos-core
+		Commits found: 1798
+		Issues found: 0
+		Pull requests found: 2435
+Remaining requests: 4591
+	Checking repository: https://github.com/determined-ai/determined
+		Commits found: 569
+		Issues found: 0
+		Pull requests found: 743
+Remaining requests: 4552
+	Checking repository: https://github.com/deckgo/deckdeckgo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4542
+	Checking repository: https://github.com/hashicorp/best-practices
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4535
+	Checking repository: https://github.com/openshift/installer
+		Commits found: 1626
+		Issues found: 0
+		Pull requests found: 360
+Remaining requests: 4525
+	Checking repository: https://github.com/confluentinc/demo-scene
+		Commits found: 13
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4518
+	Checking repository: https://github.com/Checkmarx/kics
+		Commits found: 671
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4511
+	Checking repository: https://github.com/aws-ia/terraform-aws-eks-blueprints
+		Commits found: 110
+		Issues found: 0
+		Pull requests found: 125
+Remaining requests: 4493
+	Checking repository: https://github.com/terraform-compliance/cli
+		Commits found: 23
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4486
+	Checking repository: https://github.com/philips-labs/terraform-aws-github-runner
+		Commits found: 260
+		Issues found: 0
+		Pull requests found: 6
+Remaining requests: 4479
+	Checking repository: https://github.com/nozaq/terraform-aws-secure-baseline
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 8
+Remaining requests: 4472
+	Checking repository: https://github.com/fleetdm/fleet
+		Commits found: 4653
+		Issues found: 0
+		Pull requests found: 5000
+Remaining requests: 4311
+	Checking repository: https://github.com/fugue/regula
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4304
+	Checking repository: https://github.com/ine-labs/AWSGoat
+		Commits found: 21
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4297
+	Checking repository: https://github.com/dan-v/awslambdaproxy
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4290
+	Checking repository: https://github.com/maddevsio/aws-eks-base
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4282
+	Checking repository: https://github.com/controlplaneio/simulator
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 24
+Remaining requests: 4275
+	Checking repository: https://github.com/antonputra/tutorials
+		Commits found: 171
+		Issues found: 0
+		Pull requests found: 189
+Remaining requests: 4265
+	Checking repository: https://github.com/kubernetes/k8s.io
+		Commits found: 2397
+		Issues found: 0
+		Pull requests found: 1277
+Remaining requests: 4198
+	Checking repository: https://github.com/alphagov/govuk-aws
+		Commits found: 21
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4191
+	Checking repository: https://github.com/defenseunicorns/zarf
+		Commits found: 781
+		Issues found: 0
+		Pull requests found: 964
+Remaining requests: 4159
+	Checking repository: https://github.com/shellphish/ictf-framework
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4152
+	Checking repository: https://github.com/aws-ia/terraform-aws-control_tower_account_factory
+		Commits found: 15
+		Issues found: 0
+		Pull requests found: 28
+Remaining requests: 4145
+	Checking repository: https://github.com/aws/aws-xray-sdk-python
+		Commits found: 17
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4138
+	Checking repository: https://github.com/jetstack/tarmak
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4131
+	Checking repository: https://github.com/asteris-llc/converge
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4124
+	Checking repository: https://github.com/compiler-explorer/infra
+		Commits found: 657
+		Issues found: 0
+		Pull requests found: 307
+Remaining requests: 4108
+	Checking repository: https://github.com/compiler-explorer/infra
+		Commits found: 657
+		Issues found: 0
+		Pull requests found: 307
+Remaining requests: 4092
+	Checking repository: https://github.com/HXSecurity/TerraformGoat
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 3
+Remaining requests: 4084
+	Checking repository: https://github.com/cloudposse/terraform-aws-cloudfront-s3-cdn
+		Commits found: 27
+		Issues found: 0
+		Pull requests found: 33
+Remaining requests: 4077
+	Checking repository: https://github.com/avantoss/vault-infra
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4070
+	Checking repository: https://github.com/nasa/cumulus
+		Commits found: 255
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4063
+	Checking repository: https://github.com/fpco/terraform-aws-foundation
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4056
+	Checking repository: https://github.com/servian/hashiqube
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4049
+	Checking repository: https://github.com/ned1313/Deep-Dive-Terraform
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 3
+Remaining requests: 4042
+	Checking repository: https://github.com/JamesWoolfenden/pike
+		Commits found: 197
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4035
+	Checking repository: https://github.com/xuwang/aws-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4028
+	Checking repository: https://github.com/ts-rest/ts-rest
+		Commits found: 75
+		Issues found: 0
+		Pull requests found: 106
+Remaining requests: 4017
+	Checking repository: https://github.com/lisenet/kubernetes-homelab
+		Commits found: 20
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4010
+	Checking repository: https://github.com/inspec/inspec-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 4001
+	Checking repository: https://github.com/zenml-io/mlops-stacks
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 3990
+	Checking repository: https://github.com/anttiviljami/wordpress-heroku-docker-project
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3983
+	Checking repository: https://github.com/AlexsLemonade/refinebio
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3976
+	Checking repository: https://github.com/turbot/steampipe-plugin-aws
+		Commits found: 162
+		Issues found: 0
+		Pull requests found: 225
+Remaining requests: 3956
+	Checking repository: https://github.com/databricks/delta-live-tables-notebooks
+		Commits found: 26
+		Issues found: 0
+		Pull requests found: 8
+Remaining requests: 3949
+	Checking repository: https://github.com/magenx/Magento-2-aws-cluster-terraform
+		Commits found: 298
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3942
+	Checking repository: https://github.com/refinery-platform/refinery-platform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3935
+	Checking repository: https://github.com/robert-stuttaford/terraform-example
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3928
+	Checking repository: https://github.com/aws-samples/terraform-eks-code
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3921
+	Checking repository: https://github.com/terraform-aws-modules/terraform-aws-apigateway-v2
+		Commits found: 16
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3914
+	Checking repository: https://github.com/rust-lang/simpleinfra
+		Commits found: 568
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3907
+	Checking repository: https://github.com/alphagov/govuk-infrastructure
+		Commits found: 1512
+		Issues found: 0
+		Pull requests found: 715
+Remaining requests: 3880
+	Checking repository: https://github.com/facebookresearch/fbpcs
+		Commits found: 9
+		Issues found: 0
+		Pull requests found: 24
+Remaining requests: 3849
+	Checking repository: https://github.com/LouisvilleMetro/WazeCCPProcessor
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3842
+	Checking repository: https://github.com/segment-boneyard/s3-dynamo-lambda
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3835
+	Checking repository: https://github.com/denoland/deno_registry2
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3827
+	Checking repository: https://github.com/cerbo/aws-waf-security-automation
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3820
+	Checking repository: https://github.com/euan-forrester/save-file-converter
+		Commits found: 50
+		Issues found: 0
+		Pull requests found: 39
+Remaining requests: 3811
+	Checking repository: https://github.com/openfun/marsha
+		Commits found: 152
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3804
+	Checking repository: https://github.com/awslabs/kubeflow-manifests
+		Commits found: 7
+		Issues found: 0
+		Pull requests found: 16
+Remaining requests: 3793
+	Checking repository: https://github.com/tapglue/snaas
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3786
+	Checking repository: https://github.com/divviup/prio-server
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3754
+	Checking repository: https://github.com/cloud-gov/cg-provision
+		Commits found: 706
+		Issues found: 0
+		Pull requests found: 288
+Remaining requests: 3735
+	Checking repository: https://github.com/Smartling/aws-terraform-workshops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3728
+	Checking repository: https://github.com/mozmeao/infra
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 3721
+	Checking repository: https://github.com/civiform/civiform
+		Commits found: 1801
+		Issues found: 0
+		Pull requests found: 2076
+Remaining requests: 3646
+	Checking repository: https://github.com/silverton-io/buz
+		Commits found: 4
+		Issues found: 0
+		Pull requests found: 5
+Remaining requests: 3637
+	Checking repository: https://github.com/csanquer/gitlab-setup
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3630
+	Checking repository: https://github.com/slalompdx/terraform-aws-codecommit-cicd
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3623
+	Checking repository: https://github.com/lingrino/infra-personal
+		Commits found: 242
+		Issues found: 0
+		Pull requests found: 314
+Remaining requests: 3589
+	Checking repository: https://github.com/PrefectHQ/prefect-recipes
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 7
+Remaining requests: 3580
+	Checking repository: https://github.com/berislavlopac/plambdapi
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3573
+	Checking repository: https://github.com/darrelldavis/terraform-aws-minecraft
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3566
+	Checking repository: https://github.com/chef-boneyard/inspec-aws-old
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3559
+	Checking repository: https://github.com/mattermost/mattermost-cloud-monitoring
+		Commits found: 171
+		Issues found: 0
+		Pull requests found: 18
+Remaining requests: 3552
+	Checking repository: https://github.com/wwce/terraform
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 3545
+	Checking repository: https://github.com/basecamp/dumpsterfire-2020
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3538
+	Checking repository: https://github.com/nickpisacane/websync
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3531
+	Checking repository: https://github.com/gerhalt/mining-camp
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3524
+	Checking repository: https://github.com/moritzzimmer/terraform-aws-lambda
+		Commits found: 10
+		Issues found: 0
+		Pull requests found: 18
+Remaining requests: 3517
+	Checking repository: https://github.com/pivotal/paving
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3510
+	Checking repository: https://github.com/assareh/tfc-agent
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3503
+	Checking repository: https://github.com/vmware-tanzu/service-installer-for-vmware-tanzu
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 3496
+	Checking repository: https://github.com/johnbedeir/Devops-Tools-Documentation
+		Commits found: 8
+		Issues found: 0
+		Pull requests found: 9
+Remaining requests: 3487
+	Checking repository: https://github.com/dcaribou/transfermarkt-datasets
+		Commits found: 308
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3480
+	Checking repository: https://github.com/somleng/somleng
+		Commits found: 975
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3473
+	Checking repository: https://github.com/wellcomecollection/wellcomecollection.org
+		Commits found: 2701
+		Issues found: 0
+		Pull requests found: 3154
+Remaining requests: 3430
+	Checking repository: https://github.com/uc-cdis/cloud-automation
+		Commits found: 151
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3423
+	Checking repository: https://github.com/arehmandev/Terraform-etcd
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3416
+	Error checking repo https://github.com/riferrei/pacman-with-elasticsearch: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 3415
+	Checking repository: https://github.com/uzochukwueddie/react-cinema-app
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3408
+	Checking repository: https://github.com/open-apparel-registry/open-apparel-registry
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3397
+	Checking repository: https://github.com/mdb/terraform-example
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3390
+	Checking repository: https://github.com/CMSgov/beneficiary-fhir-data
+		Commits found: 458
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3383
+	Checking repository: https://github.com/mdb/terraform-example
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3376
+	Checking repository: https://github.com/knakayama/aws-terraform-playground
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3369
+	Checking repository: https://github.com/devopsloft/devopsloft
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3359
+	Checking repository: https://github.com/AztecProtocol/Setup
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3352
+	Checking repository: https://github.com/uktrade/data-workspace
+		Commits found: 406
+		Issues found: 0
+		Pull requests found: 294
+Remaining requests: 3342
+	Checking repository: https://github.com/futurice/symptomradar
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3335
+	Checking repository: https://github.com/Artemmkin/codedeploy-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3328
+	Checking repository: https://github.com/crisboarna/terraform-aws-api-gateway-lambda-dynamodb
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3321
+	Checking repository: https://github.com/alphagov/prometheus-aws-configuration-beta
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3314
+	Checking repository: https://github.com/snyk/policy-engine
+		Commits found: 24
+		Issues found: 0
+		Pull requests found: 40
+Remaining requests: 3304
+	Checking repository: https://github.com/cednore/trilium
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3297
+	Checking repository: https://github.com/bcgov/mds
+		Commits found: 368
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3290
+	Checking repository: https://github.com/pytorch/test-infra
+		Commits found: 963
+		Issues found: 0
+		Pull requests found: 1250
+Remaining requests: 3248
+	Checking repository: https://github.com/C2Devel/terraform-examples
+		Commits found: 5
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3241
+	Checking repository: https://github.com/azavea/isprs-potsdam-viz
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3234
+	Checking repository: https://github.com/dfds/infrastructure-modules
+		Commits found: 398
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3227
+	Checking repository: https://github.com/philips-labs/terraform-aws-github-oidc
+		Commits found: 13
+		Issues found: 0
+		Pull requests found: 24
+Remaining requests: 3220
+	Checking repository: https://github.com/f5devcentral/f5-k8s-demo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3213
+	Checking repository: https://github.com/aws-samples/amazon-guardduty-for-aws-organizations-with-terraform
+		Commits found: 11
+		Issues found: 0
+		Pull requests found: 4
+Remaining requests: 3206
+	Checking repository: https://github.com/masterpointio/terraform-aws-ssm-agent
+		Commits found: 30
+		Issues found: 0
+		Pull requests found: 21
+Remaining requests: 3199
+	Checking repository: https://github.com/tkellen/infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3192
+	Checking repository: https://github.com/JeanMertz/terraform-dcos
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3185
+	Checking repository: https://github.com/danscratch/aws-basic-config
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3178
+	Checking repository: https://github.com/ministryofjustice/analytics-platform-ops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3171
+	Checking repository: https://github.com/AustinCloudGuru/terraform-skeleton
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3164
+	Checking repository: https://github.com/hotosm/underpass
+		Commits found: 5
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3157
+	Checking repository: https://github.com/cappetta/SecDevOps-Toolkit
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3150
+	Checking repository: https://github.com/skeller88/aws-terraform-bootstrap
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3143
+	Checking repository: https://github.com/somleng/somleng-switch
+		Commits found: 1027
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3136
+	Checking repository: https://github.com/ris-tlp/audiophile-e2e-pipeline
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 3129
+	Checking repository: https://github.com/PaloAltoNetworks/terraform-aws-vmseries-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3121
+	Checking repository: https://github.com/stevenhurwitt/reddit-streaming
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3114
+	Checking repository: https://github.com/xuwang/terraform-hugo-lambda
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3107
+	Checking repository: https://github.com/ned1313/Terraform-FotD
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3100
+	Checking repository: https://github.com/apache/accumulo-testing
+		Commits found: 31
+		Issues found: 0
+		Pull requests found: 11
+Remaining requests: 3092
+	Checking repository: https://github.com/iriusrisk/startleft
+		Commits found: 134
+		Issues found: 0
+		Pull requests found: 17
+Remaining requests: 3085
+	Checking repository: https://github.com/lpm0073/cookiecutter-openedx-devops
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 3074
+	Checking repository: https://github.com/jgreat/tf-rancher-2.0
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3067
+	Checking repository: https://github.com/spkane/todo-for-terraform
+		Commits found: 10
+		Issues found: 0
+		Pull requests found: 4
+Remaining requests: 3060
+	Checking repository: https://github.com/OceanSoftIO/Terraform
+		Commits found: 19
+		Issues found: 0
+		Pull requests found: 9
+Remaining requests: 3049
+	Checking repository: https://github.com/chgasparoto/youtube-cleber-gasparoto
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3042
+	Checking repository: https://github.com/jakeasarus/terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3031
+	Checking repository: https://github.com/heldersepu/hs-scripts
+		Commits found: 47
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3024
+	Checking repository: https://github.com/svthalia/concrexit
+		Commits found: 107
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 3017
+	Checking repository: https://github.com/ministryofjustice/modernisation-platform-environments
+		Commits found: 10263
+		Issues found: 0
+		Pull requests found: 4568
+Remaining requests: 2902
+	Checking repository: https://github.com/primait/nuvola
+		Commits found: 39
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2895
+	Checking repository: https://github.com/cloudstruct/rocketpool-deploy
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2888
+	Checking repository: https://github.com/cds-snc/forms-terraform
+		Commits found: 340
+		Issues found: 0
+		Pull requests found: 177
+Remaining requests: 2878
+	Checking repository: https://github.com/arehmandev/Terraform-ASGIP
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2871
+	Checking repository: https://github.com/juttayaya/devops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2864
+	Checking repository: https://github.com/chuyskywalker/aws-lambda-github-webhook
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2857
+	Checking repository: https://github.com/tealtail/wildryde-terraform-serverless
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2850
+	Checking repository: https://github.com/open-duelyst/duelyst
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 3
+Remaining requests: 2842
+	Checking repository: https://github.com/18F/identity-terraform
+		Commits found: 59
+		Issues found: 0
+		Pull requests found: 6
+Remaining requests: 2834
+	Checking repository: https://github.com/aneoconsulting/ArmoniK
+		Commits found: 212
+		Issues found: 0
+		Pull requests found: 101
+Remaining requests: 2823
+	Checking repository: https://github.com/robertdebock/terraform-aws-vault
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2816
+	Checking repository: https://github.com/privacysandbox/fledge-key-value-service
+		Commits found: 5
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 2805
+	Checking repository: https://github.com/vishipayyallore/speaker-series-2022
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2798
+	Checking repository: https://github.com/clojars/infrastructure
+		Commits found: 29
+		Issues found: 0
+		Pull requests found: 2
+Remaining requests: 2791
+	Checking repository: https://github.com/kjagiello/terraform-aws-codepipeline-slack-notifications
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 2784
+	Checking repository: https://github.com/zeroabsolute/Terraform-AWS-ECS
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2777
+	Checking repository: https://github.com/cloudsoft/aws-cfn-connector-for-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2770
+	Checking repository: https://github.com/hands-on-cloud/aws-codepipeline-terraform-cicd-pipeline
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2763
+	Checking repository: https://github.com/raavula/devops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2756
+	Checking repository: https://github.com/projecthorus/sondehub-infra
+		Commits found: 17
+		Issues found: 0
+		Pull requests found: 5
+Remaining requests: 2749
+	Checking repository: https://github.com/mingfang/terraform-kubernetes
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2742
+	Checking repository: https://github.com/boldare/terraform-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2735
+	Checking repository: https://github.com/asquarezone/TerraformZone
+		Commits found: 73
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2728
+	Checking repository: https://github.com/elbuo8/parcha
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2721
+	Checking repository: https://github.com/gravitational/teleport-cluster-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2714
+	Checking repository: https://github.com/ministryofjustice/opg-digideps
+		Commits found: 601
+		Issues found: 0
+		Pull requests found: 496
+Remaining requests: 2691
+	Checking repository: https://github.com/rezen/zap-lambda
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2684
+	Checking repository: https://github.com/nulib/meadow
+		Commits found: 899
+		Issues found: 0
+		Pull requests found: 34
+Remaining requests: 2676
+	Checking repository: https://github.com/alphagov/tech-ops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2669
+	Checking repository: https://github.com/ConsenSys/starknet-snap
+		Commits found: 172
+		Issues found: 0
+		Pull requests found: 226
+Remaining requests: 2658
+	Checking repository: https://github.com/ajaen4/terraform-databricks-aws
+		Commits found: 1
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 2651
+	Checking repository: https://github.com/cicdenv/cicdenv
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2644
+	Checking repository: https://github.com/cloudposse/terraform-aws-kops-state-backend
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2633
+	Checking repository: https://github.com/LeoneGarage/terraform
+		Commits found: 6
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2626
+	Checking repository: https://github.com/aws-samples/aws-cicd-patch-management-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2619
+	Checking repository: https://github.com/galexrt/elasticsearch-operator
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2612
+	Checking repository: https://github.com/slalom-london/k8s-tutorial
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2605
+	Checking repository: https://github.com/szwojtkowski/aws-step-functions-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2598
+	Checking repository: https://github.com/nexthink-oss/terraform-aws-cloudtrail-s3-to-kinesis
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2591
+	Checking repository: https://github.com/NHSDigital/spine-core-aws-common
+		Commits found: 9
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2584
+	Checking repository: https://github.com/stellar/java-stellar-anchor-sdk
+		Commits found: 341
+		Issues found: 0
+		Pull requests found: 31
+Remaining requests: 2570
+	Checking repository: https://github.com/dvargas92495/roamjs-static-site
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2559
+	Checking repository: https://github.com/aws-samples/aws-waf-automation-terraform-samples
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 2552
+	Checking repository: https://github.com/alphagov/verify-infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2545
+	Checking repository: https://github.com/terrarium-tf/cli
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2538
+	Checking repository: https://github.com/cds-snc/notification-terraform
+		Commits found: 534
+		Issues found: 0
+		Pull requests found: 597
+Remaining requests: 2513
+	Error checking repo https://github.com/marjakapyaho/nightbear: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 2512
+	Checking repository: https://github.com/rabbitmq/rabbitmq-ct-helpers
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2505
+	Checking repository: https://github.com/alimac/terraform-s3
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2498
+	Checking repository: https://github.com/umccr/infrastructure
+		Commits found: 213
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2491
+	Checking repository: https://github.com/ksatirli/terraform-aws-s3-bucket
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2484
+	Checking repository: https://github.com/SonarSource/sonar-iac
+		Commits found: 443
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2477
+	Checking repository: https://github.com/niveklabs/aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2470
+	Checking repository: https://github.com/CMSgov/cms-carts-seds
+		Commits found: 179
+		Issues found: 0
+		Pull requests found: 265
+Remaining requests: 2452
+	Checking repository: https://github.com/tedilabs/terraform-aws-misc
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 2445
+	Checking repository: https://github.com/clamorisse/lambda_demo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2438
+	Checking repository: https://github.com/hygieia-saas/hygieia-webapp
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2431
+	Checking repository: https://github.com/usdigitalresponse/univaf
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 5
+Remaining requests: 2410
+	Checking repository: https://github.com/davidbegin/terrafuzz
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2403
+	Checking repository: https://github.com/divgo/terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2396
+	Checking repository: https://github.com/provectus/data-quality-gate
+		Commits found: 1
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 2389
+	Checking repository: https://github.com/alphagov/govwifi-terraform
+		Commits found: 187
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2378
+	Checking repository: https://github.com/databricks/mlops-stack
+		Commits found: 19
+		Issues found: 0
+		Pull requests found: 21
+Remaining requests: 2366
+	Checking repository: https://github.com/ministryofjustice/opg-lpa
+		Commits found: 800
+		Issues found: 0
+		Pull requests found: 407
+Remaining requests: 2341
+	Checking repository: https://github.com/JamesMillerBlog/wrapper.js
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2334
+	Checking repository: https://github.com/jeastham1993/application-integration-patterns
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2327
+	Checking repository: https://github.com/aaomoware/terraform-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2320
+	Checking repository: https://github.com/in4it/terraform-aws-cis-controls
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2313
+	Checking repository: https://github.com/girder/terraform-heroku-girder4
+		Commits found: 28
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2302
+	Checking repository: https://github.com/mozilla-platform-ops/devservices-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2295
+	Checking repository: https://github.com/binbashar/terraform-aws-tfstate-backend
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 2288
+	Checking repository: https://github.com/saurabh-hirani/terraform-workshop
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2281
+	Checking repository: https://github.com/franck-boullier/utils
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2274
+	Checking repository: https://github.com/ferocia/pipelite-public
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2267
+	Checking repository: https://github.com/Miyurz/aws-k8s
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2260
+	Checking repository: https://github.com/bionicles/bp
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2253
+	Checking repository: https://github.com/seiji/terraform-aws-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2246
+	Checking repository: https://github.com/aws-samples/aws-codepipeline-terraform-cicd-samples
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 2239
+	Checking repository: https://github.com/jeremyhahn/hashkube
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2232
+	Error checking repo https://github.com/lambdasawa/lambdasawa: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest", "status": "404"}
+Remaining requests: 2231
+	Checking repository: https://github.com/double16/pet-store
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2224
+	Checking repository: https://github.com/mrmcc3/tf_aws_datomic
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2217
+	Checking repository: https://github.com/mozilla-platform-ops/devservices-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2210
+	Checking repository: https://github.com/jespada/terraform-vpc-ecs
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2203
+	Checking repository: https://github.com/azavea/osm-analytics
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2196
+	Checking repository: https://github.com/cisagov/dmarc-import-tf-module
+		Commits found: 120
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2189
+	Checking repository: https://github.com/EnigmaCurry/terraform-serverless-spa
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2182
+	Checking repository: https://github.com/CirclesUBI/infrastructure-provisioning
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2175
+	Checking repository: https://github.com/suzuki-shunsuke/tfaction-getting-started
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2167
+	Checking repository: https://github.com/rhythmictech/terraform-aws-backend
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2160
+	Checking repository: https://github.com/alphagov/di-authentication-api
+		Commits found: 4886
+		Issues found: 0
+		Pull requests found: 3728
+Remaining requests: 2084
+	Checking repository: https://github.com/e2eSolutionArchitect/terraform
+		Commits found: 38
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2077
+	Checking repository: https://github.com/flypenguin/code-misc
+		Commits found: 2
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2070
+	Checking repository: https://github.com/zoitech/terraform-aws-s3-with-iam-access
+		Commits found: 5
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2063
+	Checking repository: https://github.com/BlackNightFury/modular-web-app
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2056
+	Checking repository: https://github.com/QuiNovas/terraform-aws-config
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2049
+	Checking repository: https://github.com/arehmandev/TerraKube-AWS
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2042
+	Checking repository: https://github.com/entechlog/kafka-examples
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2035
+	Checking repository: https://github.com/DoSomething/infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2024
+	Checking repository: https://github.com/nulib/nulterra
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2017
+	Checking repository: https://github.com/maidsafe-archive/safe-build-infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2010
+	Checking repository: https://github.com/udayreddy29/cicd-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 2003
+	Checking repository: https://github.com/artichoke/project-infrastructure
+		Commits found: 139
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1996
+	Checking repository: https://github.com/Dromadon/hallebarde
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1989
+	Checking repository: https://github.com/Nakulbajaj101/mlops-zoomcamp-final-project
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1982
+	Checking repository: https://github.com/justincampbell/terraform-aws-staticsite
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1975
+	Checking repository: https://github.com/podhmo/individual-sandbox
+		Commits found: 176
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1968
+	Checking repository: https://github.com/akranga/terraform-modules-deprecated
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1961
+	Checking repository: https://github.com/arehmandev/TerraKube-AWS
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1954
+	Checking repository: https://github.com/arehmandev/abs-kubelab
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1947
+	Checking repository: https://github.com/azavea/terraform-aws-s3-origin
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1940
+	Checking repository: https://github.com/ahelal/terraform-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1933
+	Checking repository: https://github.com/azavea/spacenet-viz
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1926
+	Checking repository: https://github.com/afloesch/learning-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1919
+	Checking repository: https://github.com/alexisCata/terraform_ansible_deploy
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1912
+	Checking repository: https://github.com/CVH-Lernfabrik/serverless_plc
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 1905
+	Checking repository: https://github.com/0mk1/terraform-workshops
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 5000
+	Checking repository: https://github.com/Worklytics/psoxy
+		Commits found: 196
+		Issues found: 0
+		Pull requests found: 15
+Remaining requests: 4988
+	Checking repository: https://github.com/88lexd/lexd-solutions
+		Commits found: 10
+		Issues found: 0
+		Pull requests found: 3
+Remaining requests: 4981
+	Checking repository: https://github.com/fun-stack/terraform-aws-fun
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4974
+	Checking repository: https://github.com/sashee/cloudfront-multiple-origins
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4967
+	Checking repository: https://github.com/kubefirst/gitops-template
+		Commits found: 449
+		Issues found: 0
+		Pull requests found: 95
+Remaining requests: 4948
+	Checking repository: https://github.com/dwp/dataworks-metrics-infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4941
+	Checking repository: https://github.com/felix-lessoer/elastic-terraform-examples
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4934
+	Checking repository: https://github.com/splunk/splunkconf-backup
+		Commits found: 94
+		Issues found: 0
+		Pull requests found: 2
+Remaining requests: 4927
+	Checking repository: https://github.com/nlamirault/terraform-aws-observability
+		Commits found: 43
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4920
+	Checking repository: https://github.com/Terraform-GUI/terraform-gui
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4913
+	Checking repository: https://github.com/byu-oit/hw-fargate-api
+		Commits found: 126
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4906
+	Checking repository: https://github.com/mitre/demo-aws-hardening
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4899
+	Checking repository: https://github.com/aneoconsulting/ArmoniK.Infra
+		Commits found: 389
+		Issues found: 0
+		Pull requests found: 105
+Remaining requests: 4890
+	Checking repository: https://github.com/nhsconnect/prm-deductions-ehr-repository
+		Commits found: 17
+		Issues found: 0
+		Pull requests found: 175
+Remaining requests: 4877
+	Checking repository: https://github.com/StratusGrid/terraform-aws-terraform-state-s3-bucket-centralized-with-roles
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4870
+	Checking repository: https://github.com/e-valente/cloudgoat-with-steroids
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4863
+	Checking repository: https://github.com/ethanfann/avarts
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4856
+	Checking repository: https://github.com/jellis18/e-commerce-saas
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4849
+	Checking repository: https://github.com/akerl/aws-account
+		Commits found: 24
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4842
+	Checking repository: https://github.com/jay-jain/aws-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4835
+	Checking repository: https://github.com/nhsconnect/prm-deductions-ehr-repository
+		Commits found: 17
+		Issues found: 0
+		Pull requests found: 175
+Remaining requests: 4822
+	Checking repository: https://github.com/LF-Engineering/insights-datasource-shared
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4814
+	Checking repository: https://github.com/addresscloud/terraform-aws-tile-service
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4807
+	Checking repository: https://github.com/sighupio/fury-eks-installer
+		Commits found: 34
+		Issues found: 0
+		Pull requests found: 11
+Remaining requests: 4796
+	Checking repository: https://github.com/bootcamp-team2022/angular-frontend
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4789
+	Checking repository: https://github.com/rohits-dev/dev-lab-aws
+		Commits found: 4
+		Issues found: 0
+		Pull requests found: 4
+Remaining requests: 4782
+	Checking repository: https://github.com/Morriz/k8sdemo-infra
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4775
+	Checking repository: https://github.com/cyakimov/terraform-scaffold
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4768
+	Checking repository: https://github.com/kylecrawshaw/kylecrawshaw.com
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4761
+	Checking repository: https://github.com/acidjazz/basal
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4754
+	Checking repository: https://github.com/tdooner/flynn
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4747
+	Checking repository: https://github.com/CityOfPhiladelphia/oddt-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4740
+	Checking repository: https://github.com/megumiteam/email-forwarder
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4733
+	Checking repository: https://github.com/QuiNovas/terraform-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4726
+	Checking repository: https://github.com/EricLondon/terraform-ecs-express
+		Commits found: 1
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4719
+	Checking repository: https://github.com/jSherz/bucket-access-button
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4712
+	Checking repository: https://github.com/tablexi/terraform_modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4705
+	Checking repository: https://github.com/clouduct/terraform-template
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4698
+	Checking repository: https://github.com/ministryofjustice/cloud-platform-concourse
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4690
+	Checking repository: https://github.com/HackYourFuture/infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4683
+	Checking repository: https://github.com/youngfeldt/terraform-aws-backend-s3
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4676
+	Checking repository: https://github.com/ministryofjustice/hmpps-terraform-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4669
+	Checking repository: https://github.com/lukeelten/openshift-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4662
+	Checking repository: https://github.com/1ultimat3/fuzzied
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4655
+	Checking repository: https://github.com/leopardslab/kubebot
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4648
+	Checking repository: https://github.com/VeeamHub/veeam-terraform
+		Commits found: 2
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4641
+	Checking repository: https://github.com/mrled/psyops
+		Commits found: 558
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4634
+	Checking repository: https://github.com/mongulu-cm/mtchoun-mouh
+		Commits found: 17
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4627
+	Checking repository: https://github.com/globaldatanet/hugs
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4620
+	Checking repository: https://github.com/aws-samples/aws-mlops-pipelines-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4613
+	Error checking repo https://github.com/sachajw/course-material: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest", "status": "404"}
+Remaining requests: 4612
+	Checking repository: https://github.com/AgnostiqHQ/covalent-kubernetes-plugin
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4605
+	Checking repository: https://github.com/cds-snc/share-files-securely
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4598
+	Checking repository: https://github.com/SumoLogic/terraform-sumologic-sumo-logic-integrations
+		Commits found: 46
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4591
+	Checking repository: https://github.com/nobl9/build-on-aws-o11y-demo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4584
+	Checking repository: https://github.com/paulmarsicloud/terraform-aws-openvpn-ephemeral
+		Commits found: 1
+		Issues found: 0
+		Pull requests found: 1
+Remaining requests: 4577
+	Error checking repo https://github.com/Cecure-Intelligence-Limited/cil-internship-cohort-04: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 4576
+	Checking repository: https://github.com/ministryofjustice/opg-terraform-aws-account
+		Commits found: 113
+		Issues found: 0
+		Pull requests found: 19
+Remaining requests: 4568
+	Checking repository: https://github.com/QuiNovas/terraform-aws-cloudtrail
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4561
+	Checking repository: https://github.com/aws-samples/aws-trusted-advisor-glue-aggregator-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4554
+	Checking repository: https://github.com/dwp/aws-analytical-env
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4547
+	Checking repository: https://github.com/yagoalmeida/shared-storage-terraform-state
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4540
+	Checking repository: https://github.com/eliasbrange/aws-github-actions-oidc
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4533
+	Checking repository: https://github.com/pinxiong/infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4526
+	Checking repository: https://github.com/finboxio/rancher-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4519
+	Checking repository: https://github.com/cesko-digital/assets
+		Commits found: 2
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4512
+	Checking repository: https://github.com/eana/bitwarden-tf-aws
+		Commits found: 83
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4505
+	Checking repository: https://github.com/MrrRaph/wavegame-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4494
+	Checking repository: https://github.com/Rondineli/mutirao_devops_cloudfront_demo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4487
+	Checking repository: https://github.com/diavbolo/realtime-costs
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4480
+	Checking repository: https://github.com/batestin1/Amazon-EMR
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4473
+	Checking repository: https://github.com/wei-zhong90/deltalake-aws-poc-demo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4466
+	Checking repository: https://github.com/radeksimko/devheaven-cz-2018-talk-demo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4459
+	Checking repository: https://github.com/QuiNovas/terraform-aws-cloudfront
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4452
+	Checking repository: https://github.com/troydieter/aws-textract-comprehend
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4445
+	Checking repository: https://github.com/MartinPaulEve/meve-iac
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4438
+	Checking repository: https://github.com/wri/gfw-iac-workshop
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4431
+	Checking repository: https://github.com/devopshubproject/aws-catchup
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4424
+	Checking repository: https://github.com/cullancarey/terraform-aws-static-s3-website-template
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4417
+	Checking repository: https://github.com/logicbomb-1/terraform-aws-cis-benchmark
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4410
+	Checking repository: https://github.com/rackspace-infrastructure-automation/aws-terraform-s3
+		Commits found: 5
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4403
+	Checking repository: https://github.com/0mk1/gifz-api
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4396
+	Checking repository: https://github.com/yami-jabami/juuzou
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4389
+	Checking repository: https://github.com/temmyzeus/spotify_airflow_batch_ingestion
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4382
+	Checking repository: https://github.com/BielosX/AWS-developer
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4375
+	Checking repository: https://github.com/mondorobot/terraform-s3
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4368
+	Checking repository: https://github.com/keithsjohnson/AWSServerlessFeedbackDemo
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4361
+	Checking repository: https://github.com/lazam/terraform-ansible
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4354
+	Checking repository: https://github.com/springboot-angular2-tutorial/micropost-formation
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4347
+	Checking repository: https://github.com/finboxio/rancher-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4340
+	Checking repository: https://github.com/ccnmtl/tfmodules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4333
+	Checking repository: https://github.com/nsbno/app-infrastructure
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4326
+	Checking repository: https://github.com/dvsa/motr-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4319
+	Checking repository: https://github.com/jimroth/ice-terraform-modules
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4312
+	Checking repository: https://github.com/codeship-library/codeship-docker-terraform
+		Commits found: 2
+		Issues found: 1
+		Pull requests found: 0
+Remaining requests: 4305
+	Checking repository: https://github.com/soldierxue/terraformlib
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4298
+	Checking repository: https://github.com/0mk1/gifz-api
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4291
+	Checking repository: https://github.com/graymeta/terraform-aws-platform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4280
+	Checking repository: https://github.com/glaucius/aws-terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4273
+	Checking repository: https://github.com/JonathanPorta/lambda_face_recognition_example
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4266
+	Checking repository: https://github.com/JonathanPorta/lambda_face_recognition_prebuilt
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4259
+	Checking repository: https://github.com/yanivomc/seminars
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4252
+	Checking repository: https://github.com/Cimpress-MCP/terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4245
+	Checking repository: https://github.com/Artemmkin/terraform-statelock
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4238
+	Checking repository: https://github.com/M1ke/mancjs-aws-blog
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4231
+	Checking repository: https://github.com/rastandy/terraform-s3-cloudfront-basic-auth-website
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4224
+	Checking repository: https://github.com/brave/infra-ci
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4217
+	Checking repository: https://github.com/crisboarna/terraform-aws-lambda-invoke
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4210
+	Checking repository: https://github.com/cloudposse/terraform-aws-athena
+		Commits found: 14
+		Issues found: 0
+		Pull requests found: 17
+Remaining requests: 4203
+	Checking repository: https://github.com/leiarenee/sf-pipeline
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4196
+	Checking repository: https://github.com/JamesWoolfenden/terraform-aws-statebucket
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4189
+	Checking repository: https://github.com/branchenergy/terraform-snowflake-snowpipe
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4182
+	Checking repository: https://github.com/fernandomullerjr/terraform-aws
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4175
+	Checking repository: https://github.com/goehlemichael/terraform-podcast
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4168
+	Checking repository: https://github.com/signal-ai/terraform-aws-cloudwatch-prometheus
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4161
+	Checking repository: https://github.com/seigot/tetris_score_server
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 4154
+	Checking repository: https://github.com/OctopusDeploy/Sashimi.Terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4147
+	Checking repository: https://github.com/SamirTalwar/monospacedmonologues.com
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4140
+	Checking repository: https://github.com/cloud-security-musings/terrascan-example
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4133
+	Checking repository: https://github.com/hashicorp/learn-terraform-module-object-attributes
+		Commits found: 0
+		Issues found: 1
+		Pull requests found: 1
+Remaining requests: 4122
+	Checking repository: https://github.com/lacework/terraform-aws-eks-audit-log
+		Commits found: 4
+		Issues found: 0
+		Pull requests found: 4
+Remaining requests: 4115
+	Checking repository: https://github.com/cabinetoffice/gender-pay-gap
+		Commits found: 252
+		Issues found: 0
+		Pull requests found: 41
+Remaining requests: 4106
+	Checking repository: https://github.com/ameerulislam/terraform
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4099
+	Checking repository: https://github.com/wolffberg/scaffolding-terragrunt
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4092
+	Checking repository: https://github.com/Olgoetz/terraform-aws-tfc-state-backup
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4085
+	Checking repository: https://github.com/bcgov/myhealthBC-symptom-checker
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4077
+	Error checking repo https://github.com/xaynetwork/xayn_infrastructure: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 4076
+	Checking repository: https://github.com/nagelflorian/terraform-aws-s3-review-apps
+		Commits found: 6
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4069
+	Error checking repo https://github.com/alexraskin/lhbot: 404 {"message": "Not Found", "documentation_url": "https://docs.github.com/rest/repos/repos#get-a-repository", "status": "404"}
+Remaining requests: 4068
+	Checking repository: https://github.com/lynnlangit/aws-for-bioinformatics
+		Commits found: 3
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4061
+	Checking repository: https://github.com/49thSecurityDivision/Presentations
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4054
+	Checking repository: https://github.com/bcgov/workbc-main
+		Commits found: 118
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4047
+	Checking repository: https://github.com/azavea/iow-boundary-tool
+		Commits found: 0
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4040
+	Checking repository: https://github.com/web-mev/mev-backend
+		Commits found: 10
+		Issues found: 0
+		Pull requests found: 0
+Remaining requests: 4033
+	Checking repository: https://github.com/JesusFilm/core
+		Commits found: 1866
+		Issues found: 0
+		Pull requests found: 2400
