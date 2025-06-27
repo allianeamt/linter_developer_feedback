@@ -1,0 +1,19 @@
+check_definitions:
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    description: |
+      Detects use of outdated EC2 instance or EBS volume types (e.g., t2, m4, gp2). Older generations 
+      might be less efficient, slower, and more expensive.
+    recommendations:
+      - Use newer instance types (e.g., t3, m5).
+      - Use newer volume types (e.g., gp3, io2).
+      - Review AWS documentation for the latest instance and volume types.
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    description: |
+      Verifies that aws_s3_bucket resources have lifecycle configurations defined via lifecycle_rules or as 
+      a linked aws_s3_bucket_lifecycle_configuration. Missing rules may lead to data retention in expensive 
+      storage indefinitely, thus increasing costs.
+    recommendations:
+      - Add a lifecycle_rule block inside the S3 bucket for a compact definition of simple rules.
+      - Link the S3 bucket to a separate aws_s3_bucket_lifecycle_configuration resource for complex or interdependent rules.

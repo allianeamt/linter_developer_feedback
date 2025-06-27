@@ -1,0 +1,2189 @@
+- average_activity: 9020.666666666666
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 16930
+  issues: 0
+  pulls: 10132
+  repo: https://github.com/ministryofjustice/cloud-platform-environments
+- average_activity: 2712.0
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 14-31
+      file_path: terraform/environments/core-network-services/acm-pca.tf
+      resource: aws_s3_bucket.acm-pca
+    - check_id: CKV_AWS_804
+      file_line_range: 1011-1064
+      file_path: terraform/environments/core-shared-services/ad-fixngo.tf
+      resource: aws_instance.ad_fixngo
+  commits: 5599
+  issues: 0
+  pulls: 2537
+  repo: https://github.com/ministryofjustice/modernisation-platform
+- average_activity: 734.6666666666666
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 79-81
+      file_path: terraform/deployments/chat/cloudfront.tf
+      resource: aws_s3_bucket.origin_service_disabled
+    - check_id: CKV2_AWS_61
+      file_line_range: 6-10
+      file_path: terraform/deployments/cluster-services/tempo.tf
+      resource: aws_s3_bucket.tempo
+    - check_id: CKV2_AWS_61
+      file_line_range: 21-24
+      file_path: terraform/deployments/datagovuk-infrastructure/organogram_bucket.tf
+      resource: aws_s3_bucket.datagovuk-organogram
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/datagovuk-infrastructure/static_data_bucket.tf
+      resource: aws_s3_bucket.datagovuk_static
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: terraform/deployments/govuk-publishing-infrastructure/app_assets_s3.tf
+      resource: aws_s3_bucket.app_assets
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/asset_manager_s3.tf
+      resource: aws_s3_bucket.assets
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/content_publisher_s3.tf
+      resource: aws_s3_bucket.content_publisher_activestorage
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: terraform/deployments/govuk-publishing-infrastructure/locations_api_s3.tf
+      resource: aws_s3_bucket.location_api_import_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: terraform/deployments/govuk-publishing-infrastructure/reports_s3.tf
+      resource: aws_s3_bucket.publisher_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 10-18
+      file_path: terraform/deployments/govuk-publishing-infrastructure/reports_s3.tf
+      resource: aws_s3_bucket.support_api_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: terraform/deployments/govuk-publishing-infrastructure/search_analytics_s3.tf
+      resource: aws_s3_bucket.search_analytics
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/whitehall_csvs_s3.tf
+      resource: aws_s3_bucket.whitehall_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/mobile-backend/config-bucket.tf
+      resource: aws_s3_bucket.mobile_backend_remote_config
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-5
+      file_path: terraform/deployments/opensearch/s3.tf
+      resource: aws_s3_bucket.opensearch_snapshot
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-8
+      file_path: terraform/deployments/csp-reporter/buckets.tf
+      resource: aws_s3_bucket.csp_reports
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/athena_query_results_s3.tf
+      resource: aws_s3_bucket.athena_query_results
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/attachments_s3.tf
+      resource: aws_s3_bucket.attachments
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/content_data_s3.tf
+      resource: aws_s3_bucket.content_data_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 32-35
+      file_path: terraform/deployments/govuk-publishing-infrastructure/content_publisher_s3.tf
+      resource: aws_s3_bucket.content_publisher_activestorage_replica
+    - check_id: CKV2_AWS_61
+      file_line_range: 6-10
+      file_path: terraform/deployments/govuk-publishing-infrastructure/db_backup_s3.tf
+      resource: aws_s3_bucket.backup_main
+    - check_id: CKV2_AWS_61
+      file_line_range: 12-17
+      file_path: terraform/deployments/govuk-publishing-infrastructure/db_backup_s3.tf
+      resource: aws_s3_bucket.backup_replica
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: terraform/deployments/govuk-publishing-infrastructure/govuk_mirror_sync.tf
+      resource: aws_s3_bucket.govuk_mirror
+    - check_id: CKV2_AWS_61
+      file_line_range: 55-61
+      file_path: terraform/deployments/govuk-publishing-infrastructure/govuk_mirror_sync.tf
+      resource: aws_s3_bucket.govuk_mirror_replica
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/search_relevancy_s3.tf
+      resource: aws_s3_bucket.search_relevancy_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/deployments/govuk-publishing-infrastructure/search_sitemaps_s3.tf
+      resource: aws_s3_bucket.search_sitemaps_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 76-78
+      file_path: terraform/deployments/logging/aws_logging.tf
+      resource: aws_s3_bucket.aws_logging
+  commits: 1500
+  issues: 0
+  pulls: 704
+  repo: https://github.com/alphagov/govuk-infrastructure
+- average_activity: 663.0
+  checks:
+    failed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 249-265
+      file_path: terraform/aws-accounts/cloud-platform-aws/account/main.tf
+      resource: aws_dynamodb_table.cloud_platform_environments_terraform_lock
+    - check_id: CKV_AWS_801
+      file_line_range: 249-265
+      file_path: terraform/aws-accounts/cloud-platform-aws/account/main.tf
+      resource: aws_dynamodb_table.cloud_platform_environments_terraform_lock
+    passed_checks:
+    - check_id: CKV_AWS_803
+      file_line_range: 249-265
+      file_path: terraform/aws-accounts/cloud-platform-aws/account/main.tf
+      resource: aws_dynamodb_table.cloud_platform_environments_terraform_lock
+  commits: 1089
+  issues: 0
+  pulls: 900
+  repo: https://github.com/ministryofjustice/cloud-platform-infrastructure
+- average_activity: 389.6666666666667
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 1169
+  issues: 0
+  pulls: 0
+  repo: https://github.com/geraldwuhoo/homelab-iac
+- average_activity: 303.6666666666667
+  checks:
+    failed_checks:
+    - check_id: CKV_AWS_801
+      file_line_range: 45-58
+      file_path: src/_nebari/stages/terraform_state/template/aws/modules/terraform-state/main.tf
+      resource: aws_dynamodb_table.terraform-state-lock
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-21
+      file_path: src/_nebari/stages/terraform_state/template/aws/modules/terraform-state/main.tf
+      resource: aws_s3_bucket.terraform-state
+    passed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 45-58
+      file_path: src/_nebari/stages/terraform_state/template/aws/modules/terraform-state/main.tf
+      resource: aws_dynamodb_table.terraform-state-lock
+    - check_id: CKV_AWS_803
+      file_line_range: 45-58
+      file_path: src/_nebari/stages/terraform_state/template/aws/modules/terraform-state/main.tf
+      resource: aws_dynamodb_table.terraform-state-lock
+  commits: 755
+  issues: 0
+  pulls: 156
+  repo: https://github.com/Quansight/qhub
+- average_activity: 247.66666666666666
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 743
+  issues: 0
+  pulls: 0
+  repo: https://github.com/GoogleCloudPlatform/cloud-foundation-fabric
+- average_activity: 188.66666666666666
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/docs-rs/s3.tf
+      resource: aws_s3_bucket.storage
+    - check_id: CKV2_AWS_61
+      file_line_range: 43-45
+      file_path: terraform/domain-redirects/impl/main.tf
+      resource: aws_s3_bucket.redirect
+    - check_id: CKV2_AWS_61
+      file_line_range: 13-15
+      file_path: terraform/releases/keys.tf
+      resource: aws_s3_bucket.release_keys
+    - check_id: CKV2_AWS_61
+      file_line_range: 112-115
+      file_path: terraform/shared/s3.tf
+      resource: aws_s3_bucket.rust_lang_crates_io_index
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-15
+      file_path: terragrunt/modules/crates-io/s3-index.tf
+      resource: aws_s3_bucket.index
+    - check_id: CKV2_AWS_61
+      file_line_range: 129-137
+      file_path: terragrunt/modules/crates-io/s3-static.tf
+      resource: aws_s3_bucket.fallback
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-9
+      file_path: terragrunt/modules/docs-rs/s3.tf
+      resource: aws_s3_bucket.storage
+    - check_id: CKV2_AWS_61
+      file_line_range: 91-93
+      file_path: terragrunt/modules/docs-rs/s3.tf
+      resource: aws_s3_bucket.inventory
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terragrunt/modules/gha-self-hosted-images/storage.tf
+      resource: aws_s3_bucket.storage
+    - check_id: CKV2_AWS_61
+      file_line_range: 135-137
+      file_path: terragrunt/modules/rustc-ci/artifacts.tf
+      resource: aws_s3_bucket.inventories
+    - check_id: CKV2_AWS_61
+      file_line_range: 3-7
+      file_path: terragrunt/modules/rustup/s3.tf
+      resource: aws_s3_bucket.builds
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 53-81
+      file_path: terraform/bastion/instance.tf
+      resource: aws_instance.bastion
+    - check_id: CKV_AWS_804
+      file_line_range: 245-273
+      file_path: terraform/crater/instance.tf
+      resource: aws_instance.crater
+    - check_id: CKV_AWS_804
+      file_line_range: 20-49
+      file_path: terraform/dev-desktops/aws-region/instances.tf
+      resource: aws_instance.instance
+    - check_id: CKV2_AWS_61
+      file_line_range: 60-79
+      file_path: terraform/docs-rs/s3.tf
+      resource: aws_s3_bucket.backups
+    - check_id: CKV2_AWS_61
+      file_line_range: 4-6
+      file_path: terraform/playground/artifacts.tf
+      resource: aws_s3_bucket.artifacts
+    - check_id: CKV_AWS_804
+      file_line_range: 178-207
+      file_path: terraform/playground/instance.tf
+      resource: aws_instance.playground2
+    - check_id: CKV2_AWS_61
+      file_line_range: 6-8
+      file_path: terraform/releases/environments.tf
+      resource: aws_s3_bucket.logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/releases/impl/storage.tf
+      resource: aws_s3_bucket.static
+    - check_id: CKV2_AWS_61
+      file_line_range: 41-43
+      file_path: terraform/rust-log-analyzer/app.tf
+      resource: aws_s3_bucket.storage
+    - check_id: CKV2_AWS_61
+      file_line_range: 86-111
+      file_path: terraform/rustc-perf/s3.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 3-19
+      file_path: terraform/shared/s3.tf
+      resource: aws_s3_bucket.rust_inventories
+    - check_id: CKV2_AWS_61
+      file_line_range: 68-90
+      file_path: terraform/shared/s3.tf
+      resource: aws_s3_bucket.rust_lang_ci_mirrors
+    - check_id: CKV_AWS_804
+      file_line_range: 53-79
+      file_path: terragrunt/modules/bastion/instance.tf
+      resource: aws_instance.bastion
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terragrunt/modules/crates-io/s3-logs.tf
+      resource: aws_s3_bucket.logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-51
+      file_path: terragrunt/modules/crates-io/s3-static.tf
+      resource: aws_s3_bucket.static
+    - check_id: CKV2_AWS_61
+      file_line_range: 46-48
+      file_path: terragrunt/modules/docs-rs/s3.tf
+      resource: aws_s3_bucket.backups
+    - check_id: CKV2_AWS_61
+      file_line_range: 47-49
+      file_path: terragrunt/modules/rustc-ci/artifacts.tf
+      resource: aws_s3_bucket.artifacts
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-4
+      file_path: terragrunt/modules/rustc-ci/caches.tf
+      resource: aws_s3_bucket.caches
+  commits: 566
+  issues: 0
+  pulls: 0
+  repo: https://github.com/rust-lang/simpleinfra
+- average_activity: 150.33333333333334
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 15
+  issues: 0
+  pulls: 436
+  repo: https://github.com/jenkins-infra/aws
+- average_activity: 136.66666666666666
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 137-139
+      file_path: anurag-sh/assets.tf
+      resource: aws_s3_bucket.assets-bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: maccas/bucket.tf
+      resource: aws_s3_bucket.config
+    - check_id: CKV2_AWS_61
+      file_line_range: 19-21
+      file_path: maccas/bucket.tf
+      resource: aws_s3_bucket.image-bucket
+    - check_id: CKV_AWS_803
+      file_line_range: 144-169
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-audit
+    - check_id: CKV_AWS_803
+      file_line_range: 245-286
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-deals-db
+    - check_id: CKV_AWS_803
+      file_line_range: 5-34
+      file_path: replybot/tables.tf
+      resource: aws_dynamodb_table.replybot-interaction
+    - check_id: CKV_AWS_801
+      file_line_range: 5-34
+      file_path: replybot/tables.tf
+      resource: aws_dynamodb_table.replybot-interaction
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-7
+      file_path: tf-state/state-bucket.tf
+      resource: aws_s3_bucket.tf-state
+    - check_id: CKV_AWS_801
+      file_line_range: 1-17
+      file_path: tf-state/state-table.tf
+      resource: aws_dynamodb_table.tf-state-lock
+    passed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 1-20
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-deals
+    - check_id: CKV_AWS_803
+      file_line_range: 1-20
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-deals
+    - check_id: CKV_AWS_801
+      file_line_range: 1-20
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-deals
+    - check_id: CKV_AWS_802
+      file_line_range: 22-36
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-userconfig
+    - check_id: CKV_AWS_803
+      file_line_range: 22-36
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-userconfig
+    - check_id: CKV_AWS_801
+      file_line_range: 22-36
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-userconfig
+    - check_id: CKV_AWS_802
+      file_line_range: 38-52
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-tokens
+    - check_id: CKV_AWS_803
+      file_line_range: 38-52
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-tokens
+    - check_id: CKV_AWS_801
+      file_line_range: 38-52
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-tokens
+    - check_id: CKV_AWS_802
+      file_line_range: 54-73
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-accounts
+    - check_id: CKV_AWS_803
+      file_line_range: 54-73
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-accounts
+    - check_id: CKV_AWS_801
+      file_line_range: 54-73
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-accounts
+    - check_id: CKV_AWS_802
+      file_line_range: 75-94
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-offer-locked
+    - check_id: CKV_AWS_803
+      file_line_range: 75-94
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-offer-locked
+    - check_id: CKV_AWS_801
+      file_line_range: 75-94
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-api-offer-locked
+    - check_id: CKV_AWS_802
+      file_line_range: 96-110
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-points
+    - check_id: CKV_AWS_803
+      file_line_range: 96-110
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-points
+    - check_id: CKV_AWS_801
+      file_line_range: 96-110
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-points
+    - check_id: CKV_AWS_802
+      file_line_range: 112-126
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-refreshtracking
+    - check_id: CKV_AWS_803
+      file_line_range: 112-126
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-refreshtracking
+    - check_id: CKV_AWS_801
+      file_line_range: 112-126
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-refreshtracking
+    - check_id: CKV_AWS_802
+      file_line_range: 128-142
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-lastrefresh
+    - check_id: CKV_AWS_803
+      file_line_range: 128-142
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-lastrefresh
+    - check_id: CKV_AWS_801
+      file_line_range: 128-142
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-lastrefresh
+    - check_id: CKV_AWS_802
+      file_line_range: 144-169
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-audit
+    - check_id: CKV_AWS_801
+      file_line_range: 144-169
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-audit
+    - check_id: CKV_AWS_802
+      file_line_range: 171-185
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-useraccounts
+    - check_id: CKV_AWS_803
+      file_line_range: 171-185
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-useraccounts
+    - check_id: CKV_AWS_801
+      file_line_range: 171-185
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-useraccounts
+    - check_id: CKV_AWS_802
+      file_line_range: 187-201
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-users
+    - check_id: CKV_AWS_803
+      file_line_range: 187-201
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-users
+    - check_id: CKV_AWS_801
+      file_line_range: 187-201
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-users
+    - check_id: CKV_AWS_802
+      file_line_range: 203-222
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-user-tokens
+    - check_id: CKV_AWS_803
+      file_line_range: 203-222
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-user-tokens
+    - check_id: CKV_AWS_801
+      file_line_range: 203-222
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-user-tokens
+    - check_id: CKV_AWS_802
+      file_line_range: 224-243
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-registration-tokens
+    - check_id: CKV_AWS_803
+      file_line_range: 224-243
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-registration-tokens
+    - check_id: CKV_AWS_801
+      file_line_range: 224-243
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-registration-tokens
+    - check_id: CKV_AWS_802
+      file_line_range: 245-286
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-deals-db
+    - check_id: CKV_AWS_801
+      file_line_range: 245-286
+      file_path: maccas/tables.tf
+      resource: aws_dynamodb_table.maccas-deals-db
+    - check_id: CKV_AWS_802
+      file_line_range: 5-34
+      file_path: replybot/tables.tf
+      resource: aws_dynamodb_table.replybot-interaction
+    - check_id: CKV_AWS_802
+      file_line_range: 1-17
+      file_path: tf-state/state-table.tf
+      resource: aws_dynamodb_table.tf-state-lock
+    - check_id: CKV_AWS_803
+      file_line_range: 1-17
+      file_path: tf-state/state-table.tf
+      resource: aws_dynamodb_table.tf-state-lock
+  commits: 344
+  issues: 0
+  pulls: 66
+  repo: https://github.com/Accurate0/infrastructure
+- average_activity: 134.33333333333334
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 401
+  issues: 1
+  pulls: 1
+  repo: https://github.com/public-transport/infrastructure
+- average_activity: 131.66666666666666
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-13
+      file_path: _sub/storage/s3-bucket/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-6
+      file_path: _sub/storage/s3-cloudtrail-bucket/main.tf
+      resource: aws_s3_bucket.log_bucket[0]
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-9
+      file_path: _sub/storage/s3-config-bucket/main.tf
+      resource: aws_s3_bucket.bucket
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 43-62
+      file_path: _sub/compute/ec2-instance/main.tf
+      resource: aws_instance.instance
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-5
+      file_path: _sub/storage/s3-bucket-lifecycle/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 38-43
+      file_path: _sub/storage/s3-cloudtrail-bucket/main.tf
+      resource: aws_s3_bucket.bucket
+  commits: 395
+  issues: 0
+  pulls: 0
+  repo: https://github.com/dfds/infrastructure-modules
+- average_activity: 129.33333333333334
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 388
+  issues: 0
+  pulls: 0
+  repo: https://github.com/nationalarchives/tdr-terraform-environments
+- average_activity: 124.66666666666667
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 54-64
+      file_path: simple_static_website/main.tf
+      resource: aws_s3_bucket.this
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 8-179
+      file_path: S3/main.tf
+      resource: aws_s3_bucket.this
+    - check_id: CKV2_AWS_61
+      file_line_range: 8-53
+      file_path: S3_log_bucket/main.tf
+      resource: aws_s3_bucket.this
+  commits: 185
+  issues: 0
+  pulls: 189
+  repo: https://github.com/cds-snc/terraform-modules
+- average_activity: 86.66666666666667
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 17-56
+      file_path: aws/fedora-coreos/kubernetes/controllers.tf
+      resource: aws_instance.controllers
+    - check_id: CKV_AWS_804
+      file_line_range: 17-56
+      file_path: aws/flatcar-linux/kubernetes/controllers.tf
+      resource: aws_instance.controllers
+  commits: 130
+  issues: 0
+  pulls: 130
+  repo: https://github.com/poseidon/typhoon
+- average_activity: 84.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 144
+  issues: 0
+  pulls: 108
+  repo: https://github.com/ministryofjustice/cloud-platform-terraform-monitoring
+- average_activity: 76.33333333333333
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 164
+  issues: 0
+  pulls: 65
+  repo: https://github.com/opszero/terraform-aws-kubespot
+- average_activity: 69.66666666666667
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 103
+  issues: 0
+  pulls: 106
+  repo: https://github.com/cds-snc/cloud-based-sensor
+- average_activity: 64.0
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 32-81
+      file_path: debiandesktop_ec2.tf
+      resource: aws_instance.debiandesktop
+    - check_id: CKV_AWS_804
+      file_line_range: 32-73
+      file_path: egressassess_ec2.tf
+      resource: aws_instance.egressassess
+    - check_id: CKV_AWS_804
+      file_line_range: 32-84
+      file_path: gophish_ec2.tf
+      resource: aws_instance.gophish
+    - check_id: CKV_AWS_804
+      file_line_range: 112-123
+      file_path: gophish_ec2.tf
+      resource: aws_ebs_volume.gophish_docker
+    - check_id: CKV_AWS_804
+      file_line_range: 32-98
+      file_path: guacamole_ec2.tf
+      resource: aws_instance.guacamole
+    - check_id: CKV_AWS_804
+      file_line_range: 32-83
+      file_path: kali_ec2.tf
+      resource: aws_instance.kali
+    - check_id: CKV_AWS_804
+      file_line_range: 37-94
+      file_path: nessus_ec2.tf
+      resource: aws_instance.nessus
+    - check_id: CKV_AWS_804
+      file_line_range: 32-80
+      file_path: pentestportal_ec2.tf
+      resource: aws_instance.pentestportal
+    - check_id: CKV_AWS_804
+      file_line_range: 32-86
+      file_path: samba_ec2.tf
+      resource: aws_instance.samba
+    - check_id: CKV_AWS_804
+      file_line_range: 32-94
+      file_path: teamserver_ec2.tf
+      resource: aws_instance.teamserver
+    - check_id: CKV_AWS_804
+      file_line_range: 32-90
+      file_path: terraformer_ec2.tf
+      resource: aws_instance.terraformer
+    - check_id: CKV_AWS_804
+      file_line_range: 35-96
+      file_path: windows_ec2.tf
+      resource: aws_instance.windows
+    - check_id: CKV_AWS_804
+      file_line_range: 25-63
+      file_path: examples/use-terraformer-instance/teamserver_ec2.tf
+      resource: aws_instance.teamserver
+  commits: 192
+  issues: 0
+  pulls: 0
+  repo: https://github.com/cisagov/cool-assessment-terraform
+- average_activity: 63.666666666666664
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 9-19
+      file_path: apps-devstg/us-east-1/k8s-kops/1-prerequisites/s3.tf
+      resource: aws_s3_bucket.kops_state
+    - check_id: CKV2_AWS_61
+      file_line_range: 104-114
+      file_path: apps-devstg/us-east-1/k8s-kops/1-prerequisites/s3.tf
+      resource: aws_s3_bucket.kops_irsa
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-14
+      file_path: security/us-east-2/security-audit/awscloudtrail_replication.tf
+      resource: aws_s3_bucket.cloudtrail_s3_bucket-dr
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-14
+      file_path: security/us-east-2/security-compliance --/awsconfig_replication.tf
+      resource: aws_s3_bucket.config_s3_bucket-dr
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 9-17
+      file_path: apps-devstg/us-east-1/ec2-fleet-ansible --/ebs.tf
+      resource: aws_ebs_volume.this
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-46
+      file_path: shared/us-east-1/storage/backup-gdrive --/bucket_gdrive.tf
+      resource: aws_s3_bucket.gdrive_backup
+  commits: 191
+  issues: 0
+  pulls: 0
+  repo: https://github.com/binbashar/le-tf-infra-aws
+- average_activity: 62.0
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: govwifi-account-policy/s3.tf
+      resource: aws_s3_bucket.iam_user_managment_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 29-36
+      file_path: govwifi-admin/loadbalancer.tf
+      resource: aws_s3_bucket.access_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-9
+      file_path: govwifi-admin/s3.tf
+      resource: aws_s3_bucket.admin_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 28-36
+      file_path: govwifi-admin/s3.tf
+      resource: aws_s3_bucket.product_page_data_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 61-69
+      file_path: govwifi-admin/s3.tf
+      resource: aws_s3_bucket.admin_mou_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 233-239
+      file_path: govwifi-admin/s3.tf
+      resource: aws_s3_bucket.replication_admin_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-9
+      file_path: govwifi-api/wordlist.tf
+      resource: aws_s3_bucket.wordlist
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: govwifi-canary-tests/s3.tf
+      resource: aws_s3_bucket.canary_tests_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-7
+      file_path: govwifi-dashboard/s3.tf
+      resource: aws_s3_bucket.metrics_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 26-32
+      file_path: govwifi-dashboard/s3.tf
+      resource: aws_s3_bucket.export_data_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: govwifi-deploy/s3.tf
+      resource: aws_s3_bucket.codepipeline_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 90-93
+      file_path: govwifi-deploy/s3.tf
+      resource: aws_s3_bucket.codepipeline_bucket_ireland
+    - check_id: CKV2_AWS_61
+      file_line_range: 22-30
+      file_path: govwifi-emails/s3sns.tf
+      resource: aws_s3_bucket.emailloggingbucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 110-119
+      file_path: govwifi-emails/s3sns.tf
+      resource: aws_s3_bucket.admin_emailbucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 26-33
+      file_path: govwifi-frontend/certs.tf
+      resource: aws_s3_bucket.frontend_cert_bucket
+    - check_id: CKV_AWS_804
+      file_line_range: 19-63
+      file_path: govwifi-grafana/instances.tf
+      resource: aws_instance.grafana_instance
+    - check_id: CKV_AWS_804
+      file_line_range: 19-68
+      file_path: govwifi-prometheus/instances.tf
+      resource: aws_instance.prometheus_instance
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: govwifi-smoke-tests/s3.tf
+      resource: aws_s3_bucket.smoke_tests_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: govwifi-sync-certs/s3.tf
+      resource: aws_s3_bucket.sync_certs_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 73-80
+      file_path: new-terraform-state/bucket.tf
+      resource: aws_s3_bucket.state_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-14
+      file_path: new-terraform-state/replication_bucket.tf
+      resource: aws_s3_bucket.replication_state_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 87-95
+      file_path: terraform-state/tfstate.tf
+      resource: aws_s3_bucket.state_bucket
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 17-154
+      file_path: govwifi-backend/management.tf
+      resource: aws_instance.management
+    - check_id: CKV2_AWS_61
+      file_line_range: 4-14
+      file_path: govwifi-backend/s3.tf
+      resource: aws_s3_bucket.rds_mysql_backup_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-11
+      file_path: govwifi-emails/s3sns.tf
+      resource: aws_s3_bucket.emailbucket
+    - check_id: CKV_AWS_804
+      file_line_range: 72-80
+      file_path: govwifi-grafana/instances.tf
+      resource: aws_ebs_volume.grafana_ebs
+    - check_id: CKV_AWS_804
+      file_line_range: 74-82
+      file_path: govwifi-prometheus/instances.tf
+      resource: aws_ebs_volume.prometheus_ebs
+    - check_id: CKV2_AWS_61
+      file_line_range: 73-80
+      file_path: new-terraform-state/accesslogs_bucket.tf
+      resource: aws_s3_bucket.accesslogs_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: new-terraform-state/replication_accesslogs_bucket.tf
+      resource: aws_s3_bucket.replication_accesslogs_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 73-82
+      file_path: terraform-state/accesslogs.tf
+      resource: aws_s3_bucket.accesslogs_bucket
+  commits: 186
+  issues: 0
+  pulls: 0
+  repo: https://github.com/alphagov/govwifi-terraform
+- average_activity: 59.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 87
+  issues: 0
+  pulls: 90
+  repo: https://github.com/Hapag-Lloyd/terraform-aws-bastion-host-ssm
+- average_activity: 58.333333333333336
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 97
+  issues: 0
+  pulls: 78
+  repo: https://github.com/Harmelodic/automation-infrastructure
+- average_activity: 55.333333333333336
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 12-14
+      file_path: terraform/backend.tf
+      resource: aws_s3_bucket.terraform_state
+    - check_id: CKV2_AWS_61
+      file_line_range: 46-48
+      file_path: terraform/backups-orpington.tf
+      resource: aws_s3_bucket.oaf-backups-orpington
+    - check_id: CKV2_AWS_61
+      file_line_range: 46-49
+      file_path: terraform/backups.tf
+      resource: aws_s3_bucket.oaf-backups
+    - check_id: CKV2_AWS_61
+      file_line_range: 36-38
+      file_path: terraform/elasticsearch-snapshots.tf
+      resource: aws_s3_bucket.oaf-elasticsearch-snapshots
+    - check_id: CKV2_AWS_61
+      file_line_range: 3-5
+      file_path: terraform/activestorage-s3/main.tf
+      resource: aws_s3_bucket.main
+    - check_id: CKV2_AWS_61
+      file_line_range: 110-113
+      file_path: terraform/electionleaflets/main.tf
+      resource: aws_s3_bucket.production
+    - check_id: CKV2_AWS_61
+      file_line_range: 160-163
+      file_path: terraform/electionleaflets/main.tf
+      resource: aws_s3_bucket.staging
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: terraform/planningalerts/sitemaps.tf
+      resource: aws_s3_bucket.sitemaps
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 15-27
+      file_path: terraform/electionleaflets/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 40-51
+      file_path: terraform/electionleaflets/main.tf
+      resource: aws_ebs_volume.data
+    - check_id: CKV_AWS_804
+      file_line_range: 10-23
+      file_path: terraform/metabase/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 10-21
+      file_path: terraform/oaf/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 10-25
+      file_path: terraform/openaustralia/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 38-49
+      file_path: terraform/openaustralia/main.tf
+      resource: aws_ebs_volume.data
+    - check_id: CKV_AWS_804
+      file_line_range: 10-22
+      file_path: terraform/opengovernment/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 18-36
+      file_path: terraform/planningalerts/env/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 10-25
+      file_path: terraform/plausible/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 10-24
+      file_path: terraform/proxy/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 10-30
+      file_path: terraform/righttoknow/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 39-47
+      file_path: terraform/righttoknow/main.tf
+      resource: aws_ebs_volume.data
+    - check_id: CKV_AWS_804
+      file_line_range: 10-31
+      file_path: terraform/theyvoteforyou/main.tf
+      resource: aws_instance.main
+    - check_id: CKV_AWS_804
+      file_line_range: 40-48
+      file_path: terraform/theyvoteforyou/main.tf
+      resource: aws_ebs_volume.data
+  commits: 166
+  issues: 0
+  pulls: 0
+  repo: https://github.com/openaustralia/infrastructure
+- average_activity: 55.0
+  checks:
+    failed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 32-50
+      file_path: aws/account/modules/terraform-backend/backend.tf
+      resource: aws_dynamodb_table.remote-state-lock
+    - check_id: CKV_AWS_801
+      file_line_range: 32-50
+      file_path: aws/account/modules/terraform-backend/backend.tf
+      resource: aws_dynamodb_table.remote-state-lock
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-29
+      file_path: aws/account/modules/terraform-backend/backend.tf
+      resource: aws_s3_bucket.remote-state
+    - check_id: CKV2_AWS_61
+      file_line_range: 165-240
+      file_path: aws/arctic-wolf/arctic_wolf.tf
+      resource: aws_s3_bucket.default
+    - check_id: CKV_AWS_804
+      file_line_range: 180-207
+      file_path: aws/aviatrix/controller/controller.tf
+      resource: aws_instance.controllers
+    - check_id: CKV2_AWS_61
+      file_line_range: 6-24
+      file_path: aws/billing/billing.tf
+      resource: aws_s3_bucket.billing
+    - check_id: CKV_AWS_804
+      file_line_range: 272-285
+      file_path: aws/cerberus/cerberus.tf
+      resource: aws_ebs_volume.cerberus_ebs
+    - check_id: CKV2_AWS_61
+      file_line_range: 116-134
+      file_path: aws/cicd/cicd.tf
+      resource: aws_s3_bucket.default[0]
+    - check_id: CKV2_AWS_61
+      file_line_range: 267-271
+      file_path: aws/cloudtrail/cloudtrail.tf
+      resource: aws_s3_bucket.default
+    - check_id: CKV2_AWS_61
+      file_line_range: 86-105
+      file_path: aws/rds/modules/db-option-group/db-option-group.tf
+      resource: aws_s3_bucket.rds_backup_restore[0]
+    - check_id: CKV2_AWS_61
+      file_line_range: 555-592
+      file_path: aws/s3-cdn/s3-cdn.tf
+      resource: aws_s3_bucket.origin[0]
+    passed_checks:
+    - check_id: CKV_AWS_803
+      file_line_range: 32-50
+      file_path: aws/account/modules/terraform-backend/backend.tf
+      resource: aws_dynamodb_table.remote-state-lock
+    - check_id: CKV2_AWS_61
+      file_line_range: 103-167
+      file_path: aws/alb/access_logs.tf
+      resource: aws_s3_bucket.default
+    - check_id: CKV_AWS_804
+      file_line_range: 294-328
+      file_path: aws/cerberus/cerberus.tf
+      resource: aws_instance.cerberus_ec2
+    - check_id: CKV_AWS_804
+      file_line_range: 300-394
+      file_path: aws/dfs/dfs.tf
+      resource: aws_instance.default
+    - check_id: CKV2_AWS_61
+      file_line_range: 95-202
+      file_path: aws/s3/s3.tf
+      resource: aws_s3_bucket.default
+  commits: 165
+  issues: 0
+  pulls: 0
+  repo: https://github.com/gravicore/terraform-gravicore-modules
+- average_activity: 50.666666666666664
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-4
+      file_path: terraform/cyhy_archive_bucket.tf
+      resource: aws_s3_bucket.cyhy_archive
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-9
+      file_path: terraform/moe_bucket.tf
+      resource: aws_s3_bucket.moe_bucket
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 2-46
+      file_path: terraform/bod_bastion_ec2.tf
+      resource: aws_instance.bod_bastion
+    - check_id: CKV_AWS_804
+      file_line_range: 25-84
+      file_path: terraform/bod_docker_ec2.tf
+      resource: aws_instance.bod_docker
+    - check_id: CKV_AWS_804
+      file_line_range: 96-106
+      file_path: terraform/bod_docker_ec2.tf
+      resource: aws_ebs_volume.bod_report_data
+    - check_id: CKV_AWS_804
+      file_line_range: 129-139
+      file_path: terraform/bod_docker_ec2.tf
+      resource: aws_ebs_volume.vdp_report_data
+    - check_id: CKV_AWS_804
+      file_line_range: 2-46
+      file_path: terraform/cyhy_bastion_ec2.tf
+      resource: aws_instance.cyhy_bastion
+    - check_id: CKV_AWS_804
+      file_line_range: 25-73
+      file_path: terraform/cyhy_dashboard_ec2.tf
+      resource: aws_instance.cyhy_dashboard
+    - check_id: CKV_AWS_804
+      file_line_range: 23-89
+      file_path: terraform/cyhy_mongo_ec2.tf
+      resource: aws_instance.cyhy_mongo
+    - check_id: CKV_AWS_804
+      file_line_range: 101-113
+      file_path: terraform/cyhy_mongo_ec2.tf
+      resource: aws_ebs_volume.cyhy_mongo_data
+    - check_id: CKV_AWS_804
+      file_line_range: 115-127
+      file_path: terraform/cyhy_mongo_ec2.tf
+      resource: aws_ebs_volume.cyhy_mongo_journal
+    - check_id: CKV_AWS_804
+      file_line_range: 129-141
+      file_path: terraform/cyhy_mongo_ec2.tf
+      resource: aws_ebs_volume.cyhy_mongo_log
+    - check_id: CKV_AWS_804
+      file_line_range: 23-79
+      file_path: terraform/cyhy_nessus_ec2.tf
+      resource: aws_instance.cyhy_nessus
+    - check_id: CKV_AWS_804
+      file_line_range: 122-135
+      file_path: terraform/cyhy_nessus_ec2.tf
+      resource: aws_ebs_volume.nessus_cyhy_runner_data
+    - check_id: CKV_AWS_804
+      file_line_range: 23-79
+      file_path: terraform/cyhy_nmap_ec2.tf
+      resource: aws_instance.cyhy_nmap
+    - check_id: CKV_AWS_804
+      file_line_range: 143-157
+      file_path: terraform/cyhy_nmap_ec2.tf
+      resource: aws_ebs_volume.nmap_cyhy_runner_data
+    - check_id: CKV_AWS_804
+      file_line_range: 24-80
+      file_path: terraform/cyhy_reporter_ec2.tf
+      resource: aws_instance.cyhy_reporter
+    - check_id: CKV_AWS_804
+      file_line_range: 92-102
+      file_path: terraform/cyhy_reporter_ec2.tf
+      resource: aws_ebs_volume.cyhy_reporter_data
+    - check_id: CKV_AWS_804
+      file_line_range: 2-47
+      file_path: terraform/mgmt_bastion_ec2.tf
+      resource: aws_instance.mgmt_bastion
+    - check_id: CKV_AWS_804
+      file_line_range: 1-49
+      file_path: terraform/mgmt_nessus_ec2.tf
+      resource: aws_instance.mgmt_nessus
+  commits: 152
+  issues: 0
+  pulls: 0
+  repo: https://github.com/cisagov/cyhy_amis
+- average_activity: 42.0
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 5-35
+      file_path: ec2.tf
+      resource: aws_instance.ipa
+  commits: 126
+  issues: 0
+  pulls: 0
+  repo: https://github.com/cisagov/freeipa-server-tf-module
+- average_activity: 40.666666666666664
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 75
+  issues: 0
+  pulls: 47
+  repo: https://github.com/terraform-google-modules/terraform-example-foundation
+- average_activity: 38.333333333333336
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 64
+  issues: 0
+  pulls: 51
+  repo: https://github.com/thoughtbot/flightdeck
+- average_activity: 37.0
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-13
+      file_path: athena.tf
+      resource: aws_s3_bucket.athena_query_results
+    - check_id: CKV2_AWS_61
+      file_line_range: 66-74
+      file_path: cost-and-usage.tf
+      resource: aws_s3_bucket.cost_and_usage
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-9
+      file_path: lambda-environment.tf
+      resource: aws_s3_bucket.lambda_environment
+  commits: 111
+  issues: 0
+  pulls: 0
+  repo: https://github.com/Echo-Stream/terraform-aws-control
+- average_activity: 36.666666666666664
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 32-34
+      file_path: terraform/setup/backend.tf
+      resource: aws_s3_bucket.setup-remote-state-s3-bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 233-235
+      file_path: terraform/setup/setup.tf
+      resource: aws_s3_bucket.terrafrom-state
+    passed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 27-49
+      file_path: terraform/batchCache/main.tf
+      resource: aws_dynamodb_table.batch_successful_cache
+    - check_id: CKV_AWS_803
+      file_line_range: 27-49
+      file_path: terraform/batchCache/main.tf
+      resource: aws_dynamodb_table.batch_successful_cache
+    - check_id: CKV_AWS_801
+      file_line_range: 27-49
+      file_path: terraform/batchCache/main.tf
+      resource: aws_dynamodb_table.batch_successful_cache
+    - check_id: CKV_AWS_804
+      file_line_range: 96-121
+      file_path: terraform/ec2/main.tf
+      resource: aws_instance.sidecar
+    - check_id: CKV_AWS_804
+      file_line_range: 124-147
+      file_path: terraform/ec2/main.tf
+      resource: aws_instance.aoc
+    - check_id: CKV_AWS_804
+      file_line_range: 70-94
+      file_path: terraform/ecs/efs.tf
+      resource: aws_instance.collector_efs_ec2
+    - check_id: CKV_AWS_802
+      file_line_range: 61-72
+      file_path: terraform/setup/backend.tf
+      resource: aws_dynamodb_table.setup-remote-state-dynamodb-table
+    - check_id: CKV_AWS_803
+      file_line_range: 61-72
+      file_path: terraform/setup/backend.tf
+      resource: aws_dynamodb_table.setup-remote-state-dynamodb-table
+    - check_id: CKV_AWS_801
+      file_line_range: 61-72
+      file_path: terraform/setup/backend.tf
+      resource: aws_dynamodb_table.setup-remote-state-dynamodb-table
+  commits: 110
+  issues: 0
+  pulls: 0
+  repo: https://github.com/aws-observability/aws-otel-test-framework
+- average_activity: 36.666666666666664
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-4
+      file_path: cloudfront/api.wellcomecollection.org/s3_public_api.tf
+      resource: aws_s3_bucket.public_api
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-10
+      file_path: cloudfront/core/s3.tf
+      resource: aws_s3_bucket.edge_lambdas
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-7
+      file_path: cloudfront/modules/redirect/main.tf
+      resource: aws_s3_bucket.redirect
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: images/terraform/image-builder.tf
+      resource: aws_s3_bucket.image-builder
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-7
+      file_path: photography_backups/s3_backups_photography.tf
+      resource: aws_s3_bucket.photography_backups
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-67
+      file_path: assets/s3_workingstorage.tf
+      resource: aws_s3_bucket.working_storage
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: cloudfront/api.wellcomecollection.org/s3_logs.tf
+      resource: aws_s3_bucket.cloudfront_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 13-17
+      file_path: cloudfront/iiif.wellcomecollection.org/terraform/s3.tf
+      resource: aws_s3_bucket.cloudfront_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-7
+      file_path: critical/s3_platform_infra.tf
+      resource: aws_s3_bucket.platform_infra
+  commits: 72
+  issues: 0
+  pulls: 38
+  repo: https://github.com/wellcomecollection/platform-infrastructure
+- average_activity: 33.666666666666664
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-55
+      file_path: access-logs/s3.tf
+      resource: aws_s3_bucket.access_logs
+  commits: 69
+  issues: 0
+  pulls: 32
+  repo: https://github.com/ministryofjustice/hmpps-delius-core-terraform
+- average_activity: 32.0
+  commits: 96
+  issues: 0
+  pulls: 0
+  repo: https://github.com/matihost/monorepo
+- average_activity: 28.333333333333332
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 85
+  issues: 0
+  pulls: 0
+  repo: https://github.com/joshuaspence/infrastructure
+- average_activity: 23.666666666666668
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 30-62
+      file_path: ec2.tf
+      resource: aws_instance.nessus
+  commits: 71
+  issues: 0
+  pulls: 0
+  repo: https://github.com/cisagov/cool-sharedservices-nessus
+- average_activity: 23.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 5
+  issues: 0
+  pulls: 64
+  repo: https://github.com/relaycorp/cloud-gateway
+- average_activity: 23.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 47
+  issues: 0
+  pulls: 22
+  repo: https://github.com/ministryofjustice/cloud-platform-terraform-rds-instance
+- average_activity: 18.666666666666668
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 34
+  issues: 0
+  pulls: 22
+  repo: https://github.com/cookpad/terraform-aws-eks
+- average_activity: 17.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 25
+  issues: 0
+  pulls: 26
+  repo: https://github.com/cloudposse/terraform-aws-alb
+- average_activity: 16.0
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 38-53
+      file_path: s3.tf
+      resource: aws_s3_bucket.apiary_data_bucket
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-11
+      file_path: s3-other.tf
+      resource: aws_s3_bucket.apiary_inventory_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 120-124
+      file_path: s3-other.tf
+      resource: aws_s3_bucket.apiary_managed_logs_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 242-246
+      file_path: s3-other.tf
+      resource: aws_s3_bucket.apiary_access_logs_hive
+    - check_id: CKV2_AWS_61
+      file_line_range: 320-323
+      file_path: s3-other.tf
+      resource: aws_s3_bucket.apiary_system
+  commits: 48
+  issues: 0
+  pulls: 0
+  repo: https://github.com/ExpediaGroup/apiary-data-lake
+- average_activity: 14.666666666666666
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 29
+  issues: 0
+  pulls: 15
+  repo: https://github.com/hashicorp/terraform-azurerm-terraform-enterprise
+- average_activity: 14.333333333333334
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 43
+  issues: 0
+  pulls: 0
+  repo: https://github.com/schubergphilis/terraform-aws-mcaf-vpc
+- average_activity: 14.333333333333334
+  checks:
+    failed_checks:
+    - check_id: CKV_AWS_801
+      file_line_range: 2-23
+      file_path: terraform/dynamodb.tf
+      resource: aws_dynamodb_table.mhs_state_table
+    - check_id: CKV_AWS_801
+      file_line_range: 26-47
+      file_path: terraform/dynamodb.tf
+      resource: aws_dynamodb_table.mhs_sync_async_table
+    passed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 2-23
+      file_path: terraform/dynamodb.tf
+      resource: aws_dynamodb_table.mhs_state_table
+    - check_id: CKV_AWS_803
+      file_line_range: 2-23
+      file_path: terraform/dynamodb.tf
+      resource: aws_dynamodb_table.mhs_state_table
+    - check_id: CKV_AWS_802
+      file_line_range: 26-47
+      file_path: terraform/dynamodb.tf
+      resource: aws_dynamodb_table.mhs_sync_async_table
+    - check_id: CKV_AWS_803
+      file_line_range: 26-47
+      file_path: terraform/dynamodb.tf
+      resource: aws_dynamodb_table.mhs_sync_async_table
+  commits: 22
+  issues: 0
+  pulls: 21
+  repo: https://github.com/nhsconnect/prm-mhs-infra
+- average_activity: 14.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 28
+  issues: 0
+  pulls: 14
+  repo: https://github.com/ToruMakabe/aks-anti-dry-iac
+- average_activity: 10.333333333333334
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 13-18
+      file_path: modules/cluster/storage.tf
+      resource: aws_s3_bucket.logs_jenkins_x
+    - check_id: CKV2_AWS_61
+      file_line_range: 79-84
+      file_path: modules/cluster/storage.tf
+      resource: aws_s3_bucket.reports_jenkins_x
+    - check_id: CKV2_AWS_61
+      file_line_range: 130-135
+      file_path: modules/cluster/storage.tf
+      resource: aws_s3_bucket.repository_jenkins_x
+  commits: 31
+  issues: 0
+  pulls: 0
+  repo: https://github.com/jenkins-x/terraform-aws-eks-jx
+- average_activity: 9.333333333333334
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 164-170
+      file_path: infrastructure/prod/s3.tf
+      resource: aws_s3_bucket.workflow-upload
+    - check_id: CKV_AWS_801
+      file_line_range: 17-31
+      file_path: infrastructure/prod/terraform.tf
+      resource: aws_dynamodb_table.terraform-locktable
+    - check_id: CKV2_AWS_61
+      file_line_range: 134-140
+      file_path: infrastructure/staging/s3.tf
+      resource: aws_s3_bucket.workflow-stage-upload
+    - check_id: CKV_AWS_801
+      file_line_range: 17-31
+      file_path: infrastructure/staging/terraform.tf
+      resource: aws_dynamodb_table.terraform-stage-locktable
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 1-23
+      file_path: infrastructure/prod/ec2_host.tf
+      resource: aws_instance.access_host
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: infrastructure/prod/s3.tf
+      resource: aws_s3_bucket.workflow-configuration
+    - check_id: CKV2_AWS_61
+      file_line_range: 33-40
+      file_path: infrastructure/prod/s3.tf
+      resource: aws_s3_bucket.workflow-data
+    - check_id: CKV2_AWS_61
+      file_line_range: 75-82
+      file_path: infrastructure/prod/s3.tf
+      resource: aws_s3_bucket.workflow-infra
+    - check_id: CKV2_AWS_61
+      file_line_range: 106-113
+      file_path: infrastructure/prod/s3.tf
+      resource: aws_s3_bucket.workflow-export-bagit
+    - check_id: CKV2_AWS_61
+      file_line_range: 133-140
+      file_path: infrastructure/prod/s3.tf
+      resource: aws_s3_bucket.workflow-harvesting-results
+    - check_id: CKV_AWS_802
+      file_line_range: 17-31
+      file_path: infrastructure/prod/terraform.tf
+      resource: aws_dynamodb_table.terraform-locktable
+    - check_id: CKV_AWS_803
+      file_line_range: 17-31
+      file_path: infrastructure/prod/terraform.tf
+      resource: aws_dynamodb_table.terraform-locktable
+    - check_id: CKV_AWS_804
+      file_line_range: 1-23
+      file_path: infrastructure/staging/ec2_host.tf
+      resource: aws_instance.access_host
+    - check_id: CKV2_AWS_61
+      file_line_range: 79-95
+      file_path: infrastructure/staging/s3.tf
+      resource: aws_s3_bucket.workflow-export-bagit-stage
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-8
+      file_path: infrastructure/staging/s3.tf
+      resource: aws_s3_bucket.workflow-stage-configuration
+    - check_id: CKV2_AWS_61
+      file_line_range: 33-40
+      file_path: infrastructure/staging/s3.tf
+      resource: aws_s3_bucket.workflow-stage-data
+    - check_id: CKV2_AWS_61
+      file_line_range: 102-109
+      file_path: infrastructure/staging/s3.tf
+      resource: aws_s3_bucket.workflow-stage-harvesting-results
+    - check_id: CKV_AWS_802
+      file_line_range: 17-31
+      file_path: infrastructure/staging/terraform.tf
+      resource: aws_dynamodb_table.terraform-stage-locktable
+    - check_id: CKV_AWS_803
+      file_line_range: 17-31
+      file_path: infrastructure/staging/terraform.tf
+      resource: aws_dynamodb_table.terraform-stage-locktable
+  commits: 24
+  issues: 0
+  pulls: 4
+  repo: https://github.com/wellcomecollection/goobi-infrastructure
+- average_activity: 9.333333333333334
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 28
+  issues: 0
+  pulls: 0
+  repo: https://github.com/AndreasSko/infrastructure
+- average_activity: 8.0
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 9-11
+      file_path: logging.tf
+      resource: aws_s3_bucket.main-trail
+    - check_id: CKV2_AWS_61
+      file_line_range: 73-75
+      file_path: logging.tf
+      resource: aws_s3_bucket.logging
+    - check_id: CKV2_AWS_61
+      file_line_range: 20-22
+      file_path: wedding.tf
+      resource: aws_s3_bucket.wedding_redirect_bucket
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 20-22
+      file_path: backup.tf
+      resource: aws_s3_bucket.backups
+  commits: 24
+  issues: 0
+  pulls: 0
+  repo: https://github.com/akerl/aws-account
+- average_activity: 7.0
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 179-182
+      file_path: terraform/projects/app-elasticsearch6/main.tf
+      resource: aws_s3_bucket.manual_snapshots
+    - check_id: CKV2_AWS_61
+      file_line_range: 91-105
+      file_path: terraform/projects/app-govuk-attachments/main.tf
+      resource: aws_s3_bucket.bucket_without_lifecycle[0]
+    - check_id: CKV2_AWS_61
+      file_line_range: 59-70
+      file_path: terraform/projects/app-related-links/main.tf
+      resource: aws_s3_bucket.s3_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 16-28
+      file_path: terraform/projects/app-whitehall-backend/main.tf
+      resource: aws_s3_bucket.whitehall_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-5
+      file_path: terraform/projects/infra-assets/backup.tf
+      resource: aws_s3_bucket.assets_backup
+    - check_id: CKV2_AWS_61
+      file_line_range: 33-38
+      file_path: terraform/projects/infra-assets/main.tf
+      resource: aws_s3_bucket.assets
+    - check_id: CKV2_AWS_61
+      file_line_range: 59-90
+      file_path: terraform/projects/infra-content-publisher/main.tf
+      resource: aws_s3_bucket.activestorage
+    - check_id: CKV2_AWS_61
+      file_line_range: 40-43
+      file_path: terraform/projects/infra-datagovuk-organogram-bucket/main.tf
+      resource: aws_s3_bucket.datagovuk-organogram
+    - check_id: CKV2_AWS_61
+      file_line_range: 35-47
+      file_path: terraform/projects/infra-specialist-publisher/main.tf
+      resource: aws_s3_bucket.specialist_publisher_csvs
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 66-89
+      file_path: terraform/projects/app-govuk-attachments/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 40-58
+      file_path: terraform/projects/app-search/main.tf
+      resource: aws_s3_bucket.sitemaps_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 114-142
+      file_path: terraform/projects/app-search/main.tf
+      resource: aws_s3_bucket.search_relevancy_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 45-53
+      file_path: terraform/projects/infra-athena-query-results/main.tf
+      resource: aws_s3_bucket.athena_query_results
+    - check_id: CKV2_AWS_61
+      file_line_range: 35-57
+      file_path: terraform/projects/infra-content-data-admin/main.tf
+      resource: aws_s3_bucket.content_data_csvs
+    - check_id: CKV2_AWS_61
+      file_line_range: 92-119
+      file_path: terraform/projects/infra-content-publisher/main.tf
+      resource: aws_s3_bucket.activestorage_replica
+    - check_id: CKV2_AWS_61
+      file_line_range: 2-10
+      file_path: terraform/projects/infra-csp-reporter/buckets.tf
+      resource: aws_s3_bucket.csp_reports
+    - check_id: CKV2_AWS_61
+      file_line_range: 32-36
+      file_path: terraform/projects/infra-database-backups-bucket/main.tf
+      resource: aws_s3_bucket.main
+    - check_id: CKV2_AWS_61
+      file_line_range: 38-43
+      file_path: terraform/projects/infra-database-backups-bucket/main.tf
+      resource: aws_s3_bucket.replica
+    - check_id: CKV2_AWS_61
+      file_line_range: 39-59
+      file_path: terraform/projects/infra-fastly-logs/main.tf
+      resource: aws_s3_bucket.fastly_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 701-721
+      file_path: terraform/projects/infra-fastly-logs/main.tf
+      resource: aws_s3_bucket.fastly_logs_monitoring
+    - check_id: CKV2_AWS_61
+      file_line_range: 750-770
+      file_path: terraform/projects/infra-fastly-logs/main.tf
+      resource: aws_s3_bucket.transition_fastly_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 107-156
+      file_path: terraform/projects/infra-monitoring/main.tf
+      resource: aws_s3_bucket.aws-logging
+    - check_id: CKV2_AWS_61
+      file_line_range: 32-52
+      file_path: terraform/projects/infra-monitoring/secondary.tf
+      resource: aws_s3_bucket.aws-secondary-logging
+  commits: 21
+  issues: 0
+  pulls: 0
+  repo: https://github.com/alphagov/govuk-aws
+- average_activity: 6.666666666666667
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-7
+      file_path: terraform/s3.tf
+      resource: aws_s3_bucket.buildkite_secrets
+    - check_id: CKV2_AWS_61
+      file_line_range: 20-22
+      file_path: terraform/s3.tf
+      resource: aws_s3_bucket.buildkite_secrets_logging
+    - check_id: CKV2_AWS_61
+      file_line_range: 52-54
+      file_path: terraform/s3.tf
+      resource: aws_s3_bucket.buildkite_config
+    passed_checks: []
+  commits: 14
+  issues: 0
+  pulls: 6
+  repo: https://github.com/wellcomecollection/buildkite-infrastructure
+- average_activity: 6.666666666666667
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 14
+  issues: 0
+  pulls: 6
+  repo: https://github.com/ministryofjustice/cloud-platform-terraform-elasticache-cluster
+- average_activity: 3.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 4
+  issues: 0
+  pulls: 5
+  repo: https://github.com/byu-oit/terraform-aws-rds
+- average_activity: 3.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 9
+  issues: 0
+  pulls: 0
+  repo: https://github.com/ndebuhr/cloud-native-workstation
+- average_activity: 2.6666666666666665
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-6
+      file_path: terraform/artifacts.tf
+      resource: aws_s3_bucket.aws-experiments
+    - check_id: CKV2_AWS_61
+      file_line_range: 27-32
+      file_path: terraform/main.tf
+      resource: aws_s3_bucket.aws-experiments-terraform-state
+    passed_checks: []
+  commits: 7
+  issues: 1
+  pulls: 0
+  repo: https://github.com/jg210/aws-experiments
+- average_activity: 2.6666666666666665
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 120-128
+      file_path: codeforpoznan_pl.tf
+      resource: aws_s3_bucket.codeforpoznan_public
+    - check_id: CKV2_AWS_61
+      file_line_range: 171-179
+      file_path: codeforpoznan_pl.tf
+      resource: aws_s3_bucket.codeforpoznan_lambdas
+    - check_id: CKV2_AWS_61
+      file_line_range: 187-195
+      file_path: codeforpoznan_pl.tf
+      resource: aws_s3_bucket.codeforpoznan_tfstate
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 38-60
+      file_path: bastion.tf
+      resource: aws_instance.bastion
+  commits: 4
+  issues: 0
+  pulls: 4
+  repo: https://github.com/CodeForPoznan/Infrastructure
+- average_activity: 2.6666666666666665
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-3
+      file_path: modules/email/aws/forwarding_bucket.tf
+      resource: aws_s3_bucket.this
+    - check_id: CKV2_AWS_61
+      file_line_range: 6-10
+      file_path: modules/mta-sts/aws/policy_s3.tf
+      resource: aws_s3_bucket.this
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-11
+      file_path: deployment/accounts/aws/audit/csp/bucket.tf
+      resource: aws_s3_bucket.audit_csp
+  commits: 4
+  issues: 0
+  pulls: 4
+  repo: https://github.com/VJftw/infrastructure
+- average_activity: 2.3333333333333335
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 4
+  issues: 0
+  pulls: 3
+  repo: https://github.com/lacework/terraform-gcp-audit-log
+- average_activity: 2.3333333333333335
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 5
+  issues: 0
+  pulls: 2
+  repo: https://github.com/companieshouse/ceu-terraform
+- average_activity: 2.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 6
+  issues: 0
+  pulls: 0
+  repo: https://github.com/ausmartway/gcp-playground
+- average_activity: 2.0
+  checks:
+    failed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 138-144
+      file_path: main.tf
+      resource: aws_ebs_volume.influxdb_volume
+    - check_id: CKV2_AWS_61
+      file_line_range: 212-228
+      file_path: main.tf
+      resource: aws_s3_bucket.edejong-influxdb-backup
+    - check_id: CKV2_AWS_61
+      file_line_range: 230-237
+      file_path: main.tf
+      resource: aws_s3_bucket.selenium_chromium_test
+    - check_id: CKV2_AWS_61
+      file_line_range: 239-246
+      file_path: main.tf
+      resource: aws_s3_bucket.edj_openrtb_test
+    passed_checks: []
+  commits: 6
+  issues: 0
+  pulls: 0
+  repo: https://github.com/gedejong/infra
+- average_activity: 1.6666666666666667
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 5
+  issues: 0
+  pulls: 0
+  repo: https://github.com/aeternity/terraform-aws-devnet
+- average_activity: 1.6666666666666667
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 4
+  issues: 1
+  pulls: 0
+  repo: https://github.com/JamesWoolfenden/terraform-aws-lex-lambda
+- average_activity: 1.3333333333333333
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-16
+      file_path: infra/bootstrap/cicd/artifact_bucket/main.tf
+      resource: aws_s3_bucket.artifact_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-9
+      file_path: infra/bootstrap/storage/s3-bucket/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 11-21
+      file_path: infra/service/game-servers/main.tf
+      resource: aws_s3_bucket.packages_bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-16
+      file_path: infra/service/game-servers/modules/s3-bucket/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-16
+      file_path: infra/terraform-backend/env/main.tf
+      resource: aws_s3_bucket.terraform_state
+    passed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 1-20
+      file_path: infra/bootstrap/kv-store/main.tf
+      resource: aws_dynamodb_table.game_key_value_store
+    - check_id: CKV_AWS_803
+      file_line_range: 1-20
+      file_path: infra/bootstrap/kv-store/main.tf
+      resource: aws_dynamodb_table.game_key_value_store
+    - check_id: CKV_AWS_801
+      file_line_range: 1-20
+      file_path: infra/bootstrap/kv-store/main.tf
+      resource: aws_dynamodb_table.game_key_value_store
+    - check_id: CKV_AWS_802
+      file_line_range: 1-20
+      file_path: infra/service/game-servers/modules/game-kv-store/main.tf
+      resource: aws_dynamodb_table.game_key_value_store
+    - check_id: CKV_AWS_803
+      file_line_range: 1-20
+      file_path: infra/service/game-servers/modules/game-kv-store/main.tf
+      resource: aws_dynamodb_table.game_key_value_store
+    - check_id: CKV_AWS_801
+      file_line_range: 1-20
+      file_path: infra/service/game-servers/modules/game-kv-store/main.tf
+      resource: aws_dynamodb_table.game_key_value_store
+    - check_id: CKV_AWS_804
+      file_line_range: 3-12
+      file_path: infra/service/game-servers/modules/volume/main.tf
+      resource: aws_ebs_volume.volume
+    - check_id: CKV_AWS_802
+      file_line_range: 18-26
+      file_path: infra/terraform-backend/env/main.tf
+      resource: aws_dynamodb_table.terraform_locks
+    - check_id: CKV_AWS_803
+      file_line_range: 18-26
+      file_path: infra/terraform-backend/env/main.tf
+      resource: aws_dynamodb_table.terraform_locks
+    - check_id: CKV_AWS_801
+      file_line_range: 18-26
+      file_path: infra/terraform-backend/env/main.tf
+      resource: aws_dynamodb_table.terraform_locks
+  commits: 4
+  issues: 0
+  pulls: 0
+  repo: https://github.com/jkstenzel95/jks.gameservers
+- average_activity: 1.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 3
+  issues: 0
+  pulls: 0
+  repo: https://github.com/pelias/terraform-elasticsearch
+- average_activity: 1.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 3
+  issues: 0
+  pulls: 0
+  repo: https://github.com/nmaupu/auto-gcp
+- average_activity: 1.0
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-18
+      file_path: main.tf
+      resource: aws_s3_bucket.default
+  commits: 3
+  issues: 0
+  pulls: 0
+  repo: https://github.com/willfarrell/terraform-logs-module
+- average_activity: 1.0
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 3
+  issues: 0
+  pulls: 0
+  repo: https://github.com/rajesh-nitc/gcp-foundation
+- average_activity: 0.6666666666666666
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 11-13
+      file_path: modules/static_website/s3.tf
+      resource: aws_s3_bucket.website
+    passed_checks: []
+  commits: 2
+  issues: 0
+  pulls: 0
+  repo: https://github.com/cob16/aws_static_website
+- average_activity: 0.6666666666666666
+  checks:
+    failed_checks: []
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 5-33
+      file_path: modules/bootstrap/aws/bastion.tf
+      resource: aws_instance.bastion
+    - check_id: CKV_AWS_804
+      file_line_range: 40-44
+      file_path: modules/bootstrap/aws/bastion.tf
+      resource: aws_ebs_volume.bastion-data
+    - check_id: CKV_AWS_804
+      file_line_range: 23-103
+      file_path: modules/bootstrap/aws/jumpbox.tf
+      resource: aws_instance.jumpbox[0]
+    - check_id: CKV_AWS_804
+      file_line_range: 134-144
+      file_path: modules/bootstrap/aws/jumpbox.tf
+      resource: aws_ebs_volume.jumpbox-data[0]
+  commits: 2
+  issues: 0
+  pulls: 0
+  repo: https://github.com/appbricks/cloud-inceptor
+- average_activity: 0.6666666666666666
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-9
+      file_path: cloudfront/examples/basic/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-9
+      file_path: cloudfront/examples/basic_auth/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-9
+      file_path: cloudfront/examples/basic_auth_function/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-9
+      file_path: cloudfront/examples/response_headers/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-9
+      file_path: cloudfront/examples/single_page_app/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 7-14
+      file_path: cloudfront/examples/static_website/main.tf
+      resource: aws_s3_bucket.bucket
+    - check_id: CKV2_AWS_61
+      file_line_range: 5-7
+      file_path: ecs/task/role/examples/runtime/main.tf
+      resource: aws_s3_bucket.user_uploads
+    - check_id: CKV_AWS_801
+      file_line_range: 84-98
+      file_path: meta/main.tf
+      resource: aws_dynamodb_table.state_lock
+    - check_id: CKV_AWS_801
+      file_line_range: 100-114
+      file_path: meta/main.tf
+      resource: aws_dynamodb_table.meta_lock
+    - check_id: CKV2_AWS_61
+      file_line_range: 63-82
+      file_path: meta/main.tf
+      resource: aws_s3_bucket.state
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-28
+      file_path: redirect/main.tf
+      resource: aws_s3_bucket.redirect
+    - check_id: CKV2_AWS_61
+      file_line_range: 18-50
+      file_path: spa/main.tf
+      resource: aws_s3_bucket.assets
+    - check_id: CKV_AWS_801
+      file_line_range: 22-35
+      file_path: terraform/backend/s3/main.tf
+      resource: aws_dynamodb_table.state_lock
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-20
+      file_path: terraform/backend/s3/main.tf
+      resource: aws_s3_bucket.state
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 174-200
+      file_path: ecs/network/main.tf
+      resource: aws_instance.nat
+    - check_id: CKV_AWS_802
+      file_line_range: 84-98
+      file_path: meta/main.tf
+      resource: aws_dynamodb_table.state_lock
+    - check_id: CKV_AWS_803
+      file_line_range: 84-98
+      file_path: meta/main.tf
+      resource: aws_dynamodb_table.state_lock
+    - check_id: CKV_AWS_802
+      file_line_range: 100-114
+      file_path: meta/main.tf
+      resource: aws_dynamodb_table.meta_lock
+    - check_id: CKV_AWS_803
+      file_line_range: 100-114
+      file_path: meta/main.tf
+      resource: aws_dynamodb_table.meta_lock
+    - check_id: CKV_AWS_802
+      file_line_range: 22-35
+      file_path: terraform/backend/s3/main.tf
+      resource: aws_dynamodb_table.state_lock
+    - check_id: CKV_AWS_803
+      file_line_range: 22-35
+      file_path: terraform/backend/s3/main.tf
+      resource: aws_dynamodb_table.state_lock
+  commits: 2
+  issues: 0
+  pulls: 0
+  repo: https://github.com/codequest-eu/terraform-modules
+- average_activity: 0.3333333333333333
+  checks:
+    failed_checks: []
+    passed_checks: []
+  commits: 1
+  issues: 0
+  pulls: 0
+  repo: https://github.com/coremaker/terraform-google-nucleus
+- average_activity: 0.3333333333333333
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 3-11
+      file_path: infra-basic/s3-rendertest.tf
+      resource: aws_s3_bucket.s3_rendertest
+    - check_id: CKV2_AWS_61
+      file_line_range: 3-11
+      file_path: infra-basic/s3-stdifstorage.tf
+      resource: aws_s3_bucket.s3_stdifstorage
+    - check_id: CKV2_AWS_61
+      file_line_range: 9-17
+      file_path: infra-basic/s3.tf
+      resource: aws_s3_bucket.s3_server_backups
+    - check_id: CKV2_AWS_61
+      file_line_range: 23-31
+      file_path: infra-basic/s3.tf
+      resource: aws_s3_bucket.s3_bucket_logs
+    - check_id: CKV2_AWS_61
+      file_line_range: 43-51
+      file_path: infra-basic/s3.tf
+      resource: aws_s3_bucket.s3_vanilla18
+    - check_id: CKV2_AWS_61
+      file_line_range: 66-74
+      file_path: infra-basic/s3.tf
+      resource: aws_s3_bucket.s3_mc_resources
+    - check_id: CKV2_AWS_61
+      file_line_range: 95-103
+      file_path: infra-basic/s3.tf
+      resource: aws_s3_bucket.s3_haulaway
+    - check_id: CKV2_AWS_61
+      file_line_range: 1-22
+      file_path: s3/s3.tf
+      resource: aws_s3_bucket.state-sync
+    passed_checks:
+    - check_id: CKV_AWS_804
+      file_line_range: 4-18
+      file_path: infra-basic/disabled/ec2.tf
+      resource: aws_instance.overviewerworker
+    - check_id: CKV_AWS_802
+      file_line_range: 1-14
+      file_path: s3/dynamodb.tf
+      resource: aws_dynamodb_table.terraform_locks
+    - check_id: CKV_AWS_803
+      file_line_range: 1-14
+      file_path: s3/dynamodb.tf
+      resource: aws_dynamodb_table.terraform_locks
+    - check_id: CKV_AWS_801
+      file_line_range: 1-14
+      file_path: s3/dynamodb.tf
+      resource: aws_dynamodb_table.terraform_locks
+  commits: 1
+  issues: 0
+  pulls: 0
+  repo: https://github.com/IncredibleHolg/infra-aws-code
+- average_activity: 0.3333333333333333
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 79-81
+      file_path: aws/kitchen.io.tf
+      resource: aws_s3_bucket.kitchen-io
+    - check_id: CKV2_AWS_61
+      file_line_range: 93-95
+      file_path: aws/kitchen.io.tf
+      resource: aws_s3_bucket.www-kitchen-io
+    - check_id: CKV2_AWS_61
+      file_line_range: 107-109
+      file_path: aws/kitchen.io.tf
+      resource: aws_s3_bucket.blog-kitchen-io
+    - check_id: CKV2_AWS_61
+      file_line_range: 132-134
+      file_path: aws/kitchen.io.tf
+      resource: aws_s3_bucket.www-blog-kitchen-io
+    passed_checks: []
+  commits: 1
+  issues: 0
+  pulls: 0
+  repo: https://github.com/kitchen/personal-terraform
+- average_activity: 0.3333333333333333
+  checks:
+    failed_checks:
+    - check_id: CKV2_AWS_61
+      file_line_range: 17-27
+      file_path: remote.tf
+      resource: aws_s3_bucket.terraform-state-storage-s3
+    passed_checks:
+    - check_id: CKV_AWS_802
+      file_line_range: 36-53
+      file_path: remote.tf
+      resource: aws_dynamodb_table.dynamodb-terraform-state-lock
+    - check_id: CKV_AWS_803
+      file_line_range: 36-53
+      file_path: remote.tf
+      resource: aws_dynamodb_table.dynamodb-terraform-state-lock
+    - check_id: CKV_AWS_801
+      file_line_range: 36-53
+      file_path: remote.tf
+      resource: aws_dynamodb_table.dynamodb-terraform-state-lock
+  commits: 1
+  issues: 0
+  pulls: 0
+  repo: https://github.com/giuseppeborgese/terraform-locking-s3-state

@@ -1,0 +1,55 @@
+linter_report:
+  - repo: https://github.com/pagopa/pn-infra
+    failed_checks:
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 32-48
+        file_path: runtime-infra/celonis_exports.yaml
+        resource: AWS::S3::Bucket.CelonisHistoryBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 50-68
+        file_path: runtime-infra/celonis_exports.yaml
+        resource: AWS::S3::Bucket.CelonisCurrentDataBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 32-37
+        file_path: runtime-infra/pn-backup_confinfo_dynamotable.yaml
+        resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 31-36
+        file_path: runtime-infra/pn-backup_core_dynamotable.yaml
+        resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 93-107
+        file_path: runtime-infra/pn-cdc-analytics.yaml
+        resource: AWS::S3::Bucket.AthenaResultsBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 28-49
+        file_path: runtime-infra/pn-cognito.yaml
+        resource: AWS::S3::Bucket.CognitoLogsS3
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 113-118
+        file_path: runtime-infra/pn-data-monitoring.yaml
+        resource: AWS::S3::Bucket.DataMonitoringBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 265-277
+        file_path: runtime-infra/pn-infra-storage.yaml
+        resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 592-606
+        file_path: runtime-infra/pn-log-analytics.yaml
+        resource: AWS::S3::Bucket.AthenaResultsBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 305-317
+        file_path: runtime-infra-confinfo/infra-storage.yaml
+        resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
+    failed_checks_count: 10
+    files_count: 9

@@ -1,0 +1,66 @@
+check_definitions:
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    description: |
+      Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand) billing. This can lead to 
+      over-provisioning, unnecessary costs, or throttling if usage exceeds limits.
+    recommendations:
+      - Set billing_mode=PAY_PER_REQUEST in your DynamoDB table configuration.
+      - Avoid setting read_capacity and write_capacity.
+  - check_id: CKV_AWS_802
+    check_name: DynamoDB Overprovisioned r/w Capacity
+    description: |
+      Detects DynamoDB tables that use provisioned capacity (read_capacity/write_capacity > 1). 
+      Provisioned settings can cause higher costs if not properly tuned.
+    recommendations:
+      - Remove read_capacity and write_capacity.
+      - Set billing_mode=PAY_PER_REQUEST in your DynamoDB table configuration.
+  - check_id: CKV_AWS_803
+    check_name: DynamoDB GSIs
+    description: |
+      Flags DynamoDB tables that define Global Secondary Indexes (GSIs). GSIs add unnecessary costs 
+      and complexity if not carefully optimized.
+    recommendations:
+      - Avoid using GSIs unless absolutely necessary for query performance.
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    description: |
+      Detects use of outdated EC2 instance or EBS volume types (e.g., t2, m4, gp2). Older generations 
+      might be less efficient, slower, and more expensive.
+    recommendations:
+      - Use newer instance types (e.g., t3, m5).
+      - Use newer volume types (e.g., gp3, io2).
+      - Review AWS documentation for the latest instance and volume types.
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    description: |
+      Verifies that aws_s3_bucket resources have lifecycle configurations defined via lifecycle_rules or as 
+      a linked aws_s3_bucket_lifecycle_configuration. Missing rules may lead to data retention in expensive 
+      storage indefinitely, thus increasing costs.
+    recommendations:
+      - Add a lifecycle_rule block inside the S3 bucket for a compact definition of simple rules.
+      - Link the S3 bucket to a separate aws_s3_bucket_lifecycle_configuration resource for complex or interdependent rules.
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    description: |
+      Verifies that S3 buckets have lifecycle configurations with at least one rule defined. Missing rules 
+      may lead to data retention in expensive storage indefinitely, thus increasing costs.
+    recommendations:
+      - Define LifecycleConfiguration in the Properties section of the bucket.
+      - Include a non-empty Rules list with expiration/transition logic.
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    description: |
+      Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand) billing. This can lead to 
+      over-provisioning, unnecessary costs, or throttling if usage exceeds limits.
+    recommendations:
+      - Set BillingMode:PAY_PER_REQUEST in your DynamoDB table configuration.
+      - Avoid setting the read/write capacity.
+  - check_id: CKV_AWS_807
+    check_name: Deprecated Instance/Volume Types
+    description: |
+      Detects use of outdated types (e.g., t2, m3, m4, c4) for EC2, RDS and SageMaker instances. 
+      Older generations might be less efficient, slower, and more expensive.
+    recommendations:
+      - Use newer types (e.g., t3, m5).
+      - Review AWS documentation for the latest instance and volume types.

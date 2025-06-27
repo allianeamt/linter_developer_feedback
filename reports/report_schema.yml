@@ -1,0 +1,8 @@
+linter_report:
+  - repo: string
+    failed_checks:
+      - check_id: string
+        check_name: string
+        file_path: string
+        file_line_range: string
+        resource: string

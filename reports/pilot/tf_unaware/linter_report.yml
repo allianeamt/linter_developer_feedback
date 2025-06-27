@@ -1,0 +1,15 @@
+linter_report:
+  - repo: https://github.com/aws-observability/aws-otel-test-framework
+    failed_checks:
+      - check_id: CKV2_AWS_61
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 32-34
+        file_path: terraform/setup/backend.tf
+        resource: aws_s3_bucket.setup-remote-state-s3-bucket
+      - check_id: CKV2_AWS_61
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 233-235
+        file_path: terraform/setup/setup.tf
+        resource: aws_s3_bucket.terrafrom-state
+    failed_checks_count: 2
+    files_count: 2

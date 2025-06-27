@@ -1,0 +1,30 @@
+linter_report:
+  - repo: https://github.com/primeharbor/aws-account-automation
+    failed_checks:
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 21-29
+        file_path: cloudformation/BillingBucket-Template.yaml
+        resource: AWS::S3::Bucket.BillingS3Bucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 33-41
+        file_path: cloudformation/CloudTrail-Template.yaml
+        resource: AWS::S3::Bucket.LoggingS3Bucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 13-28
+        file_path: cloudformation/GuardDutyFindingsBucket-Template.yaml
+        resource: AWS::S3::Bucket.SecureBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 13-28
+        file_path: cloudformation/MacieFindingsBucket-Template.yaml
+        resource: AWS::S3::Bucket.SecureBucket
+      - check_id: CKV_AWS_805
+        check_name: S3 Lifecycle Configurations
+        file_line_range: 74-87
+        file_path: cloudformation/SESRuleToSlack-Template.yaml
+        resource: AWS::S3::Bucket.MessageS3Bucket
+    failed_checks_count: 5
+    files_count: 5

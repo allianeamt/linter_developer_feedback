@@ -1,0 +1,6 @@
+- aware: 37
+  tool: terraform
+  unaware: 50
+- aware: 16
+  tool: cloudformation
+  unaware: 21

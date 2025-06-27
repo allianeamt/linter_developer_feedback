@@ -1,0 +1,220 @@
+- checks:
+  - CKV2_AWS_61
+  count: 52
+  repos:
+  - https://github.com/C2Devel/terraform-examples
+  - https://github.com/CodeForPoznan/Infrastructure
+  - https://github.com/ExpediaGroup/apiary-data-lake
+  - https://github.com/IncredibleHolg/infra-aws-code
+  - https://github.com/LeoneGarage/terraform
+  - https://github.com/SonarSource/sonar-iac
+  - https://github.com/SumoLogic/terraform-sumologic-sumo-logic-integrations
+  - https://github.com/VJftw/infrastructure
+  - https://github.com/Worklytics/psoxy
+  - https://github.com/akerl/aws-account
+  - https://github.com/alphagov/govuk-aws
+  - https://github.com/alphagov/govuk-infrastructure
+  - https://github.com/aneoconsulting/ArmoniK.Infra
+  - https://github.com/aptos-labs/aptos-core
+  - https://github.com/aws-observability/aws-otel-test-framework
+  - https://github.com/aws/aws-xray-sdk-python
+  - https://github.com/bcgov/workbc-main
+  - https://github.com/binbashar/le-tf-infra-aws
+  - https://github.com/cabinetoffice/gender-pay-gap
+  - https://github.com/cds-snc/notification-terraform
+  - https://github.com/cds-snc/terraform-modules
+  - https://github.com/cisagov/cyhy_amis
+  - https://github.com/cisagov/dmarc-import-tf-module
+  - https://github.com/cloud-gov/cg-provision
+  - https://github.com/cloudposse/terraform-aws-cloudfront-s3-cdn
+  - https://github.com/cob16/aws_static_website
+  - https://github.com/compiler-explorer/infra
+  - https://github.com/dfds/infrastructure-modules
+  - https://github.com/fleetdm/fleet
+  - https://github.com/giuseppeborgese/terraform-locking-s3-state
+  - https://github.com/jg210/aws-experiments
+  - https://github.com/jkstenzel95/jks.gameservers
+  - https://github.com/kitchen/personal-terraform
+  - https://github.com/kubernetes/k8s.io
+  - https://github.com/magenx/Magento-2-aws-cluster-terraform
+  - https://github.com/mattermost/mattermost-cloud-monitoring
+  - https://github.com/mingfang/terraform-kubernetes
+  - https://github.com/ministryofjustice/opg-lpa
+  - https://github.com/openaustralia/infrastructure
+  - https://github.com/openfun/marsha
+  - https://github.com/paulmarsicloud/terraform-aws-openvpn-ephemeral
+  - https://github.com/privacysandbox/fledge-key-value-service
+  - https://github.com/projecthorus/sondehub-infra
+  - https://github.com/rohits-dev/dev-lab-aws
+  - https://github.com/rust-lang/simpleinfra
+  - https://github.com/sighupio/fury-eks-installer
+  - https://github.com/somleng/somleng
+  - https://github.com/spkane/todo-for-terraform
+  - https://github.com/umccr/infrastructure
+  - https://github.com/wellcomecollection/buildkite-infrastructure
+  - https://github.com/wellcomecollection/platform-infrastructure
+  - https://github.com/zenml-io/mlops-stacks
+- checks:
+  - CKV_AWS_801
+  - CKV_AWS_802
+  count: 2
+  repos:
+  - https://github.com/kubefirst/gitops-template
+  - https://github.com/ministryofjustice/cloud-platform-infrastructure
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  count: 6
+  repos:
+  - https://github.com/Quansight/qhub
+  - https://github.com/codequest-eu/terraform-modules
+  - https://github.com/e2eSolutionArchitect/terraform
+  - https://github.com/moritzzimmer/terraform-aws-lambda
+  - https://github.com/wellcomecollection/goobi-infrastructure
+  - https://github.com/wellcomecollection/wellcomecollection.org
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  - CKV_AWS_803
+  count: 3
+  repos:
+  - https://github.com/18F/identity-terraform
+  - https://github.com/Accurate0/infrastructure
+  - https://github.com/alphagov/di-authentication-api
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_804
+  count: 6
+  repos:
+  - https://github.com/VeeamHub/veeam-terraform
+  - https://github.com/alphagov/govwifi-terraform
+  - https://github.com/asquarezone/TerraformZone
+  - https://github.com/confluentinc/demo-scene
+  - https://github.com/eana/bitwarden-tf-aws
+  - https://github.com/gedejong/infra
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  - CKV_AWS_802
+  - CKV_AWS_804
+  count: 8
+  repos:
+  - https://github.com/JesusFilm/core
+  - https://github.com/antonputra/tutorials
+  - https://github.com/gravicore/terraform-gravicore-modules
+  - https://github.com/heldersepu/hs-scripts
+  - https://github.com/ine-labs/AWSGoat
+  - https://github.com/infracost/infracost
+  - https://github.com/iriusrisk/startleft
+  - https://github.com/turbot/steampipe-plugin-aws
+- checks:
+  - CKV_AWS_801
+  count: 2
+  repos:
+  - https://github.com/OceanSoftIO/Terraform
+  - https://github.com/nhsconnect/prm-mhs-infra
+- checks:
+  - CKV_AWS_806
+  count: 3
+  repos:
+  - https://github.com/NHSDigital/eps-prescription-status-update-api
+  - https://github.com/guardian/archivehunter
+  - https://github.com/guardian/identity-processes
+- checks:
+  - CKV_AWS_805
+  - CKV_AWS_806
+  - CKV_AWS_807
+  count: 5
+  repos:
+  - https://github.com/aws-cloudformation/cfn-lint
+  - https://github.com/aws-samples/serverless-patterns
+  - https://github.com/awslabs/aws-well-architected-labs
+  - https://github.com/christoferson/aws-cloudformation
+  - https://github.com/kennyk65/aws-teaching-demos
+- checks:
+  - CKV_AWS_805
+  count: 22
+  repos:
+  - https://github.com/BastLeblanc/retail-demo-store
+  - https://github.com/Sage-Bionetworks-IT/organizations-infra
+  - https://github.com/Sage-Bionetworks-Workflows/nextflow-infra
+  - https://github.com/aexeagmbh/cfn-lint-rules
+  - https://github.com/aws-samples/amazon-transcribe-live-call-analytics
+  - https://github.com/aws-samples/amazon-transcribe-live-meeting-assistant
+  - https://github.com/aws/aws-parallelcluster-ui
+  - https://github.com/benkulcsar/newswatch
+  - https://github.com/brucehoff/organizations-infra
+  - https://github.com/buildkite/elastic-ci-stack-for-aws
+  - https://github.com/daiyyr/the-alchemist
+  - https://github.com/differentialhq/differential
+  - https://github.com/govuk-one-login/ipv-cri-cic-api
+  - https://github.com/govuk-one-login/onboarding-product-page
+  - https://github.com/govuk-one-login/onboarding-self-service-experience
+  - https://github.com/govuk-one-login/txma-infra
+  - https://github.com/koekalenteri/koekalenteri
+  - https://github.com/pagopa/pn-infra
+  - https://github.com/primeharbor/aws-account-automation
+  - https://github.com/primeharbor/pht-prowler-searchcluster
+  - https://github.com/qld-gov-au/ckan-qld-infrastructure
+  - https://github.com/zaro0508/organizations-infra
+- checks:
+  - CKV_AWS_805
+  - CKV_AWS_807
+  count: 2
+  repos:
+  - https://github.com/Percona-Lab/jenkins-pipelines
+  - https://github.com/RLOpenCatalyst/rgdeploy
+- checks:
+  - CKV_AWS_805
+  - CKV_AWS_806
+  count: 3
+  repos:
+  - https://github.com/PRX/Infrastructure
+  - https://github.com/Saneri/event-signup
+  - https://github.com/aws/serverless-application-model
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  - CKV_AWS_802
+  - CKV_AWS_803
+  count: 2
+  repos:
+  - https://github.com/aws-ia/terraform-aws-control_tower_account_factory
+  - https://github.com/gravitational/teleport
+- checks:
+  - CKV_AWS_803
+  count: 2
+  repos:
+  - https://github.com/cds-snc/forms-terraform
+  - https://github.com/ministryofjustice/opg-digideps
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  - CKV_AWS_802
+  - CKV_AWS_803
+  - CKV_AWS_804
+  count: 1
+  repos:
+  - https://github.com/Checkmarx/kics
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  - CKV_AWS_802
+  count: 2
+  repos:
+  - https://github.com/CMSgov/beneficiary-fhir-data
+  - https://github.com/clojars/infrastructure
+- checks:
+  - CKV2_AWS_61
+  - CKV_AWS_801
+  - CKV_AWS_803
+  - CKV_AWS_804
+  count: 1
+  repos:
+  - https://github.com/JamesWoolfenden/pike
+- checks:
+  - CKV_AWS_807
+  count: 2
+  repos:
+  - https://github.com/BerriAI/litellm
+  - https://github.com/erickwill/litellm

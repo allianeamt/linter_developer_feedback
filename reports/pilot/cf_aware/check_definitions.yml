@@ -1,0 +1,9 @@
+check_definitions:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    description: |
+      Verifies that S3 buckets have lifecycle configurations with at least one rule defined. Missing rules 
+      may lead to data retention in expensive storage indefinitely, thus increasing costs.
+    recommendations:
+      - Define LifecycleConfiguration in the Properties section of the bucket.
+      - Include a non-empty Rules list with expiration/transition logic.

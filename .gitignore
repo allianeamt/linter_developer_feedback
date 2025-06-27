@@ -1,2 +1,4 @@
 .env
 env/
+temp_repo/
+checkov_check/checkov_check/checks/

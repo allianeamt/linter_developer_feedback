@@ -1,0 +1,95 @@
+- cost_awareness: aware
+  dataset: extended
+  example_check:
+    check_id: CKV_AWS_807
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 2-7
+    file_path: temp_repo\enterprise\cloudformation_stack\litellm.yaml
+    resource: AWS::EC2::Instance.LiteLLMServer
+  failed_checks:
+  - check_id: CKV_AWS_807
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 2-7
+    file_path: temp_repo\enterprise\cloudformation_stack\litellm.yaml
+    resource: AWS::EC2::Instance.LiteLLMServer
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/BerriAI/litellm
+  tool: cloudformation
+- cost_awareness: aware
+  dataset: extended
+  example_check:
+    check_id: CKV_AWS_807
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 2-7
+    file_path: temp_repo\enterprise\cloudformation_stack\litellm.yaml
+    resource: AWS::EC2::Instance.LiteLLMServer
+  failed_checks:
+  - check_id: CKV_AWS_807
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 2-7
+    file_path: temp_repo\enterprise\cloudformation_stack\litellm.yaml
+    resource: AWS::EC2::Instance.LiteLLMServer
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/erickwill/litellm
+  tool: cloudformation
+- cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 21-24
+    file_path: temp_repo\infrastructure\cfn.yaml
+    resource: AWS::S3::Bucket.CfnTemplateBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 16-19
+    file_path: temp_repo\infrastructure\cfn.yaml
+    resource: AWS::S3::Bucket.AssetUploadBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 21-24
+    file_path: temp_repo\infrastructure\cfn.yaml
+    resource: AWS::S3::Bucket.CfnTemplateBucket
+  failed_checks_count: 2
+  files_count: 1
+  repo: https://github.com/differentialhq/differential
+  tool: cloudformation
+- cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 478-493
+    file_path: temp_repo\deploy\template.yaml
+    resource: AWS::S3::Bucket.JsonWebKeysBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 478-493
+    file_path: temp_repo\deploy\template.yaml
+    resource: AWS::S3::Bucket.JsonWebKeysBucket
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/govuk-one-login/ipv-cri-cic-api
+  tool: cloudformation
+- cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 474-486
+    file_path: temp_repo\infrastructure\frontend\frontend.template.yml
+    resource: AWS::S3::Bucket.AccessLogsBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 474-486
+    file_path: temp_repo\infrastructure\frontend\frontend.template.yml
+    resource: AWS::S3::Bucket.AccessLogsBucket
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/govuk-one-login/onboarding-product-page
+  tool: cloudformation

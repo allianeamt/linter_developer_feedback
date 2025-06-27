@@ -1,0 +1,251 @@
+cloudformation_aware:
+  cost_awareness: aware
+  dataset: baseline
+  example_check:
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 265-277
+    file_path: runtime-infra/pn-infra-storage.yaml
+    resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 32-48
+    file_path: runtime-infra/celonis_exports.yaml
+    resource: AWS::S3::Bucket.CelonisHistoryBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 50-68
+    file_path: runtime-infra/celonis_exports.yaml
+    resource: AWS::S3::Bucket.CelonisCurrentDataBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 32-37
+    file_path: runtime-infra/pn-backup_confinfo_dynamotable.yaml
+    resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 31-36
+    file_path: runtime-infra/pn-backup_core_dynamotable.yaml
+    resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 93-107
+    file_path: runtime-infra/pn-cdc-analytics.yaml
+    resource: AWS::S3::Bucket.AthenaResultsBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 28-49
+    file_path: runtime-infra/pn-cognito.yaml
+    resource: AWS::S3::Bucket.CognitoLogsS3
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 113-118
+    file_path: runtime-infra/pn-data-monitoring.yaml
+    resource: AWS::S3::Bucket.DataMonitoringBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 265-277
+    file_path: runtime-infra/pn-infra-storage.yaml
+    resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 592-606
+    file_path: runtime-infra/pn-log-analytics.yaml
+    resource: AWS::S3::Bucket.AthenaResultsBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 305-317
+    file_path: runtime-infra-confinfo/infra-storage.yaml
+    resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
+  failed_checks_count: 10
+  files_count: 9
+  repo: https://github.com/pagopa/pn-infra
+  tool: cloudformation
+cloudformation_unaware:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 13-28
+    file_path: cloudformation/MacieFindingsBucket-Template.yaml
+    resource: AWS::S3::Bucket.SecureBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 21-29
+    file_path: cloudformation/BillingBucket-Template.yaml
+    resource: AWS::S3::Bucket.BillingS3Bucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 33-41
+    file_path: cloudformation/CloudTrail-Template.yaml
+    resource: AWS::S3::Bucket.LoggingS3Bucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 13-28
+    file_path: cloudformation/GuardDutyFindingsBucket-Template.yaml
+    resource: AWS::S3::Bucket.SecureBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 13-28
+    file_path: cloudformation/MacieFindingsBucket-Template.yaml
+    resource: AWS::S3::Bucket.SecureBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 74-87
+    file_path: cloudformation/SESRuleToSlack-Template.yaml
+    resource: AWS::S3::Bucket.MessageS3Bucket
+  failed_checks_count: 5
+  files_count: 5
+  repo: https://github.com/primeharbor/aws-account-automation
+  tool: cloudformation
+terraform_aware:
+  cost_awareness: aware
+  dataset: baseline
+  example_check:
+    check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 90-93
+    file_path: govwifi-deploy/s3.tf
+    resource: aws_s3_bucket.codepipeline_bucket_ireland
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: govwifi-account-policy/s3.tf
+    resource: aws_s3_bucket.iam_user_managment_logs
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 29-36
+    file_path: govwifi-admin/loadbalancer.tf
+    resource: aws_s3_bucket.access_logs
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-9
+    file_path: govwifi-admin/s3.tf
+    resource: aws_s3_bucket.admin_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 28-36
+    file_path: govwifi-admin/s3.tf
+    resource: aws_s3_bucket.product_page_data_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 61-69
+    file_path: govwifi-admin/s3.tf
+    resource: aws_s3_bucket.admin_mou_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 233-239
+    file_path: govwifi-admin/s3.tf
+    resource: aws_s3_bucket.replication_admin_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-9
+    file_path: govwifi-api/wordlist.tf
+    resource: aws_s3_bucket.wordlist
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: govwifi-canary-tests/s3.tf
+    resource: aws_s3_bucket.canary_tests_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-7
+    file_path: govwifi-dashboard/s3.tf
+    resource: aws_s3_bucket.metrics_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 26-32
+    file_path: govwifi-dashboard/s3.tf
+    resource: aws_s3_bucket.export_data_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: govwifi-deploy/s3.tf
+    resource: aws_s3_bucket.codepipeline_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 90-93
+    file_path: govwifi-deploy/s3.tf
+    resource: aws_s3_bucket.codepipeline_bucket_ireland
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 22-30
+    file_path: govwifi-emails/s3sns.tf
+    resource: aws_s3_bucket.emailloggingbucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 110-119
+    file_path: govwifi-emails/s3sns.tf
+    resource: aws_s3_bucket.admin_emailbucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 26-33
+    file_path: govwifi-frontend/certs.tf
+    resource: aws_s3_bucket.frontend_cert_bucket
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 19-63
+    file_path: govwifi-grafana/instances.tf
+    resource: aws_instance.grafana_instance
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 19-68
+    file_path: govwifi-prometheus/instances.tf
+    resource: aws_instance.prometheus_instance
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: govwifi-smoke-tests/s3.tf
+    resource: aws_s3_bucket.smoke_tests_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: govwifi-sync-certs/s3.tf
+    resource: aws_s3_bucket.sync_certs_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 73-80
+    file_path: new-terraform-state/bucket.tf
+    resource: aws_s3_bucket.state_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 5-14
+    file_path: new-terraform-state/replication_bucket.tf
+    resource: aws_s3_bucket.replication_state_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 87-95
+    file_path: terraform-state/tfstate.tf
+    resource: aws_s3_bucket.state_bucket
+  failed_checks_count: 22
+  files_count: 16
+  repo: https://github.com/alphagov/govwifi-terraform
+  tool: terraform
+terraform_unaware:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 233-235
+    file_path: terraform/setup/setup.tf
+    resource: aws_s3_bucket.terrafrom-state
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 32-34
+    file_path: terraform/setup/backend.tf
+    resource: aws_s3_bucket.setup-remote-state-s3-bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 233-235
+    file_path: terraform/setup/setup.tf
+    resource: aws_s3_bucket.terrafrom-state
+  failed_checks_count: 2
+  files_count: 2
+  repo: https://github.com/aws-observability/aws-otel-test-framework
+  tool: terraform
