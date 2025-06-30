@@ -1,0 +1,525 @@
+cloudformation_aware_0:
+  cost_awareness: aware
+  dataset: baseline
+  example_check:
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
+    check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 2-31
+    file_path: infrastructure/dynamodb/template.yaml
+    resource: AWS::DynamoDB::Table.DynamoDBTable
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 3-12
+    file_path: frontend/deploy/template.yaml
+    resource: AWS::S3::Bucket.S3Bucket
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 2-31
+    file_path: infrastructure/dynamodb/template.yaml
+    resource: AWS::DynamoDB::Table.DynamoDBTable
+  failed_checks_count: 2
+  files_count: 2
+  repo: https://github.com/Saneri/event-signup
+  tool: cloudformation
+cloudformation_unaware_0:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 194-206
+    file_path: aws/cloudformation-templates/swagger-ui-pipeline.yaml
+    resource: AWS::S3::Bucket.ArtifactBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 77-99
+    file_path: aws/cloudformation-templates/room-generator.yaml
+    resource: AWS::S3::Bucket.ImageBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 116-124
+    file_path: aws/cloudformation-templates/room-generator.yaml
+    resource: AWS::S3::Bucket.InferenceBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 756-764
+    file_path: aws/cloudformation-templates/room-generator.yaml
+    resource: AWS::S3::Bucket.ModelArtifactsBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 772-784
+    file_path: aws/cloudformation-templates/room-generator.yaml
+    resource: AWS::S3::Bucket.ArtifactBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1127-1135
+    file_path: aws/cloudformation-templates/room-generator.yaml
+    resource: AWS::S3::Bucket.ProductImageBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 194-206
+    file_path: aws/cloudformation-templates/swagger-ui-pipeline.yaml
+    resource: AWS::S3::Bucket.ArtifactBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 256-268
+    file_path: aws/cloudformation-templates/web-ui-pipeline.yaml
+    resource: AWS::S3::Bucket.ArtifactBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 14-24
+    file_path: aws/cloudformation-templates/base/buckets.yaml
+    resource: AWS::S3::Bucket.LoggingBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 48-61
+    file_path: aws/cloudformation-templates/base/buckets.yaml
+    resource: AWS::S3::Bucket.StackBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 50-62
+    file_path: aws/cloudformation-templates/base/cloudfront.yaml
+    resource: AWS::S3::Bucket.WebUIBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 163-175
+    file_path: aws/cloudformation-templates/base/cloudfront.yaml
+    resource: AWS::S3::Bucket.SwaggerUIBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 277-290
+    file_path: aws/cloudformation-templates/services/service/pipeline.yaml
+    resource: AWS::S3::Bucket.ArtifactBucket
+  failed_checks_count: 12
+  files_count: 6
+  repo: https://github.com/BastLeblanc/retail-demo-store
+  tool: cloudformation
+cloudformation_unaware_1:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 547-559
+    file_path: infrastructure/frontend/frontend.template.yml
+    resource: AWS::S3::Bucket.AccessLogsBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 547-559
+    file_path: infrastructure/frontend/frontend.template.yml
+    resource: AWS::S3::Bucket.AccessLogsBucket
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/govuk-one-login/onboarding-self-service-experience
+  tool: cloudformation
+terraform_aware_0:
+  cost_awareness: aware
+  dataset: extended
+  example_check:
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
+      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
+      Missing rules may lead to data retention in expensive storage indefinitely,
+      thus increasing costs.
+    check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: aws/mattermost-apps-provisioning/s3.tf
+    resource: aws_s3_bucket.bucket
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-5
+    file_path: aws/awat/awat_s3.tf
+    resource: aws_s3_bucket.awat_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: aws/blapi/s3.tf
+    resource: aws_s3_bucket.pipelinewise
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: aws/cloud-lambda-storage/s3.tf
+    resource: aws_s3_bucket.lambdas_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-5
+    file_path: aws/cluster-post-installation/metrics_bucket.tf
+    resource: aws_s3_bucket.metrics_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 5-13
+    file_path: aws/community-infra/provisioning_s3.tf
+    resource: aws_s3_bucket.mattermost-cloud-provisioning-bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-9
+    file_path: aws/community-on-demand/provisioning_s3.tf
+    resource: aws_s3_bucket.mattermost-cloud-provisioning-bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: aws/gitlab-runner/main.tf
+    resource: aws_s3_bucket.gitlab_runners
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-7
+    file_path: aws/import-export/s3.tf
+    resource: aws_s3_bucket.buckets
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-5
+    file_path: aws/loki/s3.tf
+    resource: aws_s3_bucket.loki_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 69-74
+    file_path: aws/loki/s3.tf
+    resource: aws_s3_bucket.loki_bucket_developers
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: aws/mattermost-apps-provisioning/s3.tf
+    resource: aws_s3_bucket.bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 5-7
+    file_path: aws/mattermost-apps-provisioning/s3.tf
+    resource: aws_s3_bucket.state_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: aws/mattermost-teams-tab/main.tf
+    resource: aws_s3_bucket.static_website
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 5-8
+    file_path: aws/provisioner-users/state_bucket.tf
+    resource: aws_s3_bucket.state_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 2-4
+    file_path: aws/s3-data/main.tf
+    resource: aws_s3_bucket.my_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 9-18
+    file_path: aws/s3-replication/provisioning_s3.tf
+    resource: aws_s3_bucket.mattermost-cloud-provisioning-dest-bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-5
+    file_path: aws/tempo/tempo_s3.tf
+    resource: aws_s3_bucket.tempo_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 5-7
+    file_path: aws/velero/velero_s3.tf
+    resource: aws_s3_bucket.velero_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 5-23
+    file_path: aws/vpc-setup/installation_s3_buckets.tf
+    resource: aws_s3_bucket.installation_buckets
+  failed_checks_count: 19
+  files_count: 17
+  repo: https://github.com/mattermost/mattermost-cloud-monitoring
+  tool: terraform
+terraform_unaware_0:
+  cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
+    check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 34-44
+    file_path: terraform/main.tf
+    resource: aws_dynamodb_table.tf_state_lock
+  failed_checks:
+  - check_id: CKV_AWS_802
+    check_name: DynamoDB Overprovisioned r/w Capacity
+    file_line_range: 34-44
+    file_path: terraform/main.tf
+    resource: aws_dynamodb_table.tf_state_lock
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 34-44
+    file_path: terraform/main.tf
+    resource: aws_dynamodb_table.tf_state_lock
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 17-19
+    file_path: terraform/main.tf
+    resource: aws_s3_bucket.tf_state
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 36-38
+    file_path: terraform/s3.tf
+    resource: aws_s3_bucket.dev_repo_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 55-57
+    file_path: terraform/s3.tf
+    resource: aws_s3_bucket.production_repo_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 76-78
+    file_path: terraform/s3.tf
+    resource: aws_s3_bucket.stats_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 97-99
+    file_path: terraform/s3.tf
+    resource: aws_s3_bucket.artifact_index_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 158-160
+    file_path: terraform/s3.tf
+    resource: aws_s3_bucket.deployments_bucket
+  failed_checks_count: 8
+  files_count: 2
+  repo: https://github.com/clojars/infrastructure
+  tool: terraform
+extra1:
+  cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
+    check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 1-15
+    file_path: terraform/aws/backup/aws_redshift_integration.tf
+    resource: aws_dynamodb_table.example
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: src/testdata/plan/simple/aws_s3_bucket.basic.tf
+    resource: aws_s3_bucket.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: src/testdata/scan/examples/simple/aws_s3_bucket.pike.tf
+    resource: aws_s3_bucket.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 33-35
+    file_path: terraform/aws/backup/aws_auditmanager_assessment.tf
+    resource: aws_s3_bucket.test
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 29-31
+    file_path: terraform/aws/backup/aws_bedrock_custom_model.tf
+    resource: aws_s3_bucket.training
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 33-35
+    file_path: terraform/aws/backup/aws_bedrock_custom_model.tf
+    resource: aws_s3_bucket.output
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 18-26
+    file_path: terraform/aws/backup/aws_bedrock_model_invocation_logging_configuration.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 6-9
+    file_path: terraform/aws/backup/aws_cloudwatch_log_data_protection_policy.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 28-28
+    file_path: terraform/aws/backup/aws_datasync_location_s3.tf
+    resource: aws_s3_bucket.datasync
+  - check_id: CKV_AWS_803
+    check_name: DynamoDB GSIs
+    file_line_range: 1-48
+    file_path: terraform/aws/backup/aws_dynamodb_table.tf
+    resource: aws_dynamodb_table.example
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 7-11
+    file_path: terraform/aws/backup/aws_elb_attachment.tf
+    resource: aws_instance.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-4
+    file_path: terraform/aws/backup/aws_fsx_data_repository_association.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 1-16
+    file_path: terraform/aws/backup/aws_instance.a.tf
+    resource: aws_instance.a
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 18-33
+    file_path: terraform/aws/backup/aws_instance.a.tf
+    resource: aws_instance.b
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 9-9
+    file_path: terraform/aws/backup/aws_lb_trust_store_revocation.tf
+    resource: aws_s3_bucket.truststore
+  - check_id: CKV_AWS_804
+    check_name: Deprecated Instance/Volume Types
+    file_line_range: 3-10
+    file_path: terraform/aws/backup/aws_network_interface_sg_attachment.tf
+    resource: aws_instance.instance
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 1-15
+    file_path: terraform/aws/backup/aws_redshift_integration.tf
+    resource: aws_dynamodb_table.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: terraform/aws/backup/aws_s3control_access_point_policy.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-8
+    file_path: terraform/aws/backup/aws_s3_bucket.pail.tf
+    resource: aws_s3_bucket.pail
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 10-17
+    file_path: terraform/aws/backup/aws_s3_bucket.pail.tf
+    resource: aws_s3_bucket.tail
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 17-19
+    file_path: terraform/aws/backup/aws_s3_bucket_analytics_configuration.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 21-23
+    file_path: terraform/aws/backup/aws_s3_bucket_analytics_configuration.tf
+    resource: aws_s3_bucket.analytics
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 10-12
+    file_path: terraform/aws/backup/aws_sagemaker_device_fleet.tf
+    resource: aws_s3_bucket.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 11-13
+    file_path: terraform/aws/backup/aws_storagegateway_smb_file_share.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 35-38
+    file_path: terraform/aws/backup/aws_transcribe_language_model.tf
+    resource: aws_s3_bucket.example
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 6-6
+    file_path: terraform/aws/backup/aws_vpclattice_access_log_subscription.tf
+    resource: aws_s3_bucket.bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 32-34
+    file_path: terraform/aws/backup/aws_vpclattice_target_group_attachment.tf
+    resource: aws_s3_bucket.log
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: terraform/aws/backup/test.tf
+    resource: aws_s3_bucket.duff
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: testdata/modules/aws_s3_bucket.pike.tf
+    resource: aws_s3_bucket.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: testdata/readme/exists/aws_s3_bucket.pass.tf
+    resource: aws_s3_bucket.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: testdata/readme/exists-notags/aws_s3_bucket.pass.tf
+    resource: aws_s3_bucket.pike
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: testdata/scan/examples/simple/aws_s3_bucket.pike.tf
+    resource: aws_s3_bucket.pike
+  failed_checks_count: 31
+  files_count: 27
+  repo: https://github.com/JamesWoolfenden/pike
+  tool: terraform
+extra2:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
+    check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 464-482
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.ProxyFrameworkTable
+  failed_checks:
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 212-230
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.ScanTargetsTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 232-250
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.UserProfileTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 296-323
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.LightboxBulkEntryTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 325-387
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.JobHistoryTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 389-407
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.ServerTokensTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 409-431
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.OAuthTokensTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 464-482
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.ProxyFrameworkTable
+  - check_id: CKV_AWS_806
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 653-671
+    file_path: cloudformation/appstack.yaml
+    resource: AWS::DynamoDB::Table.AutodowningInstancesTable
+  failed_checks_count: 8
+  files_count: 1
+  repo: https://github.com/guardian/archivehunter
+  tool: cloudformation

@@ -1,7 +1,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -88,7 +88,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -114,7 +114,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -140,7 +140,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -212,7 +212,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -273,7 +273,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -305,7 +305,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -327,7 +327,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -361,137 +361,10 @@
   files_count: 3
   repo: https://github.com/binbashar/le-tf-infra-aws
   tool: terraform
-- cost_awareness: aware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
-      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
-      Missing rules may lead to data retention in expensive storage indefinitely,
-      thus increasing costs.
-    check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: govwifi-canary-tests/s3.tf
-    resource: aws_s3_bucket.canary_tests_bucket
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: govwifi-account-policy/s3.tf
-    resource: aws_s3_bucket.iam_user_managment_logs
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 29-36
-    file_path: govwifi-admin/loadbalancer.tf
-    resource: aws_s3_bucket.access_logs
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-9
-    file_path: govwifi-admin/s3.tf
-    resource: aws_s3_bucket.admin_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 28-36
-    file_path: govwifi-admin/s3.tf
-    resource: aws_s3_bucket.product_page_data_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 61-69
-    file_path: govwifi-admin/s3.tf
-    resource: aws_s3_bucket.admin_mou_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 233-239
-    file_path: govwifi-admin/s3.tf
-    resource: aws_s3_bucket.replication_admin_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-9
-    file_path: govwifi-api/wordlist.tf
-    resource: aws_s3_bucket.wordlist
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: govwifi-canary-tests/s3.tf
-    resource: aws_s3_bucket.canary_tests_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-7
-    file_path: govwifi-dashboard/s3.tf
-    resource: aws_s3_bucket.metrics_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 26-32
-    file_path: govwifi-dashboard/s3.tf
-    resource: aws_s3_bucket.export_data_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: govwifi-deploy/s3.tf
-    resource: aws_s3_bucket.codepipeline_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 90-93
-    file_path: govwifi-deploy/s3.tf
-    resource: aws_s3_bucket.codepipeline_bucket_ireland
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 22-30
-    file_path: govwifi-emails/s3sns.tf
-    resource: aws_s3_bucket.emailloggingbucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 110-119
-    file_path: govwifi-emails/s3sns.tf
-    resource: aws_s3_bucket.admin_emailbucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 26-33
-    file_path: govwifi-frontend/certs.tf
-    resource: aws_s3_bucket.frontend_cert_bucket
-  - check_id: CKV_AWS_804
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 19-63
-    file_path: govwifi-grafana/instances.tf
-    resource: aws_instance.grafana_instance
-  - check_id: CKV_AWS_804
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 19-68
-    file_path: govwifi-prometheus/instances.tf
-    resource: aws_instance.prometheus_instance
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: govwifi-smoke-tests/s3.tf
-    resource: aws_s3_bucket.smoke_tests_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: govwifi-sync-certs/s3.tf
-    resource: aws_s3_bucket.sync_certs_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 73-80
-    file_path: new-terraform-state/bucket.tf
-    resource: aws_s3_bucket.state_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 5-14
-    file_path: new-terraform-state/replication_bucket.tf
-    resource: aws_s3_bucket.replication_state_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 87-95
-    file_path: terraform-state/tfstate.tf
-    resource: aws_s3_bucket.state_bucket
-  failed_checks_count: 22
-  files_count: 16
-  repo: https://github.com/alphagov/govwifi-terraform
-  tool: terraform
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -548,7 +421,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -619,7 +492,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -646,34 +519,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
-      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
-      Missing rules may lead to data retention in expensive storage indefinitely,
-      thus increasing costs.
-    check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 233-235
-    file_path: terraform/setup/setup.tf
-    resource: aws_s3_bucket.terrafrom-state
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 32-34
-    file_path: terraform/setup/backend.tf
-    resource: aws_s3_bucket.setup-remote-state-s3-bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 233-235
-    file_path: terraform/setup/setup.tf
-    resource: aws_s3_bucket.terrafrom-state
-  failed_checks_count: 2
-  files_count: 2
-  repo: https://github.com/aws-observability/aws-otel-test-framework
-  tool: terraform
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -715,7 +561,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -737,7 +583,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -763,7 +609,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -799,7 +645,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -831,7 +677,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -893,7 +739,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -925,7 +771,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -952,7 +798,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -984,7 +830,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -1011,7 +857,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -1048,7 +894,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -1090,7 +936,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -1112,7 +958,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -1198,64 +1044,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
-      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
-      Missing rules may lead to data retention in expensive storage indefinitely,
-      thus increasing costs.
-    check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 95-103
-    file_path: infra-basic/s3.tf
-    resource: aws_s3_bucket.s3_haulaway
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 3-11
-    file_path: infra-basic/s3-rendertest.tf
-    resource: aws_s3_bucket.s3_rendertest
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 3-11
-    file_path: infra-basic/s3-stdifstorage.tf
-    resource: aws_s3_bucket.s3_stdifstorage
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 9-17
-    file_path: infra-basic/s3.tf
-    resource: aws_s3_bucket.s3_server_backups
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 23-31
-    file_path: infra-basic/s3.tf
-    resource: aws_s3_bucket.s3_bucket_logs
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 43-51
-    file_path: infra-basic/s3.tf
-    resource: aws_s3_bucket.s3_vanilla18
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 66-74
-    file_path: infra-basic/s3.tf
-    resource: aws_s3_bucket.s3_mc_resources
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 95-103
-    file_path: infra-basic/s3.tf
-    resource: aws_s3_bucket.s3_haulaway
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-22
-    file_path: s3/s3.tf
-    resource: aws_s3_bucket.state-sync
-  failed_checks_count: 8
-  files_count: 4
-  repo: https://github.com/IncredibleHolg/infra-aws-code
-  tool: terraform
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -1292,7 +1081,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -1314,7 +1103,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -1340,7 +1129,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -1981,7 +1770,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -2244,123 +2033,10 @@
   files_count: 35
   repo: https://github.com/aws-cloudformation/cfn-lint
   tool: cloudformation
-- cost_awareness: aware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 468-500
-    file_path: template.yaml
-    resource: AWS::S3::Bucket.EventAttachmentBucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 459-466
-    file_path: template.yaml
-    resource: AWS::S3::Bucket.S3BucketLogs
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 468-500
-    file_path: template.yaml
-    resource: AWS::S3::Bucket.EventAttachmentBucket
-  failed_checks_count: 2
-  files_count: 1
-  repo: https://github.com/koekalenteri/koekalenteri
-  tool: cloudformation
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 547-559
-    file_path: infrastructure/frontend/frontend.template.yml
-    resource: AWS::S3::Bucket.AccessLogsBucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 547-559
-    file_path: infrastructure/frontend/frontend.template.yml
-    resource: AWS::S3::Bucket.AccessLogsBucket
-  failed_checks_count: 1
-  files_count: 1
-  repo: https://github.com/govuk-one-login/onboarding-self-service-experience
-  tool: cloudformation
-- cost_awareness: aware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 32-37
-    file_path: runtime-infra/pn-backup_confinfo_dynamotable.yaml
-    resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 32-48
-    file_path: runtime-infra/celonis_exports.yaml
-    resource: AWS::S3::Bucket.CelonisHistoryBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 50-68
-    file_path: runtime-infra/celonis_exports.yaml
-    resource: AWS::S3::Bucket.CelonisCurrentDataBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 32-37
-    file_path: runtime-infra/pn-backup_confinfo_dynamotable.yaml
-    resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 31-36
-    file_path: runtime-infra/pn-backup_core_dynamotable.yaml
-    resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 93-107
-    file_path: runtime-infra/pn-cdc-analytics.yaml
-    resource: AWS::S3::Bucket.AthenaResultsBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 28-49
-    file_path: runtime-infra/pn-cognito.yaml
-    resource: AWS::S3::Bucket.CognitoLogsS3
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 113-118
-    file_path: runtime-infra/pn-data-monitoring.yaml
-    resource: AWS::S3::Bucket.DataMonitoringBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 265-277
-    file_path: runtime-infra/pn-infra-storage.yaml
-    resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 592-606
-    file_path: runtime-infra/pn-log-analytics.yaml
-    resource: AWS::S3::Bucket.AthenaResultsBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 305-317
-    file_path: runtime-infra-confinfo/infra-storage.yaml
-    resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
-  failed_checks_count: 10
-  files_count: 9
-  repo: https://github.com/pagopa/pn-infra
-  tool: cloudformation
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2401,7 +2077,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2422,7 +2098,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2448,7 +2124,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -2484,7 +2160,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2505,7 +2181,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2566,7 +2242,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2627,59 +2303,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 7-13
-    file_path: lca-ai-stack/ml-stacks/bedrock-preview-boto3-stack.yaml
-    resource: AWS::S3::Bucket.BedrockBoto3Bucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1946-1963
-    file_path: lca-ai-stack/deployment/lca-ai-stack.yaml
-    resource: AWS::S3::Bucket.WebAppBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 7-13
-    file_path: lca-ai-stack/ml-stacks/bedrock-preview-boto3-stack.yaml
-    resource: AWS::S3::Bucket.BedrockBoto3Bucket
-  failed_checks_count: 2
-  files_count: 2
-  repo: https://github.com/aws-samples/amazon-transcribe-live-call-analytics
-  tool: cloudformation
-- cost_awareness: aware
-  dataset: baseline
-  example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
-      billing. This can lead to over-provisioning, unnecessary costs, or throttling
-      if usage exceeds limits.
-    check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 2-31
-    file_path: infrastructure/dynamodb/template.yaml
-    resource: AWS::DynamoDB::Table.DynamoDBTable
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 3-12
-    file_path: frontend/deploy/template.yaml
-    resource: AWS::S3::Bucket.S3Bucket
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 2-31
-    file_path: infrastructure/dynamodb/template.yaml
-    resource: AWS::DynamoDB::Table.DynamoDBTable
-  failed_checks_count: 2
-  files_count: 2
-  repo: https://github.com/Saneri/event-signup
-  tool: cloudformation
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2700,7 +2324,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -2721,7 +2345,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -3017,7 +2641,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -3078,64 +2702,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 9-17
-    file_path: cloudformation/prerequisite-ap-southeast-2.yaml
-    resource: AWS::S3::Bucket.SharedBucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 9-17
-    file_path: cloudformation/prerequisite-ap-southeast-2.yaml
-    resource: AWS::S3::Bucket.SharedBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 11-22
-    file_path: cloudformation/static-page-stack.yaml
-    resource: AWS::S3::Bucket.MyStaticWebsiteBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 24-35
-    file_path: cloudformation/static-page-stack.yaml
-    resource: AWS::S3::Bucket.MyStaticWebsiteBucketWww
-  failed_checks_count: 3
-  files_count: 2
-  repo: https://github.com/daiyyr/the-alchemist
-  tool: cloudformation
-- cost_awareness: aware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 59-76
-    file_path: infrastructure/data-analysis/template.yaml
-    resource: AWS::S3::Bucket.ValidEmailRecipientsBucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 59-76
-    file_path: infrastructure/data-analysis/template.yaml
-    resource: AWS::S3::Bucket.ValidEmailRecipientsBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 528-545
-    file_path: infrastructure/dev-tools/template.yaml
-    resource: AWS::S3::Bucket.IntegrationTestDataBucket
-  failed_checks_count: 2
-  files_count: 2
-  repo: https://github.com/govuk-one-login/txma-infra
-  tool: cloudformation
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -3161,7 +2728,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -3227,83 +2794,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 194-206
-    file_path: aws/cloudformation-templates/swagger-ui-pipeline.yaml
-    resource: AWS::S3::Bucket.ArtifactBucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 77-99
-    file_path: aws/cloudformation-templates/room-generator.yaml
-    resource: AWS::S3::Bucket.ImageBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 116-124
-    file_path: aws/cloudformation-templates/room-generator.yaml
-    resource: AWS::S3::Bucket.InferenceBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 756-764
-    file_path: aws/cloudformation-templates/room-generator.yaml
-    resource: AWS::S3::Bucket.ModelArtifactsBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 772-784
-    file_path: aws/cloudformation-templates/room-generator.yaml
-    resource: AWS::S3::Bucket.ArtifactBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1127-1135
-    file_path: aws/cloudformation-templates/room-generator.yaml
-    resource: AWS::S3::Bucket.ProductImageBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 194-206
-    file_path: aws/cloudformation-templates/swagger-ui-pipeline.yaml
-    resource: AWS::S3::Bucket.ArtifactBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 256-268
-    file_path: aws/cloudformation-templates/web-ui-pipeline.yaml
-    resource: AWS::S3::Bucket.ArtifactBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 14-24
-    file_path: aws/cloudformation-templates/base/buckets.yaml
-    resource: AWS::S3::Bucket.LoggingBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 48-61
-    file_path: aws/cloudformation-templates/base/buckets.yaml
-    resource: AWS::S3::Bucket.StackBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 50-62
-    file_path: aws/cloudformation-templates/base/cloudfront.yaml
-    resource: AWS::S3::Bucket.WebUIBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 163-175
-    file_path: aws/cloudformation-templates/base/cloudfront.yaml
-    resource: AWS::S3::Bucket.SwaggerUIBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 277-290
-    file_path: aws/cloudformation-templates/services/service/pipeline.yaml
-    resource: AWS::S3::Bucket.ArtifactBucket
-  failed_checks_count: 12
-  files_count: 6
-  repo: https://github.com/BastLeblanc/retail-demo-store
-  tool: cloudformation
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -3379,7 +2870,7 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -3690,7 +3181,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -4091,7 +3582,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -4462,7 +3953,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -4483,7 +3974,7 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_806
@@ -4506,107 +3997,10 @@
   files_count: 1
   repo: https://github.com/guardian/identity-processes
   tool: cloudformation
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
-      at least one rule defined. Missing rules may lead to data retention in expensive
-      storage indefinitely, thus increasing costs.
-    check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 74-87
-    file_path: cloudformation/SESRuleToSlack-Template.yaml
-    resource: AWS::S3::Bucket.MessageS3Bucket
-  failed_checks:
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 21-29
-    file_path: cloudformation/BillingBucket-Template.yaml
-    resource: AWS::S3::Bucket.BillingS3Bucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 33-41
-    file_path: cloudformation/CloudTrail-Template.yaml
-    resource: AWS::S3::Bucket.LoggingS3Bucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 13-28
-    file_path: cloudformation/GuardDutyFindingsBucket-Template.yaml
-    resource: AWS::S3::Bucket.SecureBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 13-28
-    file_path: cloudformation/MacieFindingsBucket-Template.yaml
-    resource: AWS::S3::Bucket.SecureBucket
-  - check_id: CKV_AWS_805
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 74-87
-    file_path: cloudformation/SESRuleToSlack-Template.yaml
-    resource: AWS::S3::Bucket.MessageS3Bucket
-  failed_checks_count: 5
-  files_count: 5
-  repo: https://github.com/primeharbor/aws-account-automation
-  tool: cloudformation
-- cost_awareness: unaware
-  dataset: baseline
-  example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
-      billing. This can lead to over-provisioning, unnecessary costs, or throttling
-      if usage exceeds limits.
-    check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 464-482
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.ProxyFrameworkTable
-  failed_checks:
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 212-230
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.ScanTargetsTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 232-250
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.UserProfileTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 296-323
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.LightboxBulkEntryTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 325-387
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.JobHistoryTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 389-407
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.ServerTokensTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 409-431
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.OAuthTokensTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 464-482
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.ProxyFrameworkTable
-  - check_id: CKV_AWS_806
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 653-671
-    file_path: cloudformation/appstack.yaml
-    resource: AWS::DynamoDB::Table.AutodowningInstancesTable
-  failed_checks_count: 8
-  files_count: 1
-  repo: https://github.com/guardian/archivehunter
-  tool: cloudformation
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -4633,7 +4027,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -4789,43 +4183,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
-      billing. This can lead to over-provisioning, unnecessary costs, or throttling
-      if usage exceeds limits.
-    check_id: CKV_AWS_801
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 10-24
-    file_path: infrastructure/experience/config.tf
-    resource: aws_dynamodb_table.terraform_lockstate
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: cache/s3_lambdas.tf
-    resource: aws_s3_bucket.lambdas
-  - check_id: CKV_AWS_801
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 10-24
-    file_path: infrastructure/experience/config.tf
-    resource: aws_dynamodb_table.terraform_lockstate
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: infrastructure/experience/config.tf
-    resource: aws_s3_bucket.terraform_build_state_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: infrastructure/modules/s3_website/s3.tf
-    resource: aws_s3_bucket.website_bucket
-  failed_checks_count: 4
-  files_count: 3
-  repo: https://github.com/wellcomecollection/wellcomecollection.org
-  tool: terraform
-- cost_awareness: aware
-  dataset: extended
-  example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -4936,7 +4294,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -4977,7 +4335,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -4999,7 +4357,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -5056,7 +4414,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -5083,7 +4441,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -5125,7 +4483,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Flags DynamoDB tables that define Global Secondary Indexes
+    check_description: Our linter flags DynamoDB tables that define Global Secondary Indexes
       (GSIs). GSIs add unnecessary costs and complexity if not carefully optimized.
     check_id: CKV_AWS_803
     check_name: DynamoDB GSIs
@@ -5145,7 +4503,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -5187,7 +4545,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -5214,7 +4572,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -5241,7 +4599,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -11062,7 +10420,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -11098,7 +10456,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Flags DynamoDB tables that define Global Secondary Indexes
+    check_description: Our linter flags DynamoDB tables that define Global Secondary Indexes
       (GSIs). GSIs add unnecessary costs and complexity if not carefully optimized.
     check_id: CKV_AWS_803
     check_name: DynamoDB GSIs
@@ -11128,7 +10486,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -11150,7 +10508,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -11276,7 +10634,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -11668,7 +11026,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -11809,7 +11167,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -11960,7 +11318,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -11982,7 +11340,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -12009,7 +11367,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -12046,7 +11404,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -12065,293 +11423,10 @@
   files_count: 1
   repo: https://github.com/Worklytics/psoxy
   tool: terraform
-- cost_awareness: unaware
-  dataset: extended
-  example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
-      billing. This can lead to over-provisioning, unnecessary costs, or throttling
-      if usage exceeds limits.
-    check_id: CKV_AWS_801
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 1-15
-    file_path: terraform/aws/backup/aws_redshift_integration.tf
-    resource: aws_dynamodb_table.example
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: src/testdata/plan/simple/aws_s3_bucket.basic.tf
-    resource: aws_s3_bucket.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: src/testdata/scan/examples/simple/aws_s3_bucket.pike.tf
-    resource: aws_s3_bucket.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 33-35
-    file_path: terraform/aws/backup/aws_auditmanager_assessment.tf
-    resource: aws_s3_bucket.test
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 29-31
-    file_path: terraform/aws/backup/aws_bedrock_custom_model.tf
-    resource: aws_s3_bucket.training
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 33-35
-    file_path: terraform/aws/backup/aws_bedrock_custom_model.tf
-    resource: aws_s3_bucket.output
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 18-26
-    file_path: terraform/aws/backup/aws_bedrock_model_invocation_logging_configuration.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 6-9
-    file_path: terraform/aws/backup/aws_cloudwatch_log_data_protection_policy.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 28-28
-    file_path: terraform/aws/backup/aws_datasync_location_s3.tf
-    resource: aws_s3_bucket.datasync
-  - check_id: CKV_AWS_803
-    check_name: DynamoDB GSIs
-    file_line_range: 1-48
-    file_path: terraform/aws/backup/aws_dynamodb_table.tf
-    resource: aws_dynamodb_table.example
-  - check_id: CKV_AWS_804
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 7-11
-    file_path: terraform/aws/backup/aws_elb_attachment.tf
-    resource: aws_instance.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-4
-    file_path: terraform/aws/backup/aws_fsx_data_repository_association.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV_AWS_804
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 1-16
-    file_path: terraform/aws/backup/aws_instance.a.tf
-    resource: aws_instance.a
-  - check_id: CKV_AWS_804
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 18-33
-    file_path: terraform/aws/backup/aws_instance.a.tf
-    resource: aws_instance.b
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 9-9
-    file_path: terraform/aws/backup/aws_lb_trust_store_revocation.tf
-    resource: aws_s3_bucket.truststore
-  - check_id: CKV_AWS_804
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 3-10
-    file_path: terraform/aws/backup/aws_network_interface_sg_attachment.tf
-    resource: aws_instance.instance
-  - check_id: CKV_AWS_801
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 1-15
-    file_path: terraform/aws/backup/aws_redshift_integration.tf
-    resource: aws_dynamodb_table.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: terraform/aws/backup/aws_s3control_access_point_policy.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-8
-    file_path: terraform/aws/backup/aws_s3_bucket.pail.tf
-    resource: aws_s3_bucket.pail
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 10-17
-    file_path: terraform/aws/backup/aws_s3_bucket.pail.tf
-    resource: aws_s3_bucket.tail
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 17-19
-    file_path: terraform/aws/backup/aws_s3_bucket_analytics_configuration.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 21-23
-    file_path: terraform/aws/backup/aws_s3_bucket_analytics_configuration.tf
-    resource: aws_s3_bucket.analytics
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 10-12
-    file_path: terraform/aws/backup/aws_sagemaker_device_fleet.tf
-    resource: aws_s3_bucket.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 11-13
-    file_path: terraform/aws/backup/aws_storagegateway_smb_file_share.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 35-38
-    file_path: terraform/aws/backup/aws_transcribe_language_model.tf
-    resource: aws_s3_bucket.example
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 6-6
-    file_path: terraform/aws/backup/aws_vpclattice_access_log_subscription.tf
-    resource: aws_s3_bucket.bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 32-34
-    file_path: terraform/aws/backup/aws_vpclattice_target_group_attachment.tf
-    resource: aws_s3_bucket.log
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: terraform/aws/backup/test.tf
-    resource: aws_s3_bucket.duff
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: testdata/modules/aws_s3_bucket.pike.tf
-    resource: aws_s3_bucket.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: testdata/readme/exists/aws_s3_bucket.pass.tf
-    resource: aws_s3_bucket.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: testdata/readme/exists-notags/aws_s3_bucket.pass.tf
-    resource: aws_s3_bucket.pike
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: testdata/scan/examples/simple/aws_s3_bucket.pike.tf
-    resource: aws_s3_bucket.pike
-  failed_checks_count: 31
-  files_count: 27
-  repo: https://github.com/JamesWoolfenden/pike
-  tool: terraform
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
-      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
-      Missing rules may lead to data retention in expensive storage indefinitely,
-      thus increasing costs.
-    check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: aws/mattermost-apps-provisioning/s3.tf
-    resource: aws_s3_bucket.bucket
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-5
-    file_path: aws/awat/awat_s3.tf
-    resource: aws_s3_bucket.awat_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: aws/blapi/s3.tf
-    resource: aws_s3_bucket.pipelinewise
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: aws/cloud-lambda-storage/s3.tf
-    resource: aws_s3_bucket.lambdas_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-5
-    file_path: aws/cluster-post-installation/metrics_bucket.tf
-    resource: aws_s3_bucket.metrics_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 5-13
-    file_path: aws/community-infra/provisioning_s3.tf
-    resource: aws_s3_bucket.mattermost-cloud-provisioning-bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-9
-    file_path: aws/community-on-demand/provisioning_s3.tf
-    resource: aws_s3_bucket.mattermost-cloud-provisioning-bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: aws/gitlab-runner/main.tf
-    resource: aws_s3_bucket.gitlab_runners
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-7
-    file_path: aws/import-export/s3.tf
-    resource: aws_s3_bucket.buckets
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-5
-    file_path: aws/loki/s3.tf
-    resource: aws_s3_bucket.loki_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 69-74
-    file_path: aws/loki/s3.tf
-    resource: aws_s3_bucket.loki_bucket_developers
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: aws/mattermost-apps-provisioning/s3.tf
-    resource: aws_s3_bucket.bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 5-7
-    file_path: aws/mattermost-apps-provisioning/s3.tf
-    resource: aws_s3_bucket.state_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-3
-    file_path: aws/mattermost-teams-tab/main.tf
-    resource: aws_s3_bucket.static_website
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 5-8
-    file_path: aws/provisioner-users/state_bucket.tf
-    resource: aws_s3_bucket.state_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 2-4
-    file_path: aws/s3-data/main.tf
-    resource: aws_s3_bucket.my_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 9-18
-    file_path: aws/s3-replication/provisioning_s3.tf
-    resource: aws_s3_bucket.mattermost-cloud-provisioning-dest-bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 1-5
-    file_path: aws/tempo/tempo_s3.tf
-    resource: aws_s3_bucket.tempo_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 5-7
-    file_path: aws/velero/velero_s3.tf
-    resource: aws_s3_bucket.velero_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 5-23
-    file_path: aws/vpc-setup/installation_s3_buckets.tf
-    resource: aws_s3_bucket.installation_buckets
-  failed_checks_count: 19
-  files_count: 17
-  repo: https://github.com/mattermost/mattermost-cloud-monitoring
-  tool: terraform
-- cost_awareness: aware
-  dataset: extended
-  example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -12452,7 +11527,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -12474,7 +11549,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -12580,7 +11655,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -12607,7 +11682,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -12654,7 +11729,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects use of outdated EC2 instance or EBS volume types (e.g.,
+    check_description: Our linter detects use of outdated EC2 instance or EBS volume types (e.g.,
       t2, m4, gp2). Older generations might be less efficient, slower, and more expensive.
     check_id: CKV_AWS_804
     check_name: Deprecated Instance/Volume Types
@@ -12679,7 +11754,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects use of outdated EC2 instance or EBS volume types (e.g.,
+    check_description: Our linter detects use of outdated EC2 instance or EBS volume types (e.g.,
       t2, m4, gp2). Older generations might be less efficient, slower, and more expensive.
     check_id: CKV_AWS_804
     check_name: Deprecated Instance/Volume Types
@@ -12939,7 +12014,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -12980,7 +12055,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13002,7 +12077,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -13098,7 +12173,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13140,7 +12215,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13162,7 +12237,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -13223,7 +12298,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -13249,63 +12324,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
-      billing. This can lead to over-provisioning, unnecessary costs, or throttling
-      if usage exceeds limits.
-    check_id: CKV_AWS_801
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 34-44
-    file_path: terraform/main.tf
-    resource: aws_dynamodb_table.tf_state_lock
-  failed_checks:
-  - check_id: CKV_AWS_802
-    check_name: DynamoDB Overprovisioned r/w Capacity
-    file_line_range: 34-44
-    file_path: terraform/main.tf
-    resource: aws_dynamodb_table.tf_state_lock
-  - check_id: CKV_AWS_801
-    check_name: DynamoDB On-Demand Billing
-    file_line_range: 34-44
-    file_path: terraform/main.tf
-    resource: aws_dynamodb_table.tf_state_lock
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 17-19
-    file_path: terraform/main.tf
-    resource: aws_s3_bucket.tf_state
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 36-38
-    file_path: terraform/s3.tf
-    resource: aws_s3_bucket.dev_repo_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 55-57
-    file_path: terraform/s3.tf
-    resource: aws_s3_bucket.production_repo_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 76-78
-    file_path: terraform/s3.tf
-    resource: aws_s3_bucket.stats_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 97-99
-    file_path: terraform/s3.tf
-    resource: aws_s3_bucket.artifact_index_bucket
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 158-160
-    file_path: terraform/s3.tf
-    resource: aws_s3_bucket.deployments_bucket
-  failed_checks_count: 8
-  files_count: 2
-  repo: https://github.com/clojars/infrastructure
-  tool: terraform
-- cost_awareness: unaware
-  dataset: extended
-  example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -13346,7 +12365,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -13367,7 +12386,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13419,7 +12438,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
       billing. This can lead to over-provisioning, unnecessary costs, or throttling
       if usage exceeds limits.
     check_id: CKV_AWS_801
@@ -13485,7 +12504,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13507,7 +12526,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13529,7 +12548,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects use of outdated EC2 instance or EBS volume types (e.g.,
+    check_description: Our linter detects use of outdated EC2 instance or EBS volume types (e.g.,
       t2, m4, gp2). Older generations might be less efficient, slower, and more expensive.
     check_id: CKV_AWS_804
     check_name: Deprecated Instance/Volume Types
@@ -13559,34 +12578,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
-      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
-      Missing rules may lead to data retention in expensive storage indefinitely,
-      thus increasing costs.
-    check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 148-152
-    file_path: k8s/vault/vault.tf
-    resource: aws_s3_bucket.vault
-  failed_checks:
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 20-23
-    file_path: k8s/confluent/confluent.tf
-    resource: aws_s3_bucket.confluent_tier_storage
-  - check_id: CKV2_AWS_61
-    check_name: S3 Lifecycle Configurations
-    file_line_range: 148-152
-    file_path: k8s/vault/vault.tf
-    resource: aws_s3_bucket.vault
-  failed_checks_count: 2
-  files_count: 2
-  repo: https://github.com/rohits-dev/dev-lab-aws
-  tool: terraform
-- cost_awareness: unaware
-  dataset: extended
-  example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13608,7 +12600,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13635,7 +12627,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13692,7 +12684,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13744,7 +12736,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Detects use of outdated EC2 instance or EBS volume types (e.g.,
+    check_description: Our linter detects use of outdated EC2 instance or EBS volume types (e.g.,
       t2, m4, gp2). Older generations might be less efficient, slower, and more expensive.
     check_id: CKV_AWS_804
     check_name: Deprecated Instance/Volume Types
@@ -13789,7 +12781,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13821,7 +12813,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
       defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
       Missing rules may lead to data retention in expensive storage indefinitely,
       thus increasing costs.
@@ -13843,7 +12835,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects use of outdated types (e.g., t2, m3, m4, c4) for EC2,
+    check_description: Our linter detects use of outdated types (e.g., t2, m3, m4, c4) for EC2,
       RDS and SageMaker instances. Older generations might be less efficient, slower,
       and more expensive.
     check_id: CKV_AWS_807
@@ -13864,7 +12856,7 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
-    check_description: Detects use of outdated types (e.g., t2, m3, m4, c4) for EC2,
+    check_description: Our linter detects use of outdated types (e.g., t2, m3, m4, c4) for EC2,
       RDS and SageMaker instances. Older generations might be less efficient, slower,
       and more expensive.
     check_id: CKV_AWS_807
@@ -13885,7 +12877,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -13911,7 +12903,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
@@ -13932,7 +12924,7 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
-    check_description: Verifies that S3 buckets have lifecycle configurations with
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
       at least one rule defined. Missing rules may lead to data retention in expensive
       storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805

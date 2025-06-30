@@ -1,0 +1,209 @@
+cloudformation_aware_0:
+  cost_awareness: aware
+  dataset: baseline
+  example_check:
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 59-76
+    file_path: infrastructure/data-analysis/template.yaml
+    resource: AWS::S3::Bucket.ValidEmailRecipientsBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 59-76
+    file_path: infrastructure/data-analysis/template.yaml
+    resource: AWS::S3::Bucket.ValidEmailRecipientsBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 528-545
+    file_path: infrastructure/dev-tools/template.yaml
+    resource: AWS::S3::Bucket.IntegrationTestDataBucket
+  failed_checks_count: 2
+  files_count: 2
+  repo: https://github.com/govuk-one-login/txma-infra
+  tool: cloudformation
+cloudformation_unaware_0:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 9-17
+    file_path: cloudformation/prerequisite-ap-southeast-2.yaml
+    resource: AWS::S3::Bucket.SharedBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 9-17
+    file_path: cloudformation/prerequisite-ap-southeast-2.yaml
+    resource: AWS::S3::Bucket.SharedBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 11-22
+    file_path: cloudformation/static-page-stack.yaml
+    resource: AWS::S3::Bucket.MyStaticWebsiteBucket
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 24-35
+    file_path: cloudformation/static-page-stack.yaml
+    resource: AWS::S3::Bucket.MyStaticWebsiteBucketWww
+  failed_checks_count: 3
+  files_count: 2
+  repo: https://github.com/daiyyr/the-alchemist
+  tool: cloudformation
+terraform_aware_0:
+  cost_awareness: aware
+  dataset: extended
+  example_check:
+    check_description: Our linter detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
+    check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 10-24
+    file_path: infrastructure/experience/config.tf
+    resource: aws_dynamodb_table.terraform_lockstate
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: cache/s3_lambdas.tf
+    resource: aws_s3_bucket.lambdas
+  - check_id: CKV_AWS_801
+    check_name: DynamoDB On-Demand Billing
+    file_line_range: 10-24
+    file_path: infrastructure/experience/config.tf
+    resource: aws_dynamodb_table.terraform_lockstate
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: infrastructure/experience/config.tf
+    resource: aws_s3_bucket.terraform_build_state_bucket
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-3
+    file_path: infrastructure/modules/s3_website/s3.tf
+    resource: aws_s3_bucket.website_bucket
+  failed_checks_count: 4
+  files_count: 3
+  repo: https://github.com/wellcomecollection/wellcomecollection.org
+  tool: terraform
+terraform_unaware_0:
+  cost_awareness: unaware
+  dataset: baseline
+  example_check:
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
+      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
+      Missing rules may lead to data retention in expensive storage indefinitely,
+      thus increasing costs.
+    check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 95-103
+    file_path: infra-basic/s3.tf
+    resource: aws_s3_bucket.s3_haulaway
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 3-11
+    file_path: infra-basic/s3-rendertest.tf
+    resource: aws_s3_bucket.s3_rendertest
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 3-11
+    file_path: infra-basic/s3-stdifstorage.tf
+    resource: aws_s3_bucket.s3_stdifstorage
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 9-17
+    file_path: infra-basic/s3.tf
+    resource: aws_s3_bucket.s3_server_backups
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 23-31
+    file_path: infra-basic/s3.tf
+    resource: aws_s3_bucket.s3_bucket_logs
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 43-51
+    file_path: infra-basic/s3.tf
+    resource: aws_s3_bucket.s3_vanilla18
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 66-74
+    file_path: infra-basic/s3.tf
+    resource: aws_s3_bucket.s3_mc_resources
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 95-103
+    file_path: infra-basic/s3.tf
+    resource: aws_s3_bucket.s3_haulaway
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 1-22
+    file_path: s3/s3.tf
+    resource: aws_s3_bucket.state-sync
+  failed_checks_count: 8
+  files_count: 4
+  repo: https://github.com/IncredibleHolg/infra-aws-code
+  tool: terraform
+terraform_unaware_1:
+  cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_description: Our linter verifies that aws_s3_bucket resources have lifecycle configurations
+      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
+      Missing rules may lead to data retention in expensive storage indefinitely,
+      thus increasing costs.
+    check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 148-152
+    file_path: k8s/vault/vault.tf
+    resource: aws_s3_bucket.vault
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 20-23
+    file_path: k8s/confluent/confluent.tf
+    resource: aws_s3_bucket.confluent_tier_storage
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 148-152
+    file_path: k8s/vault/vault.tf
+    resource: aws_s3_bucket.vault
+  failed_checks_count: 2
+  files_count: 2
+  repo: https://github.com/rohits-dev/dev-lab-aws
+  tool: terraform
+extra:
+  cost_awareness: aware
+  dataset: baseline
+  example_check:
+    check_description: Our linter verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 468-500
+    file_path: template.yaml
+    resource: AWS::S3::Bucket.EventAttachmentBucket
+  failed_checks:
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 459-466
+    file_path: template.yaml
+    resource: AWS::S3::Bucket.S3BucketLogs
+  - check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 468-500
+    file_path: template.yaml
+    resource: AWS::S3::Bucket.EventAttachmentBucket
+  failed_checks_count: 2
+  files_count: 1
+  repo: https://github.com/koekalenteri/koekalenteri
+  tool: cloudformation

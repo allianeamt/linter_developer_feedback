@@ -1,0 +1,28 @@
+terraform_unaware_1:
+  cost_awareness: unaware
+  dataset: extended
+  example_check:
+    check_description: Verifies that aws_s3_bucket resources have lifecycle configurations
+      defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration.
+      Missing rules may lead to data retention in expensive storage indefinitely,
+      thus increasing costs.
+    check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 148-152
+    file_path: k8s/vault/vault.tf
+    resource: aws_s3_bucket.vault
+  failed_checks:
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 20-23
+    file_path: k8s/confluent/confluent.tf
+    resource: aws_s3_bucket.confluent_tier_storage
+  - check_id: CKV2_AWS_61
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 148-152
+    file_path: k8s/vault/vault.tf
+    resource: aws_s3_bucket.vault
+  failed_checks_count: 1
+  files_count: 1
+  repo: https://github.com/allianeamt/linter_developer_feedback
+  tool: terraform

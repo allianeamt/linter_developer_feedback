@@ -1,6 +1,9 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
+    check_description: Detects use of outdated types (e.g., t2, m3, m4, c4) for EC2,
+      RDS and SageMaker instances. Older generations might be less efficient, slower,
+      and more expensive.
     check_id: CKV_AWS_807
     check_name: Deprecated Instance/Volume Types
     file_line_range: 2-7
@@ -19,6 +22,9 @@
 - cost_awareness: aware
   dataset: extended
   example_check:
+    check_description: Detects use of outdated types (e.g., t2, m3, m4, c4) for EC2,
+      RDS and SageMaker instances. Older generations might be less efficient, slower,
+      and more expensive.
     check_id: CKV_AWS_807
     check_name: Deprecated Instance/Volume Types
     file_line_range: 2-7
@@ -37,11 +43,14 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 21-24
+    file_line_range: 16-19
     file_path: temp_repo\infrastructure\cfn.yaml
-    resource: AWS::S3::Bucket.CfnTemplateBucket
+    resource: AWS::S3::Bucket.AssetUploadBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -60,6 +69,9 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 478-493
@@ -78,6 +90,9 @@
 - cost_awareness: unaware
   dataset: extended
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 474-486

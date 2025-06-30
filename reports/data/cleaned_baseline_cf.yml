@@ -1,6 +1,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
     file_line_range: 136-202
@@ -24,11 +27,14 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
-    file_line_range: 31-46
-    file_path: inspector-eventbridge-multi-destinations/template.yaml
-    resource: AWS::DynamoDB::Table.DynamoDBTable
+    file_line_range: 8-23
+    file_path: eventbridge-pipes-ddbstream-to-eventbridge/template.yaml
+    resource: AWS::DynamoDB::Table.DynamoDBUsersTable
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -662,11 +668,14 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
-    file_line_range: 4-35
-    file_path: test/fixtures/templates/bad/resources/dynamodb/unused_attribute_definition_2.yaml
-    resource: AWS::DynamoDB::Table.dynamoDBTable
+    file_line_range: 66-76
+    file_path: test/fixtures/templates/bad/transform_serverless_template.yaml
+    resource: AWS::DynamoDB::Table.myFunctionRole
   failed_checks:
   - check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
@@ -925,6 +934,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 468-500
@@ -948,6 +960,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 547-559
@@ -966,11 +981,14 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 265-277
-    file_path: runtime-infra/pn-infra-storage.yaml
-    resource: AWS::S3::Bucket.RuntimeEnvironmentVariablesBucket
+    file_line_range: 32-37
+    file_path: runtime-infra/pn-backup_confinfo_dynamotable.yaml
+    resource: AWS::S3::Bucket.AwsS3BatchOperationBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1029,11 +1047,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
-    check_id: CKV_AWS_807
-    check_name: Deprecated Instance/Volume Types
-    file_line_range: 332-377
-    file_path: IaC/PmmRdsStack.yml
-    resource: AWS::RDS::DBInstance.MySQL56
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
+    check_id: CKV_AWS_805
+    check_name: S3 Lifecycle Configurations
+    file_line_range: 58-70
+    file_path: IaC/DocsBucket.yml
+    resource: AWS::S3::Bucket.DocsBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1067,6 +1088,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 7-18
@@ -1085,6 +1109,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 1210-1234
@@ -1108,6 +1135,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
     file_line_range: 312-338
@@ -1141,6 +1171,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 14-27
@@ -1159,11 +1192,14 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 5-17
-    file_path: sceptre/bridge/templates/essentials.yaml
-    resource: AWS::S3::Bucket.AWSS3LambdaArtifactsBucket
+    file_line_range: 111-118
+    file_path: sceptre/bridge/templates/bridge.yaml
+    resource: AWS::S3::Bucket.AWSS3ConfigBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1217,10 +1253,13 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 25-39
-    file_path: sceptre/sageit/templates/shiny_redirector.yaml
+    file_line_range: 24-46
+    file_path: sceptre/sageit/templates/s3webredirect.yaml
     resource: AWS::S3::Bucket.WebsiteBucket
   failed_checks:
   - check_id: CKV_AWS_805
@@ -1275,11 +1314,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 1946-1963
-    file_path: lca-ai-stack/deployment/lca-ai-stack.yaml
-    resource: AWS::S3::Bucket.WebAppBucket
+    file_line_range: 7-13
+    file_path: lca-ai-stack/ml-stacks/bedrock-preview-boto3-stack.yaml
+    resource: AWS::S3::Bucket.BedrockBoto3Bucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1298,6 +1340,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
     file_line_range: 2-31
@@ -1321,6 +1366,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 21-29
@@ -1339,6 +1387,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 22-35
@@ -1357,11 +1408,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
-    file_line_range: 2-15
-    file_path: tests/translator/input/connector_appsync_to_table.yaml
-    resource: AWS::DynamoDB::Table.NotesTable
+    file_line_range: 33-34
+    file_path: tests/translator/input/error_event_filtering.yaml
+    resource: AWS::DynamoDB::Table.DynamoDBTable
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1650,11 +1704,14 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 106-107
-    file_path: sceptre/bridge/templates/bridge.yaml
-    resource: AWS::S3::Bucket.AWSS3ConfigBucket
+    file_line_range: 25-39
+    file_path: sceptre/sageit/templates/shiny_redirector.yaml
+    resource: AWS::S3::Bucket.WebsiteBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1708,11 +1765,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 24-35
-    file_path: cloudformation/static-page-stack.yaml
-    resource: AWS::S3::Bucket.MyStaticWebsiteBucketWww
+    file_line_range: 9-17
+    file_path: cloudformation/prerequisite-ap-southeast-2.yaml
+    resource: AWS::S3::Bucket.SharedBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1736,6 +1796,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 59-76
@@ -1759,10 +1822,13 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 29-46
-    file_path: cloudformation/ProwlerBucket-ImportTemplate.yaml
+    file_line_range: 149-201
+    file_path: cloudformation/Prowler-Template.yaml
     resource: AWS::S3::Bucket.ProwlerBucket
   failed_checks:
   - check_id: CKV_AWS_805
@@ -1782,11 +1848,14 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 74-75
-    file_path: tests/serverless_rules/templates/es1007.fail.yaml
-    resource: AWS::S3::Bucket.MyBucket
+    file_line_range: 3-17
+    file_path: tests/bad/W9302_s3_bucket_without_bucket_encryption.yaml
+    resource: AWS::S3::Bucket.TestBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1845,10 +1914,13 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 256-268
-    file_path: aws/cloudformation-templates/web-ui-pipeline.yaml
+    file_line_range: 194-206
+    file_path: aws/cloudformation-templates/swagger-ui-pipeline.yaml
     resource: AWS::S3::Bucket.ArtifactBucket
   failed_checks:
   - check_id: CKV_AWS_805
@@ -1918,11 +1990,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 10-13
-    file_path: rg_deploy_bucket.yml
-    resource: AWS::S3::Bucket.S3Bucket
+    file_line_range: 136-154
+    file_path: SRE/Egress/Setup-templates/egressdatalake.yml
+    resource: AWS::S3::Bucket.TREAccessLogsBucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -1991,6 +2066,9 @@
 - cost_awareness: aware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
     file_line_range: 10-24
@@ -2299,11 +2377,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
-    file_line_range: 19-35
-    file_path: cloud-formation-demos/dev4-lab4.template.yml
-    resource: AWS::DynamoDB::Table.DynamoDbTable
+    file_line_range: 70-89
+    file_path: cloud-formation-demos/xray-ecs-java-scorekeep.template.yaml
+    resource: AWS::DynamoDB::Table.GameTable
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -2697,11 +2778,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
-    file_line_range: 18-38
-    file_path: ses/ses-lambda-dynamo/ses-lambda-dynamo.yaml
-    resource: AWS::DynamoDB::Table.DynamoTableSesNotification
+    file_line_range: 31-88
+    file_path: dynamodb/dynamodb-stream-s3.yaml
+    resource: AWS::DynamoDB::Table.DynamoTable
   failed_checks:
   - check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
@@ -3065,6 +3149,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
     file_line_range: 66-79
@@ -3083,6 +3170,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
     file_line_range: 182-198
@@ -3106,11 +3196,14 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Verifies that S3 buckets have lifecycle configurations with
+      at least one rule defined. Missing rules may lead to data retention in expensive
+      storage indefinitely, thus increasing costs.
     check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
-    file_line_range: 13-28
-    file_path: cloudformation/MacieFindingsBucket-Template.yaml
-    resource: AWS::S3::Bucket.SecureBucket
+    file_line_range: 74-87
+    file_path: cloudformation/SESRuleToSlack-Template.yaml
+    resource: AWS::S3::Bucket.MessageS3Bucket
   failed_checks:
   - check_id: CKV_AWS_805
     check_name: S3 Lifecycle Configurations
@@ -3144,6 +3237,9 @@
 - cost_awareness: unaware
   dataset: baseline
   example_check:
+    check_description: Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand)
+      billing. This can lead to over-provisioning, unnecessary costs, or throttling
+      if usage exceeds limits.
     check_id: CKV_AWS_806
     check_name: DynamoDB On-Demand Billing
     file_line_range: 464-482

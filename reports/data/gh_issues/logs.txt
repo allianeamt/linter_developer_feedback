@@ -1,0 +1,20 @@
+Opening issues from pilot_example.yml with message type 'example'
+    Issue created successfully for https://github.com/Saneri/event-signup
+    Failed to create issue for https://github.com/BastLeblanc/retail-demo-store: 410 - {"message":"Issues are disabled for this repo","documentation_url":"https://docs.github.com/v3/issues/","status":"410"}
+    Failed to create issue for https://github.com/govuk-one-login/onboarding-self-service-experience: 410 - {"message":"Issues are disabled for this repo","documentation_url":"https://docs.github.com/v3/issues/","status":"410"}
+    Issue created successfully for https://github.com/mattermost/mattermost-cloud-monitoring
+    Issue created successfully for https://github.com/clojars/infrastructure
+    Issue created successfully for https://github.com/JamesWoolfenden/pike
+	Issue created successfully for https://github.com/guardian/archivehunter
+
+Opening issues from pilot_survey2.yml with message type 'survey'
+    Failed to create issue for https://github.com/govuk-one-login/txma-infra: 410 - {"message":"Issues are disabled for this repo","documentation_url":"https://docs.github.com/v3/issues/","status":"410"}
+    Issue created successfully for https://github.com/daiyyr/the-alchemist
+    Issue created successfully for https://github.com/wellcomecollection/wellcomecollection.org
+    Issue created successfully for https://github.com/IncredibleHolg/infra-aws-code
+    Issue created successfully for https://github.com/rohits-dev/dev-lab-aws
+    Issue created successfully for https://github.com/koekalenteri/koekalenteri
+
+
+
+

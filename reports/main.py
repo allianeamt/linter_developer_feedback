@@ -3,10 +3,11 @@ import os
 import random
 import copy
 from collections import defaultdict
+import requests
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from utils.logger import log
-from utils.yaml_utils import load_yaml, save_to_file
+from utils.yaml_utils import load_yaml, save_to_file, add_to_file
 from utils.usage import extract_repo
 
 CHECK_ID_TO_NAME = {
@@ -18,6 +19,17 @@ CHECK_ID_TO_NAME = {
     "CKV_AWS_805": "S3 Lifecycle Configurations",
     "CKV_AWS_806": "DynamoDB On-Demand Billing",
     "CKV_AWS_807": "Deprecated Instance/Volume Types",
+}
+
+CHECK_ID_TO_DESCRIPTION = {
+    "CKV_AWS_801": "Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand) billing. This can lead to over-provisioning, unnecessary costs, or throttling if usage exceeds limits.",
+    "CKV_AWS_802": "Detects DynamoDB tables that use provisioned capacity (read_capacity/write_capacity > 1). Provisioned settings can cause higher costs if not properly tuned.",
+    "CKV_AWS_803": "Flags DynamoDB tables that define Global Secondary Indexes (GSIs). GSIs add unnecessary costs and complexity if not carefully optimized.",
+    "CKV_AWS_804": "Detects use of outdated EC2 instance or EBS volume types (e.g., t2, m4, gp2). Older generations might be less efficient, slower, and more expensive.",
+    "CKV2_AWS_61": "Verifies that aws_s3_bucket resources have lifecycle configurations defined via lifecycle_rules or as a linked aws_s3_bucket_lifecycle_configuration. Missing rules may lead to data retention in expensive storage indefinitely, thus increasing costs.",
+    "CKV_AWS_805": "Verifies that S3 buckets have lifecycle configurations with at least one rule defined. Missing rules may lead to data retention in expensive storage indefinitely, thus increasing costs.",
+    "CKV_AWS_806": "Detects DynamoDB tables that do not use PAY_PER_REQUEST (on-demand) billing. This can lead to over-provisioning, unnecessary costs, or throttling if usage exceeds limits.",
+    "CKV_AWS_807": "Detects use of outdated types (e.g., t2, m3, m4, c4) for EC2, RDS and SageMaker instances. Older generations might be less efficient, slower, and more expensive.",
 }
 
 LOGS_FILE = "logs.txt"
@@ -103,6 +115,9 @@ def clean_data(data, tool, dataset, keywords_dataset):
 
         preferred_checks = [check for check in failed_checks if check["check_id"] in {"CKV_AWS_801", "CKV_AWS_806"}]
         example_check = random.choice(preferred_checks if preferred_checks else failed_checks)
+        example_check_decopy = copy.deepcopy(example_check)
+
+        example_check_decopy["check_description"] = CHECK_ID_TO_DESCRIPTION.get(example_check["check_id"], "No description available")
 
         repo_url = entry.get("repo")
         cost_awareness = "aware" if repo_url in aware_repos else "unaware"
@@ -114,7 +129,7 @@ def clean_data(data, tool, dataset, keywords_dataset):
             "failed_checks": failed_checks,
             "failed_checks_count": failed_checks_count,
             "files_count": unique_files_count,
-            "example_check": copy.deepcopy(example_check),
+            "example_check": example_check_decopy,
             "cost_awareness": cost_awareness,
         }
 
@@ -233,14 +248,14 @@ def aggregate_totals():
 
     save_to_file(result, "aggregated_totals.yml")
 
-def sample_pilot():
-    data = load_yaml("data/combined_data.yml")
+def sample(filename, size=4):
+    data = load_yaml("data/gh_issues/unopened.yml")
 
     # Filter only baseline + terraform/cloudformation + more than 1 failed check
     filtered = [
         entry for entry in data
         if (
-            entry['dataset'] == 'baseline' and
+            # entry['dataset'] == 'baseline' and
             entry['tool'] in ['terraform', 'cloudformation'] and
             len(entry.get('failed_checks', [])) > 1
         )
@@ -259,19 +274,166 @@ def sample_pilot():
         if key in buckets:
             buckets[key].append(entry)
 
-    # Ensure all buckets have at least one entry
-    for key, entries in buckets.items():
-        if not entries:
-            print(f"❌ No valid entries found for: {key}")
-            return
-
-    # Sample one from each bucket
-    selected_sample = {
-        f"{tool}_{awareness}": random.choice(buckets[(tool, awareness)])
-        for (tool, awareness) in buckets
+    eligible_buckets = {
+        key: entries for key, entries in buckets.items() if len(entries) >= 10
     }
 
-    save_to_file(selected_sample, "pilot/pilot_sample.yml")
+    if not eligible_buckets:
+        print("No buckets with at least 10 entries found.")
+        return
+    
+        # Distribute `size` samples fairly among eligible buckets
+    buckets_to_sample = list(eligible_buckets.keys())
+    num_buckets = len(buckets_to_sample)
+
+    # Calculate fair base samples per bucket
+    base_per_bucket = size // num_buckets
+    remainder = size % num_buckets
+
+    # Assign samples per bucket
+    samples_per_bucket = {key: base_per_bucket for key in buckets_to_sample}
+
+    # Distribute the remainder fairly
+    for key in random.sample(buckets_to_sample, remainder):
+        samples_per_bucket[key] += 1
+
+    selected_sample = {}
+    sampled_count = 0
+
+    for key in buckets_to_sample:
+        entries = eligible_buckets[key]
+        sample_count = min(samples_per_bucket[key], len(entries))
+        samples = random.sample(entries, sample_count)
+        for i, entry in enumerate(samples):
+            label = f"{key[0]}_{key[1]}_{i}"
+            selected_sample[label] = entry
+            data.remove(entry)
+            sampled_count += 1
+
+    # Remove the sample from the original data
+    for entry in selected_sample.values():
+        if entry in data:
+            data.remove(entry)
+
+    save_to_file(selected_sample, f"data/gh_issues/{filename}")
+    save_to_file(data, "data/gh_issues/unopened.yml")
+
+def generate_issue_message_survey(entry):
+    check = entry["example_check"]
+    issues_count = entry["failed_checks_count"]
+    files_count = entry["files_count"]
+    check_name = check["check_name"]
+    check_description = check["check_description"]
+    resource = check["resource"]
+    file_path = check["file_path"]
+    if issues_count > 1:
+        resource_file_block = f"⚙️ **Resource:** `{resource}`  \n🔎 **File:** `{file_path}`"
+    else:
+        resource_file_block = ""
+
+    message = f"""
+Hi there! 👋
+
+I’m a master’s student researching **cost considerations in cloud infrastructure**. As part of this project, we ran a static analysis tool (linter) on your repository to identify potential cost-related misconfigurations.
+
+We found **{issues_count} potential issue{'s' if issues_count != 1 else ''}** across **{files_count} file{'s' if files_count != 1 else ''}**. Here’s an example:
+
+✔️ **Issue:** {check_name}  
+📃 **Description:** {check_description}  
+{resource_file_block}
+
+Are you interested in **more linter results**? Reply here. We’ll send **the report along with a short follow-up survey** (~5 min) to evaluate our tool and better understand cost considerations in open-source projects for our research. All data will be treated confidentially.
+
+If you’re curious about our work, we are investigating how developers approach cost in cloud infrastructure, specifically Terraform and AWS CloudFormation. Our goal is to identify **patterns and anti-patterns** to help developers make **more cost-aware infrastructure decisions**. You can check out what we’ve discovered so far here: [https://search-rug.github.io/iac-cost-patterns/](https://search-rug.github.io/iac-cost-patterns/). If you have any questions or would like to discuss our research, don’t hesitate to reach out!
+
+Thank you for your time and support! 🤗
+
+Allia Neamt, MSc Student (Computing Science)  
+Faculty of Science and Engineering  
+Rijksuniversiteit, Groningen
+"""
+    return message.strip()
+
+def generate_issue_message_example(entry):
+    check = entry["example_check"]
+    issues_count = entry["failed_checks_count"]
+    files_count = entry["files_count"]
+    check_name = check["check_name"]
+    check_description = check["check_description"]
+    resource = check["resource"]
+    file_path = check["file_path"]
+    line_range = check["file_line_range"]
+
+    message = f"""
+Hi there! 👋
+
+I’m a master’s student researching **cost considerations in cloud infrastructure**. As part of this project, we ran a static analysis tool (linter) on your repository and found the following potential misconfiguration that could lead to unnecessary costs:
+
+✔️ **Issue:** {check_name}  
+📃 **Description:** {check_description}  
+⚙️ **Resource:** `{resource}`  
+🔎 **File:** `{file_path}`
+📍 **Line Range:** `{line_range}`
+
+Please let me know if this is helpful or if it makes sense for your project. If you have any questions or would like to discuss this further, feel free to reach out! Thanks for your time! 🤗
+
+Allia Neamt, MSc Student (Computing Science)  
+Faculty of Science and Engineering  
+Rijksuniversiteit, Groningen
+"""
+    return message.strip()
+
+def repo_url_to_owner_repo(repo_url):
+    # Extract owner and repo name from URL
+    parts = repo_url.rstrip('/').split('/')
+    owner = parts[-2]
+    repo = parts[-1]
+    return owner, repo
+
+def open_issues_survey(filename, message_type="survey"):
+    log(f"Opening issues from {filename} with message type '{message_type}'", "data/gh_issues/logs.txt")
+    data = load_yaml(f"data/gh_issues/{filename}")
+    opened_issues = []
+    not_opened_issues = []
+
+    for key, entry in data.items():
+        owner, repo = repo_url_to_owner_repo(entry["repo"])
+        issue_title = f"Cost-Related Misconfigurations Findings"
+        if message_type == "survey":
+            issue_body = generate_issue_message_survey(entry)
+        elif message_type == "example":
+            issue_body = generate_issue_message_example(entry)
+        github_token = os.getenv("GITHUB_TOKEN")
+
+        try:
+            url = f"https://api.github.com/repos/{owner}/{repo}/issues"
+            headers = {
+                "Authorization": f"token {github_token}",
+                "Accept": "application/vnd.github+json"
+            }
+
+            response = requests.post(url, json={
+                "title": issue_title,
+                "body": issue_body
+            }, headers=headers)
+
+            if response.status_code == 201:
+                log(f"\tIssue created successfully for {entry['repo']}", "data/gh_issues/logs.txt")
+                opened_issues.append(entry["repo"])
+            else:
+                log(f"\tFailed to create issue for {entry['repo']}: {response.status_code} - {response.text}", "data/gh_issues/logs.txt")
+                not_opened_issues.append({
+                    "repo": entry["repo"],
+                    "error": "Issues disabled" if response.status_code == 410 else response.text
+                })
+        except Exception as e:
+            log(f"Error creating issue for {entry['repo']}: {str(e)}", "data/gh_issues/logs.txt")
+
+    if opened_issues:
+        add_to_file(opened_issues, "data/gh_issues/issues_opened.yml")
+    if not_opened_issues:
+        add_to_file(not_opened_issues, "data/gh_issues/issues_not_opened.yml")
+    log("\n", "data/gh_issues/logs.txt")
 
 if __name__ == "__main__":
     # check_duplicates()
@@ -279,6 +441,7 @@ if __name__ == "__main__":
     # get_check_combinations()
     # get_awareness_stats()
     # aggregate_totals()
-    sample_pilot()
+    # sample("pilot_survey2.yml", 5)
+    open_issues_survey("extra.yml", message_type="example")
 
     
